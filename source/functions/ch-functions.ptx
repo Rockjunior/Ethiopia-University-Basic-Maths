@@ -1,0 +1,2069 @@
+
+<chapter xml-id="functions"><title>Functions</title>
+<p>Our everyday lives are filled with situations in which we encounter relationships between two sets. For example,</p>
+<ul>
+<li><p>To each automobile, there corresponds a license plate number</p></li>
+<li><p>To each circle, there corresponds a circumference</p></li>
+<li><p>To each number, there corresponds its square</p></li>
+</ul>
+<p>In order to apply mathematics to a variety of disciplines, we must make the idea of a “relationship” between two sets mathematically precise.</p>
+<p>On completion of this chapter students will be able to:</p>
+<ul>
+<li><p>understand the notion of relation and function</p></li>
+<li><p>determine the domain and range of relations and functions</p></li>
+<li><p>find the inverse of a relation</p></li>
+<li><p>define polynomial and rational functions</p></li>
+<li><p>perform the fundamental operations on polynomials</p></li>
+<li><p>find the inverse of an invertible function</p></li>
+<li><p>apply the theorems on polynomials to find the zeros of polynomial functions</p></li>
+<li><p>apply theorems on polynomials to solve related problems</p></li>
+<li><p>sketch and analyze the graphs of rational functions</p></li>
+<li><p>define exponential, logarithmic, trigonometric and hyperbolic functions</p></li>
+<li><p>sketch the graph of exponential, logarithmic, trigonometric and hyperbolic functions</p></li>
+<li><p>use basic properties of logarithmic, exponential, hyperbolic and trigonometric functions to solve physical problems</p></li>
+</ul>
+<p>In this chapter, we first look at the definitions of relations and functions, and study real valued functions and their properties, types of functions, polynomial functions, zeros of polynomial functions, rational functions and their graphs, logarithmic, exponential, trigonometric and hyperbolic functions and their graphs. Let’s begin with the review of relations and functions.</p>
+<section xml-id="_Toc21263432" class="anchor"><title>Review of relations and functions</title>
+<p>After completing this section, the student should be able to:</p>
+<ul>
+<li><p>define Cartesian product of two sets</p></li>
+<li><p>understand the notion of relation and function</p></li>
+<li><p>know the difference between relation and function</p></li>
+<li><p>determine the domain and range of relations and functions</p></li>
+<li><p>find the inverse of a relation</p></li>
+</ul>
+<p>The student is familiar with the phrase ordered pair. In the ordered pair <m>(2,3),( - 2,4)</m> and <m>(a,b)</m>; <m>2,\  - 2</m> and <m>a</m> are the first coordinates while <m>3,\ 4</m> and <m>b</m> are the second coordinates.</p>
+<ul>
+<li><p><alert>Cartesian Product</alert></p></li>
+</ul>
+<p>Given sets <m>A = \left\{ 3,\ 4 \right\}</m> and <m>B = \left\{ 2,\ 4,\ 5 \right\}</m>. Then, the set <m>\left\{ (3,2),(3,4),(3,5),(4,2),(4,4),(4,5) \right\}</m> is the Cartesian product of <m>A</m> and <m>B</m>, and it is denoted by <m>A \times B</m>.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.1:</alert> Suppose <m>A</m> and <m>B</m> are sets. The Cartesian product of <m>A</m> and <m>B</m>, denoted by <m>A \times B</m>, is the set which contains every ordered pair whose first coordinate is an element of <m>A</m> and second coordinate is an element of <m>B</m>, i.e.</p>
+<p><m>A \times B =</m> and <m>b \in B</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.1</alert>: For <m>A = \left\{ 2,\ 4 \right\}</m> and <m>A = \left\{ - 1,\ 3 \right\}</m>, we have</p>
+<ol type="a">
+<li><p><m>A \times B = \left\{ (2, - 1),(2,3),(4, - 1),(4,3) \right\}</m>, and</p></li>
+<li><p><m>B \times A = \left\{ ( - 1,2),( - 1,4),(3,2),(3,4) \right\}</m>.</p></li>
+</ol>
+<p><alert>Example 3.2</alert>: Let <m>A = \left\{ 1,2,3 \right\}</m> and <m>B = \left\{ a,b,c \right\}</m>. Then,</p>
+
+<p><m>A \times B = \left\{ (1,a),(1,b),(1,c),(2,a),(2,b),(2,c),(3,a),(3,b),(3,c) \right\}</m>.</p>
+
+<p>From example 3.1, we can see that <m>A \times B</m> and <m>B \times A</m> are not equal. Recall that two sets are equal if one is a subset of the other and vice versa. To check equality of Cartesian products we need to define equality of ordered pairs.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.2: (Equality of ordered Pairs)</alert></p>
+<p>Two ordered pairs <m>(a,b)</m> and <m>(c,d)</m> are equal if and only if <m>a = c</m> and <m>b = d</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.3: (Relation from</alert> <m>A</m> <alert>into</alert> <m>B</m><alert>)</alert></p>
+<p>If <m>A</m> and <m>B</m> are sets, any subset of <m>A \times B</m> is called a relation from <em>A</em> into <em>B</em>.</p></cell>
+</row>
+</tabular>
+</table>
+<p>Suppose <em>R</em> is a relation from a set <em>A</em> to a set <em>B</em>. Then, <em>R</em>⊆ <em>A</em>×<em>B</em> and hence for each <m>(a,b) \in A \times B</m>, we have either <m>(a,b) \in R</m> or <m>(a,b) \notin R</m>. If <m>(a,b) \in R</m>, we say “<em>a</em> is <em>R-</em>related (or simply related) to <em>b</em>”, and write <m>\text{aRb}</m>. If <m>(a,b) \notin R</m>, we say that “<em>a</em> is not related to <em>b</em>”.</p>
+<p>In particular if <em>R</em> is a relation from a set <em>A</em> to itself, then we say that <em>R</em> is a relation on <em>A</em>.</p>
+<p><alert>Example 3.3</alert>:</p>
+<ol type="1">
+<li><p>Let <m>A = \left\{ 1,3,5,7 \right\}</m> and <m>B = \left\{ 6,8 \right\}</m>. Let <m>R</m> be the relation “less than” from <m>A</m> to <m>B</m>. Then, <m>R = \left\{ (1,6),(1,8),((3,6),(3,8),(5,6),(5,8),(7,8) \right\}</m>.</p></li>
+<li><p>Let <m>A = \left\{ 1,2,3,4,5 \right\}</m> and <m>B = \left\{ a,b,c \right\}</m>.</p></li>
+</ol>
+<ol type="a">
+<li><p>The following are relations from <m>A</m> into <m>B</m>;</p></li>
+</ol>
+<ol type="i">
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<ol start="2" type="a">
+<li><p>The following are relations from <m>B</m> to <m>A</m>;</p></li>
+</ol>
+<ol type="i">
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.4:</alert> Let <m>R</m> be a relation from <m>A</m> into <m>B</m>. Then,</p>
+<ol type="a">
+<li><p>the domain of <m>R</m>, denoted by <m>\text{Dom}(R)</m>, is the set of first coordinates of the elements of <m>R</m>, i.e</p></li>
+<li><p>the range of <m>R</m>, denoted by <m>\text{Range}(R)</m>, is the set of second coordinates of elements of <m>R</m>, i.e</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Remark</alert>: If <m>R</m> is a relation from the set <m>A</m> to the set <m>B</m>, then the set <m>B</m> is called the codomain of the relation <m>R</m>. The range of relation is always a subset of the codomain.</p>
+<p><alert>Example 3.4</alert>:</p>
+<ol type="1">
+<li><p>The set <m>R = \left\{ (4,7),(5,8),(6,\text{10}) \right\}</m> is a relation from set <m>A = \left\{ 1,2,3,4,5,6 \right\}</m> to set <m>B = \left\{ 6,7,8,9,\text{10} \right\}</m>. The domain of <m>R</m> is <m>\left\{ 4,5,6 \right\}</m>, the range of <m>R</m> is <m>\left\{ 7,8,\text{10} \right\}</m> and the codomain of <m>R</m> is <m>\left\{ 6,7,8,9,\text{10} \right\}</m>.</p></li>
+<li><p>The set of ordered pairs <m>R = \left\{ (8,2),(6, - 3),(5,7),(5, - 3) \right\}</m> is a relation between the sets <m>\left\{ 5,6,8 \right\}</m> and <m>\left\{ 2, - 3,7 \right\}</m>, where <m>\left\{ 5,6,7 \right\}</m> is the domain and <m>\left\{ 2, - 3,7 \right\}</m> is the range.</p></li>
+</ol>
+<p><alert>Remark</alert>:</p>
+<ol type="1">
+<li><p>If <m>(a,b) \in R</m> for a relation <m>R</m>, we say <m>a</m> is related to (or paired with) <m>b</m>. Note that <m>a</m> may also be paired with an element different from <m>b</m>. In any case, <m>b</m> is called the image of <m>a</m> while <m>a</m> is called the pimageA of <m>b</m>under <m>R</m>.</p></li>
+<li><p>If the domain and/or range of a relation is infinite, we cannot list each element assignment, so instead we use set builder notation to describe the relation. The situation we will encounter most frequently is that of a relation defined by an equation or formula. For example,</p></li>
+</ol>
+
+<p>is a relation for which the range value is 3 less than twice the domain value. Hence, <m>(0,\  - 3),(0\text{.}5,\  - 2)</m>and <m>( - 2, - 7)</m> are examples of ordered pairs that are of the assignment.</p>
+
+<p><alert>Example 3.5</alert>:</p>
+<ol type="1">
+<li><p>Let <m>A = \left\{ 1,\ 2,\ 3,\ 4,\ 6 \right\}</m> Let <m>R</m> be the relation on <m>A</m> defined by <m>R =</m>is a factor of <m>b</m>. Find the domain and range of <m>R</m>.</p></li>
+</ol>
+<p><alert>Solution</alert>: We have</p>
+<p><m>R = \left\{ (1,1),(1,2),(1,3),(1,4),(1,6),(2,2),(2,4),(2,6),(3,3),(3,6),(4,4),(6,6) \right\}</m>.</p>
+<p>Then, <m>\text{Dom}(R) = \left\{ 1,2,3,4,6 \right\}</m> and <m>\text{Range}(R) = \left\{ 1,2,3,4,6 \right\}</m>.</p>
+<ol start="2" type="1">
+<li><p>Let <m>A = \left\{ 1,2,3,4,5 \right\}</m> and <m>B = \left\{ 1,\ 2,\ 3,\ \cdots,\ \text{67} \right\}</m>.</p></li>
+</ol>
+<p>Let <m>R =</m>is cube root of<m>\left. \ y \right\}</m> . Find a) <m>R</m> b) <m>\text{Dom}(R)</m> c) <m>\text{Range}(R)</m></p>
+<p><alert>Solution</alert>: We have <m>1 = \sqrt[{3,}]{1},\ 2 = \sqrt[3]{8},\ 3 = \sqrt[3]{\text{27}},\ 4 = \sqrt[3]{\text{64}},\ 5 = \sqrt[3]{\text{125}}</m> and <m>1,\ 8,\ \text{27}</m> and 64 are in <m>B</m> whereas 125 is not in <m>B</m>. Thus, <m>R = \left\{ (1,1),(2,8),(3,\text{27}),(4,\text{64}) \right\}</m>, <m>\text{Dom}(R) = \left\{ 1,2,3,4 \right\}</m> and <m>R = \left\{ 1,8,\text{27},\text{64} \right\}</m>.</p>
+<p><alert>Remark</alert>:</p>
+<ol start="2" type="1">
+<li><p>A relation <m>R</m> on a set <m>A</m> is called</p></li>
+</ol>
+<ol type="i">
+<li><p>a universal relation if <m>R = A \times A</m></p></li>
+<li><p>identity relation if <m>R = \left\{ (a,a):a \in A \right\}</m></p></li>
+<li><p>void or empty relation if <m>R = \varphi</m></p></li>
+</ol>
+<ol start="3" type="1">
+<li><p>If <m>R</m>is a relation from <m>A</m> into <m>B</m>, then the inverse relation of <m>R</m>, denoted by <m>R^{- 1}</m>, is a relation from <m>B</m> to <m>A</m> and is given by:</p></li>
+</ol>
+
+<p><m>R^{- 1} = \left\{ (y,x):(x,y) \in R \right\}</m>.</p>
+
+<p>Observe that <m>\text{Dom}(R) = \text{Range}(R^{- 1})</m> and <m>\text{Range}(R) = \text{Dom}(R^{- 1})</m>. For instance, if <m>R = \left\{ (1,4),(9,\text{15}),(\text{10},2) \right\}</m> is a relation on a set <m>A = \left\{ 1,2,3,\cdots,\text{20} \right\}</m>, then <m>R^{- 1} = \left\{ (4,1),(\text{15},9),(2,\text{10}) \right\}</m></p>
+<p><alert>Example 3.6</alert>: Let <m>R</m> be a relation defined on <m>\text{IN}</m> by <m>R = \left\{ (a,b):a,b \in \text{IN},\ a + 2b = \text{11} \right\}</m>.</p>
+<p>Find a) <m>R</m> b) <m>\text{Dom}(R)</m> c) <m>\text{Range}(R)</m> d) <m>R^{- 1}</m></p>
+<p><alert>Solution</alert>: The smallest natural number is 1.</p>
+<p><m>b = 1</m> <m>\Rightarrow</m> <m>a + 2(1) = \text{11}\  \Rightarrow a = 9</m></p>
+<p><m>b = 2\  \Rightarrow \ a + 2(2) = \text{11}\  \Rightarrow a = 7</m></p>
+<p><m>b = 3\  \Rightarrow \ a + 2(3) = \text{11}\  \Rightarrow a = 5</m></p>
+<p><m>b = 4\  \Rightarrow \ a + 2(4) = \text{11}\  \Rightarrow a = 3</m></p>
+<p><m>b = 5\  \Rightarrow \ a + 2(5) = \text{11}\  \Rightarrow a = 1</m></p>
+<p><m>b = 6\  \Rightarrow \ a + 2(6) = \text{11}\  \Rightarrow a = - 1 \notin \text{IN}</m></p>
+<p>Therefore, <m>R = \left\{ (9,1),(7,2),(5,3),(3,4),(1,5) \right\}</m>, <m>\text{Dom}(R) = \left\{ 1,3,5,7,9 \right\}</m>, <m>\text{Range}(R) = \left\{ 1,2,3,4,5 \right\}</m> and <m>R^{- 1} = \left\{ (1,9),(2,7),(3,5),(4,3),(5,1) \right\}</m>.</p>
+<ul>
+<li><p><alert>Functions</alert></p></li>
+</ul>
+<p>Mathematically, it is important for us to distinguish among the relations that assign a unique range element to each domain element and those that do not.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.5: (Function)</alert></p>
+<p>A function is a relation in which each element of the domain corresponds to exactly one element of the range.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.7</alert>: Determine whether the following relations are functions.</p>
+<ol type="a">
+<li><p><m>R = \left\{ (5, - 2),(3,5),(3,7) \right\}</m> b) <m>R</m>{(2,4),(3,4),(6,-4)}</p></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+<ol type="a">
+<li><p>Since the domain element 3 is assigned to two different values in the range, 5 and 7, it is not a function.</p></li>
+<li><p>Each element in the domain, <m>\left\{ 2,3,6 \right\}</m>, is assigned no more than one value in the range, 2 is assigned only 4, 3 is assigned only 4, and 6 is assigned only – 4. Therefore, it is a function.</p></li>
+</ol>
+<p><alert>Remark</alert>: Map or mapping, transformation and correspondence are synonyms for the word function. If <m>f</m> is a function and <m>(x,y) \in f</m>, we say <em>x</em> is mapped to <em>y</em> by <em>f</em>.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.6</alert>: A relation <m>f</m>from <em>A</em> into <em>B</em> is called a function from <em>A</em> into <em>B</em>, denoted by</p>
+<p><m>f:A \rightarrow B</m> or <m>A\overrightarrow{f}B</m></p>
+<p>if and only if</p>
+<ol type="i">
+<li></li>
+<li><p>No element of <em>A</em> is mapped by <m>f</m> to more than one element in <em>B</em>, i.e. if <m>(x,y) \in f</m> and <m>(x,z) \in f</m>, then <m>y = z</m>.</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Remark</alert>: 1. If to the element <em>x</em> of <m>A</m> corresponds <m>y\ ( \in B)</m> under the function <m>f</m>, then we write <m>f(x) = y</m> and <m>y</m> is called the image of <em>x</em> under <m>y</m> and <em>x</em> is called a pimageA of <m>y</m> under <m>f</m>.</p>
+<p>2. The symbol <m>f(x)</m> is read as “<m>f</m> of <em>x</em>” but not “<m>f</m> times <em>x</em>”.</p>
+<ol start="4" type="1">
+<li><p>In order to show that a relation <m>f</m> from <em>A</em> into <em>B</em> is a function, we first show that the domain of <m>f</m> is <em>A</em> and next we show that <m>f</m> well defined or single-valued, i.e. if <m>x = y</m> in <em>A</em>, then <m>f(x) = f(y)</m> in <em>B</em> for all <m>x,y \in A</m>.</p></li>
+</ol>
+<p><alert>Example 3.8</alert>:</p>
+<ol type="1">
+<li><p>Let <m>A = \left\{ 1,2,3,4 \right\}</m> and <m>B = \left\{ 1,6,8,\text{11},\text{15} \right\}</m>. Which of the following are functions from <em>A</em> to <m>B</m>.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>f</m> defined by <m>f(1) = 1,\ f(2) = 6,\ f(3) = 8,\ f(4) = 8</m></p></li>
+<li><p><m>f</m> defined by <m>f(1) = 1,\ f(2) = 6,\ f(3) = \text{15}</m></p></li>
+<li><p><m>f</m> defined by <m>f(1) = 6,\ f(2) = 6,\ f(3) = 6,\ f(4) = 6</m></p></li>
+<li><p><m>f</m> defined by <m>f(1) = 1,\ f(2) = 6,\ f(2) = 8,\ f(3) = 8,\ f(4) = \text{11}</m></p></li>
+<li><p><m>f</m> defined by <m>f(1) = 1,\ f(2) = 8,\ f(3) = \text{11},\ f(4) = \text{15}</m></p></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+
+<p>a) <m>f</m> is a function because to each element of <em>A</em> there corresponds exactly one element of <m>B</m>.</p>
+
+<p>b) <m>f</m> is not a function because there is no element of <em>B</em> which correspond to <em>4</em>(<m>\in</m><em>A</em>).</p>
+
+<p>c) <m>f</m> is a function because to each element of <em>A</em> there corresponds exactly one element</p>
+<p>of <em>B</em>. In the given function, the images of all element of <em>A</em> are the same.</p>
+<p>d)<m>f</m> is not a function because there are two elements of <m>B</m> which correspond to 2.</p>
+<p>In other words, the image of 2 is not unique.</p>
+
+<p>e) <m>f</m> is a function because to each element of <m>A</m> there corresponds exactly one element</p>
+<p>of <m>B\text{.}</m></p>
+<p>As with relations, we can describe a function with an equation. For example, <em>y=2x+1</em> is a function, since each <em>x</em> will produce only one <m>y</m>.</p>
+<ol start="2" type="1">
+<li><p>Let <m>f = \left\{ (x,y):y = x^{2} \right\}</m>. Then, <m>f</m> maps:</p></li>
+</ol>
+
+<p>1 to 1 -1 to 1</p>
+<p>2 to 4 -2 to 4</p>
+<p>3 to 9 -3 to 9</p>
+
+<p>More generally any real number <em>x</em> is mapped to its square. As the square of a number is unique, <m>f</m> maps every real number to a unique number. Thus, <m>f</m> is a function from <m>\Re</m> into <m>\Re</m>.</p>
+<p>We will find it useful to use the following vocabulary: The independent variable refers to the variable representing possible values in the domain, and the dependent variable refers to the variable representing possible values in the range. Thus, in our usual ordered pair notation <m>(x,y)</m>, <em>x</em> is the independent variable and <m>y</m> is the dependent variable.</p>
+<ol start="3" type="1">
+<li><p>Let <em>f</em> be the subset of <m>Q \times Z</m>defined by <m>f = \left\{ \left( \frac{p}{q},p \right):p,q \in Z,\ q \neq 0 \right\}</m>. Is <em>f</em> a function?</p></li>
+</ol>
+<p><alert>Solution</alert>: First we note that <m>\text{Dom}(f) = Q</m>. Then, <m>f</m> satisfies condition (i) in the definition of a function. Now, <m>\left( \frac{2}{3},2 \right) \in f</m>, <m>\left( \frac{4}{6},4 \right) \in f</m> and <m>\frac{2}{3} = \frac{4}{6}</m> but <m>f\left( \frac{2}{3} \right) = 2 \neq 4 = f\left( \frac{4}{6} \right)</m>. Thus <m>f</m> is not well defined. Hence, <m>f</m> is not a function from <m>Q</m> to <m>Z</m>.</p>
+<ol start="4" type="1">
+<li><p>Let <m>f</m> be the subset of <m>Z \times Z</m> defined by <m>f = \left\{ (\text{mn},m + n):m,n \in Z \right\}</m>. Is <m>f</m> a function?</p></li>
+</ol>
+<p><alert>Solution</alert>: First we show that <m>f</m> satisfies condition (i) in the definition. Let <m>x</m> be any element of <m>Z</m>. Then, <m>x = x \cdot 1</m>. Hence, <m>(x,x + 1) = (x \cdot 1,x + 1) \in f</m>. This implies that<m>x \in \text{Dom}(f)</m>. Thus, <m>Z \subseteq \text{Dom}(f)</m>. However, <m>\text{Dom}(f) \subseteq Z</m> and so <m>\text{Dom}(f) = Z</m>. Now, <m></m> and <m>4 = 4 \cdot 1 = 2 \cdot 2</m>. Thus, <m>(4 \cdot 1,4 + 1)</m> and <m>(2 \cdot 2,2 + 2)</m> are in <m>f</m>. Hence we find that <m>4 \cdot 1 = 2 \cdot 2</m> and <m>f(4 \cdot 1) = 5 \neq 4 = f(2 \cdot 2)</m>. This implies that <m>f</m> is not well defined, i.e, <m>f</m> does not satisfy condition (ii). Hence, <m>f</m> is not a function from <m>Z</m> to <m>Z</m>.</p>
+<ul>
+<li><p><alert>Domain, codomain and range of a function</alert></p></li>
+</ul>
+<p>For a function <m>f:A \rightarrow B</m></p>
+<ol type="i">
+<li><p>The set <em>A</em> is called the domain of <m>f</m></p></li>
+<li><p>The set <em>B</em> is called the codomain of <m></m></p></li>
+<li><p>The set <m>\left\{ f(x):x \in A \right\}</m> of all image of elements of <em>A</em> is called the range of <m>f</m></p></li>
+</ol>
+<p><alert>Example 3.9</alert>:</p>
+<ol type="1">
+<li><p>Let <m>A = \left\{ 1,2,3 \right\}</m> and <m>B = \left\{ 1,2,3,\cdots,\text{10} \right\}</m>. Let <m>f:A \rightarrow B</m> be the correspondence which assigns to each element in <m>A</m>, its square. Thus, we have <m>f(1) = 1,\ f(2) = 4,\ f(3) = 9</m>. Therefore, <m>f</m> is a function and <m>\text{Dom}(f) = \left\{ 1,2,3 \right\}</m>, <m>\text{Range}(f) = \left\{ 1,4,9 \right\}</m> and codomain of <m>f</m> is <m>\left\{ 1,2,3,\cdots,\text{10} \right\}</m>.</p></li>
+<li><p>Let <m>A = \left\{ 2,4,6,7,9 \right\},\ B = \text{IN}</m>. Let <m>x</m> and <m>y</m> represent the elements in the sets <m>A</m> and <m>B</m>, respectively. Let <m>f:A \rightarrow B</m> be a function defined by <m>f(x) = \text{15}x + \text{17},\ x \in A</m>.</p></li>
+</ol>
+<p>The variable <m>x</m> can take values 2, 4, 6, 7, 9. Thus, we have</p>
+<p><m>f(2) = \text{15}(2) + \text{17} = \text{47},\ f(4) = \text{77},\ f(6) = \text{107},\ f(7) = \text{122},\ f(9) = \text{152}</m>.</p>
+<p>This implies that <m>\text{Dom}(f) = \left\{ 2,4,6,7,9 \right\},\ \text{Range}(f) = \left\{ \text{47},\text{77},\text{107},\text{122},\text{152} \right\}</m> and codomain</p>
+<p>of <m>f</m>is <em>IN</em>.</p>
+<ol start="3" type="1">
+<li><p>Determine whether the following equations determine <m>y</m> as a function of <m>x</m>, if so, find the domain of the function.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>y = - 3x + 5</m> b) <m>y = \frac{2x}{3x - 5}</m> c) <m>y^{2} = x</m></p></li>
+</ol>
+
+<p><alert>Solution</alert>:</p>
+
+<ol type="a">
+<li><p>To determine whether <m>y = - 3x + 5</m> gives <m>y</m> as a function of <m>x</m>, we need to know whether each <em>x-value</em> uniquely determines a <em>y-value</em>. Looking at the equation <m>y = - 3x + 5</m>, we can see that once <m>x</m> is chosen we multiply it by – 3 and then add 5. Thus, for each <em>x</em> there is a unique <m>y</m>. Therefore, <m>y = - 3x + 5</m> is a function. It domain is the set of all real numbers.</p></li>
+<li><p>Looking at the equation <m>y = \frac{2x}{3x - 5}</m> carefully, we can see that each <em>x-value</em> uniquely determines a <em>y-value</em> (one <em>x-value</em> can not produce two different <em>y-values</em>). Therefore, <m>y = \frac{2x}{3x - 5}</m> is a function.</p></li>
+</ol>
+<p>As for its domain, we ask ourselves. Are there any values of <m>x</m> that must be excluded? Since <m>y = \frac{2x}{3x - 5}</m> is a fractional expression, we must exclude any value of <m>x</m> that makes the denominator equal to zero. We must have</p>
+
+<p><m>3x - 5 \neq 0\  \Leftrightarrow \ x \neq \frac{5}{3}</m></p>
+
+<p>Therefore, the domain consists of all real numbers except <m>\frac{5}{3}</m>. Thus, <m>\text{Dom}(f) =</m><m>\left\{ x:x \neq \frac{5}{3} \right\}</m>.</p>
+<ol start="3" type="a">
+<li><p>For the equation <m>y^{2} = x</m>, if we choose <m>x = 9</m> we get <m>y^{2} = 9</m>, which gives <m>y = \pm 3</m>. In other words, there are two <m>y -</m>values associated with <m>x = 9</m>. Therefore, <m>y^{2} = x</m> is not a function.</p></li>
+</ol>
+<ol start="4" type="1">
+<li><p>Find the domain of the function <m>y = \sqrt{3x - x}</m>.</p></li>
+</ol>
+<p><alert>Solution</alert>: Since <m>y</m> is defined and is real when the expression under the radical is non-negative, we need <m>x</m> to satisfy the inequality</p>
+<p><m>3x - x^{2} \geq 0\  \Leftrightarrow \ x(3 - x) \geq 0</m></p>
+<p>This is a quadratic inequality, which can be solved by analyzing signs:</p>
+<p>Sign of <m>3x - x^{2}</m> <m>\begin{matrix}
+\overrightarrow{- \  - \  - \ |\  + \  + \  + \ |\  - \  - \  -} \\
+\ 0\ 3 \\
+\end{matrix}</m></p>
+<p>Since we want <m>3x - x^{2} = x(3 - x)</m> to be non-negative, the sign analysis shows us that the domain is <m>\left\{ x:0 \leq x \leq 3 \right\}</m> or <m>\lbrack 0,3\rbrack</m>.</p>
+<p><alert>Exercise 3.1</alert></p>
+<ol type="1">
+<li><p>Let <em>R</em> be a relation on the set <m>A = \left\{ 1,2,3,4,5,6 \right\}</m> defined by <m>R = \left\{ (a,b):a + b \leq 9 \right\}</m>.</p></li>
+</ol>
+<ol type="i">
+<li><p>List the elements of <m>R</m></p></li>
+<li><p>Is <m>R = R^{- 1}</m></p></li>
+</ol>
+<ol start="2" type="1">
+<li><p>Let <em>R</em> be a relation on the set <m>A = \left\{ 1,2,3,4,5,6,7 \right\}</m> defined by <m>R =</m> divides <m>\left. \ a - b \right\}</m>.</p></li>
+</ol>
+<ol type="i">
+<li><p>List the elements of <m>R</m></p></li>
+<li><p>Find <m>\text{Dom}(R)\  \land \ \text{Range}(R)</m></p></li>
+<li><p>Find the elements of <m>R^{- 1}</m></p></li>
+<li><p>Find <m>\text{Dom}(R^{- 1})\  \land \ \text{Range}(R^{- 1})</m></p></li>
+</ol>
+<ol start="3" type="1">
+<li><p>Let <m>A = \left\{ 1,2,3,4,5,6 \right\}</m>. Define a relation on <m>A</m> by <m>R = \left\{ (x,y):y = x + 1 \right\}</m>. Write down the domain, codomain and range of <m>R</m>. Find <m>R^{- 1}</m>.</p></li>
+<li><p>Find the domain and range of the relation <m>\left\{ (x,y):\left| x \right| + y \geq 2 \right\}</m>.</p></li>
+<li><p>Let <m>A = \left\{ 1,2,3 \right\}</m> and <m>B = \left\{ 3,5,6,8 \right\}</m>. Which of the following are functions from <m>A</m> to <m>B</m>?</p></li>
+</ol>
+<ol type="a">
+<li><p><m>f = \left\{ (1,3),(2,3),(3,3) \right\}</m> c) <m>f = \left\{ (1,8),(2,5) \right\}</m></p></li>
+<li><p><m>f = \left\{ (1,3),(2,5),(1,6) \right\}</m> d) <m>f = \left\{ (1,6),(2,5),(3,3) \right\}</m></p></li>
+</ol>
+<ol start="6" type="1">
+<li><p>Determine the domain and range of the following relations. Which relation a function?</p></li>
+</ol>
+<ol type="a">
+<li><p><m>\left\{ ( - 4, - 3),(2, - 5),(4,6),(2,0) \right\}</m> d) <m>\left\{ ( - \frac{1}{2},\frac{1}{6}),( - 1,1),(\frac{1}{3},\frac{1}{8}) \right\}</m></p></li>
+<li><p><m>\left\{ (8, - 2),(6, - \frac{3}{2}),( - 1,5) \right\}</m> e) <m>\left\{ (0,5),(1,5),(2,5),(3,5),(4,5),(5,5) \right\}</m></p></li>
+<li><p><m>\left\{ ( - \sqrt{3},3),( - 1,1),(0,0),(1,1),(\sqrt{3},3) \right\}</m> f) {(5,0),(5,1),(5,2),(5,3),(5,4),(5,5)}</p></li>
+</ol>
+<ol start="7" type="1">
+<li><p>Find the domain and range of the following functions.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>f(x) = 1 + 8x - 2x^{2}</m> c) <m>f(x) = \sqrt{x^{2} - 6x + 8}</m></p></li>
+<li><p><m>f(x) = \frac{1}{x^{2} - 5x + 6}</m> d) <m>f(x) = \begin{matrix}
+\left\{ 3x + 4,\  - 1 \leq x &lt; 2 \middle| \right.\  \\
+\end{matrix}</m></p></li>
+</ol>
+<ol start="8" type="1">
+<li><p>Given <m>f(x) = \begin{matrix}
+\left\{ 3x - 5,\ x &lt; 1 \middle| \right.\  \\
+\end{matrix}</m>.</p></li>
+</ol>
+<p>Find a) <m>f( - 3)</m> b)<m>f(1)</m> c) <m>f(6)</m></p>
+</section>
+
+<section xml-id="real-valued-functions-and-their-properties">
+<title>Real Valued functions and their properties</title>
+<p>After completing this section, the student should be able to:</p>
+<ul>
+<li><p>perform the four fundamental operations on polynomials</p></li>
+<li><p>compose functions to get a new function</p></li>
+<li><p>determine the domain of the sum, difference, product and quotient of two functions</p></li>
+<li><p>define equality of two functions</p></li>
+</ul>
+<p>Let <m>f</m> be a function from set <m>A</m> to set <m>B</m>. If <m>B</m> is a subset of the set of real numbers <m>\Re</m>, then <m>f</m> is called a real valued function, and in particular if <m>A</m> is also a subset of <m>\Re</m>, then <m>f:A \rightarrow B</m> is called a real function.</p>
+<p><alert>Example 3.10</alert>: 1. The function <m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = x^{2} + 3x + 7</m>, <m>x \in \Re</m> is a real function.</p>
+<p>2. The function <m>f:\Re \rightarrow \Re</m> defined as <m>f(x) = \left| x \right|</m> is also a real valued function.</p>
+<ul>
+<li><p><alert>Operations on functions</alert></p></li>
+</ul>
+<p>Functions are not numbers. But just as two numbers <m>a</m> and <m>b</m> can be added to produce a new number <m>a + b</m>, so two functions <m>f</m> and <m>g</m> can be added to produce a new function <m>f + g</m>. This is just one of the several operations on functions that we will describe in this section.</p>
+<p>Consider functions <m>f</m> and <m>g</m> defined by <m>f(x) = \frac{x - 3}{2}</m> and <m>g(x) = \sqrt{x}</m>. We can make a new function <m>f + g</m> by having it assign to <m>x</m>the value <m>\frac{x - 3}{2} + \sqrt{x}</m>, that is,</p>
+<p><m>(f + g)(x) = f(x) + g(x) = \frac{x - 3}{2} + \sqrt{x}</m> .</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.7: Sum, Difference, Product and Quotient of two functions</alert></p>
+<p>Let <m>f(x)</m> and <m>g(x)</m> be two functions. We define the following four functions:</p>
+<ol type="1">
+<li><p><m>(f + g)(x) = f(x) + g(x)</m> The sum of the two functions</p></li>
+<li><p><m>(f - g)(x) = f(x) - g(x)</m> The difference of the two functions</p></li>
+<li><p><m>(f \cdot g)(x) = f(x)g(x)</m> The product of the two functions</p></li>
+<li><p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)}</m> The quotient of the two functions (provided <m>g(x) \neq 0)</m></p></li>
+</ol>
+<p>Since an <m>x -</m>value must be an input into both <m>f</m> and <m>g</m>, the domain of <m>(f + g)(x)</m> is the set of all <m>x</m> common to the domain of <m>f</m> and <m>g</m>. This is usually written as <m>\text{Dom}(f + g) = \text{Dom}(f) \cap \text{Dom}(g)</m>. Similar statements hold for the domains of the difference and product of two functions. In the case of the quotient, we must impose the additional restriction that all elements in the domain of <m>g</m> for which <m>g(x) = 0</m> are excluded.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.11</alert>:</p>
+<ol type="1">
+<li><p>Let <m>f(x) = 3x^{2} + 2</m> and <m>g(x) = 5x - 4</m>. Find each of the following and its domain</p></li>
+</ol>
+<ol type="a">
+<li><p><m>(f + g)(x)</m> b) <m>(f - g)(x)</m> c) <m>(f\text{.}g)(x)</m> d) <m>\left( \frac{f}{g} \right)(x)</m></p></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+<ol type="a">
+<li><p><m>(f + g)(x) = f(x) + g(x) = (3x^{2} + 2) + (5x - 4) =</m><m>3x^{2} + 5x - 2</m></p></li>
+<li><p><m>(f - g)(x) = f(x) - g(x) = (3x^{2} + 2) - (5x - 4) =</m><m>3x^{2} - 5x + 6</m></p></li>
+<li><p><m>(f \cdot g)(x) = (3x^{2} + 2)(5x - 4) =</m><m>\text{15}x^{3} - \text{12}x^{2} + \text{10}x - 8</m></p></li>
+<li><p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)} =</m><m>\frac{3x^{2} + 2}{5x - 4}</m></p></li>
+</ol>
+<p>We have</p>
+<ol start="2" type="1">
+<li><p>Let <m>f(x) = \sqrt[4]{x + 1}</m> and <m>g(x) = \sqrt{9 - x^{2}}</m>, with respective domains <m>\lbrack - 1,\infty)</m> and <m>\lbrack - 3,3\rbrack</m>. Find formulas for <m>f + g,\ f - g,\ f \cdot g,\frac{f}{g}</m> and <m>f^{3}</m> and give their domains.</p></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>Formula Domain</alert></cell>
+</row>
+
+<row>
+<cell><p><m>(f + g)(x) = f(x) + g(x) = \sqrt[4]{x + 1} + \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
+<p><m>(f - g)(x) = f(x) - g(x) = \sqrt[4]{x + 1} - \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
+<p><m>(f \cdot g)(x) = f(x) \cdot g(x) = \sqrt[4]{x + 1} \cdot \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
+<p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)} = \frac{\sqrt[4]{x + 1}}{\sqrt{9 - x^{2}}}</m> <m>\lbrack - 1,\ 3)</m></p>
+<p><m>f^{3}(x) = \left( f(x) \right)^{3} = \left( \sqrt[4]{x + 1} \right)^{3} = \left( x + 1 \right)^{\frac{3}{4}}</m> <m>\lbrack - 1,\infty)</m></p></cell>
+</row>
+</tabular>
+</table>
+<p>There is yet another way of producing a new function from two given functions.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.8: (Composition of functions)</alert></p>
+<p>Given two functions <m>f(x)</m> and <m>g(x)</m>, the composition of the two functions is denoted by <m>f \circ g</m> and is defined by:</p>
+<p><m>(f \circ g)(x) = f\lbrack g(x)\rbrack</m>.</p>
+<p><m>(f \circ g)(x)</m> is read as <m>\text{f\}\ \{}</m> composed with <m>g</m> of <m>x\text{\}\ \{}</m>.<m></m>The domain of <m>f \circ g</m> consists of those <m>x^{&#39;}</m>s in the domain of <m>g</m> whose range values are in the domain of <m>f</m>, i.e. those <m>x^{&#39;}</m>s for which <m>g(x)</m> is in the domain of <m>f</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.12</alert>:</p>
+<ol type="1">
+<li><p>Suppose <m>f = \left\{ (2,z),(3,q) \right\}</m> and <m>g = \left\{ (a,2),(b,3),(c,5) \right\}</m>. The function <m>(f \circ g)(x) = f(g(x))</m> is found by taking elements in the domain of <m>g</m> and evaluating as follows:</p></li>
+</ol>
+<p>If we attempt to find <m>f(g(c))</m> we get <m>f(5)</m>, but 5 is not in the domain of <m>f(x)</m> and so we cannot find <m>(f \circ g)(c)</m>. Hence, <m>f \circ g = \left\{ (a,z),(b,q) \right\}</m>. The figure below illustrates this situation.</p>
+<ol start="2" type="1">
+<li><p>Given <m>f(x) = 5x^{2} - 3x + 2</m> and <m>g(x) = 4x + 3</m>, find</p></li>
+</ol>
+<ol type="a">
+<li><p><m>(f \circ g)( - 2)</m> b) <m>(g \circ f)(2)</m> c) <m>(f \circ g)(x)</m> d) <m>(g \circ f)(x)</m></p></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+<ol type="a">
+<li><p><m>(f \circ g)( - 2) = f(g( - 2))</m>…… First evaluate <m>g( - 2) = 4( - 2) + 3 = - 5</m></p></li>
+</ol>
+
+<p><m>= f( - 5)</m></p>
+<p><m>= 5( - 5)^{2} - 3( - 5) + 2 = \text{142}</m></p>
+
+<ol start="2" type="a">
+<li><p><m>(g \circ f)(2) = g(f(2))</m>…….First evaluate <m>f(2) = 5(2)^{2} - 3(2) + 2 = \text{16}</m></p></li>
+</ol>
+<p><m>= g(\text{16})</m></p>
+<p><m>= 4(\text{16}) + 3 = \text{67}</m></p>
+<ol start="3" type="a">
+<li><p><m>(f \circ g)(x) = f(g(x))</m>……. But <m>g(x) = 4x + 3</m></p></li>
+</ol>
+
+<p><m>= f(4x + 3)</m></p>
+<p><m>= 5(4x + 3)^{2} - 3(4x + 3) + 2</m></p>
+<p><m>= \text{80}x^{2} + \text{108}x + \text{38}</m></p>
+
+<ol start="4" type="a">
+<li><p><m>(g \circ f)(x) = g(f(x))</m>……. But <m>f(x) = 5x^{2} - 3x + 2</m></p></li>
+</ol>
+
+<p><m>= g(5x^{2} - 3x + 2)</m></p>
+<p><m>= 4(5x^{2} - 3x + 2) + 3</m></p>
+<p><m>= \text{20}x^{2} - \text{12}x + \text{11}</m></p>
+
+<ol start="3" type="1">
+<li><p>Given <m>f(x) = \frac{x}{x + 1}</m> and <m>g(x) = \frac{2}{x - 1}</m>, find</p></li>
+</ol>
+<ol type="a">
+<li><p><m>(f \circ g)(x)</m> and its domain b) <m>(g \circ f)(x)</m> and its domain</p></li>
+</ol>
+<p><alert>Solution</alert>: a) <m>(f \circ g)(x) = f\left( \frac{2}{x - 1} \right) = \frac{\frac{2}{x - 1}}{\frac{2}{x - 1} + 1} = \frac{2}{x + 1}</m>. Thus, <m>\text{Dom}(f \circ g) = \left\{ x:x \neq \pm 1 \right\}</m>.</p>
+<ol start="2" type="a">
+<li><p><m>(g \circ f)(x) = g(f(x)) = \frac{2}{\frac{x}{x + 1} - 1} = - 2x - 2</m>. Since <m>x</m> must first be an input into <m>f(x)</m> and so must be in the domain of <m>f</m>, we see that <m>\text{Dom}(g \circ f) = \left\{ x:x \neq - 1 \right\}</m>.</p></li>
+</ol>
+<ol start="4" type="1">
+<li><p>Let <m>f(x) = \frac{6x}{x^{2} - 9}</m> and <m>g(x) = \sqrt{3x}</m>. Find <m>(f \circ g)(\text{12})</m> and <m>(g \circ f)(x)</m> and its domain.</p></li>
+</ol>
+<p><alert>Solution</alert>: We have <m>(f \circ g)(\text{12}) = f(g(\text{12})) = f(\sqrt{\text{36}}) = f(6) = \frac{\text{36}}{\text{27}} = \frac{4}{3}</m>.</p>
+
+<p><m>(f \circ g)(x) = f(g(x)) = f(\sqrt{3x}) = \frac{6\sqrt{3x}}{(\sqrt{3x})^{2} - 9} = \frac{6\sqrt{3x}}{3x - 9} = \frac{2\sqrt{3x}}{x - 3}</m>.</p>
+
+<p>The domain of <m>f \circ g</m> is <m>\lbrack 0,3) \cup (3,\infty)</m>.</p>
+<p>We now explore the meaning of equality of two functions. Let <m>f:A \rightarrow B</m> and <m>g:A \rightarrow B</m> be two functions. Then, <m>f</m> and <m>g</m> are subsets of <m>A \times B</m>. Suppose <m>f = g</m>. Let <m>x</m> be any element of <m>A</m>. Then, <m>(x,f(x)) \in f = g</m> and thus <m>(x,f(x)) \in g</m>. Since <m>g</m> is a function and <m>(x,f(x)),</m><m>(x,g(x)) \in g</m>, we must have <m>f(x) = g(x)\text{.}</m> Conversely, assume that <m>g(x) = f(x)</m> for all <m>x \in A</m>. Let <m>(x,y) \in f</m>. Then, <m>y = f(x) = g(x)</m>. Thus, <m>(x,y) \in g</m>, which implies that <m>f \subseteq g</m>. Similarly, we can show that <m>g \subseteq f</m>. It now follows that <m>f = g</m>. Thus two functions <m>f:A \rightarrow B</m> and <m>g:A \rightarrow B</m> are equal if and only if <m>f(x) = g(x)</m> for all <m>x \in A</m>. In general we have the following definition.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.9: (Equality of functions)</alert></p>
+<p>Two functions are said to be equal if and only if the following two conditions hold:</p>
+<ol type="i">
+<li><p>The functions have the same domain;</p></li>
+<li><p>Their functional values are equal at each element of the domain.</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.13</alert>:</p>
+<ol type="1">
+<li><p>Let <m>f:Z \rightarrow Z^{+} \cup \left\{ 0 \right\}</m> and <m>g:Z \rightarrow Z^{+} \cup \left\{ 0 \right\}</m> be defined by <m>f = \left\{ (n,n^{2}):n \in Z \right\}</m> and <m>g = \left\{ (n,\left| n \right|^{2}):n \in Z \right\}</m>. Now, for all <m>n \in Z</m>, <m>f(n) = n^{2} = \left| n \right|^{2} = g(n)</m>. Thus, <m>f = g</m>.</p></li>
+<li><p>Let <m>f(x) = \frac{x^{2} - \text{25}}{x - 5},\ x \in \Re\{ 5</m>, and <m>g(x) = x + 5,\ x \in \Re</m>. The function <m>f</m> and <m>g</m> are not equal because <m>\text{Dom}(f) \neq \text{Dom}(g)\text{.}</m></p></li>
+</ol>
+<p><alert>Exercise 3.2</alert></p>
+<ol type="1">
+<li><p>For <m>f(x) = x^{2} + x</m> and <m>g(x) = \frac{2}{x + 3}</m>, find each value:</p></li>
+</ol>
+<ol type="a">
+<li><p><m>(f - g)(2)</m> c) <m>g^{2}(3)</m> e) <m>(g \circ f)(1)</m></p></li>
+<li><p><m>\left( \frac{f}{g} \right)(1)</m> d) <m>(f \circ g)(1)</m> f) <m>(g \circ g)(3)</m></p></li>
+</ol>
+<ol start="2" type="1">
+<li><p>If <m>f(x) = x^{3} + 2</m> and <m>g(x) = \frac{2}{x - 1}</m>, find a formula for each of the following and state its domain.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>(f + g)(x)</m> c) <m>\left( \frac{g}{f} \right)(x)</m></p></li>
+<li><p><m>(f \circ g)(x)</m> d) <m>(g \circ f)(x)</m></p></li>
+</ol>
+<ol start="3" type="1">
+<li><p>Let <m>f(x) = x^{2}</m> and <m>g(x) = \sqrt{x}</m>.</p></li>
+</ol>
+<ol type="a">
+<li><p>Find <m>(f \circ g)(x)</m> and its domain.</p></li>
+<li><p>Find <m>(g \circ f)(x)</m> and its domain</p></li>
+<li><p>Are <m>(f \circ g)(x)</m> and <m>(g \circ f)(x)</m> the same functions? Explain.</p></li>
+</ol>
+<ol start="4" type="1">
+<li><p>Let <m>f(x) = 5x - 3</m>. Find <m>g(x)</m> so that <m>(f \circ g)(x) = 2x + 7</m>.</p></li>
+<li><p>Let <m>f(x) = 2x + 1\text{.}</m> Find <m>g(x)</m> so that <m>(f \circ g)(x) = 3x - 1</m>.</p></li>
+<li><p>If <m>f</m> is a real function defined by <m>f(x) = \frac{x - 1}{x + 1}</m>. Show that <m>f(2x) = \frac{3f(x) + 1}{f(x) + 3}</m>.</p></li>
+<li><p>Find two functions <m>f</m> and <m>g</m> so that the given function <m>h(x) = (f \circ g)(x)</m>, where</p></li>
+</ol>
+<ol type="a">
+<li><p><m>h(x) = (x + 3)^{3}</m> c) <m>h(x) = \frac{1}{x} + 6</m></p></li>
+<li><p><m>h(x) = \sqrt{5x - 3}</m> d) <m>h(x) = \frac{1}{x + 6}</m></p></li>
+</ol>
+<ol start="8" type="1">
+<li><p>Let <m>f(x) = 4x - 3,\ g(x) = \frac{1}{x}</m> and <m>h(x) = x^{2} - x</m>. Find</p></li>
+</ol>
+<ol type="a">
+<li><p><m>f(5x + 7)</m> c) <m>f(g(h(3)))</m> e) <m>f(x + a)</m></p></li>
+<li><p><m>5f(x) + 7</m> d) <m>f(1) \cdot g(2) \cdot h(3)</m> f) <m>f(x) + a</m></p></li>
+</ol>
+
+</section>
+
+<section xml-id="types-of-functions-and-inverse-of-a-function">
+<title>Types of functions and inverse of a function</title>
+<p>After completing this section, the student should be able to:</p>
+<ul>
+<li><p>define one to oneness and ontoness of a function</p></li>
+<li><p>check invertibility of a function</p></li>
+<li><p>find the inverse of an invertible function</p></li>
+</ul>
+<p>In this section we shall study some important types of functions.</p>
+<ul>
+<li><p><alert>One to One functions</alert></p></li>
+</ul>
+<table>
+<tabular>
+<row>
+<cell><alert>Definition 3.10:</alert> A function <m>f:A \rightarrow B</m> is called <alert>one to one</alert>, often written 1 – 1, if and only if for all <m>x_{1},x_{2} \in A</m>, <m>f(x_{1}) = f(x_{2})</m> implies <m>x_{1} = x_{2}</m>. In words, no two elements of <m>A</m> are mapped to one element of <m>B</m>.</cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.14</alert>:</p>
+<ol type="1">
+<li><p>If we consider the sets <m>A = \left\{ 1,2,3,\cdots,6 \right\}</m> and <m>B = \left\{ 7,a,b,c,d,8,e \right\}</m> and if <m>f =</m><m>(2,a),</m><m>(3,b)</m>, <m>(4,b),(5,c),(6,8)</m> and <m>g = \left\{ (1,7),(2,a),(3,b),(4,c),(5,8),(6,d) \right\}</m>, then both <m>f</m> and <m>g</m> are functions from <m>A</m> into <m>B</m>. Observe that <m>f</m> is not a 1 – 1 function because <m>f(3) = f(4)</m> but <m>3 \neq 4</m>. However, <m>g</m> is a 1 – 1 function.</p></li>
+<li><p>Let <m>A = \left\{ 1,2,3,4 \right\}</m> and <m>B = \left\{ 1,4,7,8 \right\}</m>. Consider the functions</p></li>
+</ol>
+<ol type="i">
+<li><p><m>f:A \rightarrow B</m> defined as <m>f(1) = 1,\ f(2) = 4,\ f(3) = 4,\ f(4) = 8</m></p></li>
+<li><p><m>g:A \rightarrow B</m> defined as <m>f(1) = 4,\ f(2) = 7,\ f(3) = 1,\ f(4) = 8</m></p></li>
+</ol>
+
+<p>Then, <m>f</m> is not 1 – 1, but <m>g</m> is a 1 – 1 function.</p>
+
+<ul>
+<li><p><alert>Onto functions</alert></p></li>
+</ul>
+<table>
+<tabular>
+<row>
+<cell><alert>Definition 3.11:</alert> Let <m>f</m> be a function from a set <m>A</m> into a set <m>B</m>. Then <m>f</m> is called an <alert>onto function(or</alert> <m>f</m><alert>maps onto</alert> <m>B)</m> if every element of <m>B</m> is an image of some element in <m>A</m>, i.e, <m>\text{Range}(f) = B\text{.}</m></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.15</alert>:</p>
+<ol type="1">
+<li><p>Let <m>A = \left\{ 1,2,3 \right\}</m>and <m>B = \left\{ 1,4,5 \right\}</m>. The function <m>f:A \rightarrow B</m> defined by <m>f(1) = 1</m>, <m>f(2) = 5</m>, <m>f(3) = 1</m> is not onto because there is no element in <m>A</m>, whose image under <m>f</m> is 4. The function <m>g:A \rightarrow B</m> given by <m>g = \left\{ (1,4),(2,5),(3,1) \right\}</m> is onto because each element of <m>B</m> is an image of at least one element of <m>A</m> .</p></li>
+</ol>
+<p>Note that if <m>A</m> is a non-empty set, the function <m>i_{A}:A \rightarrow A</m> defined by <m>i_{A}(x) = x</m> for all <m>x \in A</m> is a 1 – 1 function from <m>A</m> onto <m>A</m>. <m>i_{A}</m> is called the <alert>identity map</alert> on <m>A</m>.</p>
+<ol start="2" type="1">
+<li><p>Consider the relation <m>f</m> from <m>Z</m> into <m>Z</m> defined by <m>f(n) = n^{2}</m> for all <m>n \in Z</m>. Now, domain of <m>f</m> is <m>Z</m>. Also, if <m>n = n^{&#39;}</m>, then <m>n^{2} = (n^{&#39;})^{2}</m>, i.e. <m>f(n) = f(n^{&#39;})</m>. Hence, <m>f</m> is well defined and is a function. However, <m>f(1) = 1 = f( - 1)</m> and <m>1 \neq - 1</m>, which implies that <m>f</m> is not 1 – 1. For all <m>n \in Z</m>, <m>f(n)</m> is a non-negative integer. This shows that a negative integer has no preimage. Hence, <m>f</m> is not onto. Note that <m>f</m> is onto <m>\left\{ 0,1,4,9,\cdots \right\}</m>.</p></li>
+<li><p>Consider the relation <m>f</m> from <m>Z</m> into <m>Z</m> defined by <m>f(n) = 2n</m> for all <m>n \in Z</m>. As in the previous example, we can show that <m>f</m> is a function. Let <m>n,n^{&#39;} \in Z</m> and suppose that <m>f(n) = f(n^{&#39;})</m>. Then <m>2n = 2n^{&#39;}</m> and thus <m>n = n^{&#39;}</m>. Hence, <m>f</m> is 1 – 1. Since for all <m>n \in Z</m>, <m>f(n)</m> is an even integer; we see that an odd integer has no preimage. Therefore, <m>f</m> is not onto.</p></li>
+</ol>
+<ul>
+<li><p><alert>1 – 1 Correspondence</alert></p></li>
+</ul>
+<table>
+<tabular>
+<row>
+<cell><alert>Definition 3.12:</alert> A function <m>f:A \rightarrow B</m> is said to be a 1 – 1 correspondence if <m>f</m> is both 1 – 1 and onto.</cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.16</alert>:</p>
+<ol type="1">
+<li><p>Let <m>A = \left\{ 0,\ 1,\ 2,\ 3,\ 4,\ 5 \right\}</m> and <m>B = \left\{ 0,\ 5,\ \text{10},\ \text{15},\ \text{20},\ \text{25} \right\}</m>. Suppose <m>f:A \rightarrow B</m> given by <m>f(x) = 5x</m> for all <m>x \in A</m>. One can easily see that every element of <m>B</m> has a preimage in <m>A</m> and hence <m>f</m> is onto. Moreover, if <m>f(x) = f(y)</m>, then <m>5x = 5y</m>, i.e. <m>x = y</m>. Hence, <m>f</m> is 1 – 1. Therefore, <m>f</m> is a 1 – 1 correspondence between <m>A</m> and <m>B</m>.</p></li>
+<li><p>Let <m>A</m> be a finite set. If <m>f:A \rightarrow A</m> is onto, then it is one to one.</p></li>
+</ol>
+<p><alert>Solution</alert>: Let <m>A = \left\{ a_{1},a_{2},\cdots,a_{n} \right\}</m>. Then <m>\text{Range}(f) = \left\{ f(a_{1}),f(a_{2}),\cdots,f(a_{n}) \right\}</m>. Since <m>f</m> is onto we have <m>\text{Range}(f) = A</m>.Thus, <m>A = \left\{ f(a_{1}),f(a_{2}),\cdots,f(a_{n}) \right\}</m>, which implies that <m>f(a_{1})</m>, <m>f(a_{2})</m>, <m>\cdots</m>, <m>f(a_{n})</m> are all distinct. Hence, <m>a_{i} \neq a_{j}</m> implies <m>f(a_{i}) \neq f(a_{j})</m> for all <m>1 \leq i,j \leq n</m>. Therefore, <m>f</m> is 1 – 1.</p>
+<ul>
+<li><p><alert>Inverse of a function</alert></p></li>
+</ul>
+<p>Since a function is a relation , the inverse of a function <m>f</m> is denoted by <m>f^{- 1}</m> and is defined by:</p>
+
+<p><m>f^{- 1} = \left\{ (y,x):(x,y) \in f \right\}</m></p>
+
+<p>For instance, if <m>f = \left\{ (2,4),(3,6),(1,7) \right\}</m>, then <m>f^{- 1} = \left\{ (4,2),(6,3),(7,1) \right\}</m>. Note that the inverse of a function is not always a function. To see this consider the function <m>f =</m><m>(5,4)</m>. Then, <m>f^{- 1} = \left\{ (4,2),(6,3),(4,5) \right\}</m>, which is not a function.</p>
+<p>As we have seen above not all functions have an inverse, so it is important to determine whether or not a function has an inverse before we try to find the inverse. If the function does not have an inverse, then we need to realize that it does not have an inverse so that we do not waste our time trying to find something that does not exist.</p>
+<p>A one to one function is special because only one to one functions have inverse. If a function is one to one, to find the inverse we will follow the steps below:</p>
+<ol type="1">
+<li><p>Interchange <m>x</m> and <m>y</m> in the equation <m>y = f(x)</m></p></li>
+<li><p>Solving the resulting equation for <m>y</m>, we will obtaining the inverse function.</p></li>
+</ol>
+<p>Note that the domain of the inverse function is the range of the original function and the range of the inverse function is the domain of the original function.</p>
+<p><alert>Example 3.17</alert>:</p>
+<ol type="1">
+<li><p>Given <m>y = f(x) = x^{3}</m>. Find <m>f^{- 1}</m> and its domain.</p></li>
+</ol>
+<p><alert>Solution</alert>: We begin by interchanging <m>x</m> and <m>y</m>, and we solve for <m>y</m>.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell></cell>
+<cell>Interchange <m>x</m> and <m>y</m></cell>
+</row>
+
+<row>
+<cell></cell>
+<cell>Take the cube root of both sides</cell>
+</row>
+<row>
+<cell></cell>
+<cell>This is the inverse of the function</cell>
+</row>
+</tabular>
+</table>
+
+<p>Thus, <m>f^{- 1}(x) = \sqrt[3]{x}</m>. The domain of <m>f^{- 1}</m> is the set of all real numbers.</p>
+
+<ol start="2" type="1">
+<li>
+<p>Let <m>y = f(x) = \frac{x}{x + 2}</m>. Find <m>f^{- 1}(x)</m>.</p>
+</li>
+</ol>
+<p><alert>Solution</alert>: Again we begin by interchanging <m>x</m> and <m>y</m>, and then we solve for <m>y</m>.</p>
+
+<p><m>y = \frac{x}{x + 2}</m> Interchange <m>x</m> and <m>y</m></p>
+<p><m>x = \frac{y}{y + 2}</m> Solving for <m>y</m></p>
+<p><m>x(y + 2) = y\  \Leftrightarrow \ \text{xy} + 2x = y\  \Leftrightarrow \ 2x = y(1 - x)\  \Leftrightarrow y = \frac{2x}{1 - x}</m></p>
+
+<p>Thus, <m>f^{- 1}(x) = \frac{2x}{1 - x}</m>.</p>
+<p><alert>Remark</alert>: Even though, in general, we use an exponent of <m>- 1</m> to indicate a reciprocal, inverse function notation is an exception to this rule. Please be aware that <m>f^{- 1}(x)</m> is not the reciprocal of <m>f</m>. That is,</p>
+
+<p><m>f^{- 1}(x) \neq \frac{1}{f(x)}</m></p>
+
+<p>If we want to write the reciprocal of the function <m>f(x)</m> by using a negative exponent, we must write</p>
+
+<p><m>\frac{1}{f(x)} = \left\lbrack f(x) \right\rbrack^{- 1}</m>.</p>
+
+<p><alert>Exercise 3.3</alert></p>
+<ol type="1">
+<li><p>Consider the function <m>f = \left\{ (x,x^{2}):x \in S \right\}</m> from <m>S = \left\{ - 3, - 2, - 1,0,1,2,3 \right\}</m> into <m>Z</m>. Is <m>f</m> one to one? Is it onto?</p></li>
+<li><p>Let <m>A = \left\{ 1,2,3 \right\}</m>. List all one to one functions from <m>A</m> onto <m>A</m>.</p></li>
+<li><p>Let <m>f:A \rightarrow B</m>. Let <m>f^{}</m> be the inverse relation, i.e. <m>f^{} = \left\{ (y,x) \in B \times A:f(x) = y \right\}</m>.</p></li>
+</ol>
+<ol type="a">
+<li><p>Show by an example that <m>f^{}</m> need not be a function.</p></li>
+<li><p>Show that <m>f^{}</m> is a function from <m>\text{Range}(f)</m> into <m>A</m> if and only if <m>f</m> is 1 – 1.</p></li>
+<li><p>Show that <m>f^{}</m> is a function from <m>B</m> into <m>A</m> if and only if <m>f</m> is 1 – 1 and onto.</p></li>
+<li><p>Show that if <m>f^{}</m> is a function from <m>B</m> into <m>A</m>, then <m>f^{- 1} = f^{}</m>.</p></li>
+</ol>
+<ol start="4" type="1">
+<li><p>Let <m>A = \left\{ x \in \Re:0 \leq x \leq 1 \right\}</m> and <m>B = \left\{ x \in \Re:5 \leq x \leq 8 \right\}</m>. Show that <m>f:A \rightarrow B</m> defined by <m>f(x) = 5 + (8 - 5)x</m> is a 1 – 1 function from <m>A</m> onto <m>B</m>.</p></li>
+<li><p>Which of the following functions are one to one?</p></li>
+</ol>
+<ol type="a">
+<li><p><m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = 4,\ x \in \Re</m></p></li>
+<li><p><m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = 6x - 1,\ x \in \Re</m></p></li>
+<li><p><m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = x^{2} + 7,\ x \in \Re</m></p></li>
+<li><p><m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = x^{3},\ x \in \Re</m></p></li>
+<li><p><m>f:\Re\{ 7 \rightarrow \Re</m> defined by <m>f(x) = \frac{2x + 1}{x - 7},\ x \in \Re\{ 7</m></p></li>
+</ol>
+<ol start="6" type="1">
+<li><p>Which of the following functions are onto?</p></li>
+</ol>
+<ol type="a">
+<li><p><m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = \text{115}x + \text{49},\ x \in \Re</m></p></li>
+<li><p><m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = \left| x \right|,\ x \in \Re</m></p></li>
+<li><p><m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = \sqrt{x^{2}},\ x \in \Re</m></p></li>
+<li><p><m>f:\Re \rightarrow \Re</m> defined by <m>f(x) = x^{2} + 4,\ x \in \Re</m></p></li>
+</ol>
+<ol start="7" type="1">
+<li><p>Find <m>f^{- 1}(x)</m> if</p></li>
+</ol>
+<ol type="a">
+<li><p><m>f(x) = 7x - 6</m> d) <m>f(x) = \frac{4 - x}{3x}</m> g) <m>f(x)\text{==} - (x + 2)^{2} - 1</m></p></li>
+<li><p><m>f(x) = \frac{2x - 9}{4}</m> e) <m>f(x) = \frac{5x + 3}{1 - 2x}</m> h) <m>f(x) = \frac{2x}{1 + x}</m></p></li>
+<li><p><m>f(x) = 1 - \frac{3}{x}</m> f) <m>f(x) = \sqrt[3]{x + 1}</m></p></li>
+</ol>
+
+</section>
+
+<section xml-id="polynomials-zeros-of-polynomials-rational-functions-and-their-graphs">
+<title>Polynomials, zeros of polynomials, rational functions and their graphs</title>
+
+<p>After completing this section, the student should be able to:</p>
+<ul>
+<li><p>define polynomial and rational functions</p></li>
+<li><p>apply the theorems on polynomials to find the zeros of polynomial functions</p></li>
+<li><p>use the division algorithm to find quotient and remainder</p></li>
+<li><p>apply theorems on polynomials to solve related problems</p></li>
+<li><p>sketch and analyze the graphs of rational functions</p></li>
+</ul>
+<p>The functions described in this section frequently occur as mathematical models of real-life situations. For instance, in business the demand function gives the price per item, <m>p</m>, in terms of the number of items sold, <m>x</m>. Suppose a company finds that the price <m>p</m>(in Birr) for its model GC-5 calculator is related to the number of calculators sold, <m>x</m>(in millions), and is given by the demand function <m>p = \text{80} - x^{2}\text{.}</m></p>
+<p>The manufacturer’s revenue is determined by multiplying the number of items sold (<m>x</m>) by the price per item (<m>p</m>). Thus, the revenue function is</p>
+<table>
+<tabular>
+<row>
+<cell><m>R = \text{xp} = x(\text{80} - x^{2}) = \text{80}x - x^{3}</m></cell>
+</row>
+</tabular>
+</table>
+<p>These demand and revenue functions are examples of polynomial functions. The major aim of this section is to better understand the significance of applied functions (such as this demand function). In order to do this, we need to analyze the domain, range, and behavior of such functions.</p>
+<ul>
+<li><p><alert>Polynomial functions</alert></p></li>
+</ul>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.13</alert>: A polynomial function is a function of the form</p>
+<p><m>y = a_{n}x^{n} + a_{n - 1}x^{n - 1} + \cdots + a_{1}x + a_{0},\ a_{n} \neq 0\text{.}</m></p>
+<p>Each <m>a_{i}</m> is assumed to be a real number, and <m>n</m> is a non-negative integer, <m>a_{n}</m> is called the leading coefficient. Such a polynomial is said to be of degree n.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Remark</alert>:</p>
+<ol type="1">
+<li><p>The domain of a polynomial function is always the set of real numbers.</p></li>
+<li><p>(Types of polynomials)</p></li>
+</ol>
+<ul>
+<li><p>A polynomial of degree 1 is called a linear function.</p></li>
+<li><p>A polynomial of degree 2 is called quadratic function.</p></li>
+<li><p>A polynomial of degree 3 is called a cubic function.</p></li>
+</ul>
+
+<p>i.e <m>p(x) = a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0},\ a_{3} \neq 0\text{.}</m></p>
+
+<p><alert>Example 3.18</alert>: <m>p(x) = 2x^{2} + 1</m>, <m>q(x) = \sqrt{3}x^{4} + 2x - \pi</m> and <m>f(x) = 2x^{3}</m> are examples of polynomial functions.</p>
+<ul>
+<li><p><alert>Properties of polynomial functions</alert></p></li>
+</ul>
+<ol type="1">
+<li><p>The graph of a polynomial is a smooth unbroken curve. The word smooth means that the graph does not have any sharp corners as turning points.</p></li>
+<li><p>If <m>p</m> is a polynomial of degree <m>n</m>, then it has at most <m>n</m> zeros. Thus, a quadratic polynomial has at most 2 zeros.</p></li>
+<li><p>The graph of a polynomial function of degree <m>n</m> can have at most <m>n - 1</m>turning points. Thus, the graph of a polynomial of degree 5 can have at most 4 turning points.</p></li>
+<li><p>The graph of a polynomial always exhibits the characteristic that as <m>\left| x \right|</m> gets very large, <m>\left| y \right|</m> gets very large.</p></li>
+</ol>
+<ul>
+<li><p><alert>Zeros of a polynomial</alert></p></li>
+</ul>
+<p>The zeros of a polynomial function provide valuable information that can be helpful in sketching its graph. One can find the zeros by factorizing the polynomial. However, we have no general method for factorizing polynomials of degree greater than 2. In this subsection, we turn our attention to methods that will allow us to find zeros of higher degree polynomials. To do this, we first need to discuss about the division algorithm. Recall that a number <m>a</m> is a zero of a polynomial function <m>p</m> if <m>p(a) = 0</m>.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>Division Algorithm</alert></cell>
+</row>
+
+<row>
+<cell><p>Let <m>p(x)</m> and <m>d(x)</m> be polynomials with <m>d(x) \neq 0</m>, and with the degree of <m>d(x)</m> less than or equal to the degree of <m>p(x)</m>. Then there are polynomials <m>q(x)</m> and <m>R(x)</m> such that</p>
+<p><m>\underset{\text{dividend}}{\overset{p(x)}{\underbrace{}}} = \underset{\text{divisor}}{\overset{d(x)}{\underbrace{}}}\text{.}\ \underset{\text{quotient}}{\overset{q(x)}{\underbrace{}}} + \underset{\text{remainder}}{\overset{R(x)}{\underbrace{}}}</m>, where either <m>R(x) = 0</m> or the degree of <m>R(x)</m> is less than degree of <m>d(x)</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.19</alert>: Divide <m>\frac{x^{4} - 1}{x^{4} + 2x}</m>.</p>
+<p><alert>Solution</alert>: Using long division we have</p>
+<p>This long division means <m>\underset{\text{dividend}}{\overset{x^{4} - 1}{\underbrace{}}} = \underset{\text{divisor}}{\overset{(x^{2} + 2x)}{\underbrace{}}}\text{.}\ \underset{\text{quotient}}{\overset{(x^{2} - 2x + 4)}{\underbrace{}}} + \underset{\text{remainder}}{\overset{( - 8x - 1)}{\underbrace{}}}</m>.</p>
+<p>With the aid of the division algorithm, we can derive two important theorems that will allow us to recognize the zeros of polynomials.</p>
+<p>If we apply the division algorithm where the divisor, <m>d(x)</m>, is linear (that is of the form <m>x - r</m>), we get</p>
+<table>
+<tabular>
+<row>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</table>
+<p>Note that since the divisor is of the first degree, the remainder <m>R</m>, must be a constant. If we now substitute<m>x = r</m>, into this equation, we get</p>
+<p>Therefore, <m>p(r) = R</m>.</p>
+<p>The result we just proved is called the remainder theorem.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>The Remainder Theorem</alert></cell>
+</row>
+
+<row>
+<cell>When a polynomial <m>p(x)</m> of degree at least 1 is divided by <m>x - r</m>, then the remainder is <m>p(r)</m>.</cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.20</alert>: The remainder when <m>P(x) = x^{3} - x^{2} + 3x - 1</m> is divided by <m>x - 2</m> is <m>p(2) = 9</m>.</p>
+<p>As a consequence of the remainder theorem, if <m>x - r</m> is a factor of <m>p(x)</m>, then the remainder must be 0. Conversely, if the remainder is 0, then <m>x - r</m>, is a factor of <m>p(x)</m>. This is known as the Factor Theorem.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>The Factor Theorem</alert></cell>
+</row>
+
+<row>
+<cell><m>x - r</m> is a factor of <m>p(x)</m> if and only if <m>p(r) = 0</m>.</cell>
+</row>
+</tabular>
+</table>
+<p>The next theorem, called location theorem, allows us to verify that a zero exists somewhere within an interval of numbers, and can also be used to zoom in closer on a value.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>Location theorem</alert></cell>
+</row>
+
+<row>
+<cell>Let <m>f</m> be a polynomial function and <m>a</m> and <m>b</m> be real numbers such that <m>a &lt; b</m>. If <m>f(a)f(b) &lt; 0</m>, then there is at least one zero of <m>f</m> between <m>a</m> and <m>b</m>.</cell>
+</row>
+</tabular>
+</table>
+<p>The Factor and Remainder theorems establish the intimate relationship between the factors of a polynomial <m>p(x)</m> and its zeros. Recall that a polynomial of degree <em>n</em> can have at most <em>n</em> zeros.</p>
+<p>Does every polynomial have a zero? Our answer depends on the number system in which we are working. If we restrict ourselves to the set of real number system, then we are already familiar with the fact that the polynomial <m>p(x) = x^{2} + 1</m> has no real zeros. However, this polynomial does have two zeros in the complex number system. (The zeros are <m>i</m> and <m>- i</m>). Carl Friedrich Gauss (1777-1855), in his doctoral dissertation, proved that within the complex number system, every polynomial of degree <m>\ 1</m> has at least one zero. This fact is usually referred to as the Fundamental theorem of Algebra.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>Fundamental Theorem of Algebra</alert></cell>
+</row>
+
+<row>
+<cell>If <m>p(x)</m> is a polynomial of degree <m>n &gt; 0</m>whose coefficients are complex numbers, then <m>p(x)</m> has at least one zero in the complex number system.</cell>
+</row>
+</tabular>
+</table>
+<p>Note that since all real numbers are complex numbers, a polynomial with real coefficients also satisfies the Fundamental theorem of Algebra. As an immediate consequence of the Fundamental theorem of Algebra, we have</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>The linear Factorization Theorem</alert></cell>
+</row>
+
+<row>
+<cell><p>If <m>p(x) = a_{n}x^{n} + a_{n - 1}x^{n - 1} + \cdots + a_{1}x + a_{0}</m>, where <m>n \geq 1</m> and <m>a_{n} \neq 0</m>, then</p>
+<p><m>p(x) = a_{n}(x - r_{1})\ (x - r_{2})\cdots(x - r_{n})</m>, where the <m>r_{i}</m> are complex numbers (possible real and not necessarily distinct).</p></cell>
+</row>
+</tabular>
+</table>
+<p>From the linear factorization theorem, it follows that every polynomial of degree <m>n \geq 1</m> has exactly <m>n</m> zeros in the complex number system, where a root of multiplicity <m>k</m> counted <m>k</m> times.</p>
+<p><alert>Example 3.21</alert>: Express each of the polynomials in the form described by the Linear Factorization Theorem. List each zero and its multiplicity.</p>
+<ol type="a">
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+<ol type="a">
+<li><p>We may factorize <m>p(x)</m> as follows:</p></li>
+</ol>
+
+<p>The zeros of <m>p(x)</m> are 0, 8, and – 2 each of multiplicity one.</p>
+
+<ol start="2" type="a">
+<li><p>We may factorize <m>q(x)</m> as follows:</p></li>
+</ol>
+
+<p>Thus, the zeros of <m>q(x)</m> are <m>\frac{4}{3}</m> and 2, each of multiplicity one.</p>
+
+<ol start="3" type="a">
+<li><p>We may factorize <m>f(x)</m> as follows:</p></li>
+</ol>
+<p>Thus, the zeros of f(x) are 0 with multiplicity two and <m>- 2 + i</m> and <m>- 2 - i</m> each with multiplicity one.</p>
+<p><alert>Example 3.22</alert>:</p>
+<ol type="1">
+<li><p>Find a polynomial <m>p(x)</m> with exactly the following zeros and multiplicity.</p></li>
+</ol>
+<table>
+<tabular>
+<row header="yes">
+<cell>zeros</cell>
+<cell>multiplicity</cell>
+</row>
+
+<row>
+<cell></cell>
+<cell>3</cell>
+</row>
+<row>
+<cell>2</cell>
+<cell>4</cell>
+</row>
+<row>
+<cell>5</cell>
+<cell>2</cell>
+</row>
+</tabular>
+</table>
+
+<p>Are there any other polynomials that give the same roots and multiplicity?</p>
+
+<ol start="2" type="1">
+<li><p>Find a polynomial <em>f</em> (<em>x</em>) having the zeros described in part (a) such that <em>f</em>(1) = 32.</p></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+<ol type="1">
+<li><p>Based on the Factor Theorem, we may write the polynomial as:</p></li>
+</ol>
+
+<p><m>p(x)\  = (x - ( - 1))^{3}\ (x - 2)^{4}(x - 5)^{2} = (x + 1)^{3}\ (x - 2)^{4}(x - 5)^{2}</m></p>
+<p>which gives the required roots and multiplicities.</p>
+<p>Any polynomial of the form <m>\text{kp}(x)</m>, where <m>k</m> is a non-zero constant will give the same roots and multiplicities.</p>
+
+<ol start="2" type="1">
+<li><p>Based on part (1), we know that <m>f(x)\  = k(x + 1)^{3}\ (x - 2)^{4}(x - 5)^{2}</m>. Since we want <m>f(x) = \text{32}</m>, we have</p></li>
+</ol>
+
+<p>Thus, <m>f(x)\  = \frac{1}{4}(x + 1)^{3}\ (x - 2)^{4}(x - 5)^{2}</m>.</p>
+
+<p>Our experience in using the quadratic formula on quadratic equations with real coefficients has shown us that complex roots always appear in conjugate pairs. For example, the roots of <m>x^{2} - 2x + 5 = 0</m> are <m>1 + 2i</m> and <m>1 - 2i</m>. In fact, this property extends to all polynomial equations with real coefficients.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>Conjugate Roots Theorem</alert></cell>
+</row>
+
+<row>
+<cell>Let <m>p(x)</m> be a polynomial with real coefficients. If complex number <m>a + \text{bi}</m> (where <m>a</m> and <m>b</m> are real numbers) is a zero of <m>p(x)</m>, then so is its conjugate <m>a - \text{bi}</m>.</cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.23</alert>: Let <m>r(x) = x^{4} + 2x^{3} - 9x^{2} + \text{26}x - \text{20}\text{.}</m> Given that <m>1 - \sqrt{3}\ i</m> is a zero, find the other zero of <m>r(x)</m>.</p>
+<p><alert>Solution</alert>: According to the Conjugate Roots Theorem, if <m>1 - \sqrt{3}\ i</m> is a zero, then its conjugate, <m>1 + \sqrt{3}\ i</m> must also be a zero. Therefore, <m>x - (1 - \sqrt{3}\ i\ )</m>and <m>x - (1 + \sqrt{3}\ i\ )</m> are both factors of <m>r(x)</m>, and so their product must be a factor of <m>r(x)</m>. That is, <m>\lbrack x - (1 - \sqrt{3}\ i\ )\rbrack</m><m>\lbrack x - (1 + \sqrt{3}\ i\ )\rbrack =</m><m>x^{2} - 2x + 4</m>is a factor of <m>r(x)</m>. Dividing <m>r(x)</m> by <m>x^{2} - 2x + 4</m>, we obtain</p>
+<p>Thus, the zeros of <m>r(x)</m> are <m>1 - \sqrt{3}\ i</m>, <m>1 + \sqrt{3}\ i</m>, <m>- 5</m> and 1.</p>
+<p>The theorems we have discussed so far are called existence theorems because they ensure the existence of zeros and linear factors of polynomials. These theorems do not tell us how to find the zeros or the linear factors. The Linear Factorization Theorem guarantees that we can factor a polynomial of degree at least one into linear factors, but it does not tell us how.</p>
+<p>We know from experience that if <m>p(x)</m> happens to be a quadratic function, then we may find the zeros of <m>p(x) = \text{Ax}^{2} + \text{Bx} + C</m> by using the quadratic formula to obtain the zeros</p>
+
+<p><m>x = \frac{- B \pm \sqrt{B^{2} - 4\text{AC}}}{2A}\text{.}</m></p>
+
+<p>The rest of this subsection is devoted to developing some special methods for finding the zeros of a polynomial function.</p>
+<p>As we have seen, even though we have no general techniques for factorizing polynomials of degree greater than 2, if we happen to know a root, say <m>r</m>, we can use long division to divide <m>p(x)</m> by <m>x - r</m> and obtain a quotient polynomial of lower degree. If we can get the quotient polynomial down to a quadratic, then we are able to determine all the roots. But how do we find a root to start the process? The following theorem can be most helpful.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>The Rational Root Theorem</alert></cell>
+</row>
+
+<row>
+<cell>Suppose that <m>f(x) = a_{n}x^{n} + a_{n - 1}x^{n - 1} + \cdots + a_{1}x + a_{0}</m>, where <m>n \geq 1\ ,\ a_{n} \neq 0</m> is an <m>n^{\text{th}}</m>degree polynomial with integer coefficients. If <m>\frac{p}{q}</m> is a rational root of <m>f(x) = 0</m>, where <m>p</m> and <m>q</m> have no common factor other than <m>\pm 1</m>, then <m>p</m> is a factor of <m>\ a_{0}</m> and <m>q</m> is a factor of <m>\ a_{n}</m>.</cell>
+</row>
+</tabular>
+</table>
+<p>To get a feeling as to why this theorem is true, suppose <m>\frac{3}{2}</m> is a root of <m>a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0} = 0</m>.</p>
+<p>Then, <m>a_{3}\left( \frac{3}{2} \right)^{3} + a_{2}\left( \frac{3}{2} \right)^{2} + a_{1}\left( \frac{3}{2} \right) + a_{0} = 0</m> which implies that</p>
+<p><m>\frac{\text{27}a_{3}}{8} + \frac{9a_{2}}{4} + \frac{3a_{1}}{2} + a_{0} = 0</m> multiplying both sides by 8</p>
+<p><m>\begin{matrix}
+\text{27}a_{3} + \text{18}a_{2} + \text{12}a_{1} = - 8a_{0}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}(1) \\
+ \\
+\text{27}a_{3} = - \text{18}a_{2} - \text{12}a_{1} - 8a_{0}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}\text{.}(2) \\
+\end{matrix}</m></p>
+<p>If we look at equation (1), the left hand side is divisible by 3, and therefore the right hand side must also be divisible by 3. Since 8 is not divisible by 3, <m>a_{0}</m> must be divisible by 3. From equation (2), <m>a_{3}</m> must be divisible by 2.</p>
+<p><alert>Example 3.24</alert>: Find all the zeros of the function <m>p(x) = 2x^{3} + 3x^{2} - \text{23}x - \text{12}\text{.}</m></p>
+<p><alert>Solution</alert>: According to the Rational Root Theorem, if <m>\frac{p}{q}</m> is a rational root of the given equation, then <m>p</m> must be a factor of <m>- \text{12}</m> and <m>q</m> must be a factor of 2. Thus, we have</p>
+<p>possible values of <m>p</m>: <m>\pm 1,\  \pm 2,\  \pm 3,\  \pm 4,\  \pm 6,\  \pm \text{12}</m></p>
+<p>possible values of <m>q</m>: <m>\pm 1,\  \pm 2</m></p>
+<p>possible rational roots <m>\frac{p}{q}</m>: <m>\pm 1,\  \pm \ \frac{1}{2},\  \pm 2,\  \pm 3,\  \pm \ \frac{3}{2},\  \pm 4,\  \pm 6,\  \pm \text{12}</m></p>
+<p>We may check these possible roots by substituting the value in <m>p(x)</m>. Now <m>p(1) = - \text{30}</m> and <m>p( - 1) = \text{12}</m>. Since <m>p(1)</m> is negative and <m>p( - 1)</m> is positive, by location theorem, <m>p(x)</m> has a zero between <m>- 1</m> and 1. Since <m>P\left( - \frac{1}{2} \right) = 0</m>, then <m>\left( x + \frac{1}{2} \right)</m> is a factor of <m>p(x)</m>. Using long division, we obtain</p>
+<p><m>\begin{matrix}
+p(x) = 2x^{3} + 3x^{2} - \text{23}x - \text{12} = (x + \frac{1}{2})(2x^{2} + 2x - \text{24}) \\
+\  = 2(x + \frac{1}{2})(x + 4)(x - 3) \\
+\end{matrix}</m></p>
+<p>Therefore, the zeros of <em>p</em>(<em>x</em>) are <m>- \frac{1}{2}</m>, <m>- 4</m> and 3.</p>
+<ul>
+<li><p><alert>Rational Functions and their Graphs</alert></p></li>
+</ul>
+<p>A rational function is a function of the form where both <em>n</em>(<em>x</em>) and <em>d</em>(<em>x</em>) are polynomials and <m>d(x) \neq 0</m>.</p>
+<p><alert>Example 3.25</alert>: The functions <m>f(x) = \frac{3}{x + 5}</m>, <m>f(x) = \frac{x - 1}{x^{2} - 4}</m> and <m>f(x) = \frac{x^{5} + 2x^{3} - x + 1}{x + 5x}</m> are examples of rational function.</p>
+<p>Note that the domain of the rational function is <m>\left\{ x:d(x) \neq 0 \right\}</m></p>
+<p><alert>Example 3.26</alert>: Find the domain and zeros of the function <m>f(x) = \frac{3x - 5}{x^{2} - x - \text{12}}</m>.</p>
+<p><alert>Solution</alert>: The values of <m>x</m> for which <m>x^{2} - x - \text{12} = 0</m> are excluded from the domain of <m>f\text{.}</m>Since <m>x^{2} - x - \text{12} = (x - 4)(x + 3)</m>, we have <m>\text{Dom}(f) = \left\{ x:x \neq - 3,4 \right\}</m>. To find the zeros of <m>f(x)</m>, we solve the equation</p>
+<p><m>\frac{n\ (x)}{d(x)} = 0 \Leftrightarrow n\ (x) = 0\  \land \ q(x) \neq 0</m></p>
+<p>Therefore, to find the zeros of <m>f(x)</m>, we solve <m>3x - 5 = 0</m>, giving <m>x = \frac{5}{3}</m>. Since <m>\frac{5}{3}</m> does not make the denominator zero, it is the only zero of <m>f(x)</m>.</p>
+<p>The following terms and notations are useful in our next discussion.</p>
+<p>Given a number <em>a</em>,</p>
+<ul>
+<li><p><m>x</m> approaches <em>a</em> from the right means <em>x</em> takes any value near and near to <em>a</em> but <em>x</em> &gt; <em>a</em>. This is denoted by: <em>x</em>→<em>a</em><sup>+</sup> (read: ‘<em>x</em> approaches <em>a</em> from the right’ ).</p></li>
+</ul>
+<p>For instance, <em>x</em>→ 1<sup>+</sup> means <em>x</em> can be 1.001, 1.0001, 1.00001, 1.000001, etc.</p>
+<ul>
+<li><p><m>x</m> approaches <em>a</em> from the left means <em>x</em> takes any value near and near to <em>a</em> but <em>x</em> &lt; <em>a</em>.</p></li>
+</ul>
+<p>This is denoted by: <em>x</em>→<em>a</em><sup>–</sup> (read: ‘<em>x</em> approaches <em>a</em> from the left’ ).</p>
+<p>For instance, <em>x</em>→1<sup>–</sup> means <em>x</em> can be 0.99, 0.999, 0.9999, 0.9999, etc.</p>
+<ul>
+<li><p><em>x</em>→∞ (read: ‘<em>x</em> approaches or tends to <em>infinity</em>’) means the value of <em>x</em> gets indefinitely larger and larger in magnitude (keep increasing without bound). For instance, <em>x</em> can be 10<sup>6</sup>, 10<sup>10</sup>, 10<sup>12</sup>, etc.</p></li>
+<li><p><em>x</em>→ –∞ (read: ‘<em>x</em> approaches or tends to negative <em>infinity</em>’) means the value of <em>x</em> is negative and gets indefinitely larger and larger negative in magnitude (keep decreasing without bound). For instance, <em>x</em> can be –10<sup>6</sup>, –10<sup>10</sup>, –10<sup>12</sup>, etc.</p></li>
+</ul>
+
+<p>The same meanings apply also for the values of a function <em>f</em> if we wrote <em>f</em>(<em>x</em>)→∞ or <em>f</em>(<em>x</em>)→−∞. The following figure illustrates these notion and notations.</p>
+
+<table>
+<tabular>
+<row>
+<cell>
+<p>Fig. 2.1. Graphical illustration of the idea of <em>x</em>→<em>a</em><sup>+</sup>, <em>f</em>(<em>x</em>)→∞, etc.</p>
+</cell>
+</row>
+</tabular>
+</table>
+<p>We may also write <em>f</em>(<em>x</em>)→<em>b</em> (read: ‘<em>f</em>(<em>x</em>) approaches <em>b</em>’) to mean the function values, <em>f</em>(<em>x</em>), becomes arbitrarily closer and closer to <em>b</em> (i.e., approximately <em>b</em>) but not exactly equal to <em>b</em>. For instance, if , then <em>f</em>(<em>x</em>)→0 as <em>x</em>→∞; i.e., is approximately 0 when <em>x</em> is arbitrarily large.</p>
+<p>The following steps are usually used to sketch (or draw) the graph of a rational function <em>f</em>(<em>x</em>).</p>
+<ol type="1">
+<li><p>Identify the domain and simplify it.</p></li>
+<li><p>Find the intercepts of the graph whenever possible. Recall the following:</p></li>
+</ol>
+<ul>
+<li><p>y–intercept is the point on y-axis where the graph of <em>y</em> = <em>f</em>(<em>x</em>) intersects with the <em>y</em>-axis. At this point <em>x</em>=0. Thus, <em>y</em> = <em>f</em>(0), or (0, <em>f</em>(0) ) is the y-intercept if 0∈Dom(<em>f</em>).</p></li>
+<li><p>x–intercept is the point on x-axis where the graph of <em>y</em> = <em>f</em>(<em>x</em>) intersects with the <em>x</em>-axis. At this point <em>y</em>=0. Thus, <em>x</em>=<em>a</em> or (<em>a</em>, 0) is x-intercept if <em>f</em>(<em>a</em>)=0.</p></li>
+</ul>
+<ol start="3" type="1">
+<li><p>Determine the asymptotes of the graph. Here, remember the following.</p></li>
+</ol>
+<ul>
+<li><p>Vertical Asymptote: The vertical line <em>x</em>=<em>a</em> is called a vertical asymptote(VA) of <em>f</em>(<em>x)</em> if</p></li>
+</ul>
+<ol type="i">
+<li>
+<p><em>a</em>∉dom(<em>f</em>), i.e., <em>f</em> is not defined at <em>x</em>=<em>a</em>; and</p>
+</li>
+<li>
+<p><em>f</em>(<em>x</em>)→∞ or <em>f</em>(<em>x</em>)→ –∞ when <em>x</em>→<em>a</em><sup>+</sup> or <em>x</em>→<em>a</em><sup>–</sup> . In this case, the graph of <em>f</em> is almost vertically rising upward (if <em>f</em>(<em>x</em>)→∞) or sinking downward (if <em>f</em>(<em>x</em>)→−∞) along with the vertical line <em>x</em>=<em>a</em> when <em>x</em> approaches <em>a</em> either from the right or from the left.</p>
+</li>
+</ol>
+<p><alert>Example 3.27</alert>: Consider where <em>a</em> ≥ 0 and <em>n</em> is a positive integer.</p>
+<p>Obviously <em>a</em>∉Dom(<em>f</em>). Next, we investigate the trend of the values of <em>f</em>(<em>x</em>) near <em>a</em>. To do this, we consider two cases, when <em>n</em> is even or odd:</p>
+<p>Suppose <em>n</em> is even: In this case (<em>x</em> – <em>a</em>)<em><sup>n</sup></em> &gt; 0 for all <em>x</em>∈ℜ\{<em>a</em>}; and since (<em>x</em> – <em>a</em>)<em><sup>n</sup></em> →0 as <em>x</em>→<em>a</em><sup>+</sup> or <em>x</em>→<em>a</em><sup>–</sup> . Hence, as <em>x</em>→<em>a</em><sup>+</sup> or <em>x</em>→<em>a</em><sup>–</sup> . Therefore, <em>x=a</em> is a VA of <em>f</em>(<em>x</em>). Moreover, <em>y</em>= 1/<em>a<sup>n</sup></em> or (0, 1/<em>a<sup>n</sup></em> ) is its y-intercept since <em>f</em>(0)=1/<em>a<sup>n</sup></em>. However, it has no x-intercept since <em>f</em>(<em>x</em>) &gt;0 for all <em>x</em> in its domain (See, Fig. 2.2 (A)).</p>
+<p>Suppose <em>n</em> is odd: In this case (<em>x</em> – <em>a</em>)<em><sup>n</sup></em>&gt; 0 for all <em>x</em>&gt;<em>a</em> and 1/ (<em>x</em> – <em>a</em>)<em><sup>n</sup></em> →∞ when <em>x</em>→<em>a</em><sup>+</sup> as in the above case. Thus, <em>x=a</em> is its VA. However, 1/(<em>x</em>–<em>a</em>)<em><sup>n</sup></em>→ –∞ when <em>x</em>→<em>a</em><sup>–</sup> since (<em>x</em> – <em>a</em>)<em><sup>n</sup></em>&lt; 0 for <em>x</em>&lt;<em>a</em>. Moreover, <em>y</em>= –1/<em>a<sup>n</sup></em> or (0, –1/<em>a<sup>n</sup></em> ) is its y-intercept since <em>f</em>(0) = –1/<em>a<sup>n</sup></em>. However, it has no x-intercept also in this case. (See, Fig. 2.2 (B)).</p>
+<p>Note that in both cases, as <em>x</em>→∞or <em>x</em>→ –∞.</p>
+<p><image source="/./media/png72/image50.png" style="width:4.67639in;height:2.28125in" /></p>
+<table>
+<tabular>
+<row>
+<cell>
+<p><alert>Remark</alert>: Let be a rational function. Then,</p>
+<p>1. if and , then <em>x=a</em> is a VA of <em>f</em> .</p>
+<p>2. if , then <em>x=a</em> may or may <alert>not</alert> be a VA of <em>f</em> . In this case, simplify <em>f</em>(<em>x</em>) and look for VA of the simplest form of <em>f</em>.</p>
+</cell>
+</row>
+</tabular>
+</table>
+<ul>
+<li><p>Horizontal Asymptote: A horizontal line <em>y</em>=<em>b</em> is called horizontal asymptote (HA) of <em>f</em>(<em>x</em>) if the value of the function becomes closer and closer to <em>b</em> (i.e., <em>f</em>(<em>x</em>)→<em>b</em>)as <em>x</em>→∞ or as <em>x</em>→ –∞.</p></li>
+</ul>
+
+<p>In this case, the graph of <em>f</em> becomes almost a horizontal line along with (or near) the line <em>y=b</em> as <em>x</em>→∞ and as <em>x</em>→–∞. For instance, from the above example, the HA of is <em>y</em>=0 (the x-axis) , for any positive integer <em>n</em> (See, Fig. 2.2).</p>
+
+<p><alert>Remark</alert>: A rational function has a HA only when <em>degree</em>(<em>n</em>(<em>x</em>)) ≤<em>degree</em>(<em>d</em>(<em>x</em>)).</p>
+<p>In this case, (i) If <em>degree</em>(<em>n</em>(<em>x</em>)) &lt;<em>degree</em>(<em>d</em>(<em>x</em>)), then <em>y</em> = 0 (the x-axis) is the HA of <em>f</em>.</p>
+<p>(ii) If <em>degree</em>(<em>n</em>(<em>x</em>)) =<em>degree</em>(<em>d</em>(<em>x</em>))<em>=n</em>, i.e., ,</p>
+
+<p>then is the HA of <em>f</em>.</p>
+
+<ul>
+<li><p>Oblique Asymptote: The oblique line <em>y</em>=<em>ax</em>+<em>b</em>, <em>a</em>≠0, is called an oblique asymptote (OA) of <em>f</em> if the value of the function, <em>f</em>(<em>x),</em> becomes closer and closer to <em>ax</em>+<em>b</em>(i.e., <em>f</em>(<em>x</em>) becomes approximately <em>ax</em>+<em>b</em>) as either <em>x</em>→∞ or <em>x</em>→ –∞. In this case, the graph of <em>f</em> becomes almost a straight line along with (or near) the oblique line <em>y</em>=<em>ax</em>+<em>b</em> as <em>x</em>→∞ and as <em>x</em>→ –∞.</p></li>
+</ul>
+<p><alert>Note</alert>: A rational function has an OA only when <em>degree</em>(<em>n</em>(<em>x</em>)) = <em>degree</em>(<em>d</em>(<em>x</em>)) + 1. In this case, using long division, if the quotient of <em>n</em>(<em>x</em>) ÷<em>d</em>(<em>x</em>) is <em>ax +b</em>, then <em>y</em>=<em>ax</em>+<em>b</em> is the OA of <em>f</em>.</p>
+<p><alert>Example 3.28:</alert> Sketch the graphs of</p>
+<p><alert>Solution</alert>: (a) Since <em>x</em>−1=0 at <em>x</em>=1, dom(<em>f</em>) = ℜ\{1}.</p>
+<ul>
+<li><p>Intercepts: y-intercept: <em>x</em>=0 ⇒<em>y=f</em> (0) = –2. Hence, (0, – 2) is y-intercept.</p></li>
+</ul>
+
+<p>x-intercept: <em>y</em>=0 ⇒<em>x</em>+2=0 ⇒<em>x</em>= –2. Hence, (–2, 0) is x-intercept.</p>
+
+<ul>
+<li><p>Asymptotes:</p></li>
+</ul>
+<ul>
+<li>
+<p>VA: Since <em>x</em>−1=0 at<em>x</em>=1 and <em>x</em>+2≠0 at <em>x</em>=1, <em>x</em>=1 is VA of <em>f</em>. In fact, if <em>x</em>→1<sup>+</sup> , then <em>x</em>+2 ≈3 but the denominator <em>x</em>–1 is almost 0 (but positive).</p>
+</li>
+</ul>
+
+<p>Consequently, <em>f</em>(<em>x</em>)→∞ as <em>x</em>→1<sup>+</sup>.</p>
+<p>Moreover, <em>f</em>(<em>x</em>)→ –∞ as <em>x</em>→1<sup>–</sup> (since , if <em>x</em>→1<sup>–</sup> then <em>x</em>–1 is almost 0 but negative ) .</p>
+
+<p>(So, the graph of <em>f</em> rises up to +∞ at the right side of <em>x=</em>1, and sink down to −∞ at the left side of <em>x=</em>1)</p>
+<ul>
+<li>
+<p>HA: Note that if you divide <em>x</em>+2 by <em>x</em>–1, the quotient is 1 and remainder is 3. Thus,</p>
+</li>
+</ul>
+
+<p>. Thus, if <em>x</em>→∞ (or <em>x</em>→ –∞), then →0 so that <em>f</em>(<em>x</em>)→1. Hence, <em>y</em>=1 is the HA of <em>f</em>.</p>
+
+<p>Using these information, you can sketch the graph of <em>f</em> as displayed below in Fig. 2.3 (A).</p>
+<p>(b) Both the denominator and numerator are 0 at <em>x</em>=1. So, first factorize and simplify them:</p>
+<p><em>x</em><sup>2</sup>+3<em>x</em>+2=(<em>x</em>+2)(<em>x</em>+1) and <em>x</em><sup>2</sup>–1 = (<em>x –</em>1)( <em>x+</em>1) . Therefore,</p>
+<p>, <em>x</em>≠ –1</p>
+<p>. (So, dom(<em>g</em>) = ℜ\{1, –1} )</p>
+<p>This implies that only <em>x</em>=1 is VA.</p>
+<p>Hence, the graph of is exactly the same as that of except that <em>g</em>(<em>x</em>) is not defined at <em>x</em>= –1. Therefore, the graph of <em>g</em> and its VA are the same as that of <em>f</em> except that there should be a ‘hole’ at the point corresponding to <em>x</em>= –1 on the graph of <em>g</em> as shown on Fig. 2.3(B) below.</p>
+<p><image source="/./media/png72/image68.png" style="width:6.26319in;height:3.34514in" /></p>
+<p><alert>Exercise 3.4</alert></p>
+<ol type="1">
+<li><p>Perform the requested divisions. Find the quotient and remainder and verify the Remainder Theorem by computing <m>p(a)</m>.</p></li>
+</ol>
+<ol type="a">
+<li><p>Divide <m>p(x) = x^{2} - 5x + 8\ \text{by}\ x + 4</m></p></li>
+<li><p>Divide <m>p(x) = 2x^{3} - 7x^{2} + x + 4\ \text{by}\ x - 4</m></p></li>
+<li><p>Divide <m>p(x) = 1 - x^{4}\ \text{by}\ x - 1</m></p></li>
+<li><p>Divide <m>p(x) = x^{5} - 2x^{2} - 3\ \text{by}\ x + 1</m></p></li>
+</ol>
+<ol start="2" type="1">
+<li><p>Given that <m></m>, factor <m>p(x) = 2x^{3} - \text{11}x^{2} + \text{10}x + 8\ </m>as completely as possible.</p></li>
+<li><p>Given that <m>r(x) = 4x^{3} - x^{2} - \text{36}x + 9\ </m>and <m>r\left( \frac{1}{4} \right) = 0</m>, find the remaining zeros of <m>r(x)</m>.</p></li>
+<li><p>Given that 3 is a double zero of <m>p(x) = x^{4} - 3x^{3} - \text{19}x^{2} + \text{87}x - \text{90}\ </m>, find all the zeros of <m>p(x)</m>.</p></li>
+<li><p>a) Write the general polynomial <m>p(x)</m> whose only zeros are 1, 2 and 3, with multiplicity 3, 2 and 1 respectively. What is its degree?</p></li>
+</ol>
+
+<p>b) Find <m>p(x)</m> described in part (a) if <m>p(0) = 6</m>.</p>
+
+<ol start="6" type="1">
+<li><p>If <m>2 - 3i\ </m>is a root of <m>p(x) = 2x^{3} - 5x^{2} + \text{14}x + \text{39},\ </m>find the remaining zeros of p(<em>x</em>).</p></li>
+<li><p>Determine the rational zeros of the polynomials</p></li>
+</ol>
+<ol type="a">
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<ol start="8" type="1">
+<li><p>Find the domain and the real zeros of the given function.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>f(x) = \frac{3}{x^{2} - \text{25}}</m> b) <m>g(x) = \frac{x - 3}{x^{2}4x - \text{12}}</m> c) <m>f(x) = \frac{(x - 3)^{2}}{x^{3} - 3x^{2} + 2x}</m> d) <m>f(x) = \frac{x^{2} - \text{16}}{x^{2} + 4}</m></p></li>
+</ol>
+<ol start="9" type="1">
+<li><p>Sketch the graph of</p></li>
+</ol>
+
+<p>a)<m>f(x) = \frac{1 - x}{x - 3}</m> b) <m>f(x) = \frac{x^{2} + 1}{x}</m> c)<m>f(x) = \frac{1}{x} + 2</m> d) <m>f(x) = \frac{x^{2}}{x^{2} - 4}</m></p>
+
+<ol start="10" type="1">
+<li><p>Determine the behavior of <m>f(x) = \frac{x^{3} - 8x - 3}{x - 3}</m> when <m>x</m> is near 3.</p></li>
+<li><p>The graph of any rational function in which the degree of the numerator is exactly one more than the degree of the denominator will have an oblique (or slant) asymptote.</p></li>
+</ol>
+<ol type="a">
+<li><p>Use long division to show that</p></li>
+<li><p>Show that this means that the line <m>y = x + 1</m> is a slant asymptote for the graph and sketch the graph of <m>y = f(x)</m>.</p>
+</li>
+</ol>
+
+</section>
+
+<section xml-id="definition-and-basic-properties-of-logarithmic-exponential-trigonometric-and-hyperbolic-functions-and-their-graphs">
+<title>Definition and basic properties of logarithmic, exponential, trigonometric and hyperbolic functions and their graphs</title>
+<p>After completing this section, the student should be able to:</p>
+<ul>
+<li><p>define exponential, logarithmic, trigonometric and hyperbolic functions</p></li>
+<li><p>understand the relationship of the exponential and logarithmic functions</p></li>
+<li><p>define the hyperbolic functions and be familiar with their properties</p></li>
+<li><p>sketch the graph of exponential, logarithmic, trigonometric and hyperbolic functions</p></li>
+<li><p>use basic properties of logarithmic, exponential, hyperbolic and trigonometric functions to solve problems</p></li>
+</ul>
+<ul>
+<li><p><alert>Exponents and radicals</alert></p></li>
+</ul>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.14:</alert> For a natural number <m>n</m> and a real number <m>x</m>, the power <m>x^{n}</m>, read “ the <m>n^{\text{th}}</m> power of <m>x</m>” or “<m>x</m> raised to <m>n</m>”, is defined as follows:</p>
+<p><m>x^{n} = \underset{n\ \text{factors}\ \text{each}\ \text{equal}\ \text{to}\ x}{\overset{x \cdot x \cdot \cdots \cdot x}{\underbrace{}}}</m></p>
+<p>In the symbol<m>x^{n}</m>, <m>x</m> is called the base and <m>n</m> is called the exponent.</p></cell>
+</row>
+</tabular>
+</table>
+<p>For example, <m>2^{5} = 2 \times 2 \times 2 \times 2 \times 2 = \text{32}</m>.</p>
+<p>Based of the definition of <m>x^{n}</m>, <m>n</m> must be a natural number. It does not make sense for <m>n</m> to be negative or zero. However, we can extend the definition of exponents to include 0 and negative exponents.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.15: (Zero and Negative Exponents)</alert></p>
+<p><em>Definition of zero Exponent Definition of Negative Exponent</em></p>
+<p><m>x^{0} = 1\ (x \neq 0)</m> <m>x^{- n} = \frac{1}{x^{n}}\ \left( x \neq 0 \right)</m></p>
+<p>Note: <m>0^{0}</m> is undefined.</p></cell>
+</row>
+</tabular>
+</table>
+<p>As a result of the above definition, we have <m>\frac{1}{x^{- n}} = x^{n}</m>. We have the following rules of exponents for integer exponents:</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>Rules for Integer Exponents</alert></cell>
+</row>
+
+<row>
+<cell><ol type="1">
+<li><p><m>x^{n} \cdot x^{m} = x^{n + m}</m> 4. <m>(\text{xy})^{n} = x^{n}y^{n}</m></p></li>
+<li><p><m>(x^{n})^{m} = x^{\text{nm}}</m> 5. <m>\frac{x^{n}}{x^{m}} = x^{n - m}</m></p></li>
+<li></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p>Next we extend the definition of exponents even further to include rational number exponents. To do this, we assume that we want the rules for integer exponents also to apply to rational exponents and then use the rules to show us to define a rational exponent. For example, how do we define <m>a^{\frac{1}{2}}</m>? Consider <m>9^{\frac{1}{2}}</m>.</p>
+<p>If we apply rule 2 and square <m>9^{\frac{1}{2}}</m>, we get <m>\left( 9^{\frac{1}{2}} \right)^{2} = 9^{\frac{1}{2}} = 9</m>. Thus, <m>9^{\frac{1}{2}}</m> is a number that, when squared, yields 9. There are two possible answers: 3 and – 3, since squaring either number will yield 9. To avoid ambiguity, we define <m>a^{\frac{1}{2}}</m>(called the principal square root of <m>a</m>) as the non-negative quantity that, when squared, yield <m>a</m>. Thus, <m>9^{\frac{1}{2}} = 3</m>.</p>
+<p>We will arrive at the definition of <m>a^{\frac{1}{3}}</m> in the same way as we did for <m>a^{\frac{1}{2}}</m>. For example, if we cube <m>8^{\frac{1}{3}}</m>, we get <m>\left( 8^{\frac{1}{3}} \right)^{3} = 8^{\frac{3}{3}} = 8</m>. Thus, <m>8^{\frac{1}{3}}</m> is the number that, when cubed, yields 8. Since <m>2^{3} = 8</m> we have <m></m>. Similarly, <m>\left( - \text{27} \right)^{\frac{1}{3}} = - 3</m>. Thus, we define <m>a^{\frac{1}{3}}</m>(called the cube root of <m>a</m>) as the quantity that, when cubed yields <m>a</m>.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.16: (Rational Exponent</alert> <m>a^{\frac{1}{n}}</m><alert>)</alert></p>
+<p>If <m>n</m> is an odd positive integer, then <m>a^{\frac{1}{n}} = b</m> if and only if <m>b^{n} = a</m></p>
+<p>If <m>n</m> is an even positive integer and <m>a \geq 0</m>, then <m>a^{\frac{1}{n}} = \left| b \right|</m> if and only if <m>b^{n} = a</m></p></cell>
+</row>
+</tabular>
+</table>
+<p>We call <m>a^{\frac{1}{n}}</m> the principal <m>n^{\text{th}}</m> root of <m>a</m>. Hence, <m>a^{\frac{1}{n}}</m> is the real number (nonnegative when <m>n</m> is even) that, when raised to the <m>n^{\text{th}}</m> power, yields <m>a</m>. Therefore,</p>
+<p><m>\left( \text{16} \right)^{\frac{1}{2}} = 4</m> since <m>4^{2} = \text{16}</m></p>
+<p><m>\left( - \text{125} \right)^{\frac{1}{3}} = - 5</m> since <m>( - 5)^{3} = - \text{125}</m></p>
+<p><m>\left( \frac{1}{\text{81}} \right)^{\frac{1}{4}} = \frac{1}{3}</m> since <m>\left( \frac{1}{3} \right)^{4} = \frac{1}{\text{81}}</m></p>
+<p><m>\text{27}^{\frac{1}{3}} = 3</m> since <m>3^{3} = \text{27}</m></p>
+<p><m>\left( - \text{16} \right)^{\frac{1}{4}}</m> is not a real number</p>
+<p>Thus far, we have defined <m>a^{\frac{1}{n}}</m>, where <m>n</m> is a natural number. With the help of the second rule for exponent, we can define the expression <m>a^{\frac{m}{n}}</m>, where <m>m</m> and <m>n</m> are natural numbers and <m>\frac{m}{n}</m> is reduced to lowest terms.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.17: (Rational Exponent</alert> <m>a^{\frac{m}{n}}</m><alert>)</alert></p>
+<p>If <m>a^{\frac{1}{n}}</m> is a real number, then <m>a^{\frac{m}{n}} = \left( a^{\frac{1}{n}} \right)^{m}</m>(i.e. the <m>n^{\text{th}}</m> root of a raised to the <m>m^{\text{th}}</m> power)</p></cell>
+</row>
+</tabular>
+</table>
+<p>We can also define negative rational exponents:</p>
+<table>
+<tabular>
+<row>
+<cell><m>a^{- \frac{m}{n}} = \frac{1}{a^{\frac{m}{n}}}\ \left( a \neq 0 \right)</m></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.29</alert>: Evaluate the following</p>
+<ol type="a">
+<li><p><m>\text{27}^{\frac{2}{3}}</m> b) <m>\text{36}^{- \frac{1}{2}}</m> c) <m>( - \text{32})^{- \frac{3}{5}}</m></p></li>
+</ol>
+<p><alert>Solution</alert>: We have</p>
+<ol type="a">
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<p>Radical notation is an alternative way of writing an expression with rational exponents. We define for real number <m>a</m>, the <m>n^{\text{th}}</m> root of <m>a</m> as follows:</p>
+<table>
+<tabular>
+<row>
+<cell><alert>Definition 3.18 (</alert><m>n^{\text{th}}</m> <alert>root of</alert> <m>a</m><alert>):</alert> <m>\sqrt[n]{a}</m>= <m>a^{\frac{1}{n}}</m>, where <m>n</m> is a positive integer.</cell>
+</row>
+</tabular>
+</table>
+<p>The number <m>\sqrt[n]{a}</m> is also called the principal <m>n^{\text{th}}</m> root of <m>a</m>. If the <m>n^{\text{th}}</m> root of <m>a</m> exists, we have:</p>
+<table>
+<tabular>
+<row>
+<cell><p>For <m>a</m> a real number and <m>n</m> a positive integer,</p>
+<p><m>\sqrt[n]{a^{n}} = \begin{matrix}
+\left\{ \left| a \right|,\ \text{if}\ n\ \text{is}\ \text{even} \middle| \right.\  \\
+\end{matrix}</m></p></cell>
+</row>
+</tabular>
+</table>
+<p>For example, <m>\sqrt[3]{5^{3}} = 5</m> and <m>\sqrt[4]{( - 3)^{4}} = 3</m>.</p>
+<ul>
+<li><p><alert>Exponential Functions</alert></p></li>
+</ul>
+<p>In the previous sections we examined functions of the form <m>f(x) = x^{n}</m>, where <m>n</m> is a constant. How is this function different from <m>f(x) = n^{x}</m>.</p>
+<table>
+<tabular>
+<row>
+<cell><alert>Definition 3.19:</alert> A function of the form <m>y = f(x) = b^{x}</m>, where <m>b &gt; 0</m> and <m>b \neq 1</m>, is called an exponential function.</cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.30</alert>: The functions <m>f(x) = 2^{x}</m>, <m>g(x) = 3^{x}</m> and <m>h(x) = \left( \frac{1}{2} \right)^{x}</m> are examples of exponential functions.</p>
+<p>As usual the first question raised when we encounter a new function is its domain. Since rational exponents are well defined, we know that any rational number will be in the domain of an exponential function. For example, let <m>f(x) = 3^{x}</m>. Then as <m>x</m> takes on the rational values <m>x = 4,\ </m> – 2 , <m>\frac{1}{2}</m> and <m>\frac{4}{5}</m>, we have</p>
+<p><m>f(4) = 3^{4} = 3 \cdot 3 \cdot 3 \cdot 3 = \text{81}</m> <m>f( - 2) = 3^{- 2} = \frac{1}{3^{2}} = \frac{1}{9}</m></p>
+<p><m>f(\frac{1}{2}) = 3^{\frac{1}{2}} = \sqrt{3}</m> <m>f(\frac{4}{5}) = 3^{\frac{4}{5}} = \sqrt[5]{3^{4}} = \sqrt[5]{\text{81}}</m></p>
+<p>Note that even though we do not know the exact values of <m>\sqrt{3}</m> and <m>\sqrt[5]{\text{81}}</m>, we do know exactly what they mean. However, what about <m>f(x)</m> for irrational values of <m>x</m>? For instance, <m>f(\sqrt{2}) = 3^{\sqrt{2}} = ?</m></p>
+<p>We have not defined the meaning of irrational exponents. In fact, a precise formal definition of <m>b^{x}</m> where <m>x</m> is irrational requires the ideas of calculus. However, we can get an idea of what <m>3^{\sqrt{2}}</m> should be by using successive rational approximations to <m>\sqrt{2}</m>. For example, we have</p>
+<p><m>1\text{.}\text{414} &lt; \sqrt{2} &lt; 1\text{.}\text{415}</m></p>
+<p>Thus, it would seem reasonable to expect that <m>3^{1\text{.}\text{414}} &lt; 3^{\sqrt{2}} &lt; 3^{1\text{.}\text{415}}</m>. Since 1.414 and 1.415 are rational numbers, <m>3^{1\text{.}\text{414}}</m> and <m>3^{1\text{.}\text{415}}</m> are well defined, even though we cannot compute their values by hand. Using a calculator, we get <m>4\text{.}\text{7276950} &lt; 3^{\sqrt{2}} &lt; 4\text{.}\text{7328918}</m>. If we use better approximations to <m>\sqrt{2}</m>, we get <m>3^{1\text{.}\text{4142}} &lt; 3^{\sqrt{2}} &lt; 3</m>. Using a calculator again, we get <m>4\text{.}\text{7287339} &lt; 3^{\sqrt{2}} &lt; 4\text{.}\text{7292535}</m>. Computing <m>3^{\sqrt{2}}</m>directly on a calculator gives <m>3^{\sqrt{2}} \approx 4\text{.}\text{7288044}</m>. This numerical evidence suggests that as <m>x</m> approaches <m>\sqrt{2}</m>, the values of <m>3^{x}</m> approach a unique real number that we designate by <m>3^{\sqrt{2}}</m>, and so we will accept without proof, the fact that the domain of the exponential function is the set of real numbers.</p>
+<table>
+<tabular>
+<row>
+<cell>The exponential function <m>y = b^{x}</m>, where <m>b &gt; 0</m> and <m>b \neq 1</m>, is defined for all real values of <m>x</m>. In addition all the rules for rational exponents hold for real number exponents as well.</cell>
+</row>
+</tabular>
+</table>
+<p>Before we state some general facts about exponential functions , let’s see if we can determine what the graph of an exponential function will look like.</p>
+<p><alert>Example 3.31</alert>:</p>
+<ol type="1">
+<li><p>Sketch the graph of the function <m>y = 2^{x}</m> and identify its domain and range.</p></li>
+</ol>
+<p><alert>Solution</alert>: To aid in our analysis, we set up a short table of values to give us a frame of</p>
+<p>reference.</p>
+<table>
+<tabular>
+<row>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>0</cell>
+<cell></cell>
+</row>
+<row>
+<cell>1</cell>
+<cell></cell>
+</row>
+<row>
+<cell>2</cell>
+<cell></cell>
+</row>
+<row>
+<cell>3</cell>
+<cell></cell>
+</row>
+</tabular>
+</table>
+<p><alert><br />
+</alert></p>
+<p>With these points in hand, we draw a smooth curve through the points obtaining the graph appearing above. Observe that the domain of <m>y = 2^{x}</m> is <m>\text{IR}</m>, the graph has no <m>x -</m>intercepts, as</p>
+<p><m>x \rightarrow + \infty</m>, the <m>y</m> values are increasing very rapidly, whereas as <m>x \rightarrow - \infty</m>, the <m>y</m>values are getting closer and closer to 0. Thus, <m>x - \text{axis}</m> is a horizontal asymptote, the <m>y -</m>intercept is 1 and the range of <m>y = 2^{x}</m> is the set of positive real numbers.</p>
+<ol start="2" type="1">
+<li><p>Sketch the graph of <m>y = f(x) = \left( \frac{1}{2} \right)^{x}</m>.</p></li>
+</ol>
+<p><alert>Solution</alert>: It would be instructive to compute a table of values as we did in example 1 above (you are urged to do so). However, we will take a different approach. We note that <m>y = f(x) = \left( \frac{1}{2} \right)^{x} = \frac{1}{2^{x}} = 2^{- x}</m>. If <m>f(x) = 2^{x}</m>, then <m>f( - x) = 2^{- x}</m>. Thus by the graphing principle for <m>f( - x)</m>, we can obtain the graph of <m>y = 2^{- x}</m> by reflecting the graph of <m>y = 2^{x}</m> about the <m>y - \text{axis}</m>.</p>
+<p><image source="/./media/png72/image74.png" style="width:2.94722in;height:1.80972in" /></p>
+<p>Here again the <m>x - \text{axis}</m> is a horizontal asymptote, there is no <m>x -</m>intercept, 1 is <m>y -</m>intercept and the range is the set of positive real numbers. However, the graph is now decreasing rather than increasing.</p>
+<p>The following box summarizes the important facts about exponential functions and their graphs.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>The Exponential function</alert> <m>y = f(x) = b^{x}</m></cell>
+</row>
+
+<row>
+<cell><ol type="1">
+<li><p>The domain of the exponential function is the set of real numbers</p></li>
+<li><p>The range of the exponential function is the set of positive real numbers</p></li>
+<li><p>The graph of <m>y = b^{x}</m> exhibits exponential growth if <m>b &gt; 1</m> or exponential decay if <m>0 &lt; b &lt; 1</m>.</p></li>
+<li><p>The <m>y -</m>intercept is 1.</p></li>
+<li><p>The <m>x -</m>intercept is a horizontal asymptote</p></li>
+<li><p>The exponential function is 1 – 1. Algebraically if <m>b^{x} = b^{y}</m>, then <m>x = y</m></p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.32</alert>: Sketch the graph of each of the following. Find the domain, range, intercepts, and asymptotes.</p>
+<ol type="a">
+<li><p><m>y = 3^{x} + 1</m> b) <m>y = 3^{x + 1}</m> c) <m>y = - 9^{- x} + 3</m></p></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+<ol type="a">
+<li><p>To get the graph of <m>y = 3^{x} + 1</m>. We start with the graph of <m>y = 3^{x}</m>, which is the basic exponential growth graph, and shift it up 1 unit.</p></li>
+</ol>
+<table>
+<tabular>
+<row>
+<cell></cell>
+<cell><p>From the graph we see that</p>
+<ul>
+<li></li>
+<li></li>
+<li><p>The <m>y -</m>intercept is 2</p></li>
+<li><p>The line <m>y = 1</m> is a horizontal asymptote</p></li>
+</ul></cell>
+</row>
+</tabular>
+</table>
+<ol start="2" type="a">
+<li><p>To get the graph of <m>y = 3^{x + 1}</m>, we start with the graph of <m>y = 3^{x}</m>, and shift 1 unit to the left.</p></li>
+</ol>
+<table>
+<tabular>
+<row>
+<cell></cell>
+<cell><p>From the graph we see that</p>
+<ul>
+<li></li>
+<li></li>
+<li><p>The <m>y -</m>intercept is 3</p></li>
+<li><p>The line <m>y = 0</m> is a horizontal asymptote</p></li>
+</ul></cell>
+</row>
+</tabular>
+</table>
+<ol start="3" type="a">
+<li><p>To get the graph of <m>y = - 9^{- x} + 3</m>, we start with the basic exponential decay <m>y = 9^{- x}</m>. We then reflect it with respect to the <m>x - \text{axis}</m>, which gives the graph of <m>y = - 9^{- x}</m>. Finally, we shift this graph up 3 units to get the required graph of <m>y = - 9^{- x} + 3</m>.</p></li>
+</ol>
+<p>From the graph of <m>y = - 9^{- x} + 3</m>, we can see that <m>\text{Dom}(h) = \Re</m>, <m>\text{Range}(h) = ( - \infty,3)</m>, the line <m>y = 3</m> is a horizontal asymptote, 2 is the <m>y -</m>intercept and <m>x = - \frac{1}{2}</m> is the <m>x -</m>intercept.</p>
+<p><alert>Remark</alert>: When the base <m>b</m> of the exponential function <m>f(x) = b^{x}</m> equals to the number <m>e</m>, where <m>e = 2\text{.}\text{7182}\cdots</m>, we call the exponential function the natural exponential function.</p>
+<ul>
+<li><p><alert>Logarithmic Functions</alert></p></li>
+</ul>
+<p>In the previous subsection we noted that the exponential function <m>f(x) = b^{x}</m> (where <m>b &gt; 0</m> and <m>b \neq 1</m>) is one to one. Thus, the exponential function has an inverse function. What is the inverse of <m>f(x) = b^{x}</m>?</p>
+<p>To find the inverse of <m>f(x) = b^{x}</m>, let’s review the process for finding an inverse function by comparing the process for the polynomial function <m>y = x^{3}</m> and the exponential function <m>y = 3^{x}</m>. Keep in mind that <m>x</m> is our independent variable and <m>y</m> is the dependent variable and so whenever possible we want a function solved explicitly for <m>y</m>.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>To find the inverse of</alert> <m>y = x^{3}</m></cell>
+<cell><alert>To find the inverse of</alert> <m>y = 3^{x}</m></cell>
+</row>
+
+<row>
+<cell><p><m>y = x^{3}</m> Interchange <m>x</m> and <m>y</m></p>
+<p><m>x = y^{3}</m> solve for <m>y</m></p></cell>
+<cell><p><m>y = 3^{x}</m> Interchange <m>x</m> and <m>y</m></p>
+<p><m>x = 3^{y}</m> solve for <m>y</m></p></cell>
+</row>
+</tabular>
+</table>
+<p>There is no algebraic procedure we can use to solve <m>x = 3^{y}</m> for <m>y</m>. By introducing radical notations we could express the inverse of <m>y = x^{3}</m> explicitly in the form <m>y = \sqrt[3]{x}</m>. In words, <m>y^{3} = x</m> and <m>y = \sqrt[3]{x}</m> both mean exactly the same thing: <m>y</m> is the number whose cube is <m>x</m>. Similarly, if we want to express <m>x = 3^{y}</m> explicitly as a function of <m>x</m>, we need to invent a special notation for this. The key idea is to take the equation <m>x = 3^{y}</m> and express it verbally.</p>
+<table>
+<tabular>
+<row>
+<cell><m>x = 3^{y}</m> means <image source="/./media/png72/image76.png" style="width:0.15625in;height:0.1875in" /> is the exponent to which 3 must be raised to yield <image source="/./media/png72/image78.png" style="width:0.14583in;height:0.15625in" /></cell>
+</row>
+</tabular>
+</table>
+<p>We introduce the following notation, which expresses this idea in a much more compact form.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.20:</alert> For <image source="/media/png72/imageC1639.png" /> and <image source="/media/png72/imageC1640.png" />, we write <image source="/media/png72/imageC1641.png" /> to mean <image source="/media/png72/imageC1642.png" /> is the exponent to which <image source="/media/png72/imageC1643.png" /> must be raised to yield <image source="/media/png72/imageC1644.png" />. In other words,</p>
+<p><image source="/media/png72/imageC1645.png" /></p></cell>
+</row>
+</tabular>
+</table>
+<p>We read <image source="/media/png72/imageC1646.png" /> as “<image source="/media/png72/imageC1647.png" /> equals the logarithm of <image source="/media/png72/imageC1648.png" /> to the base <image source="/media/png72/imageC1649.png" />”.</p>
+<table>
+<tabular>
+<row>
+<cell>REMEMBER: <image source="/media/png72/imageC1650.png" /> is an alternative way of writing <image source="/media/png72/imageC1651.png" /></cell>
+</row>
+</tabular>
+</table>
+<p>When an expression is written in the form <image source="/media/png72/imageC1652.png" />, it is said to be in exponential form. When an expression is written in the form <image source="/media/png72/imageC1653.png" />, it is said to be in logarithmic form. The table below illustrates the equivalence of the exponential and logarithmic forms.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell>Exponential form</cell>
+<cell>Logarithmic form</cell>
+</row>
+
+<row>
+<cell><p><image source="/media/png72/imageC1654.png" /></p>
+<p><image source="/media/png72/imageC1655.png" /></p>
+<p><image source="/media/png72/imageC1656.png" /></p>
+<p><image source="/media/png72/imageC1657.png" /></p>
+<p><image source="/media/png72/imageC1658.png" /></p></cell>
+<cell><p><image source="/media/png72/imageC1659.png" /></p>
+<p><image source="/media/png72/imageC1660.png" /></p>
+<p><image source="/media/png72/imageC1661.png" /></p>
+<p><image source="/media/png72/imageC1662.png" /></p>
+<p><image source="/media/png72/imageC1663.png" /></p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.33</alert>:</p>
+<ol type="1">
+<li><p>Write each of the following in exponential form.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1664.png" /> b) <image source="/media/png72/imageC1665.png" /></p></li>
+</ol>
+<p><alert>Solution</alert>: We have a) <image source="/media/png72/imageC1666.png" /> means <image source="/media/png72/imageC1667.png" /> and b) <image source="/media/png72/imageC1668.png" /> means <image source="/media/png72/imageC1669.png" /></p>
+<ol start="2" type="1">
+<li><p>Write each of the following in logarithmic form.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1670.png" /> b) <image source="/media/png72/imageC1671.png" /></p></li>
+</ol>
+
+<p><alert>Solution</alert>: We have a)<image source="/media/png72/imageC1672.png" /> means <image source="/media/png72/imageC1673.png" /></p>
+<p>b) <image source="/media/png72/imageC1674.png" /> means<image source="/media/png72/imageC1675.png" /></p>
+
+<ol start="3" type="1">
+<li><p>Evaluate each of the following.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1676.png" /> b) <image source="/media/png72/imageC1677.png" /></p></li>
+</ol>
+
+<p><alert>Solution</alert>:</p>
+
+<ol type="a">
+<li><p>To evaluate <image source="/media/png72/imageC1678.png" />, we let <image source="/media/png72/imageC1679.png" />, and then rewrite the equation in exponential form, <image source="/media/png72/imageC1680.png" />. Now, if we can express both sides in terms of the same base, we can solve the resulting exponential equation, as follows:</p></li>
+</ol>
+
+<p>Let <image source="/media/png72/imageC1681.png" /> Rewrite in exponential form</p>
+<p><image source="/media/png72/imageC1682.png" /> Express both sides in terms of the same base</p>
+
+<p><image source="/media/png72/imageC1683.png" /> Since the exponential function is 1 – 1</p>
+<p><image source="/media/png72/imageC1684.png" /></p>
+<p>Therefore, <image source="/media/png72/imageC1685.png" />.</p>
+<ol start="2" type="a">
+<li><p>We apply the same procedure as in part (a).</p></li>
+</ol>
+
+<p>Let <image source="/media/png72/imageC1686.png" /> Rewrite in exponential form</p>
+<p><image source="/media/png72/imageC1687.png" /> Express both sides in terms of the same base</p>
+
+<p><image source="/media/png72/imageC1688.png" /> Since the exponential function is 1 – 1</p>
+<p><image source="/media/png72/imageC1689.png" /></p>
+<p>Therefore, <image source="/media/png72/imageC1690.png" />.</p>
+<p>As was pointed out at the beginning of this subsection, logarithm notation was invented to express the inverse of the exponential function. Thus, <image source="/media/png72/imageC1691.png" /> is a function of <image source="/media/png72/imageC1692.png" />. We usually write <image source="/media/png72/imageC1693.png" /> rather than writing <image source="/media/png72/imageC1694.png" /> and use parenthesis only when needed to clarify the input to the log function. For example,</p>
+<p>If <image source="/media/png72/imageC1695.png" />, then <image source="/media/png72/imageC1696.png" />, whereas if <image source="/media/png72/imageC1697.png" />, then <image source="/media/png72/imageC1698.png" />, which is undefined.</p>
+<p><alert>Example 3.34</alert>: Given <image source="/media/png72/imageC1699.png" /> , find</p>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1700.png" /> b) <image source="/media/png72/imageC1701.png" /> c) <image source="/media/png72/imageC1702.png" /> d) <image source="/media/png72/imageC1703.png" /></p></li>
+</ol>
+<p><alert>Solution</alert>:</p>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1704.png" /> (since <image source="/media/png72/imageC1705.png" />)</p></li>
+<li><p><image source="/media/png72/imageC1706.png" /> (since <image source="/media/png72/imageC1707.png" />)</p></li>
+<li><p><image source="/media/png72/imageC1708.png" /> is not defined (what power of 5 will yield 0?). We say that 0 is not in the domain of <image source="/media/png72/imageC1709.png" />.</p></li>
+<li><p><image source="/media/png72/imageC1710.png" /> is not defined (what power of 5 will yield -125?). We say that -125 is not in the domain of <image source="/media/png72/imageC1711.png" />.</p></li>
+</ol>
+<p>Acknowledging that the logarithmic and exponential functions are inverses, we can derive a great deal of information about the logarithmic function and its graph from the exponential function and its graph.</p>
+<p><alert>Example 3.35</alert>: Sketch the graph of the following functions. Find the domain and range of each.</p>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1712.png" /> b) <image source="/media/png72/imageC1713.png" /></p></li>
+</ol>
+<p><alert>Solution</alert>: a) Since <image source="/media/png72/imageC1714.png" /> is the inverse of <image source="/media/png72/imageC1715.png" />, we can obtain the graph of <image source="/media/png72/imageC1716.png" /> by reflecting the graph of <image source="/media/png72/imageC1717.png" /> about the line <image source="/media/png72/imageC1718.png" />, as shown below.</p>
+<ol start="2" type="a">
+<li><p><image source="/media/png72/imageC1560.png" />To get the graph of <image source="/media/png72/imageC1720.png" />, we reflect the graph of <image source="/media/png72/imageC1721.png" /> about the line <image source="/media/png72/imageC1722.png" />as shown below.</p></li>
+</ol>
+<p>Taking note of the features of the two graphs we have the following important informations about the graph of the log function:</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>The Logarithmic Function</alert> <image source="/media/png72/imageC1723.png" /></cell>
+</row>
+
+<row>
+<cell><ol type="1">
+<li><p>Its domain is the set of positive real numbers</p></li>
+<li><p>Its range is the set of real numbers.</p></li>
+<li><p>Its graph exhibits logarithmic growth if <image source="/media/png72/imageC1724.png" /> and logarithmic decay if <image source="/media/png72/imageC1725.png" />.</p></li>
+<li><p>The <image source="/media/png72/imageC1726.png" /> intercept is 1. There is no <image source="/media/png72/imageC1727.png" />intercept.</p></li>
+<li><p>The <image source="/media/png72/imageC1728.png" /> is a vertical asymptote.</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.36</alert>:</p>
+<ol type="1">
+<li><p>Sketch the graph of <image source="/media/png72/imageC1729.png" />. Find the domain, range, asymptote and intercepts.</p></li>
+</ol>
+<p><alert>Solution</alert>: We can obtain the graph of <image source="/media/png72/imageC1730.png" /> by applying the graphing principle to shift the basic logarithmic growth graph 2 units to the right and 1 unit up.</p>
+<p>We have <image source="/media/png72/imageC1731.png" />, <image source="/media/png72/imageC1732.png" /> and the graph has the line <image source="/media/png72/imageC1733.png" /> as a vertical asymptote. To find the intercept, we set <image source="/media/png72/imageC1734.png" /> and solve for <image source="/media/png72/imageC1735.png" />. Setting <image source="/media/png72/imageC1736.png" /> and solving for <image source="/media/png72/imageC1737.png" />, we will obtain <image source="/media/png72/imageC1738.png" />. Thus, the <image source="/media/png72/imageC1739.png" />intercept is <image source="/media/png72/imageC1740.png" />.</p>
+<ol start="2" type="1">
+<li><p>Find the inverse function for</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1741.png" /> b) <image source="/media/png72/imageC1742.png" /></p></li>
+</ol>
+
+<p><alert>Solution</alert>: Following the procedure for finding an inverse function, we have</p>
+
+<table>
+<tabular>
+<row>
+<cell><p>(a) <image source="/media/png72/imageC1743.png" /> Interchange <image source="/media/png72/imageC1744.png" /> and <image source="/media/png72/imageC1745.png" /></p>
+<p><image source="/media/png72/imageC1746.png" /> solve explicitly for <image source="/media/png72/imageC1747.png" /></p>
+<p><image source="/media/png72/imageC1748.png" /> Write in logarithmic form</p>
+<p><image source="/media/png72/imageC1749.png" /></p>
+<p>Thus, <image source="/media/png72/imageC1750.png" /></p></cell>
+<cell><p>(b) <image source="/media/png72/imageC1751.png" /> Interchange <image source="/media/png72/imageC1744.png" /> and <image source="/media/png72/imageC1745.png" /></p>
+<p><image source="/media/png72/imageC1752.png" /> Write in logarithmic form</p>
+<p><image source="/media/png72/imageC1753.png" /> solve explicitly for <image source="/media/png72/imageC1747.png" /></p>
+<p><image source="/media/png72/imageC1754.png" /></p>
+<p>Thus, <image source="/media/png72/imageC1755.png" /></p></cell>
+</row>
+</tabular>
+</table>
+<p>The following table contains the basic properties of logarithm:</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>Properties of logarithm</alert></cell>
+</row>
+
+<row>
+<cell><p>Assume that <image source="/media/png72/imageC1756.png" /> and <image source="/media/png72/imageC1757.png" /> are positive and <image source="/media/png72/imageC1758.png" />. Then</p>
+<ol type="1">
+<li><p><image source="/media/png72/imageC1759.png" /></p></li>
+</ol>
+<p>In words, logarithm of a product is equal to the sum of the logs of the factors.</p>
+<ol start="2" type="1">
+<li><p><image source="/media/png72/imageC1760.png" /></p></li>
+</ol>
+<p>In words, the log of a quotient is the log of the numerator minus the log of the denominator.</p>
+<ol start="3" type="1">
+<li><p><image source="/media/png72/imageC1761.png" /></p></li>
+</ol>
+<p>In words, the log of a power is the exponent times the log.</p>
+<ol start="4" type="1">
+<li><p><image source="/media/png72/imageC1762.png" /></p></li>
+<li><p><image source="/media/png72/imageC1763.png" /></p></li>
+<li><p>if <em>a</em> is positive and .</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.37</alert>:</p>
+<ol type="1">
+<li><p>Express in terms of simpler logarithms.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1766.png" /> b) <image source="/media/png72/imageC1767.png" /> c) <image source="/media/png72/imageC1768.png" /></p></li>
+</ol>
+
+<p><alert>Solution</alert>:</p>
+
+<ol type="a">
+<li><p><image source="/media/png72/imageC1769.png" /></p></li>
+<li><p>Examining the properties of logarithms, we can see that they deal with log of a product, quotient and power. Thus, <image source="/media/png72/imageC1770.png" /> which is the log of a sum cannot be simplified using log properties.</p></li>
+<li><p>We have</p></li>
+</ol>
+
+<p><image source="/media/png72/imageC1771.png" />=<image source="/media/png72/imageC1772.png" />.</p>
+
+<ol start="2" type="1">
+<li><p>Show that <image source="/media/png72/imageC1773.png" />.</p></li>
+</ol>
+<p><alert>Solution</alert>: We have <image source="/media/png72/imageC1774.png" />.</p>
+<p>The logarithmic function was introduced without stressing the particular base chosen. However, there are two bases of special importance in science and mathematics, namely, <image source="/media/png72/imageC1775.png" /> and <image source="/media/png72/imageC1776.png" />.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.21: (Common Logarithm)</alert></p>
+<p><image source="/media/png72/imageC1777.png" /> is called the common logarithm function. We write <image source="/media/png72/imageC1778.png" />.</p></cell>
+</row>
+</tabular>
+</table>
+<p>The inverse of the natural exponential function is called the natural logarithmic function and has its own special notation.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.22: (Natural Logarithm)</alert></p>
+<p><image source="/media/png72/imageC1779.png" /> is called the natural logarithmic function. We write <image source="/media/png72/imageC1780.png" />.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.38</alert>:</p>
+<ol type="1">
+<li><p>Evaluate <image source="/media/png72/imageC1781.png" /></p></li>
+</ol>
+<p><alert>Solution</alert>: Let <image source="/media/png72/imageC1782.png" />. Then, <image source="/media/png72/imageC1783.png" />.</p>
+<ol start="2" type="1">
+<li><p>Find the inverse function of <image source="/media/png72/imageC1784.png" />.</p></li>
+</ol>
+<p><alert>Solution</alert>: Let <image source="/media/png72/imageC1785.png" /> Interchange <image source="/media/png72/imageC1786.png" /> and <image source="/media/png72/imageC1787.png" /></p>
+<p><image source="/media/png72/imageC1788.png" /> Solve for <image source="/media/png72/imageC1789.png" /></p>
+<p><image source="/media/png72/imageC1790.png" /> Rewrite in logarithmic form</p>
+<p><image source="/media/png72/imageC1791.png" /></p>
+<p>Thus, <image source="/media/png72/imageC1792.png" />.</p>
+<ul>
+<li><p><alert>Trigonometric functions and their graphs</alert></p></li>
+</ul>
+<p>For the functions we have encountered so far, namely polynomial, rational and exponential functions, as the independent variable goes to infinity the graph of each of these three functions either goes to infinity(very quickly) for exponential functions or approaches a finite horizontal asymptote. None of these functions can model the regular periodic patterns that play an important role in the social, biological, and physical sciences: business cycles, agricultural seasons, heart rhythms, and hormone level fluctuations, and tides and planetary motions. The basic functions for studying regular periodic behaviour are the trigonometric functions. The domain of the trigonometric functions is more naturally the set of all geometric angles.</p>
+<p><alert>Angle Measurement</alert></p>
+<p>An angle is the figure formed by two half-lines or rays with a common end point. The common end point is called the vertex of the angle.</p>
+<p>In forming the angle, one side remains fixed and the other side rotates. The fixed side is called the initial side and the side that rotates is called the terminal side. If the terminal side rotates in a counter clockwise direction, we call the angle positive angle, and if the terminal side rotates in a clockwise direction, we call the angle negative angle.</p>
+<p><image source="/media/imageC1793.png" style="width:0.70903in;height:0.17847in" /><image source="/media/imageC1794.png" style="width:0.89514in;height:0.19861in" /></p>
+<p><image source="/media/imageC1793.png" style="width:0.7125in;height:0.18333in" /><image source="/media/imageC1794.png" style="width:0.89583in;height:0.2in" /></p>
+<p>What attribute of an angle are we trying to measure when we measure the size of an angle? A moment of thought will lead us to the conclusion that when we measure an angle we are trying to answer the question: Through what part of a complete rotation has the terminal side rotated?</p>
+<p>We will use degree (°) as the unit of measurement for angles. Recall that the measure of a full round angle (full circle) is 360°, straight angle is 180°, and right angle is 90°.</p>
+<p>An alternative unit of measure for angles which will indicate their size is the radian measure. To see the connection between the degree measure and radian measure of an angle, let us consider an angle <image source="/media/png72/imageC1795.png" /> and draw a circle of radius <image source="/media/png72/imageC1796.png" /> with the vertex of <image source="/media/png72/imageC1797.png" /> at its center <image source="/media/png72/imageC1798.png" />. Let <image source="/media/png72/imageC1799.png" /> represent the length of the arc of the circle intercepted by <image source="/media/png72/imageC1800.png" />(as shown below).</p>
+<p><image source="/media/png72/imageC1801.png" /></p>
+<p>Basic geometry tells us that the central angle <image source="/media/png72/imageC1802.png" /> will be the same fractional part of one complete rotation as <image source="/media/png72/imageC1803.png" /> will be of the circumference of the circle. For example, if <image source="/media/png72/imageC1804.png" /> is <image source="/media/png72/imageC1805.png" /> of a complete rotation, then <image source="/media/png72/imageC1806.png" /> will be <image source="/media/png72/imageC1807.png" /> of the circumference of the circle. In other words, we can set up the following proportion:</p>
+<p><image source="/media/png72/imageC1808.png" /></p>
+<p>Thus, we have the following conversion formula:</p>
+<table>
+<tabular>
+<row>
+<cell><image source="/media/png72/imageC1809.png" /></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 3.39</alert>:</p>
+<ol type="1">
+<li><p>Convert each of the following radian measures to degrees.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC1810.png" /> b) <image source="/media/png72/imageC1811.png" /></p></li>
+</ol>
+<p><alert>Solution</alert>: a) By the conversion formula, we have <image source="/media/png72/imageC1812.png" />, which implies that <image source="/media/png72/imageC1813.png" />.</p>
+<ol start="2" type="a">
+<li><p>Again using the conversion formula, we get <image source="/media/png72/imageC1814.png" />, which implies that <image source="/media/png72/imageC1815.png" />.</p></li>
+</ol>
+<ol start="2" type="1">
+<li><p>Convert to radian measures</p></li>
+</ol>
+<p>a) <image source="/media/png72/imageC1816.png" /> b) <image source="/media/png72/imageC1817.png" /></p>
+
+<p><alert>Solution</alert>: a) Let <image source="/media/png72/imageC1818.png" /> represent the radian measure of <image source="/media/png72/imageC1819.png" />. Using the conversion formula, we obtain: <image source="/media/png72/imageC1820.png" />, which implies that <image source="/media/png72/imageC1821.png" />.</p>
+
+<p>b) Rather than using the conversion formula, we notice that <image source="/media/png72/imageC1822.png" />. In part (a) we found that <image source="/media/png72/imageC1823.png" />, and so we have <image source="/media/png72/imageC1824.png" />.</p>
+<p>To define the trigonometric functions, we will view all angles in the context of a Cartesian coordinate system: that is, given an angle <image source="/media/png72/imageC1825.png" />, we begin by putting <image source="/media/png72/imageC1826.png" /> in standard position, meaning that the vertex of <image source="/media/png72/imageC1827.png" /> is placed at the origin and initial side of <image source="/media/png72/imageC1828.png" /> is placed along the positive <image source="/media/png72/imageC1829.png" />. Thus the location of the terminal side of <image source="/media/png72/imageC1830.png" /> will, of course, depend on the size of <image source="/media/png72/imageC1831.png" />.</p>
+<p>We then locate a point( other than the origin) on the terminal side of <image source="/media/png72/imageC1832.png" /> and identify its coordinates <image source="/media/png72/imageC1833.png" /> and its distance to the origin, dented by <image source="/media/png72/imageC1834.png" />. Then, <image source="/media/png72/imageC1835.png" /> is positive.</p>
+<p>With <image source="/media/png72/imageC1836.png" /> in standard position, we define the six trigonometric functions of <image source="/media/png72/imageC1837.png" />as follows:</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.23</alert></p>
+<p><alert><span class="underline">Name of function</span></alert> <alert><span class="underline">Abbreviation</span></alert> <alert><span class="underline">Definition</span></alert></p>
+<p>Sine <image source="/media/png72/imageC1838.png" /> <image source="/media/png72/imageC1839.png" /> <image source="/media/png72/imageC1840.png" /></p>
+<p>Cosine <image source="/media/png72/imageC1841.png" /> <image source="/media/png72/imageC1842.png" /> <image source="/media/png72/imageC1843.png" /></p>
+<p>Tangent <image source="/media/png72/imageC1844.png" /> <image source="/media/png72/imageC1845.png" /> <image source="/media/png72/imageC1846.png" /></p>
+<p>Cosecant <image source="/media/png72/imageC1847.png" /> <image source="/media/png72/imageC1848.png" /> <image source="/media/png72/imageC1849.png" /></p>
+<p>Secant <image source="/media/png72/imageC1850.png" /> <image source="/media/png72/imageC1851.png" /> <image source="/media/png72/imageC1852.png" /></p>
+<p>Cotangent <image source="/media/png72/imageC1853.png" /> <image source="/media/png72/imageC1854.png" /> <image source="/media/png72/imageC1855.png" /></p></cell>
+</row>
+</tabular>
+</table>
+<p>Recall that the radian measure of an angle is defined as <image source="/media/png72/imageC1856.png" />, where <image source="/media/png72/imageC1857.png" /> is angle in radians</p>
+<p><image source="/media/png72/imageC1858.png" /> is the length of the arc intercepted by <image source="/media/png72/imageC1859.png" /> and <image source="/media/png72/imageC1860.png" /> is the length of the radius. Since <image source="/media/png72/imageC1861.png" /> and <image source="/media/png72/imageC1862.png" /> are both lengths, the quotient <image source="/media/png72/imageC1863.png" /> is a pure number without any units attached. Thus, any angle can be interpreted as a real number. Conversely, any real number can be interpreted as an angle. Thus, we can describe the domains of the trigonometric functions in the frame work of the real number systems. If we let <image source="/media/png72/imageC1864.png" />, the domain consists of all real numbers <image source="/media/png72/imageC1865.png" /> for which <image source="/media/png72/imageC1866.png" /> is defined. Since <image source="/media/png72/imageC1867.png" /> and <image source="/media/png72/imageC1868.png" /> is never equal to zero, the domain for <image source="/media/png72/imageC1869.png" /> is the set of all real numbers. Similarly, the domain of <image source="/media/png72/imageC1870.png" /> is also the set of all real numbers.</p>
+<ul>
+<li><p><alert>The graph of</alert> <image source="/media/png72/imageC1871.png" /></p></li>
+</ul>
+<p>To analyze <image source="/media/png72/imageC1872.png" />, we keep in mind that once we choose a real number <image source="/media/png72/imageC1873.png" />, we draw the angle, in standard position, that corresponds to <image source="/media/png72/imageC1874.png" />. To simplify our analysis, we choose the point <image source="/media/png72/imageC1875.png" /> on the terminal side so that <image source="/media/png72/imageC1876.png" />. That is, <image source="/media/png72/imageC1877.png" /> is a point on the unit circle <image source="/media/png72/imageC1878.png" />. Note that <image source="/media/png72/imageC1879.png" />.</p>
+<p>As the terminal side of <image source="/media/png72/imageC1880.png" /> moves through the first quadrant, <image source="/media/png72/imageC1881.png" /> increases from 0 (when <image source="/media/png72/imageC1882.png" />) to 1(when <image source="/media/png72/imageC1883.png" />). Thus, as <image source="/media/png72/imageC1884.png" /> increases from 0 to <image source="/media/png72/imageC1885.png" />, <image source="/media/png72/imageC1886.png" /> steadily increases from 0 to 1.</p>
+<p>As <image source="/media/png72/imageC1887.png" /> increases from <image source="/media/png72/imageC1888.png" /> to <image source="/media/png72/imageC1889.png" />, <image source="/media/png72/imageC1890.png" /> decreases form 1 to 0. A similar analysis reveals that as <image source="/media/png72/imageC1891.png" /> increases from <image source="/media/png72/imageC1892.png" /> to <image source="/media/png72/imageC1893.png" />, <image source="/media/png72/imageC1894.png" /> decreases from 0 to – 1; and as <image source="/media/png72/imageC1895.png" /> increases from <image source="/media/png72/imageC1896.png" /> to <image source="/media/png72/imageC1897.png" />, <image source="/media/png72/imageC1898.png" /> increases from – 1 to 0.</p>
+<p><image source="/media/imageC1899.png" style="width:2.58194in;height:1.68542in" />Based on this analysis, we have the graph of <image source="/media/png72/imageC1900.png" /> in the interval <image source="/media/png72/imageC1901.png" /> as show below.</p>
+<p><image source="/media/png72/imageC1902.png" /></p>
+<p><image source="/media/png72/imageC1903.png" /></p>
+<p>Since the values of <image source="/media/png72/imageC1904.png" /> depend only on the position of the terminal side, adding or subtracting multiples of <image source="/media/png72/imageC1905.png" /> to <image source="/media/png72/imageC1906.png" /> will leave the value of <image source="/media/png72/imageC1907.png" /> unchanged. Thus, the values of <image source="/media/png72/imageC1908.png" /> will repeat every <image source="/media/png72/imageC1909.png" />units. The complete graph of <image source="/media/png72/imageC1910.png" /> appears below.</p>
+<p><image source="/media/imageC1911.png" style="width:4.44583in;height:1.05in" /></p>
+<p>The graph of <image source="/media/png72/imageC1912.png" />, which is called the basic sine curve.</p>
+<ul>
+<li><p><alert>The graph of</alert> <image source="/media/png72/imageC1913.png" /></p></li>
+</ul>
+<p>Applying the same type of analysis to <image source="/media/png72/imageC1914.png" />, we will able to get a good idea of what its graph looks like. The figure below shows the angle corresponding to <image source="/media/png72/imageC1915.png" />as it increases through quadrant I, II, III and IV.</p>
+<p>Keeping in mind that <image source="/media/png72/imageC1916.png" />, we have the following:</p>
+<ol type="1">
+<li><p>As <image source="/media/png72/imageC1917.png" /> increases from 0 to <image source="/media/png72/imageC1918.png" />, <image source="/media/png72/imageC1919.png" /> decreases from 1 to 0.</p></li>
+<li><p>As <image source="/media/png72/imageC1917.png" /> increases from <image source="/media/png72/imageC1918.png" /> to <image source="/media/png72/imageC1920.png" />, <image source="/media/png72/imageC1921.png" /> decreases from 0 to – 1.</p></li>
+<li><p>As <image source="/media/png72/imageC1917.png" /> increases from <image source="/media/png72/imageC1922.png" /> to <image source="/media/png72/imageC1923.png" />, <image source="/media/png72/imageC1921.png" /> increases from – 1 to 0.</p></li>
+<li><p>As <image source="/media/png72/imageC1917.png" /> increases from <image source="/media/png72/imageC1924.png" /> to <image source="/media/png72/imageC1925.png" />, <image source="/media/png72/imageC1921.png" /> increases from 0 to 1.</p></li>
+</ol>
+<p>Based on this analysis, we have the graph of <image source="/media/png72/imageC1926.png" /> as shown below:</p>
+<p><image source="/media/imageC1927.png" style="width:4.42083in;height:0.93333in" /></p>
+<ul>
+<li><p><alert>The graph of</alert> <image source="/media/png72/imageC1928.png" /></p></li>
+</ul>
+<p>Since <image source="/media/png72/imageC1929.png" /> is undefined whenever <image source="/media/png72/imageC1930.png" />, <image source="/media/png72/imageC1931.png" /> is undefined whenever the terminal side of the angle corresponding to <image source="/media/png72/imageC1932.png" /> falls on the <image source="/media/png72/imageC1933.png" />. This happens for <image source="/media/png72/imageC1934.png" />, to which we can add or subtract any multiple of <image source="/media/png72/imageC1935.png" /> that will again bring the terminal side back to the <image source="/media/png72/imageC1936.png" />. Thus, domain of <image source="/media/png72/imageC1937.png" /> is <image source="/media/png72/imageC1938.png" />, where <image source="/media/png72/imageC1939.png" /> is an integer.</p>
+<ol start="5" type="1">
+<li><p>As<image source="/media/png72/imageC1940.png" /> increases from 0 to <image source="/media/png72/imageC1941.png" />, <image source="/media/png72/imageC1942.png" /> decreases from 1 to 0 and <image source="/media/png72/imageC1943.png" /> increases from 0 to 1; therefore, <image source="/media/png72/imageC1944.png" /> increases from 0 to <image source="/media/png72/imageC1945.png" />.</p></li>
+<li><p>As <image source="/media/png72/imageC1946.png" /> increases from <image source="/media/png72/imageC1947.png" /> to <image source="/media/png72/imageC1948.png" />, <image source="/media/png72/imageC1949.png" /> decreases from 0 to – 1 and <image source="/media/png72/imageC1950.png" /> decreases from 1 to 0; therefore, <image source="/media/png72/imageC1951.png" /> increases from <image source="/media/png72/imageC1952.png" /> to 0.</p></li>
+<li><p>As <image source="/media/png72/imageC1953.png" /> increases from <image source="/media/png72/imageC1954.png" /> to <image source="/media/png72/imageC1955.png" />, <image source="/media/png72/imageC1956.png" /> increases from – 1 to 0 and <image source="/media/png72/imageC1957.png" /> decreases from 0 to – 1; therefore, <image source="/media/png72/imageC1958.png" /> increases from 0 to <image source="/media/png72/imageC1959.png" />.</p></li>
+<li><p>As <image source="/media/png72/imageC1960.png" /> increases from <image source="/media/png72/imageC1961.png" /> to <image source="/media/png72/imageC1962.png" />, <image source="/media/png72/imageC1963.png" /> increases from <image source="/media/png72/imageC1964.png" /> to 1 and <image source="/media/png72/imageC1965.png" /> increases from – 1 to 0; therefore, <image source="/media/png72/imageC1966.png" /> increases from <image source="/media/png72/imageC1967.png" /> to 0.</p></li>
+</ol>
+<p>You may want to add some more specific values to this analysis. In any case, we get the following as the graph of the tangent function.</p>
+
+<p><image source="/media/imageC1968.png" style="width:4.81597in;height:1.81389in" /></p>
+
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.24: (Periodic Function)</alert></p>
+<p>A function is called periodic if there exists a number such that for all in the domain of . The smallest such number iscalled the period of the function</p></cell>
+</row>
+</tabular>
+</table>
+<p>A periodic function keeps repeating the same set of <image source="/media/png72/imageC1975.png" />over and over again. The graph of a periodic function shows the same basic segment of its graph being repeated. In the case of sine and cosine functions, the period is <image source="/media/png72/imageC1976.png" />. The period of the tangent function is <image source="/media/png72/imageC1977.png" />.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.25: (Amplitude of a periodic function)</alert></p>
+<p>The amplitude of a periodic function <image source="/media/png72/imageC1978.png" /> is</p>
+<p><image source="/media/png72/imageC1979.png" />maximum value of <image source="/media/png72/imageC1980.png" />minimum value of <image source="/media/png72/imageC1981.png" /></p></cell>
+</row>
+</tabular>
+</table>
+<p>Thus, the amplitude of the basic sine and cosine function is 1.</p>
+<p>The portion of the graph of a sine or cosine function over one period is called a complete cycle of the graph. In other words, the minimal portion of a sine or cosine graph that keeps repeating itself is called a complete cycle of the graph.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 3.26: (Frequency of a periodic function)</alert></p>
+<p>The number of complete cycles a sine or cosine graph makes on an interval of length equal to <image source="/media/png72/imageC1982.png" /> is called its frequency.</p></cell>
+</row>
+</tabular>
+</table>
+<p>The frequency of the basic sine curve <image source="/media/png72/imageC1983.png" /> and the basic cosine curve <image source="/media/png72/imageC1984.png" />is 1, because each graph makes 1 complete cycle in the interval <image source="/media/png72/imageC1985.png" />.</p>
+<p>If a sine function has period of <image source="/media/png72/imageC1986.png" />(see the figure below), then the number of complete cycles its graph will make in an interval of length <image source="/media/png72/imageC1987.png" /> is <image source="/media/png72/imageC1988.png" />.</p>
+<p>A sine graph of period and frequency 4</p>
+<p>Thus if a sine function has a period of <image source="/media/png72/imageC1990.png" />, its frequency is 4 and its graph will make 4 complete cycles in an interval of length <image source="/media/png72/imageC1991.png" />.</p>
+<p><alert>Example 3.40</alert>: Sketch the graph of <image source="/media/png72/imageC1992.png" /> and find its amplitude, period and frequency.</p>
+<p><alert>Solution</alert>: We can obtain this graph by applying our knowledge of the basic sine graph. For the basic curve, we have</p>
+<p><image source="/media/png72/imageC1993.png" /> <image source="/media/png72/imageC1994.png" /> <image source="/media/png72/imageC1995.png" /> <image source="/media/png72/imageC1996.png" /> <image source="/media/png72/imageC1997.png" /></p>
+<p>These quadrantal values serve as guide points, which help us draw the graph. To obtain similar guide points for <image source="/media/png72/imageC1998.png" />, we ask for what values of <image source="/media/png72/imageC1999.png" /> is</p>
+<p><image source="/media/png72/imageC2000.png" /> <image source="/media/png72/imageC2001.png" /> <image source="/media/png72/imageC2002.png" /> <image source="/media/png72/imageC2003.png" /> <image source="/media/png72/imageC2004.png" /></p>
+<p>and we get</p>
+<p><image source="/media/png72/imageC2005.png" /> <image source="/media/png72/imageC2006.png" /> <image source="/media/png72/imageC2007.png" /> <image source="/media/png72/imageC2008.png" /> <image source="/media/png72/imageC2009.png" /></p>
+<p>Thus, <image source="/media/png72/imageC2010.png" /> will have the values 0, 1, 0, <image source="/media/png72/imageC2011.png" />, 0 at <image source="/media/png72/imageC2012.png" />and <image source="/media/png72/imageC2013.png" />, respectively. The graph of <image source="/media/png72/imageC2014.png" /> will thus complete one cycle in the interval <image source="/media/png72/imageC2015.png" />, and will repeat the same values in the interval <image source="/media/png72/imageC2016.png" />.</p>
+<p>From this graph we see that <image source="/media/png72/imageC2017.png" />has an amplitude of 1, a period <image source="/media/png72/imageC2018.png" />, and a frequency of 2.</p>
+<p>For convenience we summarize our discussion on the domains of the trigonometric functions in the table.</p>
+<table>
+<tabular>
+<row>
+<cell><ol type="1">
+<li><p><image source="/media/png72/imageC2019.png" /></p></li>
+<li><p><image source="/media/png72/imageC2020.png" /></p></li>
+<li><p><image source="/media/png72/imageC2021.png" /></p></li>
+<li><p><image source="/media/png72/imageC2022.png" /></p></li>
+<li><p><image source="/media/png72/imageC2023.png" /></p></li>
+<li><p><image source="/media/png72/imageC2024.png" /></p></li>
+</ol></cell>
+<cell><p>Domain = All real numbers</p>
+<p>Domain = All real numbers</p>
+<p>Domain =<image source="/media/png72/imageC2025.png" /></p>
+<p>Domain = {<image source="/media/png72/imageC2026.png" />}</p>
+<p>Domain = <image source="/media/png72/imageC2027.png" /></p>
+<p>Domain = <image source="/media/png72/imageC2028.png" /></p>
+<p>where <image source="/media/png72/imageC2029.png" /> is an integer</p></cell>
+</row>
+</tabular>
+</table>
+<p>In the course of our discussion of the trigonometric functions, we have discussed two types of trigonometric relationships: the reciprocal and quotient relationships. These relationships are examples of trigonometric identities. In the table below we list identities that are satisfied by the trigonometric functions.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><p><alert>The reciprocal Identities</alert> 1.</p>
+<p>2.</p>
+<p>3.</p>
+<p><alert>The quotient Identities</alert> 4.</p>
+<p>5.</p></cell>
+</row>
+
+<row>
+<cell><p><alert>The Pythagorean Identities</alert> 6. <image source="/media/png72/imageC2035.png" style="width:1.225in;height:0.225in" /></p>
+
+<p>7.<image source="/media/png72/imageC2036.png" style="width:1.21667in;height:0.225in" /></p>
+<p>8.<image source="/media/png72/imageC2037.png" style="width:1.225in;height:0.225in" /></p>
+
+<p><alert>The addition formula</alert> 9. (a)</p>
+<p>(b)</p>
+<p>10. (a)</p>
+<p>(b)</p>
+<p>11. (a)</p>
+<p>(b)</p>
+<p><alert>The double angle formula</alert> 12.</p>
+<p>13.</p>
+<p>14.</p>
+<p><alert>The half-angle formula</alert> 15.</p>
+<p>16.</p>
+<p>17.</p></cell>
+</row>
+</tabular>
+</table>
+<ul>
+<li><p><alert>Hyperbolic functions and their graphs</alert></p></li>
+</ul>
+<p>The hyperbolic functions are certain combinations of exponential functions, that occur in various applications, with properties similar to those of the trigonometric functions. Among many other applications they are used to describe the formation of satellite rings around the planets, to describe the shape of a rope hanging from two points, and have application in relativity theory. The two basic hyperbolic functions are the hyperbolic sine and hyperbolic cosine functions. They are defined as follows:</p>
+<table>
+<tabular>
+<row header="yes">
+<cell><alert>Definition 3.27</alert>:</cell>
+<cell></cell>
+</row>
+
+<row>
+<cell><ol type="1">
+<li><p>The <alert>hyperbolic sine</alert> function is defined by:</p></li>
+</ol>
+<p><image source="/media/png72/imageC2050.png" /></p>
+<p>The domain of <image source="/media/png72/imageC2051.png" /> is <image source="/media/png72/imageC2052.png" />.</p></cell>
+<cell><ol start="2" type="1">
+<li><p>The <alert>hyperbolic cosine</alert> function is defined by:</p></li>
+</ol>
+<p><image source="/media/png72/imageC2053.png" /></p>
+<p>The domain of <image source="/media/png72/imageC2054.png" /> is also <image source="/media/png72/imageC2055.png" /></p></cell>
+</row>
+</tabular>
+</table>
+
+<p><alert>Remark</alert>:</p>
+<p>1. <image source="/media/png72/imageC2056.png" /> is pronounced <image source="/media/png72/imageC2057.png" /> and <image source="/media/png72/imageC2058.png" /> is pronounced as<image source="/media/png72/imageC2059.png" />.</p>
+<p>2. Since <image source="/media/png72/imageC2060.png" /> for all <image source="/media/png72/imageC2061.png" />, we see that <image source="/media/png72/imageC2062.png" /> for every <image source="/media/png72/imageC2063.png" />.</p>
+<p>3. If <image source="/media/png72/imageC2064.png" />, then <image source="/media/png72/imageC2065.png" />. Thus, <image source="/media/png72/imageC2066.png" /> is an even</p>
+<p>function.</p>
+<p>4. <image source="/media/png72/imageC2067.png" /> is an odd function.</p>
+<p>3. In contrast to sine and cosine, the hyperbolic functions are not periodic.</p>
+
+<p><alert>Example 3.28</alert>: Using the above definitions, show that</p>
+<ol type="1">
+<li><p><image source="/media/png72/imageC2068.png" /></p></li>
+<li></li>
+<li><p><image source="/media/png72/imageC2070.png" /></p></li>
+</ol>
+
+<p><alert>Solution</alert>:</p>
+
+<ol type="1">
+<li><p>We have</p></li>
+</ol>
+
+<p><image source="/media/png72/imageC2071.png" /></p>
+
+<ol start="2" type="1">
+<li><p><image source="/media/png72/imageC2072.png" /></p></li>
+</ol>
+
+<p><image source="/media/png72/imageC2073.png" /><image source="/media/png72/imageC2074.png" /></p>
+<p><image source="/media/png72/imageC2075.png" /></p>
+<p><image source="/media/png72/imageC2076.png" /></p>
+
+<ol start="3" type="1">
+<li><p>Left as an exercise.</p></li>
+</ol>
+<ul>
+<li><p><alert>The graph of</alert> <image source="/media/png72/imageC2077.png" /></p></li>
+</ul>
+<p>Since <image source="/media/png72/imageC2078.png" /> is an even function, its graph is symmetric about the <image source="/media/png72/imageC2079.png" />. Its <image source="/media/png72/imageC2080.png" />intercept is <image source="/media/png72/imageC2081.png" />, because <image source="/media/png72/imageC2082.png" />. As <image source="/media/png72/imageC2083.png" /> tends to infinity, <image source="/media/png72/imageC2084.png" /> tends to infinity because <image source="/media/png72/imageC2085.png" /> goes to infinity and <image source="/media/png72/imageC2086.png" /> approaches to 0. When <image source="/media/png72/imageC2087.png" /> is a large negative number <image source="/media/png72/imageC2088.png" /> acts like <image source="/media/png72/imageC2089.png" />, because <image source="/media/png72/imageC2090.png" /> gets close to 0. Thus the graph of <image source="/media/png72/imageC2091.png" />looks like:</p>
+<p><image source="/media/imageC2092.png" style="width:2.5875in;height:2.00833in" /></p>
+<p>This graph can also be obtained by geometrically adding the two curves <image source="/media/png72/imageC2093.png" /> and <image source="/media/png72/imageC2094.png" />, and taking half of each resulting <image source="/media/png72/imageC2095.png" />. Observe that range of <image source="/media/png72/imageC2096.png" /> is <image source="/media/png72/imageC2097.png" />.</p>
+<ul>
+<li><p><alert>The graph of</alert> <image source="/media/png72/imageC2098.png" /></p></li>
+</ul>
+<p>Since <image source="/media/png72/imageC2099.png" /> is an odd function, its graph is symmetric about the origin. The graph passes through the origin because <image source="/media/png72/imageC2100.png" />. As <image source="/media/png72/imageC2101.png" /> gets large <image source="/media/png72/imageC2102.png" /> acts like <image source="/media/png72/imageC2103.png" /> and when <image source="/media/png72/imageC2104.png" /> is a large negative number, <image source="/media/png72/imageC2105.png" /> acts like <image source="/media/png72/imageC2106.png" />. Thus, the graph of <image source="/media/png72/imageC2107.png" /> looks like:</p>
+
+<p><image source="/media/imageC2108.png" style="width:2.83958in;height:2.5in" /></p>
+
+<p>The remaining four hyperbolic functions are defined in terms of <image source="/media/png72/imageC2109.png" /> and <image source="/media/png72/imageC2110.png" /> by</p>
+<p>analogy with trigonometry.</p>
+<table>
+<tabular>
+<row>
+<cell><p><image source="/media/png72/imageC2111.png" /> (The domain of <image source="/media/png72/imageC2112.png" /> is <image source="/media/png72/imageC2113.png" />.</p>
+<p><image source="/media/png72/imageC2114.png" /> (The domain of <image source="/media/png72/imageC2115.png" /> is <image source="/media/png72/imageC2116.png" />)</p>
+<p><image source="/media/png72/imageC2117.png" /> (The domain of <image source="/media/png72/imageC2118.png" />is <image source="/media/png72/imageC2119.png" />)</p>
+<p><image source="/media/png72/imageC2120.png" /> (The domain of <image source="/media/png72/imageC2121.png" /> is <image source="/media/png72/imageC2116.png" />)</p></cell>
+</row>
+</tabular>
+</table>
+<p>You may sketch the graphs of these four hyperbolic functions (see exercise 19).</p>
+<p>The trigonometric terminology and notation for the hyperbolic functions stem from the fact that they satisfy a list of identities that much resemble the familiar trigonometric identities, apart from an occasional difference of sign.</p>
+<table>
+<tabular>
+<row>
+<cell><p><image source="/media/png72/imageC2122.png" /> (1)</p>
+<p><image source="/media/png72/imageC2123.png" /> (2)</p>
+<p><image source="/media/png72/imageC2124.png" /> (3)</p>
+<p><image source="/media/png72/imageC2125.png" /> (4)</p>
+<p><image source="/media/png72/imageC2126.png" /> (5)</p></cell>
+</row>
+</tabular>
+</table>
+<p>The trigonometric functions are sometimes called circular functions because the point <image source="/media/png72/imageC2127.png" /> lies on the circle <image source="/media/png72/imageC2128.png" /> for all <image source="/media/png72/imageC2129.png" />. Similarly, identity (1) tells us that the point <image source="/media/png72/imageC2130.png" /> lies on the hyperbola , and this is the reason for the name hyperbolic functions.</p>
+<p><alert>Exercise 3.5</alert></p>
+<ol type="1">
+<li><p>Find the domain of the given function.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2132.png" /> b) <image source="/media/png72/imageC2133.png" /> c) <image source="/media/png72/imageC2134.png" /> d) <image source="/media/png72/imageC2135.png" /></p></li>
+</ol>
+<ol start="2" type="1">
+<li><p>Sketch the graph of the given function. Identify the domain, range, intercepts, and asymptotes.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2136.png" /> b) <image source="/media/png72/imageC2137.png" /> c) <image source="/media/png72/imageC2138.png" /> d) <image source="/media/png72/imageC2139.png" /></p></li>
+</ol>
+<ol start="3" type="1">
+<li><p>Solve the given exponential equation.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2140.png" /> b) <image source="/media/png72/imageC2141.png" /> c) <image source="/media/png72/imageC2142.png" /> d) <image source="/media/png72/imageC2143.png" /></p></li>
+</ol>
+<ol start="4" type="1">
+<li><p>Let <image source="/media/png72/imageC2144.png" />. Show that <image source="/media/png72/imageC2145.png" />.</p></li>
+<li><p>Let <image source="/media/png72/imageC2146.png" />. Show that <image source="/media/png72/imageC2147.png" />.</p></li>
+<li><p>Let <image source="/media/png72/imageC2148.png" />. Show that <image source="/media/png72/imageC2149.png" />.</p></li>
+<li><p>Evaluate the given logarithmic expression (where it is defined).</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2150.png" /> c) <image source="/media/png72/imageC2151.png" /> e) <image source="/media/png72/imageC2152.png" /></p></li>
+<li><p><image source="/media/png72/imageC2153.png" /> d) <image source="/media/png72/imageC2154.png" /> f) <image source="/media/png72/imageC2155.png" /></p></li>
+</ol>
+<ol start="8" type="1">
+<li><p>If <image source="/media/png72/imageC2156.png" />, find <image source="/media/png72/imageC2157.png" /> and the domain of <image source="/media/png72/imageC2158.png" />.</p></li>
+<li><p>If <image source="/media/png72/imageC2159.png" />, find <image source="/media/png72/imageC2160.png" /> and the domain of <image source="/media/png72/imageC2161.png" />.</p></li>
+<li><p>Show that <image source="/media/png72/imageC2162.png" /></p></li>
+<li><p>Sketch the graph of the given function and identify the domain, range, intercepts and asymptotes.</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2163.png" /> b) <image source="/media/png72/imageC2164.png" /> c) <image source="/media/png72/imageC2165.png" /> d) <image source="/media/png72/imageC2166.png" /></p></li>
+</ol>
+<ol start="12" type="1">
+<li><p>Find the inverse of <image source="/media/png72/imageC2167.png" />.</p></li>
+<li><p>Let <image source="/media/png72/imageC2168.png" />. Find a function so that <image source="/media/png72/imageC2169.png" />.</p></li>
+<li><p>Convert the given angle from radians to degrees</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2170.png" /> b) <image source="/media/png72/imageC2171.png" /> c) <image source="/media/png72/imageC2172.png" /></p></li>
+</ol>
+<ol start="15" type="1">
+<li><p>Convert the given angle from degrees to radians</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2173.png" /> b) <image source="/media/png72/imageC2174.png" /> c) <image source="/media/png72/imageC2175.png" /></p></li>
+</ol>
+<ol start="16" type="1">
+<li><p>Sketch the graph of</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2176.png" /> c) <image source="/media/png72/imageC2177.png" /> e) <image source="/media/png72/imageC2178.png" /></p></li>
+<li><p><image source="/media/png72/imageC2179.png" /> d) <image source="/media/png72/imageC2180.png" /> f) <image source="/media/png72/imageC2181.png" /></p></li>
+</ol>
+<ol start="17" type="1">
+<li><p>Verify the following identities:</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2182.png" /></p></li>
+<li><p><image source="/media/png72/imageC2183.png" /></p></li>
+</ol>
+<ol start="18" type="1">
+<li><p>Given <image source="/media/png72/imageC2184.png" /> and <image source="/media/png72/imageC2185.png" />, find <image source="/media/png72/imageC2186.png" />.</p></li>
+<li><p>Sketch the graphs of</p></li>
+</ol>
+<ol type="a">
+<li><p>c)</p></li>
+<li><p>d)</p></li>
+</ol>
+<ol start="20" type="1">
+<li><p>Prove the identities (2) and (3).</p></li>
+<li><p>Find the exact numerical value of</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2191.png" /> b) <image source="/media/png72/imageC2192.png" /> c) <image source="/media/png72/imageC2193.png" /></p></li>
+</ol>
+<ol start="22" type="1">
+<li><p>Prove the following identities:</p></li>
+</ol>
+<ol type="a">
+<li><p><image source="/media/png72/imageC2194.png" /></p></li>
+<li><p><image source="/media/png72/imageC2195.png" /></p></li>
+</ol>
+</section>
+</chapter>
