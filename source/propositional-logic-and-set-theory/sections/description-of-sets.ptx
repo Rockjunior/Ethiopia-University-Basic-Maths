@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml-id="description-of-sets">
+<title>Description of sets</title>
+<p>Sets are described or characterized by one of the following four different ways.</p>
+<ol type="1">
+<li><p><alert>Verbal Method</alert></p></li>
+</ol>
+
+<p>In this method, an ordinary English statement with minimum mathematical symbolization of the property of the elements is used to describe a set. Actually, the statement could be in any language.</p>
+
+<p><alert>Example 1.23:</alert></p>
+
+<p>a. The set of counting numbers less than ten.</p>
+<p>b. The set of letters in the word “Addis Ababa.”</p>
+<p>c. The set of all countries in Africa.</p>
+
+<p>2. <alert>Roster/Complete Listing Method<br />
+</alert>If the elements of a set can all be listed, we list them all between a pair of braces without repetition separating by commas, and without concern about the order of their appearance. Such a method of describing a set is called <em><alert>the roster/complete listing</alert></em> method.</p>
+<p><alert>Examples 1.24:</alert></p>
+<ol type="a">
+<li>
+<p>The set of vowels in English alphabet may also be described as <m>\{ a,\ e,\ i,\ o,\ u\}</m>.</p>
+</li>
+</ol>
+
+<p>b. The set of positive factors of 24 is also described as <m>\{ 1,\ 2,\ 3,\ 4,\ 6,\ 8,\ 12,\ 24\}</m>.</p>
+
+<p><alert>Remark:</alert></p>
+<ol type="i">
+<li><p>We agree on the convention that the order of writing the elements in the list is immaterial. As a result the sets <m>\{ a,\ b,\ c\},\ \{ b,\ c,\ a\}</m> and <m>\{ c,\ a,\ b\}</m> contain the same elements, namely <m>a,\ b</m> and <m>\text{c.}</m></p></li>
+<li>
+<p>The set <m>\{ a,\ a,\ b,\ b,\ b\}</m> contains just two distinct elements; namely <m>a</m> and <m>b</m>, hence it is the same set as <m>\left\{ a,\ b \right\}.</m> We list distinct elements without repetition.</p>
+</li>
+</ol>
+<p><alert>Example 1.25:</alert></p>
+<ol type="a">
+<li><p>Let <m>A\  = \ \{ a,\ b,\ \{ c\}\}.</m> Elements of <m>A</m> are <m>a,\ b</m> and <m>\{ c\}.</m></p></li>
+</ol>
+<p>Notice that <m>c</m> and <m>\left\{ c \right\}</m> are different objects. Here <m>\left\{ c \right\} \in A</m> but <m>c \notin A</m>.</p>
+<ol start="2" type="a">
+<li>
+<p>Let <m>B = \left\{ \left\{ a \right\} \right\}</m>. The only element of <m>B</m> is <m>\{ a\}</m>. But <m>a \notin B</m>.</p>
+</li>
+<li>
+<p>Let <m>C\  = \ \{ a,\ b,\ \{ a,\ b\},\ \{ a,\ \{ a\}\}\}.</m> Then C has four elements.<br />
+The readers are invited to write down all the elements of C.</p>
+</li>
+</ol>
+<ol start="3" type="1">
+<li><p><alert>Partial Listing Method</alert></p></li>
+</ol>
+
+<p>In many occasions, the number of elements of a set may be too large to list them all; and in other occasions there may not be an end to the list. In such cases we look for a common property of the elements and describe the set by partially listing the elements. More precisely, if the common property is simple that it can easily be identified from a list of the first few elements, then with in a pair of braces, we list these few elements followed (or preceded) by exactly three dotes and possibly by one last element. The following are such instances of describing sets by partial listing method.</p>
+
+<p><alert>Example 1.26:</alert></p>
+<ol type="a">
+<li><p>The set of all counting numbers is <m>\mathbb{N\  = \ \{}1,\ 2,\ 3,\ 4,\ \ldots\}</m>.</p></li>
+<li><p>The set of non-positive integers is <m>\{\mathbf{\ldots},\  - 4,\  - 3,\  - 2,\  - 1,\ 0\}</m>.</p></li>
+<li><p>The set of multiples of 5 is <m>\{\mathbf{\ldots},\  - 15,\  - 10,\  - 5,\ 0\ 5,\ 10,\ 15,\ \mathbf{\ldots}\}</m>.</p></li>
+<li><p>The set of odd integers less than 100 is <m>\{\mathbf{\ldots},\  - 3,\  - 1,\ 1,\ 3,\ 5,\ldots\ 99\}.</m></p></li>
+</ol>
+<ol start="4" type="1">
+<li>
+<p><alert>Set-builder Method</alert></p>
+</li>
+</ol>
+
+<p>When all the elements satisfy a common property <m>P</m>, we express the situation as an open proposition <m>P(x)</m> and describe the set using a method called the <em><alert>Set-builder Method</alert></em> as follows:</p>
+
+<p><me>A\  = \ \{ x\ |\ P(x)\}\ or\ A\  = \ \{ x\mathbf{:\ }P(x)\}</me></p>
+<p>We read it as “<m>A</m> is equal to the set of all <m>x</m>’s such that <m>P(x)</m> is true.” Here the bar <m>``|\ ‟</m> and the colon “<image source="/media/imageA25.png" />” mean “such that.” Notice that the letter <m>x</m> is only a place holder and can be replaced throughout by other letters. So, for a property <m>P</m>, the set {<m>x\ |\ P(x)\},\ \{ t\ |\ P(t)\}</m> and <m>\{ y\ |P(y)\}</m> are all the same set.</p>
+<p><alert>Example 1.27:</alert> The following sets are described using the set-builder method.</p>
+<ol type="a">
+<li>
+<p><m>A = \{ x\ |\ x\ \text{is\ a\ vowel\ in\ the\ English\ alphabet}\}</m>.</p>
+</li>
+<li>
+<p><m>B = \{ t\ |\ t\ \text{is\ an\ even\ integer}\}.</m></p>
+</li>
+<li>
+<p><m>C = \{ n\ |\ n\ \text{is\ a\ natural\ number\ and\ }2n\ –\ 15\ \text{is\ negative}\}.</m></p>
+</li>
+<li>
+<p><m>D = \{ y|\ y^{2}–\ y\ –\ 6\  = \ 0\}.</m></p>
+</li>
+<li>
+<p><m>E = \{ x\ |\ x\ \text{is\ an\ integer\ and\ }x\ –\ 1\  &lt; \ 0 \Longrightarrow x^{2}–\ 4\  &gt; \ 0\}.</m></p>
+</li>
+</ol>
+<p><alert>Exercise:</alert> Express each of the above by using either the complete or the partial listing method.</p>
+<table>
+<tabular>
+<row>
+<cell><alert>Definition 1.10:</alert> The set which has no element is called the empty (or null) set and is denoted by <m>\phi</m> or <m>\{\}</m>.</cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 1.28:</alert> The set of <m>x\mathbb{\in R}</m> such that <m>x^{2} + 1 = 0</m> is an empty set.</p>
+<table>
+<tabular>
+<row>
+<cell><alert>Definition 1.11:</alert> A set is finite if it has limited number of elements and it is called infinite if it has unlimited number of elements.</cell>
+</row>
+</tabular>
+</table>
+<p><alert>Relationships between two sets</alert></p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.12:</alert> Set <m>B</m> is said to be a <em><alert>subset</alert></em> of set <m>A</m> (or is contained in <m>A</m>), denoted by <m>B \subseteq A</m>, if every element of <m>B</m> is an element of <m>A</m>, i.e.,</p>
+<p><m>\left( \forall x \right)(x \in B \Longrightarrow x \in A)</m>.</p>
+<p>It follows from the definition that set <m>B</m> is not a subset of set <m>A</m> if at least one element of <m>B</m> is not an element of <m>A</m>. i.e., <m>B \nsubseteq A \Longleftrightarrow \left( \exists x \right)\left( x \in B \Longrightarrow x \notin A \right)</m>. In such cases we write <m>B \nsubseteq A</m> or <m>A \nsupseteq B</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Remarks:</alert> For any set <m>A,\phi \subseteq A</m> and <m>A \subseteq A</m>.</p>
+<p><alert>Example 1.29:</alert></p>
+<ol type="a">
+<li>
+<p>If <m>A\  = \ \{ a,\ b\}</m>, <m>B\  = \ \{ a,\ b,\ c\}</m> and <m>\ C\  = \ \{ a,\ b,\ d\}</m>, then <m>A \subseteq \ B</m> and <m>A \subseteq C.</m> On the other hand, it is clear that: <m>B \nsubseteq A</m>, <m>B \nsubseteq C</m> and <m>C \nsubseteq B</m>.</p>
+</li>
+<li>
+<p>If <m>S = \{ x\ |\ x\ \text{is\ a\ multiple\ of}\ 6\}</m> and<m>\ T\  = \ \{ x\ |\ x\ \text{is\ even\ integer}\}</m>, then <m>S \subseteq T</m> since every multiple of 6 is even. However, <m>2 \in T</m> while <m>2 \notin S</m>. Thus <m>T \nsubseteq S</m>.</p>
+</li>
+<li>
+<p>If <m>A\  = \ \{ a,\ \{ b\}\},</m> then <m>\{ a\} \subseteq A</m>and <m>\left\{ \left\{ b \right\} \right\} \subseteq A</m>. On the other hand, since <m>b \notin A</m>, <m>\{ b\}\  \nsubseteq A</m>, and <m>\{ a,\ \ b\}\  \nsubseteq A</m>.</p>
+</li>
+</ol>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.13:</alert></p>
+<ol type="a">
+<li><p>Sets <m>A</m> and <m>B</m> are said to be <em><alert>equal</alert></em> if they contain exactly the same elements. In this case, we write <m>A\  = \ B</m>. That is, <m>\left( \forall x \right)(x \in B \Longleftrightarrow x \in A)</m>.</p></li>
+<li><p>Sets <m>A</m> and <m>B</m> are said to be <em><alert>equivalent</alert></em> if and only if there is a one to one correspondence among their elements. In this case, we write <m>A\  \leftrightarrow \ B</m>.</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 1.30:</alert></p>
+<ol type="a">
+<li><p>The sets <m>\{ 1,\ 2,\ 3\},\ \{ 2,\ 1,\ 3\},\ \{ 1,\ 3,\ 2\}</m> are all equal.</p></li>
+<li><p><m>\{ x\ |\ x\ is\ a\ counting\ number\}\  = \ \{ x\ |\ x\ is\ a\ positive\ integer\}</m><m>\{ x\ |\ x\ \text{is\ a\ counting\ number}\}\  = \ \{ x\ |\ x\ \text{is\ a\ positive\ integer}\}</m></p></li>
+</ol>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.14:</alert> Set <m>A</m> is said to be a <alert>proper subset</alert> of set <m>B</m> if every element of <m>A</m> is also an element of <m>B</m>, but <m>B</m> has at least one element that is not in <m>A</m>. In this case, we write <m>A\mathbf{\subset}B</m>. We also say <m>B</m> is a proper super set of A, and write <m>B \supset A</m>. It is clear that</p>
+<p><m>A \subset B \Longleftrightarrow \lbrack\left( \forall x \right)(x \in A \Longrightarrow x \in B) \land (A \neq B)\rbrack</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Remark</alert>: Some authors do not use the symbol <image source="/media/imageA26.png" /><alert>.</alert> Instead they use the symbol <image source="/media/imageA27.png" /> for both subset and proper subset. In this material, we prefer to use the notations commonly used in high school mathematics, and we continue using <image source="/media/imageA26.png" /> and <image source="/media/imageA27.png" /> differently, namely for subset and proper subset, respectively.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.15:</alert> Let <m>A</m> be a set. The power set of <m>A</m>, dented by <m>P(A)</m>, is the set whose elements are all subsets of <m>A</m>. That is,</p>
+<p><m>P\left( A \right) = \{ B:B \subseteq A\}</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Note:</alert> If a set <m>A</m> is finite with <m>n</m> elements, then</p>
+<ol type="a">
+<li>
+<p>The number of subsets of <m>A</m> is <m>2^{n}</m> and</p>
+</li>
+<li>
+<p>The number proper subsets of <m>A</m> is <m>2^{n} - 1</m>.</p>
+</li>
+</ol>
+<p><alert>Example 1.31:</alert> Let <m>A = \{ x,y,z\}</m>. As noted before, <m>\phi</m> and <m>A</m> are subset of <m>A</m>. Moreover, <m>\left\{ x \right\},\left\{ y \right\},\left\{ z \right\},\left\{ x,y \right\},\left\{ x,z \right\}</m> and <m>\left\{ y,z \right\}</m> are also subsets of <m>A</m>. Therefore,</p>
+<p><m>P\left( A \right) = \{\phi,\left\{ x \right\},\left\{ y \right\},\left\{ z \right\},\left\{ x,y \right\},\left\{ x,z \right\},\left\{ y,z \right\},A\}</m>.</p>
+<p>Frequently it is necessary to limit the topic of discussion to elements of a certain fixed set and regard all sets under consideration as a subset of this fixed set. We call this set the <alert>universal set</alert> or the <alert>universe</alert> and denoted by <m>\mathbf{U}</m>.</p>
+<p><alert>Exercises</alert></p>
+<table>
+<tabular>
+<row>
+<cell><ol type="1">
+<li><p>Which of the following are sets?</p>
+<ol type="a">
+<li>
+<p>1,2,3</p>
+</li>
+<li>
+<p>{1,2},3</p>
+</li>
+<li>
+<p>{{1},2},3</p>
+</li>
+<li>
+<p>{1,{2},3}</p>
+</li>
+<li>
+<p>{1,2,a,b}.</p>
+</li>
+</ol></li>
+<li><p>Which of the following sets can be described in complete listing, partial listing and/or set-builder methods? Describe each set by at least one of the three methods.</p></li>
+</ol>
+<ol type="a">
+<li><p>The set of the first 10 letters in the English alphabet.</p></li>
+<li><p>The set of all countries in the world.</p></li>
+<li><p>The set of students of Addis Ababa University in the 2018/2019 academic year.</p></li>
+<li><p>The set of positive multiples of 5.</p></li>
+<li><p>The set of all horses with six legs.</p></li>
+</ol>
+<ol start="3" type="1">
+<li><p>Write each of the following sets by listing its elements within braces.</p>
+<ol type="a">
+<li>
+<p><m>A = \{ x\mathbb{\in Z: -}4 &lt; x \leq 4\}</m></p>
+</li>
+<li>
+<p><m>B = \{ x\mathbb{\in Z:}x^{2} &lt; 5\}</m></p>
+</li>
+<li>
+<p><m>C = \{ x\mathbb{\in N:}x^{3} &lt; 5\}</m></p>
+</li>
+<li>
+<p><m>D = \{ x\mathbb{\in R:}x^{2} - x = 0\}</m></p>
+</li>
+<li>
+<p><m>E = \{ x\mathbb{\in R:}x^{2} + 1 = 0\}</m>.</p>
+</li>
+</ol></li>
+<li><p>Let <m>A</m> be the set of positive even integers less than 15. Find the truth value of each of the following.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>15 \in A\ </m></p></li>
+<li><p><m>\  - 16 \in A\ </m></p></li>
+<li><p><m>\phi \in A</m></p></li>
+<li><p><m>12 \subset A</m></p></li>
+<li><p><m>\{ 2,\ 8,14\} \in A</m></p></li>
+<li><p><m>\{ 2,3,4\} \subseteq A</m></p></li>
+<li><p><m>\{ 2,4\} \in A</m></p></li>
+<li><p><m>\phi \subset A\ </m></p></li>
+<li><p><m>\{ 246\} \subseteq A</m></p></li>
+</ol>
+<ol start="5" type="1">
+<li><p>Find the truth value of each of the following and justify your conclusion.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>\phi \subseteq \phi</m> </p></li>
+<li><p><m>\{ 1,2\} \subseteq \{ 1,2\}</m></p></li>
+<li><p><m>\phi \in A</m> for any set A</p></li>
+<li><p><m>\{\phi\} \subseteq A</m>, for any set A</p></li>
+<li><p><m>5,\ 7 \subseteq \{ 5,\ 6,\ 7,\ 8\}</m></p></li>
+<li><p><m>\phi \in \{\{\phi\}\}</m></p></li>
+<li><p>For any set <m>A,\ A \subset A</m></p></li>
+<li><p><m>\{\phi\}\  = \phi</m></p></li>
+</ol>
+<ol start="6" type="1">
+<li><p>For each of the following set, find its power set.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>\{ ab\}\ </m></p></li>
+<li><p><m>\{ 1,\ 1.5\}\ </m></p></li>
+<li><p><m>\{ a,\ b\}\ </m></p></li>
+<li><p><m>\{ a,\ 0.5,\ x\}</m></p></li>
+</ol>
+<ol start="7" type="1">
+<li><p>How many subsets and proper subsets do the sets that contain exactly <m>1,\ 2,\ 3,\ 4,\ 8,\ 10</m> and <m>20</m> elements have?</p></li>
+<li><p>Is there a set <em>A</em> with exactly the following indicated property?</p></li>
+</ol>
+<ol type="a">
+<li><p>Only one subset</p></li>
+<li><p>Only one proper subset</p></li>
+<li><p>Exactly 3 proper subsets</p></li>
+<li><p>Exactly 4 subsets</p></li>
+<li><p>Exactly 6 proper subsets</p></li>
+<li><p>Exactly 30 subsets</p></li>
+<li><p>Exactly 14 proper subsets</p></li>
+<li><p>Exactly 15 proper subsets</p></li>
+</ol>
+<ol start="9" type="1">
+<li><p>How many elements does A contain if it has:</p></li>
+</ol>
+<ol type="a">
+<li><p>64 subsets?</p></li>
+<li><p>31 proper subsets?</p></li>
+<li><p>No proper subset?</p></li>
+<li><p>255 proper subsets?</p></li>
+</ol>
+<ol start="10" type="1">
+<li><p>Find the truth value of each of the following.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>\phi \in P(\phi)\ </m></p></li>
+<li><p><m>For\ any\ set\ A,\phi \subseteq P(A)</m></p></li>
+<li><p>For any set <m>A,\ A \in P(A)\ </m></p></li>
+<li><p>For any set <m>A,A \subset P(A).</m></p></li>
+</ol>
+<ol start="11" type="1">
+<li><p>For any three sets <m>A</m>, <m>B</m> and <m>C</m>, prove that:</p></li>
+</ol>
+<ol type="a">
+<li><p>If <m>A \subseteq B</m> and <m>B \subseteq C</m>, then <m>A \subseteq C</m>.</p></li>
+<li><p>If <m>A \subset B</m> and <m>B \subset C</m>, then <m>A \subset C</m>.</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+
+
+<subsection xml-id="set-operations-and-venn-diagrams">
+<title>Set Operations and Venn diagrams</title>
+<p>Given two subsets <m>A</m> and <m>B</m> of a universal set <m>U</m>, new sets can be formed using <m>A</m> and <m>B</m> in many ways, such as taking common elements or non-common elements, and putting everything together. Such processes of forming new sets are called <em><alert>set operations</alert></em>. In this section, three most important operations, namely union, intersection and complement are discussed.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.16:</alert> The union of two sets <m>A</m> and <m>B</m>, denoted by <m>A \cup B</m>, is the set of all elements that are either in <m>A</m> or in <m>B</m> (or in both sets). That is,</p>
+<p><m>A \cup B = \{ x:(x \in A) \vee (x \in B)\}</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p>As easily seen the union operator “<image source="/media/imageA28.png" />” in the theory of set is the counterpart of the logical operator “<image source="/media/imageA8.png" />”.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.17:</alert> The intersection of two sets <m>A</m> and <m>B</m>, denoted by <m>A \cap B</m>, is the set of all elements that are in <m>A</m> and <m>B</m>. That is,</p>
+<p><m>A \cap B = \{ x:(x \in A) \land (x \in B)\}</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p>As suggested by definition 1.17, the intersection operator “<image source="/media/imageA29.png" />” in the theory of sets is the counterpart of the logical operator “<image source="/media/imageA9.png" />”.</p>
+<p><alert>Note: -</alert> Two sets <m>A</m> and <m>B</m> are said to be disjoint sets if <m>A \cap B = \phi</m>.</p>
+<p><alert>Example 1.32:</alert></p>
+<ol type="a">
+<li>
+<p>Let <m>A\  = \ \{ 0,\ 1,\ 3,\ 5,\ 6\}</m> and <m>B\  = \ \{ 1,\ 2,\ 3,\ 4,\ 6,\ 7\}</m>. Then,<br />
+<m>A \cup B\  = \ \{ 0,\ 1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7\}</m> and <m>A \cap B\  = \ \{ 1,\ 3,\ 6\}</m>.</p>
+</li>
+<li><p>Let <m>A</m> = The set of positive even integers, and<br />
+<m>B</m> = The set of positive multiples of 3. Then,</p></li>
+</ol>
+<p><me>A \cup B = \{ x:x\ \text{is\ a\ positive\ intger\ that\ is\ either\ even\ or\ a\ multiple\ of}\ 3\}</me></p>
+<p><m>= \ \{ x\ |\ x\ \text{is\ a\ positive\ multiple\ of}\ 6.\}</m></p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.18:</alert> The difference between two sets <m>A</m> and <m>B</m>, denoted by <m>A - B</m>, is the of all elements in <m>A</m> and not in <m>B</m>; this set is also called the <alert>relative complement</alert> of <m>B</m> with respect to <m>A</m>. Symbolically,</p>
+<p><m>A - B = \{ x:x \in A \land x \notin B\}</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Note:</alert> <m>A\ –\ B</m> is sometimes denoted by <m>A\backslash B</m>. <m>A\ –\ B</m> and <m>A\backslash B</m> are used interchangeably.</p>
+<p><alert>Example 1.33:</alert> If <m>= \{ 1,3,5\}</m>, <m>B = \{ 1,2\}</m>, then <m>A - B = \{ 3,5\}</m> and <m>B - A = \{ 2\}</m>.</p>
+<p><alert>Note:</alert> The above example shows that, in general, <m>A - B</m> are <m>B - A</m> disjoint.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.19:</alert> Let <m>A</m> be a subset of a universal set <m>U</m>. The <em><alert>absolute complement</alert></em> (or simply <em><alert>complement</alert></em>) of <m>A</m>, denoted by <m>A&#39;</m> (or <m>A^{c}</m>or <m>\overline{A}\ \ )</m>, is defined to be the set of all elements of <m>U</m> that are not in <m>A</m>. That is,</p>
+<p><m>A^{&#39;} = \{ x:x \in U \land x \notin A\}</m> or <m>x \in A^{&#39;} \Longleftrightarrow x \notin A \Longleftrightarrow \neg(x \in A)</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p>Notice that taking the absolute complement of <m>A</m> is the same as finding the relative complement of <m>A</m> with respect to the universal set <m>U</m>. That is,</p>
+<p><m>A^{&#39;} = U - A</m>.</p>
+<p><alert>Example 1.34:</alert></p>
+<ol type="a">
+<li><p>If <m>U = \{ 0,1,2,3,4\}</m>, and if <m>A = \{ 3,4\}</m>, then <m>A^{&#39;} = \{ 0,1,2\}</m>.</p></li>
+<li><p>Let <m>U\  = \ \{ 1,\ 2,\ 3,\ \ldots,\ 12\}</m><br />
+<m>A = \{ x\ |\ x\ is\ a\ positive\ factor\ of\ 12\}</m><br />
+and <m>B\  = \ \{ x\ |\ x\ is\ an\ odd\ integer\ in\ U\}</m>.<br />
+Then, <m>A\prime = \ \{ 5,\ 7,\ 8,\ 9,\ 10,\ 11\}</m>,<m>\text{\ B}\prime = \ \{ 2,\ 4,\ 6,\ 8,\ 10,\ 12\}</m>,<br />
+<m>(A \cup B)\prime = \ (8,\ 10\}</m>,<m>\text{\ A}\prime \cup B\prime = \ \{ 2,\ 4,\ 5,\ 6,\ \ldots,\ 12\}</m>,<br />
+<m>A\prime \cap B\prime = \ \{ 8,\ 10\}</m>, and <m>(A\backslash B)\prime = \ \{ 1,\ 3,\ 5,\ 7,\ 8,\ 9,\ 10,\ 11\}.</m></p></li>
+<li><p>Let <m>U\  = \ \{ a,\ b,\ c,\ d,\ e,\ f,\ g,\ h\},A\  = \ \{ a,\ e,\ g,\ h\}</m> and<br />
+<m>B\  = \ \{ b,\ c,\ e,\ f,\ h\}</m>. Then<br />
+<m>A\prime = \ \{ b,\ c,\ d,\ f\}</m>,<m>\text{\ B}\prime = \ \{ a,\ d,\ g\}</m>, <m>B\ –\ A\  = \ \{ b,\ c,\ f\}</m>,<br />
+<m>A\ –\ B\  = \ \{ a,\ g\}</m>, and <m>\left( A \cup B \right)^{&#39;} = \{ d\}</m>.<image source="/media/imageA4.png" /></p></li>
+</ol>
+<p>Find <m>(A \cap B)&#39;</m>,<m>\text{\ A}\prime \cap B&#39;</m>, <m>A\prime \cup B&#39;</m>. Which of these are equal?</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Theorem 1.1:</alert> For any two sets <m>A</m> and <m>B</m>, each of the following holds.</p>
+<ol type="1">
+<li>
+<p><m>(A\prime)\prime = \ A</m>.</p>
+</li>
+<li><p><m>A\prime = \ U\ –\ A</m>.</p></li>
+<li><p><m>A\ –\ B\  = \ A \cap B\prime</m><m>A\ –\ B\  = \ A\  \cap B&#39;</m><m>A\ –\ B\  = \ A\  \cap \ B&#39;</m>.</p></li>
+<li>
+<p><m>\left( \text{A\ } \cup \text{\ B} \right)\prime = \ A\prime \cap \ B&#39;</m><alert>.</alert></p>
+</li>
+<li>
+<p><m>\left( \text{A\ } \cap \text{\ B} \right)\prime = \ A\prime\  \cup \ B&#39;</m>.</p>
+</li>
+<li>
+<p><m>A \subseteq B \Longleftrightarrow B&#39; \subseteq A&#39;</m>.</p>
+</li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p>Now we define the symmetric difference of two sets.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Definition 1.20:</alert> The symmetric difference of two sets <m>A</m> and <m>B</m>, denoted by <m>A\Delta B</m>, is the set</p>
+<p><m>A\Delta B = \left( A - B \right) \cup (B - A)</m>.</p></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Example 1.35:</alert> Let <m>U = \{ 1,2,3,\ldots,10\}</m> be the universal set, <m>A = \{ 2,4,6,8,9,10\}</m> and <m>B = \{ 3,5,7,9\}</m>. Then <m>B - A = \{ 3,5,7\}</m> and <m>A - B = \{ 2,4,6,8,10\}</m>. Thus <m>\text{A\ }\Delta\ B = \{ 2,3,4,5,6,7,8,10\}</m>.</p>
+<table>
+<tabular>
+<row>
+<cell><p><alert>Theorem 1.2:</alert> For any three sets <m>A</m>, <m>B</m> and <m>C</m>, each of the following holds.</p>
+<ol type="a">
+<li>
+<p><m>A \cup B\  = \ B \cup A</m>. (<image source="/media/imageA28.png" /> is commutative)</p>
+</li>
+<li>
+<p><m>A \cap B\  = \ B \cap A</m>. (<image source="/media/imageA29.png" /> is commutative)</p>
+</li>
+<li>
+<p><m>(A \cup B) \cup C\  = \ A \cup (B \cup C)</m>. (<image source="/media/imageA28.png" /> is associative)</p>
+</li>
+<li>
+<p><m>(A \cap B) \cap C\  = \ A \cap (B \cap C)</m>. (<image source="/media/imageA29.png" /> is associative)</p>
+</li>
+<li>
+<p><m>A \cup (B \cap C)\  = \ (A \cup B) \cap (A \cup C)</m>. (<image source="/media/imageA28.png" /> is distributive over <image source="/media/imageA29.png" />)</p>
+</li>
+<li><p><m>A \cap (B \cup C)\  = \ (A \cap B) \cup (A \cap C)</m>. (<image source="/media/imageA29.png" /> is distributive over <image source="/media/imageA28.png" />)</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+<p>Let us prove property “e” formally.</p>
+<p><m>x \in A \cup \left( B \cap C \right) \Longleftrightarrow (x \in A) \vee (x \in B \cap C)</m> (definition of <image source="/media/imageA28.png" />)</p>
+<p><m>\Longleftrightarrow x \in A \vee (x \in B \land x \in C)\ </m> <alert>(definition of</alert> <image source="/media/imageA29.png" /><alert>)</alert></p>
+<p>                            <m>\Longleftrightarrow (x \in A \vee x \in B) \land (x \in A \vee x \in C)</m> (<image source="/media/imageA8.png" /> is distributive over <image source="/media/imageA9.png" />)<br />
+                            <m>\Longleftrightarrow (x \in A\  \cup B) \land (x \in A\  \cup C</m>) (definition of <image source="/media/imageA28.png" />)<br />
+                            <m>\Longleftrightarrow x \in (A \cup B) \cap (A \cup C)</m>                                 (definition of <image source="/media/imageA29.png" />)<br />
+Therefore, we have <m>A \cup \left( B \cap C \right) = (A \cup B) \cap (A \cup C)</m>.</p>
+<p>The readers are invited to prove the rest part of theorem (1.2).</p>
+<p><alert>Venn diagrams</alert></p>
+<p>While working with sets, it is helpful to use diagrams, called <alert>Venn diagrams,</alert> to illustrate the relationships involved. A Venn diagram is a schematic or pictorial representative of the sets involved in the discussion. Usually sets are represented as interlocking circles, each of which is enclosed in a rectangle, which represents the universal set <m>U</m>.</p>
+<p><image source="/media/imageA30.png" style="width:4.80278in;height:1.72917in" /></p>
+<p>In some occasions, we list the elements of set <m>A</m> inside the closed curve representing <m>A</m>.</p>
+<p><alert>Example 1.36:</alert></p>
+<ol type="a">
+<li><p>If <m>U\  = \ \{ 1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7\}</m> and <m>A\  = \ \{ 2,\ 4,\ 6\}</m>, then a Venn diagram representation of these two sets looks like the following.</p></li>
+</ol>
+
+<p><image source="/media/imageA31.png" style="width:2.45139in;height:1.5in" /></p>
+
+<p><me>A\  = \ \{ x\ |\ x \in U\ \text{and}\text{\ x\ }\text{is\ even}\}</me></p>
+
+<p><image source="/media/imageA32.png" style="width:2.57431in;height:1.66667in" /></p>
+
+<p><alert>Example 1.37:</alert> Let <em>U</em> = The set of one digits numbers</p>
+<p><em>A</em> = The set of one digits even numbers</p>
+<p><em>B</em> = The set of positive prime numbers less than 10</p>
+<p>We illustrate the sets using a Venn diagram as follows.</p>
+<ol type="a">
+<li>
+<p>Illustrate <m>A \cap B</m> by a Venn diagram</p>
+</li>
+</ol>
+<p><image source="/media/re-png72/image34.png" /></p>
+<ol start="2" type="a">
+<li><p>Illustrate <em>A’</em> by a Venn diagram</p></li>
+<li>
+<p>Illustrate <em>A\B</em> by using a Venn diagram</p>
+</li>
+</ol>
+<p>Now we illustrate intersections and unions of sets by Venn diagram.</p>
+<table>
+<tabular>
+<row header="yes">
+<cell>Cases</cell>
+<cell>Shaded is <m>A \cup B</m></cell>
+<cell>Shaded <m>A \cap B</m></cell>
+</row>
+
+<row>
+<cell>Only some common elements</cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell><me>A \subseteq B</me></cell>
+<cell></cell>
+<cell></cell>
+</row>
+<row>
+<cell>No common element</cell>
+<cell></cell>
+<cell></cell>
+</row>
+</tabular>
+</table>
+<p><alert>Exercises</alert></p>
+<table>
+<tabular>
+<row>
+<cell><ol type="1">
+<li><p>If <m>B \subseteq A</m>, <m>A \cap B^{&#39;} = \{ 1,4,5\}</m> and <m>A \cup B = \{ 1,2,3,4,5,6\}</m>, find <m>B</m>.</p></li>
+<li><p>Let <m>A = \{ 2,4,6,7,8,9\}</m>,</p></li>
+</ol>
+<p><m>B = \{ 1,3,5,6,10\}</m> and</p>
+<p><m>C =</m>{<m>\ x:3x + 6 = 0</m> or <m>2x + 6 = 0</m>}. Find</p>
+<ol type="a">
+<li><p><m>A \cup B</m>.</p></li>
+<li><p>Is <m>\left( A \cup B \right) \cup C = A \cup (B \cup C)</m>?</p></li>
+</ol>
+<ol start="3" type="1">
+<li><p>Suppose <m>U =</m> The set of one digit numbers and</p></li>
+</ol>
+<p><m>A =</m>{<m>x:x</m> is an even natural number less than or equal to 9}</p>
+<p>Describe each of the sets by complete listing method:</p>
+<ol type="a">
+<li><p><m>A&#39;</m>.</p></li>
+<li><p><m>A \cap A&#39;</m>.</p></li>
+<li><p><m>A \cup A&#39;</m>.</p></li>
+<li><p><m>(A&#39;)&#39;</m></p></li>
+<li><p><m>\phi - U</m>.</p></li>
+<li><p><m>\phi&#39;</m></p></li>
+<li><p><m>U&#39;</m></p></li>
+</ol>
+<ol start="4" type="1">
+<li><p>Suppose <m>U =</m> The set of one digit numbers and</p></li>
+</ol>
+<p><m>A =</m>{<m>x:x</m> is an even natural number less than or equal to 9}</p>
+<p>Describe each of the sets by complete listing method:</p>
+<ol start="8" type="a">
+<li><p><m>A&#39;</m>.</p></li>
+<li><p><m>A \cap A&#39;</m>.</p></li>
+<li><p><m>A \cup A&#39;</m>.</p></li>
+<li><p><m>(A&#39;)&#39;</m></p></li>
+<li><p><m>\phi - U</m>.</p></li>
+<li><p><m>\phi&#39;</m></p></li>
+<li><p><m>U&#39;</m></p></li>
+</ol>
+<ol start="5" type="1">
+<li><p>Use Venn diagram to illustrate the following statements:</p></li>
+</ol>
+<ol type="a">
+<li><p><m>\left( A \cup B \right)^{&#39;} = A&#39; \cap B&#39;</m>.</p></li>
+<li><p><m>\left( A \cap B \right)^{&#39;} = A&#39; \cup B&#39;</m>.</p></li>
+<li><p>If <m>A \nsubseteq B</m>, then <m>A\backslash B \neq \phi</m>.</p></li>
+<li><p><m>A \cup A^{&#39;} = U</m>.</p></li>
+</ol>
+<ol start="6" type="1">
+<li><p>Let <m>A = \left\{ 1,2,3,4 \right\},\ B = \{ 5,7,8,9\}</m> and <m>C = \{ 6,7,8\}</m>. Then show that <m>\left( A\backslash B \right)\backslash C = A\backslash\text{(}B\backslash C)</m>.</p></li>
+<li><p>Perform each of the following operations.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>\phi \cap \{\phi\}\ </m></p></li>
+<li><p><m>\{\phi,\ \{\phi\}\}\ –\ \{\{\phi\}\}</m></p></li>
+<li><p><m>\{\phi,\ \{\phi\}\}\ –\ \{\phi\}\ </m></p></li>
+<li><p><m>\{\{\{\phi\}\}\}\ –\ \phi</m></p></li>
+</ol>
+<ol start="8" type="1">
+<li><p>Let <m>U\  = \ \{ 2,\ 3,\ 6,\ 8,\ 9,\ 11,\ 13,\ 15\},</m><br />
+<m>A\  = \ </m>{<m>x|x</m> is a positive prime factor of 66}</p></li>
+</ol>
+<p><m>B =</m>{<m>\ x \in U|</m> <m>x</m> is composite number } and <m>C\  = \ \{ x \in U|\ x\ –\ 5 \in U\}</m>. Then find each of the following.</p>
+<p><me>A \cap B,\ (A \cup B) \cap C,\ (A\ –\ B) \cup C,\ (A\ –\ B)\ –\ C,\ A\ –\ (B\ –\ C),(A\ –\ C)\ –\ (B\ –\ A),\ A\prime \cap B\prime \cap C\prime</me></p>
+<ol start="9" type="1">
+<li><p>Let <m>A \cup B\  = \ \{ a,\ b,\ c,\ d,\ e,\ x,\ y,\ z\}</m> and <m>A \cap B\  = \ \{ b,\ e,\ y\}</m>.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>If\ B\ –\ A\  = \ \{ x,\ z\}</m>, then <m>A\  = \ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_</m></p></li>
+<li><p><m>If\ A\ –\ B\  = \phi</m>, then <m>B\  = \ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_</m></p></li>
+<li><p><m>If\ B\  = \ \{ b,\ e,\ y,\ z\}</m>, then <m>A\ –\ B\  = \ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_</m></p></li>
+</ol>
+<ol start="10" type="1">
+<li><p>Let <m>U\  = \ \{ 1,\ 2,\ \ldots,\ 10\},\ A\  = \{ 3,\ 5,\ 6,\ 8,\ 10\},\ B\  = \ \{ 1,\ 2,\ 4,\ 5,\ 8,\ 9\},</m><br />
+<m>C\  = \ \{ 1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 8\}</m> and <m>D\  = \ \{ 2,\ 3,\ 5,\ 7,\ 8,\ 9\}</m>. Verify each of the following.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>(A \cup B) \cup C\  = \ A \cup (B \cup C)</m>.</p></li>
+<li><p><m>A \cap (B \cup C \cup D)\  = \ (A \cap B) \cup (A \cap C) \cup (A \cap D)</m>.</p></li>
+<li><p><m>(A \cap B \cap C \cap D)\prime = \ A\prime \cup B\prime \cup C\prime \cup D\prime.</m></p></li>
+<li><p><m>C\ –\ D\  = \ C \cap D\prime.</m></p></li>
+<li><p><m>A \cap (B \cap C)\prime = \ (A\ –\ B) \cup (A\ –\ C).</m></p></li>
+</ol>
+<ol start="11" type="1">
+<li><p>Depending on question No. 10 find.</p></li>
+</ol>
+<ol type="a">
+<li><p><m>A\ \mathrm{\Delta}\ B</m>.</p></li>
+<li><p><m>\ C\ \mathrm{\Delta}\ D</m>.</p></li>
+<li><p><m>\ \left( A\ \mathrm{\Delta}\ C \right)\mathrm{\Delta}\ D</m>.</p></li>
+<li><p><m>(A \cup B)\backslash\ (A\ \mathrm{\Delta}\ B).</m></p></li>
+</ol>
+<ol start="12" type="1">
+<li><p>For any two subsets <m>A</m> and <m>B</m> of a universal set <m>U</m>, prove that:</p></li>
+</ol>
+<ol type="a">
+<li><p><m>\text{A\ }\mathrm{\Delta}\ B\  = \ B\ \mathrm{\Delta}\ A</m>.</p></li>
+<li><p><m>\text{A\ }\mathrm{\Delta}\ B\  = \ (A \cup B)\ –\ (A \cap B)</m>.</p></li>
+<li><p><m>\text{A\ }\mathrm{\Delta}\ \phi = \ A</m>.</p></li>
+<li><p><m>\text{A\ }\mathrm{\Delta}\ A\  = \phi</m>.</p></li>
+</ol>
+<ol start="13" type="1">
+<li><p>Draw an appropriate Venn diagram to depict each of the following sets.</p></li>
+</ol>
+<ol type="a">
+<li><p><em>U</em> = The set of high school students in Addis Ababa.<br />
+<em>A</em> = The set of female high school students in Addis Ababa.</p></li>
+</ol>
+
+<p><em>B</em> = The set of high school anti-AIDS club member students in Addis Ababa.<br />
+<em>C</em> = The set of high school Nature Club member students in Addis Ababa.</p>
+
+<ol start="2" type="a">
+<li><p><em>U</em> = The set of integers.<br />
+<em>A</em> = The set of even integers.<br />
+<em>B</em> = The set of odd integers.<br />
+C = The set of multiples of 3.<br />
+<em>D</em> = The set of prime numbers.</p></li>
+</ol></cell>
+</row>
+</tabular>
+</table>
+</subsection>
+</section>
