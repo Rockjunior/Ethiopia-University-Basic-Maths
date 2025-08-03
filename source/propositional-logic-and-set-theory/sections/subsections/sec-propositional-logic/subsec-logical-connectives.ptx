@@ -6,7 +6,7 @@
 <tabular>
 <row>
 <cell><p><alert>Conjunction</alert></p>
-<p>When two propositions are joined with the connective “<alert>and</alert>,” the proposition formed is a logical <em><alert>conjunction</alert></em>. “and” is denoted by “<image source="/media/imageA2.png" />”. So, the logical conjunction of two propositions, <m>p</m> and <m>q</m>, is written:</p>
+<p>When two propositions are joined with the connective “<alert>and</alert>,” the proposition formed is a logical <em><alert>conjunction</alert></em>. “and” is denoted by “<m>\land</m>”. So, the logical conjunction of two propositions, <m>p</m> and <m>q</m>, is written:</p>
 <p><m>p \land q</m>, read as “<m>p</m> and <m>q</m>,” or “<m>p</m> conjunction <m>q</m>”.</p>
 <p><em>p</em> and <em>q</em> are called <em><alert>the components of the conjunction</alert></em>. <m>p \land q</m> is true if and only if <m>p</m> is true and <m>q</m> is true.</p></cell>
 </row>
@@ -49,7 +49,7 @@
 <tabular>
 <row>
 <cell><p><alert>Disjunction</alert></p>
-<p>When two propositions are joined with the connective “<alert>or</alert>,” the proposition formed is called a logical <em><alert>disjunction</alert></em>. “or” is denoted by “<image source="/media/imageA3.png" />”. So, the logical disjunction of two propositions, <m>p</m> and <m>q</m>, is written:</p>
+<p>When two propositions are joined with the connective “<alert>or</alert>,” the proposition formed is called a logical <em><alert>disjunction</alert></em>. “or” is denoted by “<m>\vee</m>”. So, the logical disjunction of two propositions, <m>p</m> and <m>q</m>, is written:</p>
 <p><m>p\  \vee q</m> read as “<m>p</m> or <m>q</m>” or “<m>p</m> disjunction <m>q</m>.”</p>
 <p><m>p \vee q</m> is false if and only if both <m>p</m> and <m>q</m> are false.</p></cell>
 </row>
@@ -86,14 +86,14 @@
 <p><m>s</m>: Nairobi is the capital city of Ethiopia. (False)</p>
 <ol type="a">
 <li><p><m>p \vee q</m>: 3 is an odd number or 27 is a prime number. (True)</p></li>
-<li><p><m>p \vee r</m><image source="/media/imageA4.png" /><m>p \vee s</m> : 27 is a prime number or Nairobi is the capital city of Ethiopia. (False)</p></li>
+<li><p><m>p \vee s</m>: 27 is a prime number or Nairobi is the capital city of Ethiopia. (False)</p></li>
 </ol>
 <p><alert>Note:</alert> The use of “<alert>or</alert>” in propositional logic is rather different from its normal use in the English language. For example, if Solomon says, “I will go to the football match in the afternoon or I will go to the cinema in the afternoon,” he means he will do one thing or the other, but not both. Here “or” is used in the exclusive sense. But in propositional logic, “or” is used in the inclusive sense; that is, we allow Solomon the possibility of doing both things without him being inconsistent.</p>
 <table>
 <tabular>
 <row>
 <cell><p><alert>Implication</alert></p>
-<p>When two propositions are joined with the connective “<alert>implies</alert>,” the proposition formed is called a <em>logical <alert>implication</alert></em>. “implies” is denoted by “<image source="/media/imageA5.png" />.” So, the logical implication of two propositions, <m>p</m> and <m>q</m>, is written:</p>
+<p>When two propositions are joined with the connective “<alert>implies</alert>,” the proposition formed is called a <em>logical <alert>implication</alert></em>. “implies” is denoted by “<m> \Longrightarrow </m>” So, the logical implication of two propositions, <m>p</m> and <m>q</m>, is written:</p>
 <p><m>p \Longrightarrow q\ </m> read as “<m>p</m> implies <m>q</m>.”</p>
 <p>The function of the connective “implies” between two propositions is the same as the use of “If … then …” Thus <m>p \Longrightarrow q</m> can be read as “if <m>p</m>, then <m>q</m>.”</p>
 <p><m>p \Longrightarrow q\ </m>is false if and only if <m>p</m> is true and <m>q</m> is false.</p></cell>
@@ -143,7 +143,7 @@
 <tabular>
 <row>
 <cell><p><alert>Bi-implication</alert></p>
-<p>When two propositions are joined with the connective “<alert>bi-implication</alert>,” the proposition formed is called a <em>logical</em> <em><alert>bi-implication</alert></em> or a <em>logical <alert>equivalence</alert></em>. A bi-implication is denoted by “<image source="/media/imageA6.png" />”. So the logical bi-implication of two propositions, <m>p</m> and <m>q</m>, is written:</p>
+<p>When two propositions are joined with the connective “<alert>bi-implication</alert>,” the proposition formed is called a <em>logical</em> <em><alert>bi-implication</alert></em> or a <em>logical <alert>equivalence</alert></em>. A bi-implication is denoted by “<m> \Longleftrightarrow </m>”. So the logical bi-implication of two propositions, <m>p</m> and <m>q</m>, is written:</p>
 <p><m>p \Longleftrightarrow q</m>.</p>
 <p><m>p \Longleftrightarrow q</m> is false if and only if <m>p</m> and <m>q</m> have different truth values.</p></cell>
 </row>

@@ -36,7 +36,7 @@
 <li><p>Suppose that a compound proposition is symbolized by</p></li>
 </ol>
 <p><me>(p \vee q) \Longrightarrow (r\mathbf{\Longleftrightarrow}\neg s)</me></p>
-<p>and that the truth values of <m>p,q,r,</m> and <m>s</m> are <m>T,F,F,</m> and <m>T</m>, respectively. Then the truth value of <m>p \vee q</m> is <m>T</m>, that of <m>\neg s</m> is <image source="/media/imageA7.png" />, that of <m>r\mathbf{\Longleftrightarrow}\neg s</m> is <m>T</m>. So the truth value of <m>(p \vee q) \Longrightarrow (r\mathbf{\Longleftrightarrow}\neg s)</m> is <m>T</m>.</p>
+<p>and that the truth values of <m>p,q,r,</m> and <m>s</m> are <m>T,F,F,</m> and <m>T</m>, respectively. Then the truth value of <m>p \vee q</m> is <m>T</m>, that of <m>\neg s</m> is <m>F</m>, that of <m>r\mathbf{\Longleftrightarrow}\neg s</m> is <m>T</m>. So the truth value of <m>(p \vee q) \Longrightarrow (r\mathbf{\Longleftrightarrow}\neg s)</m> is <m>T</m>.</p>
 <p><alert>Remark:</alert> When dealing with compound propositions, we shall adopt the following convention on the use of parenthesis. Whenever “<image source="/media/imageA8.png" />” or “<image source="/media/imageA9.png" />” occur with “<image source="/media/imageA10.png" />” or “<image source="/media/imageA11.png" />”, we shall assume that “<image source="/media/imageA8.png" />” or “<image source="/media/imageA9.png" />” is applied first, and then “<image source="/media/imageA10.png" />” or “<image source="/media/imageA11.png" />” is then applied. For example,</p>
 <p><m>p \land q \Longrightarrow r</m> means <m>(p \land q) \Longrightarrow r</m></p>
 <p><m>p \vee q\mathbf{\Longleftrightarrow}r</m> means <m>(p \vee q)\mathbf{\Longleftrightarrow}r</m></p>
