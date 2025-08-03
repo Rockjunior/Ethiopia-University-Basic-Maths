@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsection xml:id="definition-and-examples-of-propositions">
     <title>Definition and examples of propositions</title>
-    <p><alert>Consider the following sentences.</alert></p>
+    <p><term>Consider the following sentences.</term></p>
     <p>
         <ol marker="a">
             <li>
@@ -40,26 +40,30 @@
         <term>T</term>he first three sentences are declarative sentences. 
         The first one is true and the second one is false. 
         The truth value of the third sentence cannot be ascertained because of lack of historical records but it is, by its very form, 
-        either true or false but not both. On the other hand, the last three sentences have no truth value. So they are not declaratives.</p>
+        either true or false but not both. On the other hand, the last three sentences have no truth value. So they are not declaratives.
+    </p>
     <p>
         <term>Now we begin by examining proposition, the building blocks of every argument. 
         A proposition is a sentence that may be asserted or denied. Proposition in this way are different from questions, commands, and exclamations. 
         Neither questions, which can be asked, nor exclamations, which can be uttered, can possibly be asserted or denied. 
         Only propositions assert that something is (or is not) the case, and therefore only they can be true or false.</term>
     </p>
-    <definition xml:id="def-definition_1.1:">
+
+    <!-- <definition xml:id="def-definition_1.1:">
         <statement>
             <p>
                 A proposition (or statement) is a sentence which has a truth value (either True or False but not both).
             </p>
         </statement>
-    </definition>
+    </definition> -->
+
     <p>
         The above definition does not mean that we must always know what the truth value is. 
         For example, the sentence “The <m>\text{1000}^\text{th}</m> digit in the decimal expansion of <m>\pi</m> is 7” is a proposition, 
         but it may be necessary to find this information in a Web site on the Internet to determine whether this statement is true. Indeed, 
         for a sentence to be a proposition (or a statement), it is not a requirement that we are able to determine its truth value.
     </p>
+
     <p>
         Every proposition has a truth value, namely <term>true</term> (denoted by <m>\mathbf{T}</m>) or <term>false</term> (denoted by <m>\mathbf{F}</m>).
     </p>
