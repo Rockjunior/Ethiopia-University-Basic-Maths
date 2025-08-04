@@ -48,6 +48,7 @@ ehthumbs_vista.db
 *.msix
 *.msm
 *.msp
+*.bak
 [Dd]esktop.ini
 .directory
 .fuse_hidden*
