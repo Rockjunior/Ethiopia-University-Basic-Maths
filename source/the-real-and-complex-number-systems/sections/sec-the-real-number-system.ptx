@@ -1,6 +1,10 @@
 <section xml:id="sec-the-real-number-system" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>The real number System</title>
-
+    <introduction>
+        <p>
+            
+        </p>
+    </introduction>
     <xi:include href="subsections/sec-the-real-number-system/subsec-the-set-of-natural-numbers.ptx" />
     <xi:include href="subsections/sec-the-real-number-system/subsec-the-set-of-integers.ptx" />
     <xi:include href="subsections/sec-the-real-number-system/subsec-the-set-of-rational-numbers.ptx" />
