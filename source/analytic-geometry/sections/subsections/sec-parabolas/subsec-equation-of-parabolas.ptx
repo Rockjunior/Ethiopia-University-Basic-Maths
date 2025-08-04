@@ -21,14 +21,12 @@
         <p>
             <m>\sqrt{(x-h)^2\, +\, (y-k-p)^2 } = y \,-\,k\,+\,p</m>
         </p>
-
-        </figure>
         
         <p>
             Upon simplification, this becomes 
         </p>
         <sidebyside>
-            <figure xml:id="standard equation of a vertical parabola">
+            <figure xml:id="standard-equation-of-a-vertical-parabola">
                 <caption>standard equation</caption>
                 <image source="/focal-length.png" width="40%">
                 <shortdescription>focal length of a parabola</shortdescription>
@@ -56,7 +54,7 @@
         </p>
         
        <sidebyside>
-            <figure xml:id="directrix y=-p">
+            <figure xml:id="directrix-y-p">
              <caption>parabola with directrix y = -p</caption>
             <image source="/imagec3-parabola.png" width="50%">
                 <shortdescription>directrix y=-p</shortdescription>
@@ -75,7 +73,7 @@
          </ul>
        </sidebyside>
         <sidebyside>
-            <figure xml:id="directrix y=-p-1">
+            <figure xml:id="directrix-y-p-1">
                 <caption>parabola with directrix y = -p</caption>
                     <image source="/imagec2-parabola.png">
                         <shortdescription></shortdescription>
@@ -98,7 +96,7 @@
                 In particular, if the vertex of a vertical parabola is at origin, i.e., (<em>h, k</em>) =(0,0) and opens downward, then its equation is
         </p>
         <sidebyside>
-            <figure xml:id="directrix y=p">
+            <figure xml:id="directrix-y-p-2">
                 <caption>parabola with directrix y=p</caption>
                 <image source="assets/imagec1-parabola.png">
                     <shortdescription></shortdescription>
@@ -257,8 +255,6 @@
                    
                 may represent a parabola whose axis is parallel to the <em><alert>y</alert></em>-axis or parallel to the <em><alert>x</alert></em>-axis, respectively. The vertex, focal length and focus for such sec-parabolas can be identified after converting the equations into one of the standard forms by completing the square.
             </p>
-
-                    <p>
         </remark>
                
         <exercises>
