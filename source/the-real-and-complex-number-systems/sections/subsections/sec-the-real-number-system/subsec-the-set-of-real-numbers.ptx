@@ -248,6 +248,34 @@
                     Consider the set <m>A = \lbrack 2,\ 5) \subseteq \Re</m>.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    <ol marker="i) ">
+                        <li>
+                            <p>
+                                lower bounds are <m>\cdots,-9,-3,0,\frac{1}{2},1,2</m>
+                            </p>
+                            <p>
+                                Here the greatest element is <m>2</m>.
+                            </p>
+                            <p>
+                                <m>\therefore </m> glb <m>=2</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                upper bonds are <m>5,6,\frac{25}{3},20,99,1000 \cdots</m>
+                            </p>
+                            <p>
+                                Here the least element is <m>5</m>.
+                            </p>
+                            <p>
+                                <m>\therefore</m> lub <m>=5</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </example>
         <example>
             <statement>
@@ -258,6 +286,26 @@
             <solution>
                 <p>
                     <m>A = \left\{ \ 1,\ \frac{1}{2},\ \frac{1}{3},\ \cdots \right\}</m>
+                </p>
+                <p>
+                    <ol marker="i) ">
+                        <li>
+                            <p>
+                                lower bounds are <m>\cdots, -3, -2, 0</m>
+                            </p>
+                            <p>
+                                Here the greatest element is <m>0</m>. Thus, glb <m>=0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                upper bounds are <m>1,3,\frac{9}{2},50,\cdots</m>
+                            </p>
+                            <p>
+                                Here the least element is <m>1</m>. Thus, lub <m>=1</m>.
+                            </p>
+                        </li>
+                    </ol>
                 </p>
                 <p>
                     Based on the above definitions, we can define the completeness property of real numbers as below.

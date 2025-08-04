@@ -469,7 +469,7 @@
         <proposition xml:id="prop-non-empty-set">
             <statement>
                 <p>
-                    <alert>E</alert>very non-empty subset of the set of natural numbers has smallest (least) element.
+                    Every non-empty subset of the set of natural numbers has smallest (least) element.
                 </p>
             </statement>
         </proposition>
@@ -497,7 +497,7 @@
         </p>
         <tabular top="medium" bottom="medium" right="medium" left="medium">
             <col width="100%"></col>
-            <row>
+            <row header="yes">
                 <cell>
                     <p>For a given assertion involving a natural number <m>n</m>, if</p>
                 </cell>
@@ -524,16 +524,45 @@
         </tabular>
 
         <p>The method is used to prove different propositions involving positive integers using three steps:</p>
-        <p>Step1: Prove that <m>T_{k}</m> (usually<m>T_{1}</m>) holds true.</p>
+        <p>Step1: Prove that <m>T_{k}</m> (usually <m>T_{1}</m>) holds true.</p>
         <p>Step 2: Assume that <m>T_{k}</m> for <m>k = n</m> is true.</p>
         <p>Step 3: Show that <m>T_{k}</m> is true for <m>k = n+1</m>.</p>
 
         <example>
             <statement>
                 <p>
-                    Show that <m> 1 + 3 + 5 + \cdots + (2n - 1) = n^{2}\text{.}</m>
+                    Show that <m> 1 + 3 + 5 + \cdots + (2n - 1) = n^{2}</m>.
                 </p>
             </statement>
+            <solution>
+                <proof>
+                    <p>
+                        Step1. For <m>n=1, 1=1^2</m> which is true.
+                    </p>
+                    <p>
+                        Step2. Assume that it is true for <m>n=k</m> 
+                    </p>
+                    <p>
+                        i.e <m>1 + 3 + 5 + \cdots + (2k - 1) = k^{2}</m>
+                    </p>
+                    <p>
+                        Step3.We should show that it is true for <m>n=k+1.</m>
+                    </p>
+                    <p>
+                        Claim: <m>1+3+5+\cdots+(2k-1) + (2k+1) = (k+1)^2</m>
+                    </p>
+                    <p>
+                        <md>
+                            <mrow>1+3+5+\cdots+(2k-1)+(2k+1) \amp = k^2 + (2k+1) </mrow>
+                            <mrow> \amp = k^2 + 2k + 1</mrow>
+                            <mrow> \amp = (k+1)^2 \text{ which is the required result.} </mrow>
+                        </md>
+                    </p>
+                    <p>
+                        <m>\therefore</m> It is true for any natural number <m>n.</m>
+                    </p>
+                </proof>
+            </solution>
         </example>
         <example>
             <statement>
@@ -541,6 +570,40 @@
                     Show that <m> 1 + 2 + 3 + \cdots + (n) = \frac{n (n + 1)}{2}\text{.}</m>
                 </p>
             </statement>
+            <solution>
+                <p>
+                    
+                </p>
+                <proof>
+                    <p>
+                        Step1. For <m>n=1, 1=\frac{1(1+1)}{2}</m> which is true.
+                    </p>
+                    <p>
+                        Step2. Assume that it is true for <m>n=k</m>
+                    </p>
+                    <p>
+                        i.e. <m>1+2+3+\cdots+(k) = \frac{k(k+1)}{2}</m>
+                    </p>
+                    <p>
+                        Step3. We should show that it is true for <m>n=k+1</m>
+                    </p>
+                    <p>
+                        Claim: <m>1+2+3+\cdots+(k)+(k+1) = \frac{(k+1)(k+2)}{2}.</m>
+                    </p>
+                    <p>
+                        Now <m>1+2+3+\cdots+(k)+(k+1) = \frac{k(k+1)}{2} + (k+1) </m>
+                    </p>
+                    <p>
+                        <m> \qquad \qquad \qquad \qquad = \frac{k(k+1)+2(k+1)}{2}</m>
+                    </p>
+                    <p>
+                        <m>\qquad \qquad \qquad \qquad = \frac{(k+1)(k+2)}{2}</m> which is the required result.
+                    </p>
+                    <p>
+                        <m>\therefore</m> It is true for any natural number <m>n</m>.
+                    </p>
+                </proof>
+            </solution>
         </example>
         <example>
             <statement>
@@ -548,6 +611,43 @@
                     Show that <m> 5^{n} + 6^{n} &lt; 9^{n}\ \text{for}\ n \geq 2\text{.} </m>
                 </p>
             </statement>
+            <solution>
+                <proof>
+                    <p>
+                        Step1. For <m>n=2</m>, <m>61 &lt; 81</m> which is true
+                    </p>
+                    <p>
+                        Step2. Assume that it is true for <m>n=k</m>.
+                    </p>
+                    <p>
+                        i.e. <m>5^k + 6^k &lt; 9^k</m>.
+                    </p>
+                    <p>
+                        We should show that it is true for <m>n=k+1</m>
+                    </p>
+                    <p>
+                        Claim: <m>5^{k+1} + 6^{k+1} &lt; 9^{k+1}</m>.
+                    </p>
+                    <p>
+                        Now <m>5^{k+1} + 6^{k+1} = 5.5^k + 6.6^k &lt; 6.5^k + 6.6^k</m>
+                    </p>
+                    <p>
+                        <m>\qquad \qquad \qquad \qquad = 6(5^k + 6^k)</m>
+                    </p>
+                    <p>
+                        <m> \qquad \qquad \qquad \qquad &lt; 9(5^k + 6^k)</m>
+                    </p>
+                    <p>
+                        <m>  \qquad \qquad \qquad \qquad &lt; 9(9^k) = 9^{k+1}</m>
+                    </p>
+                    <p>
+                        <m>\Rightarrow 5^{k+1} + 6^{k+1} &lt; 9^{k+1} \text{ which is the required format.}</m>
+                    </p>
+                    <p>
+                        <m>\therefore</m> It is true for any natural number <m>n \geq 2</m>.
+                    </p>
+                </proof>
+            </solution>
         </example>
     </subsubsection>
 
