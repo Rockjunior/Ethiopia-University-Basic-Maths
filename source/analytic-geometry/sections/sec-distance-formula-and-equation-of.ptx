@@ -15,7 +15,6 @@
                 <li><p>be able to find the distance between a point and a line in the coordinate plane.</p></li>
             </ul>
         </p>
-
     </introduction>
 
     <xi:include href="subsections/sec-distance-formula-and-equation-of/subsec-distance-between-two-points-and.ptx" />

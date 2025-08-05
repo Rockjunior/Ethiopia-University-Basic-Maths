@@ -1,8 +1,24 @@
 <subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-rotation-of-coordinate-axes">
     <title>Rotation of Coordinate Axes </title>
-    <p>A rotation of the <em>x</em> and <em>y</em> coordinate axes by an angle <em>θ</em> about the origin O(0,0) creates a new <em>x</em>'<em>y</em>'-coordinate system whose <em>x</em>'-axis is the line obtained by rotating the <em>x</em>-axis by angle <em>θ</em> about O and <alert><em>y</em>'</alert>-axis is the line obtained by rotating the <em><alert>y</alert></em>-axis in the same way. This makes a point P to have two sets of coordinates denoted by (<em>x</em>,<em>y</em>) and (<em>x</em>′,<em>y</em>′) relative to the <em>xy</em><alert>-</alert> and <em>x</em>′<em>y</em>′-coordinate axes, respectively.(See Figure 4.30).</p>
+    <p>A rotation of the <em>x</em> and <em>y</em> coordinate axes by an angle <em>θ</em> about the origin O(0,0) creates a new <em>x</em>'<em>y</em>'-coordinate system whose <em>x</em>'-axis is the line obtained by rotating the <em>x</em>-axis by angle <em>θ</em> about O and <alert><em>y</em>'</alert>-axis is the line obtained by rotating the <em><alert>y</alert></em>-axis in the same way. This makes a point P to have two sets of coordinates denoted by (<em>x</em>,<em>y</em>) and (<em>x</em>′,<em>y</em>′) relative to the <em>xy</em><alert>-</alert> and <em>x</em>′<em>y</em>′-coordinate axes, respectively.</p>
+
+    <figure xml:id="rotation-of-coordinates1">
+        <caption></caption>
+        <image source="/rotation-of-coordinates1.png" width="60%">
+            <shortdescription>(for accessibility)</shortdescription>
+        </image>
+    </figure>
+
     <p>The angle <em>θ</em> considered in the above discussion is called the angle of rotation. Our aim is to find the relationships between the coordinates (<em>x</em>,<em>y</em>) and the coordinates (<em>x</em>′,<em>y</em>′) of the same point P.</p>
-    <p>To find this relationships, let P(<em>x,y</em>) be any point in <em>xy</em>-plane, <em>θ</em> be an angle of rotation (i.e., <em>θ</em> is angle between <em>x</em> and <em>x</em>' axes ) and <em>φ</em> be the angle between OP and <alert><em>x</em>'</alert>-axis (See Figure 4.31).</p>
+    <p>To find this relationships, let P(<em>x,y</em>) be any point in <em>xy</em>-plane, <em>θ</em> be an angle of rotation (i.e., <em>θ</em> is angle between <em>x</em> and <em>x</em>' axes ) and <em>φ</em> be the angle between OP and <alert><em>x</em>'</alert>-axis.</p>
+    
+    <figure xml:id="rotation-of-coordinates2">
+        <caption></caption>
+        <image source="/rotation-of-coordinates2.png" width="60%">
+            <shortdescription>(for accessibility)</shortdescription>
+        </image>
+    </figure>
+
     <p>
         So, letting <alert>|</alert>OP<alert>|</alert> = <em>r</em> observe that
     </p>
@@ -42,12 +58,12 @@
         <m>
             \begin{align}
             x' &amp; = xcos\theta +ysin\theta  \\
-            y &amp; = ysin\theta +ycos\theta 
+            y' &amp; = ysin\theta +ycos\theta 
             \end{align}
         </m>
     </p>
     <p>
-        The Equations (3) and (4) are called <alert>rotation formulas</alert>. 
+        The Equations (3) and (4) are called <m>\textbf{rotation formulas}</m>. 
         It follows that if the angle of rotation <em>θ</em> is given, then Equation (3) can be used to 
         determine the <em>x</em> and <em>y</em> coordinates of a point P if we know its <em>x</em>′ and <em>y</em>′ coordinates.
         Similarly, Equation (4) can be used to determine the <em>x</em>′ and <em>y</em>′ coordinates of P 
@@ -76,7 +92,7 @@
         </statement>
         <solution>
             <p>
-                The given information about P and the curve are relative to the <em>xy</em>-coordinate system 
+                The given information about P and the curve are relative to the   <em>xy</em>-coordinate system 
                 and we need to express them in terms of <em>x</em>' and <em>y</em>' coordinates relative to the new <em>x</em>′<em>y</em>′-coordinate 
                 system obtained under the rotation of the original axes by <em>θ</em> = π/4 rad about the origin. 
                 Thus, we use <m>cos\frac{\pi}{4}=sin\frac{\pi}{4}= \frac{\sqrt{2}}{2}</m> in the relevant rotation formula to obtain the following.
@@ -158,6 +174,13 @@
                 </ol>
             </p>
 
+            <figure xml:id="rotation-of-coordinates3">
+                <caption></caption>
+                <image source="/rotation-of-coordinates3.png">
+                    <shortdescription>(for accessibility)</shortdescription>
+                </image>
+            </figure>
+
         </solution>
     </example>
     <example>
@@ -169,11 +192,14 @@
         </statement>
         <solution>
             <p>
-                The position of the ellipse is as shown in Figure 4.33.
+                The position of the ellipse is as shown in .
             </p>
-            <p>
-                
-            </p>
+            <figure xml:id="rotation-of-coordinates4">
+                <caption></caption>
+                <image source="/rotation-of-coordinates4.png">
+                    <shortdescription>(for accessibility)</shortdescription>
+                </image>
+            </figure>
             <p>
                 To apply the standard equation of ellipse we use the <em>x</em>'<em>y</em>'-coordinate system 
                 such that the <alert><em>x</em>'</alert>-axis coincide with the major axis of the ellipse. 
@@ -294,7 +320,47 @@
                                 <ol marker="(1)">
                                     <li>
                                         <p>
-                                            
+                                            <m>x = 5</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>x − 2y = 1</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                             <m>x^2 + y^2 = 1</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>(x − 1)^2 + y^2 = 4</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                             <m>x^2 − 4y = 1</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>4x^2 + (y − 2)^2 = 4</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>x^2 + 4y^2 − 4x = 0</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                             <m>x^2 − 4y^2 = 1</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                             <m>−x^2 + y^2 − 2y = 0</m>
                                         </p>
                                     </li>
                                 </ol>
@@ -304,18 +370,40 @@
                 </p>
             </statement>
         </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Suppose the <m>xy</m>-coordinate axes are rotated 30° counterclockwise about the origin to obtain the new <m>x'y'</m>-coordinate system. If the following points are with respect to the new <m>x'y'</m>-system, what is the coordinates of each point with respect to the old <m>xy</m>-system?
+                </p>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                (0, 2)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                (−2, 4)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                (1, −3)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left ( \sqrt{3} ,-\sqrt{3}\right )</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
     </exercises>
 
-<!-- 
-<p>(b) </p>
-<p>(i) <em>x</em> =5 (iv) (<em>x</em> −1)<sup>2</sup> + <em>y</em><sup>2</sup> = 4 (vii) <em>x</em><sup>2</sup> + 4<em>y</em><sup>2</sup> − 4<em>x</em> = 0</p>
-<p>(ii) <em>x</em> −2<em>y</em> = 1 (v) <em>x</em><sup>2</sup> − 4<em>y</em> = 1 (viii) <em>x</em><sup>2</sup> − 4<em>y</em><sup>2</sup> = 1</p>
-<p>(iii) <em>x</em> <sup>2</sup> + <em>y</em><sup>2</sup> = 1 (vi) 4<em>x</em><sup>2</sup> + (<em>y−</em>2)<sup>2</sup> = 4 (ix) −<em>x</em><sup>2</sup> + <em>y</em><sup>2</sup> −2<em>y</em> = 0</p>
-<p>2 Suppose the <em><alert>xy</alert></em>-coordinate axes are rotated 30° counterclockwise about the origin to obtain the new <em><alert>x</alert></em>'<em><alert>y</alert></em>'-coordinate system. If the following points are with respect to the new <em><alert>x</alert></em>'<em><alert>y</alert></em>'- system, what is the coordinates of each point with respect to the old <em><alert>xy</alert></em>-system?</p>
-<p>(a) (0, 2) (b) (−2, 4) (c) (1, −3) (d) <image source="/media/png72/imageC2449.png" /></p></cell>
-</row>
-</tabular>
-</table> -->
+
 
 <exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Rotation-of-coordinate-axes/Coordinate-Rotation-Converting-Points-between-Two-Coordinate-Systems.xml" />
 
@@ -323,5 +411,6 @@
 <exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Rotation-of-coordinate-axes/Coordinate-Transformation-Rotating-Axes-and-Finding-New-Coordinates.xml" />
 
                 <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FAnalytic-Geometry-%28NS%29%2FRotation-of-coordinate-axes%2FCoordinate-Transformation-Rotating-Axes-and-Finding-New-Coordinates.xml&amp;entry.2077830997=source%2Fanalytic-geometry%2Fsections%2Fsubsections%2Fsec-the-general-second-degree-equation%2Fsubsec-rotation-of-coordinate-axes.ptx">Add review</url></exercise>
+
 </subsection>
 

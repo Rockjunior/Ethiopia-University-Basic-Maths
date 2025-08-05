@@ -1,102 +1,317 @@
-<subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-analysis-of-the-general-second" class="anchor">
-<title>Analysis of the General Second Degree Equations</title>
 
-<p>In the previous sections we have seen that the equation of the form</p>
-<p>A<em>x</em><sup>2</sup> + C<em>y</em><sup>2</sup> + D<em>x</em> + E<em>y</em> + F = 0, . . . . . . . . . . . . . . (1)</p>
-<p>represents a conic section (a parabola, ellipse or hyperbola) whose axis of symmetry is parallel to one of the coordinate axes except in degenerate cases. In Subsection 4.6.1 we have also seen some examples of conic sections whose equations involve <em>xy</em> term when their lines of symmetry are not parallel to either of the axes. Now we would like to analyze the graph of any quadratic (second degree) equation in <em>x</em> and <em>y</em> of the form</p>
-<p>A<em>x</em><sup>2</sup> + B<em>xy</em> + C<em>y</em><sup>2</sup> + D<em>x</em> + E<em>y</em> + F = 0, . . . . . . . . . . . . (2)</p>
-<p>where B≠0. In order to analyze the graph of Equation (2), we usually need to convert it into an equation of type (1) in certain suitable reference system. To this end, we first prove the following Theorem.</p>
-<table>
-<tabular>
-<row>
-<cell><p><alert>Theorem 4.3</alert>: Consider a general second degree equation of the form (2), i..e.,</p>
-<p>A<em>x</em><sup>2</sup> + B<em>xy</em> + C<em>y</em><sup>2</sup> + D<em>x</em> + E<em>y</em> + F = 0, where B≠0, . . . . . . . . . (2)</p>
+<subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-analysis-of-the-general-second" >
+    <title>Analysis of the General Second Degree Equations</title>
 
-<p>there is a rotation angle <em>θ</em> ∈(0,π/2) through which the <em>xy</em>-coordinate system rotates to a new <em>x</em>′<em>y</em>′-coordinate system in which Equation (2) reduces to the form</p>
-<p>A′<em>x</em>′<sup>2</sup> + C′<em>y</em>′<sup>2</sup> + D′<em>x</em>′ + E′<em>y</em>′ + F′ = 0. . . . . . . . . . . . . (3)</p>
-</cell>
-</row>
-</tabular>
-</table>
-<p><alert>Proof</alert>: Let the <em>xy</em>-coordinate system rotated by an angle <em>θ</em> about the origin to form a new <em>x</em>′<em>y</em>′-coordinate system. Then, from rotation formula (3), we have</p>
-<p><image source="/media/png72/imageC2450.png" /> and <image source="/media/png72/imageC2451.png" />.</p>
-<p>We can now substitute these for <em>x</em> and <em>y</em> in Equation (2) so that</p>
-<p>A(<image source="/media/png72/imageC2452.png" />)<sup>2</sup> + B(<image source="/media/png72/imageC2452.png" />)(<image source="/media/png72/imageC2453.png" />) + C(<image source="/media/png72/imageC2453.png" />)<sup>2</sup></p>
-<p>+ D(<image source="/media/png72/imageC2452.png" />) + E(<image source="/media/png72/imageC2453.png" />) + F = 0.</p>
-<p>After some calculations, combining like terms (those involving <em>x</em>'<sup>2</sup>, <em>x</em>'<em>y</em>' , <em>y</em>'<sup>2</sup>, and so on ), we get equation of the form</p>
 
-<p>A′<em>x</em>′<sup>2</sup> + B′<em>x</em>′<em>y</em>′ + C′<em>y</em>′<sup>2</sup> + D′<em>x</em>′ + E′<em>y</em>′ + F′ = 0 . . . . . . . . . (4)</p>
+    <p>In the previous sections, we have seen that the equation of the form</p>
 
-<p>where B' = 2(C−A) sin<em>θ</em> cos<em>θ</em> + B( cos<sup>2</sup><em>θ</em> − sin<sup>2</sup><em>θ</em> ) .</p>
-<p>Here the exact expressions for A', C', D', E' and F' are omitted as they are irrelevant. What we need is to get the angle of rotation <em>θ</em> for which Equation (4) has <alert>no</alert> <em>x</em>′<em>y</em>′ term, that is, B' = 0. This means that,</p>
-<p>2(C−A) sin<em>θ</em> cos<em>θ</em> + B( cos<sup>2</sup><em>θ</em> − sin<sup>2</sup><em>θ</em> ) = 0 .</p>
-<p>Since 2sin<em>θ</em> cos<em>θ</em> = sin2<em>θ</em> and cos<sup>2</sup><em>θ</em> − sin<sup>2</sup><em>θ</em> = cos2<em>θ</em> , this equation is equivalent to</p>
-<p>(C−A) sin2<em>θ</em> + B cos2<em>θ</em> = 0</p>
-<p>or <image source="/media/png72/imageC2454.png" />, since B≠0.</p>
-<p>or <image source="/media/png72/imageC2455.png" /> . . . . . . . . . . . . . . . . . . (5).</p>
-<p>That is, if we choose the angle of rotation <em>θ</em> satisfying (5), then B' = 0 in Equation (4) so that the resulting equation in <em>x</em>′<em>y</em>′-coordinate system is in the form of Equation (3). Moreover, we can always find an angle that satisfies cot(2θ) = (A−C)/B for any A, C, B ∈ ℜ, B≠0 since the range of the cotangent function is the entire set of real numbers. Note also that since 2<em>θ</em> ∈(0, π), the angel of rotation <em>θ</em> can always be chosen so that 0 &lt; <em>θ</em> &lt; π/2. So, the Theorem is proved.</p>
-<p><alert>Remark:</alert> If A = C, then <image source="/media/png72/imageC2456.png" /> ⇒ 2<em>θ =</em> π/2 ⇒ <em>θ =</em>π/4.</p>
+    <p><m>A x^2 + C y^2 + D x + E y + F = 0</m>.......... (1)</p>
 
-<p>Therefore, we can rewrite the result of the above Theorem as follows:</p>
-<p>The rotation of the <em>xy</em>-coordinate system by angle <em>θ</em> creates an <em>x</em>′<em>y</em>′-coordinate system in which a general second degree equation A<em>x</em><sup>2</sup> + B<em>xy</em> + C<em>y</em><sup>2</sup> + D<em>x</em> + E<em>y</em> + F = 0, B≠0,</p>
-<p>is converted to an equation A′<em>x</em>′<sup>2</sup> + C′<em>y</em>′<sup>2</sup> + D′<em>x</em>′ + E′<em>y</em>′ + F′ = 0 (with no <em>x</em>′<em>y</em>′ term)</p>
-<p>if we choose <em>θ</em> ∈(0, π/2) such that</p>
+    <p>represents a conic section (a parabola, ellipse, or hyperbola) whose axis of symmetry is parallel to one of the coordinate axes, except in degenerate cases.</p>
 
-<table>
-<tabular>
-<row>
-<cell><image source="/media/png72/imageC2457.png" /></cell>
-</row>
-</tabular>
-</table>
-<p><alert>Example 4.28</alert>: Use rotation of axes to eliminate the <em>xy</em> term in each of the following equations, describe the locus (type of conic section) and sketch the graph of the equation</p>
-<p>a) <image source="/media/png72/imageC2458.png" /></p>
-<p>(b) 73<em>x</em><sup>2</sup> − 72<em>xy +</em> 52<em>y</em><sup>2</sup> + 30<em>x +</em> 40<em>y</em> − 75= 0</p>
-<p><alert>Solution</alert>:</p>
-<p>(a) Given: <image source="/media/png72/imageC2459.png" /> ⇒ A= C=1. So, from the above Remark, the rotation angle is <em>θ</em> =π/4 ⇒ <image source="/media/png72/imageC2460.png" />, ⇒ <image source="/media/png72/imageC2461.png" /> and <image source="/media/png72/imageC2462.png" />.</p>
+    <p>In Subsection 4.6.1, we also saw some examples of conic sections whose equations involve the <m>xy</m> term when their lines of symmetry are not parallel to either of the axes.</p>
 
-<p>Now we substitute these for <em>x</em> and <em>y</em> in the given equation:</p>
+    <p>Now we would like to analyze the graph of any quadratic (second degree) equation in <m>x</m> and <m>y</m> of the form:</p>
 
-<p><image source="/media/png72/imageC2463.png" /></p>
-<p>Expanding the squared expressions, combining like terms and simplifying, we obtain</p>
-<p><image source="/media/png72/imageC2464.png" /> or, <image source="/media/png72/imageC2465.png" /></p>
-<p>This is an equation of a parabola. Its vertex is (<em>h</em>′,<em>k</em>′) = (0,2) relative to the <em>x</em>'<em>y</em>'-system, principal axis is on <em>y</em>'-axis and open towards negative <em>y</em>' direction. (You can show that its vertex is (<em>h</em>, <em>k</em>) = <image source="/media/png72/imageC2466.png" /> relative to the <em>xy</em>-system). The graph of the equation is sketched in Figure 4.34.</p>
-<p><image source="/media/png72/imageC2458.png" /></p>
-<p>(b) Given: 73<em>x</em><sup>2</sup> − 72<em>xy +</em> 52<em>y</em><sup>2</sup> + 30<em>x +</em> 40<em>y</em> − 75= 0 ⇒ A =73, B = −72 and C=52. Hence,</p>
-<p><image source="/media/png72/imageC2468.png" /> ⇒ The terminal side of 2<em>θ</em> is through (−7, 24) since 0&lt; 2<em>θ</em> &lt; π.</p>
-<p>⇒ <image source="/media/png72/imageC2469.png" />. Now as 0&lt; <em>θ</em> &lt; π/2, both cos<em>θ</em> and sin<em>θ</em> are positive. Hence,</p>
-<p><image source="/media/png72/imageC2470.png" /> and <image source="/media/png72/imageC2471.png" /></p>
-<p>This implies the <em>x</em>'-axis is through the coordinate point (3,4), that is the line <em>y</em> = (4/3)<em>x</em>.</p>
-<p>Therefore, using the rotation formula (3), we get</p>
-<p><image source="/media/png72/imageC2472.png" /> and <image source="/media/png72/imageC2473.png" /></p>
-<p>Now we substitute these for <em>x</em> and <em>y</em> in the given equation to obtain</p>
-<p><image source="/media/png72/imageC2474.png" />.</p>
-<p>Expanding the squared expressions, combining like terms and simplifying, we obtain</p>
-<p><image source="/media/png72/imageC2475.png" /></p>
-<p>Completing the square for <em>x</em>′ terms and divide by 100 to get</p>
-<p><image source="/media/png72/imageC2476.png" /></p>
-<p>which is an ellipse with center at (<em>h</em>′,<em>k</em>′)= (−1, 0) relative to the <em>x</em>'<em>y</em>'-system, major axis on <em>x</em>'-axis (which is the line <em>y</em>=(4/3)<em>x</em> ), length of major axis =4 and length of minor axis =2. (You can show that the center is (<em>h</em>, <em>k</em>) = <image source="/media/png72/imageC2477.png" /> relative to the <em>xy</em>-system). The graph of the equation is sketched in Figure 4.35.</p>
-<p><alert>Exercise 4.6.2</alert></p>
-<table>
-<tabular>
-<row>
-<cell><p>1. Find an equation of the conic section having the given properties and sketch its graph.</p>
-<p>(a) Ellipsi with center at origin, foci at (−2,2) and (2, 2), and length of major axis <image source="/media/png72/imageC2478.png" /> .</p>
-<p>(b) Parabola whose vertex is at (3, 4) and focus (−5,−2)</p>
-<p>(c) Hyperbola whose foci are (−2, 2) and (2, −2), and length of transverse axis <image source="/media/png72/imageC2479.png" />.</p>
-<p>2. Use rotation of axes to eliminate the <em>xy</em> term in each of the following equations, describe the locus (type of conic section) and sketch the graph of the equation.</p>
-<p>(a) 17<em>x</em><sup>2</sup> − 12<em>xy</em> + 8<em>y</em><sup>2</sup> − 36 = 0</p>
-<p>(b) 8<em>x</em><sup>2</sup> + 24<em>xy</em> + <em>y</em><sup>2</sup> − 1 = 0</p>
-<p>(c) <em>x</em><sup>2</sup> − 2<em>xy</em> + <em>y</em><sup>2</sup> − 5<em>y</em> = 0</p>
-<p>(d) 2<em>x</em><sup>2</sup> + <em>xy</em> = 0</p>
-<p>(e) 5<em>x</em><sup>2</sup> + 6<em>xy</em> + 5<em>y</em><sup>2</sup> − 4<em>x</em> + 4<em>y</em> − 4 = 0</p>
-<p>(f) <em>x</em><sup>2</sup> + 4<em>xy</em> + 4<em>y</em><sup>2</sup> + 2<em>x</em> − 2<em>y</em> + 1 = 0</p>
-<p>3. Show that if B &gt; 0, then the graph of</p>
-<p><image source="/media/png72/imageC2480.png" />,</p>
-<p>is a hyperbola if <em>F</em> ≠ 0, and two intersecting lines if <em>F</em> = 0.</p></cell>
-</row>
-</tabular>
-</table>
+    <p><m>A x^2 + B x y + C y^2 + D x + E y + F = 0</m>........... (2)</p>
+
+    <p>where <m>B ≠ 0</m>. In order to analyze the graph of Equation (2), we usually convert it into an equation of type (1) using a suitable rotated coordinate system. To this end, we prove the following theorem.</p>
+
+    <theorem xml:id="thm-4analysis">
+        <statement>
+            <p>
+                Consider the general second degree equation:
+            </p>
+            <p>
+                <m>A x^2 + B x y + C y^2 + D x + E y + F = 0</m>, where <m>B ≠ 0</m> ........... (2)
+            </p>
+            <p>
+                There exists a rotation angle <m>θ ∈ (0, π/2)</m> such that, after rotating the <m>xy</m>-coordinate system by this angle, the equation becomes:
+            </p>
+            <p>
+                <m>A' x'^2 + C' y'^2 + D' x' + E' y' + F' = 0</m>........... (3)
+            </p>
+        </statement>
+    </theorem>
+    
+    
+ 
+    <p> <m>\textbf{Proof:}</m> Let the <m>xy</m>-coordinate system be rotated by an angle <m>θ</m> about the origin to form a new <m>x'y'</m>-coordinate system. Then, from the rotation formula (3),we have </p> 
+    <p>
+        <me>
+            x=x'cos\theta -y'sin\theta \,\, \text{and} \, \, y=x'sin\theta +y'cos\theta 
+        </me>
+        
+    </p>
+    <p> we substitute for <m>x</m> and <m>y</m> in Equation (2) so that </p>
+    <p>
+        <me>
+            A\left ( x'cos\theta -y'sin\theta\right)^{2} +B\left ( x'cos\theta -y'cos\theta  \right )\left ( x'sin\theta +y'cos\theta  \right ) +C\left ( x'sin\theta +ycos'\theta  \right )^{2} +D\left ( x'cos\theta -y'sin\theta  \right )+E\left ( x'sin\theta +y'cos\theta  \right )+F=0 
+        </me>
+        
+    </p>
+    <p>
+        After some calculations, combining like terms (those involving <m>x'_2,x'y',y'_2</m> and so on ), we get
+        equation of the form
+    </p>
+
+    <p><m>A' x'^2 + B' x' y' + C' y'^2 + D' x' + E' y' + F' = 0</m>............... (4)</p>
+
+    <p>where the new coefficient <m>B'</m> is given by:</p>
+
+    <p><m>B' = 2(C − A) sin(θ) cos(θ) + B (cos^2(θ) − sin^2(θ))</m></p>
+
+    <p>
+        Here the exact expressions for A', C', D', E' are omitted as they are irrelevant. What we
+        need is to get the angle of rotation <m>\theta</m> for which Equation (4) has no x'y' term, that is B'=0.
+    </p>
+    <p>
+        This means that,
+        <me>
+            2(C − A) sin(θ) cos(θ) + B (cos^2(θ) − sin^2(θ))=0
+        </me>
+        
+    </p>
+    <p>
+        Since <m>2 sin(θ) cos(θ) = sin2(θ)</m> and   <m>cos^2(θ) + B  − sin^2(θ)=cos2θ</m>
+    </p>
+    <p>
+        this equation is equivalent to 
+    </p>
+    <p>
+        <me>
+            (C − A) sin(2θ) + B cos(2θ) = 0
+        </me>
+        
+    </p>
+    <p>
+        or <me>
+            \frac{\text{cos}2\theta}{\text{sin}2\theta}=\frac{A-C}{B}, \text{Since} B \neq  0
+        </me>
+        
+    </p>
+    <p>
+        or <me>
+            \text{cot}2\theta=\frac{A-C}{B} .......(5)
+        </me>
+        
+    </p>
+    <p>
+        That is, if we choose the angle of rotation  satisfying (5), then B' = 0 in Equation (4) 
+         so that the resulting equation in x'y'-coordinate system is in the form of Equation (3).
+         Moreover, we can always find an angle that satisfies <m>\text{cot}2\theta=\frac{A-C}{B}</m> for any A C, <m>\text{B}\epsilon \Re , \text{B}\neq 0</m>
+         since the range of the cotangent function is the entire set of real numbers.
+         Note also that since <m>2\theta \epsilon (0,\pi )</m>, the angel of rotation  can always be chosen so that <m>0&lt; \theta &lt; \frac{\pi}{2}</m>. So, the Theorem is proved. 
+    </p>
+
+
+
+    <remark>
+    <p>
+      If <m>A = C</m>, then
+      <m>\frac{\cos 2\theta}{\sin 2\theta} = \frac{A - C}{B} = 0 \Rightarrow 2\theta = \frac{\pi}{2} \Rightarrow \theta = \frac{\pi}{4}</m>.
+    </p>
+    </remark>
+
+    <p>
+        Therefore, we can rewrite the result of the above theorem as follows:
+    </p>
+
+    <p>
+        The rotation of the <m>xy</m>-coordinate system by angle <m>\theta</m> creates an <m>x'y'</m>-coordinate system in which a general second degree equation 
+        <m>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</m>, with <m>B \ne 0</m>,
+        is converted to an equation 
+        <m>A'x'^2 + C'y'^2 + D'x' + E'y' + F' = 0</m> (with no <m>x'y'</m> term),
+        if we choose <m>\theta \in (0, \frac{\pi}{2})</m> such that:
+    </p>
+
+    <p>
+        <m>\tan 2\theta = \frac{B}{A - C}, \text{ if } A \ne C</m>
+    </p>
+    <p>
+        <m>\theta = \frac{\pi}{4}, \text{ if } \text{A = C}</m>
+    </p>
+    <example>
+        <statement>
+            <p>
+            Use rotation of axes to eliminate the <m>xy</m> term in the equation
+            <m>8x^2 + 8y^2 + 28xy - 32x - 32y + 30 = 0</m>,
+            describe the locus (type of conic section), and sketch the graph.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            Given: <m>8x^2 + 8y^2 + 28xy - 32x - 32y + 30 = 0</m>
+                            <m>\Rightarrow A = C = 8</m>. So from the above remark, <m>\theta = \frac{\pi}{4}</m>
+                        </p>
+
+                        <p>
+                            Then <m>\cos \theta = \sin \theta = \frac{1}{\sqrt{2}}</m>,
+                            so the transformation is:
+                            <m>x = \frac{1}{\sqrt{2}}(x' - y')</m>, <m>y = \frac{1}{\sqrt{2}}(x' + y')</m>
+                        </p>
+
+                        <p>
+                            Substituting into the original equation and simplifying, we obtain:
+                            <m>8x'^2 - 16y' + 8 = 0</m> or <m>(y' - 2)^2 = x'</m>
+                        </p>
+
+                        <p>
+                            This is an equation of a parabola with vertex at <m>(0,2)</m> in the <m>x'y'</m> system,
+                            and axis along the <m>y'</m>-axis, opening in the negative <m>y'</m>direction.
+                        </p>
+                        <figure xml:id="analytic-geometry1">
+                            <caption></caption>
+                            <image source="/rotation-of-coordinates3.png">
+                                <shortdescription>(for accessibility)</shortdescription>
+                            </image>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>
+                            Given: <m>73x^2 - 72xy + 52y^2 + 30x + 40y - 75 = 0</m>
+                        </p>
+                        <p>
+                            Here <m>A = 73</m>, <m>B = -72</m>, <m>C = 52</m>
+                        </p>
+
+                        <p>
+                            Hence <m>\tan 2\theta = \frac{B}{A - C} = \frac{-72}{73 - 52} = -\frac{72}{21} = -\frac{24}{7}</m>
+                        </p>
+
+                        <p>
+                            So terminal side of <m>2\theta</m> is in 2nd quadrant, through <m>(-7,24)</m>.
+                            Hence <m>\cos 2\theta = -\frac{7}{25}</m>. Then
+                        </p>
+
+                        <p>
+                            <m>\cos \theta = \sqrt{\frac{1 + \cos 2\theta}{2}} = \sqrt{\frac{1 - 7/25}{2}} = \sqrt{\frac{18}{50}} = \frac{3}{5}</m>
+                        </p>
+
+                        <p>
+                            <m>\sin \theta = \sqrt{1 - \cos^2 \theta} = \frac{4}{5}</m>
+                        </p>
+
+                        <p>
+                            So the rotation is:
+                            <m>x = \frac{3}{5}x' - \frac{4}{5}y'</m>, <m>y = \frac{4}{5}x' + \frac{3}{5}y'</m>
+                        </p>
+
+                        <p>
+                            Substituting and simplifying, we get:
+                            <m>25x'^2 + 100x' - 50y' + 75 = 0</m>
+                        </p>
+
+                        <p>
+                            Completing the square and dividing by 100 to get
+                            <m>\frac{(x' + 2)^2}{4} + \frac{y'}{1} = 1</m>
+                        </p>
+                        <p>
+                            which is an ellipse with center at <m>(h',k') = (-1, 0)</m> relative to the <m>x'y'</m>-system, major axis on <m>x'</m>-
+                            axis (which is the line <m>y = \frac{4}{3}x</m> ), length of major axis = 4 and length of minor axis = 2. (You
+                            can show that the center is <m>(h, k) =\left( -\frac{3}{5}, -\frac{4}{5} \right)</m> relative to the <m>xy</m>-system).
+                        </p>
+                        <figure xml:id="analytic-geometry2">
+                            <caption></caption>
+                            <image source="/rotation-of-coordinates4.png">
+                                <shortdescription>(for accessibility)</shortdescription>
+                            </image>
+                        </figure>
+
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+
+    <exercises xml:id="exercises-analysis-of-the-general">
+        <exercise>
+            <statement>
+                <p>
+                     Find an equation of the conic section having the given properties and sketch its graph.
+                     <ol marker="(a)">
+                        <li>
+                            <p>
+                                Ellipsi with center at origin, foci at <m>(-2,2)</m> and <m>(2, 2)</m>, and length of major axis <m>2\sqrt{8}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Parabola whose vertex is at <m>(3, 4)</m> and focus <m>(-5,-2)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Hyperbola whose foci are <m>(-2, 2)</m> and <m>(2, -2)</m>, and length of transverse axis <m>2\sqrt{2}</m>.
+                            </p>
+                        </li>
+                     </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Use rotation of axes to eliminate the <m>xy</m> term in each of the following equations, describe the
+                    locus (type of conic section) and sketch the graph of the equation.
+                </p>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                 <m>17x^2 - 12xy + 8y^2 - 36 = 0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>8x^2 + 24xy + y^2 - 1 = 0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                 <m>x^2 - 2xy + y^2 - 5y = 0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                 <m>2x^2 + xy = 0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>5x^2 + 6xy + 5y^2 - 4x + 4y - 4 = 0</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x^2 + 4xy + 4y^2 + 2x - 2y + 1 = 0</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Show that if <m>B &gt; 0</m>, then the graph of
+                </p>
+                <p>
+                    <me>
+                        x^2 + 2Bxy = F
+                    </me>
+                    
+                </p>
+                <p>
+                    is a hyperbola if <m>F \ne 0</m>, and two intersecting lines if <m>F = 0</m>
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+
 
 <exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Analysis-of-the-general-second-degree-equation/Finding-Equations-and-Graphs-of-Conic-Sections-with-Specific-Properties.xml" />
 
@@ -107,4 +322,5 @@
 <exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Analysis-of-the-general-second-degree-equation/Graph-Analysis-Hyperbola-and-Intersecting-Lines-with-B-0.xml" />
 
                 <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FAnalytic-Geometry-%28NS%29%2FAnalysis-of-the-general-second-degree-equation%2FGraph-Analysis-Hyperbola-and-Intersecting-Lines-with-B-0.xml&amp;entry.2077830997=source%2Fanalytic-geometry%2Fsections%2Fsubsections%2Fsec-the-general-second-degree-equation%2Fsubsec-analysis-of-the-general-second.ptx">Add review</url></exercise>
+
 </subsection>

@@ -1,7 +1,56 @@
 <subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-distance-between-two-points-and">
     <title>Distance between two points and division of segments </title>
     <p>If P and Q are two points on the coordinate plane, then PQ represents the line segment joining P and Q and <em>d</em>(P<em>,</em>Q) or <alert>|</alert>PQ<alert>|</alert> represents the distance between P and Q<em>.</em></p>
-    <p>Recall that the distance between points <em>a</em> and <em>b</em> on a number line is |<em>a</em> -<em>b</em>| = |<em>b</em> −<em>a</em>|. Thus, the distance between two points P(<m>x_1</m>, <m>y_1</m>) and R(<m>x_2</m>, <m>y_1</m>) on a horizontal line must be |<m>x_2</m> <m>x_1</m>| and the distance between Q(<m>x_2</m>, <m>y_2</m>) and R(<m>x_2</m>, <m>y_1</m>) on a vertical line must be |<m>y_2</m> -<m>y_1</m>|. (See Figure 4.2).</p>
+    <p>
+        Recall that the distance between points <em>a</em> and <em>b</em> on a number line is     
+        |<em>a</em> -<em>b</em>| = |<em>b</em> −<em>a</em>|. Thus, the distance between two points P(<m>x_1</m>, <m>y_1</m>) and R(<m>x_2</m>, <m>y_1</m>) on a horizontal line must be |<m>x_2</m> <m>x_1</m>| and the distance between Q(<m>x_2</m>, <m>y_2</m>) and R(<m>x_2</m>, <m>y_1</m>) on a vertical line must be |<m>y_2</m> -<m>y_1</m>|. .
+    </p>
+
+    <figure xml:id="distance_between-two-points">
+        <caption></caption>
+        <image width="60%">
+        <latex-image>
+            \begin{tikzpicture}[scale=1.2]
+
+                % Axes
+                \draw[thick, ->] (-0.5,0) -- (5,0) node[right] {$x$};
+                \draw[thick, ->] (0,-0.5) -- (0,4) node[above] {$y$};
+
+                % Define coordinates
+                \coordinate (P) at (1.5, 1.5);
+                \coordinate (Q) at (3.5, 3);
+                \coordinate (R) at (3.5, 1.5);
+
+                % Draw points
+                \fill (P) circle (2pt) node[below left] {P$(x_1, y_1)$};
+                \fill (Q) circle (2pt) node[above right] {Q$(x_2, y_2)$};
+                \fill (R) circle (2pt) node[below right] {R$(x_2, y_1)$};
+
+                % Draw triangle PQR
+                \draw[thick] (P) -- (Q) node[midway, above left] {$|PQ|$};
+                \draw[thick] (P) -- (R);
+                \draw[thick] (Q) -- (R);
+
+                % Draw dashed lines to axes
+                \draw[dashed, gray] (P) -- (1.5, 0) node[below] {$x_1$};
+                \draw[dashed, gray] (Q) -- (3.5, 0) node[below] {$x_2$};
+                \draw[dashed, gray] (P) -- (0, 1.5) node[left] {$y_1$};
+                \draw[dashed, gray] (Q) -- (0, 3) node[left] {$y_2$};
+
+                % Horizontal and vertical distance labels
+                \draw[-, blue] (1.5, 0.8) -- (3.5, 0.8) node[midway, below] {$|x_2 - x_1|$};
+                \draw[-, blue] (4, 1.5) -- (4, 3) node[midway, right] {$|y_2 - y_1|$};
+
+                % Right angle indicator at R
+                \draw (3.2, 1.5) -- (3.2, 1.8) -- (3.5, 1.8);
+
+                \end{tikzpicture}
+        </latex-image>
+            
+        </image>
+    </figure>
+
+        
     <p>To find distance <alert>|</alert>PQ<alert>|</alert> between any two points P(<m>x_1</m>, <m>y_1</m>) and Q(<m>x_2</m>, <m>y_2</m>), we note that triangle PRQ in Figure 4.2 is a right triangle, and so by Pythagorean Theorem we get:</p>
     <p>Therefore, we have the following:</p>
 
@@ -73,6 +122,62 @@
     <p>
         where <m>r_1</m> and <m>r_2</m> are given positive numbers.
     </p>
+    <figure xml:id="division_point-of-a-line-segment">
+        <caption></caption>
+        <image width="60%">
+        <latex-image>
+           \begin{tikzpicture}[scale=1.2]
+
+            % Axes
+            \draw[thick, ->] (-0.5,0) -- (6,0) node[right] {$x$};
+            \draw[thick, ->] (0,-0.5) -- (0,4) node[above] {$y$};
+
+            % Define coordinates (P, Q, R collinear)
+            \coordinate (P) at (1, 1.5);
+            \coordinate (Q) at (4.5, 3);
+            \coordinate (R) at (2.5, 2.1);  % On the line PQ
+            \coordinate (S) at (2.5, 1.5);
+            \coordinate (T) at (4.5, 2.1);
+
+            % Draw points
+            \fill (P) circle (2pt) node[below left] {P};
+            \fill (Q) circle (2pt) node[below right] {Q};
+            \fill (R) circle (2pt) node[below right] {R};
+            \fill (S) circle (2pt) node[below] {S$(x_0, y_1)$};
+            \fill (T) circle (2pt) node[right] {T$(x_2, y_0)$};
+
+            % Draw single line through P, Q, R
+            \draw[thick] (P) -- (Q);
+            % Add distance labels on the line
+            \node at (1.75, 1.75) [above left] {$r_1$};
+            \node at (3.1, 2.55) [above right] {$r_2$};
+
+            % Draw dotted lines
+            \draw[dotted] (P) -- (S);
+            \draw[dotted] (R) -- (S);
+            \draw[dotted] (R) -- (T);
+            \draw[dotted] (Q) -- (T);
+
+            % Draw dashed lines to axes
+            \draw[dashed, gray] (P) -- (1, 0) node[below] {$x_1$};
+            \draw[dashed, gray] (R) -- (2.5, 0) node[below] {$x_0$};
+            \draw[dashed, gray] (Q) -- (4.5, 0) node[below] {$x_2$};
+            \draw[dashed, gray] (P) -- (0, 1.5) node[left] {$y_1$};
+            \draw[dashed, gray] (R) -- (0, 2.1) node[left] {$y_0$};
+            \draw[dashed, gray] (Q) -- (0, 3) node[left] {$y_2$};
+
+            % Add coordinate labels for P and Q
+            \node[above left] at (1, 1.5) {$(x_1, y_1)$};
+            \node[above right] at (4.5, 3) {$(x_2, y_2)$};
+            \node[above left] at (2.5, 2.1) {$(x_0, y_0)$};
+
+
+
+            \end{tikzpicture}
+        </latex-image>
+            
+        </image>
+    </figure>
 
     <p>To determine (<m>x_0</m>, <m>y_0</m>), we construct two right triangles ∆PSR and ∆RTQ as shown. We then have <alert>|</alert>PS| = <m>x</m> −<m>x</m> , |SR| <alert>=</alert> <m>y_0</m>−<m>y_1</m> , |RT| <alert>=</alert> <em>x_2</em> −<em>x_0</em> , and |TQ| <alert>=</alert> <em>y_2</em> −<em>y_0</em> . Now since ∆PSR is similar to ∆RTQ, we have that</p>
     <p>
@@ -257,4 +362,4 @@
 <exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Distance-between-two-points-and-division-of-segments/Finding-Possible-Values-of-a-Given-Distance-between-Points.xml" />
 
                 <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FAnalytic-Geometry-%28NS%29%2FDistance-between-two-points-and-division-of-segments%2FFinding-Possible-Values-of-a-Given-Distance-between-Points.xml&amp;entry.2077830997=source%2Fanalytic-geometry%2Fsections%2Fsubsections%2Fsec-distance-formula-and-equation-of%2Fsubsec-distance-between-two-points-and.ptx">Add review</url></exercise>
-</subsection>
+
