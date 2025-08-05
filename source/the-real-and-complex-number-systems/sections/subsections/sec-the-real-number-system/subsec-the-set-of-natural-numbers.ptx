@@ -98,7 +98,7 @@
                 <example>
                     <statement>
                         <p>
-                            <m>(2 \times 4)\times 5 = 2 \times (4 \times 5) = 40</m>
+                            <m>(2 \times 4)\times 5 = 2 \times (4 \times 5) = 40</m>.
                             In general, we say that multiplication is associative on the set of natural numbers.
                         </p>
                     </statement>
@@ -140,35 +140,38 @@
             <ol marker="i) ">
                 <li>
                     <p>
-                        Transitive property:
+                        <alert>Transitive property</alert>:
                     </p>
                     <p>
                         For any three natural numbers <m>a</m>, <m>b</m> &amp; <m>c</m>, 
-                        <m>a &gt; b\  \land \ b &gt; c\  \Rightarrow a &gt; c</m>
+                        <m> \quad a &gt; b &amp; b &gt; c\  \Rightarrow a &gt; c</m>
                     </p>
                 </li>
                 <li>
                     <p>
-                        Addition property:
+                        <alert>Addition property</alert>:
                     </p>
                     <p>
-                        For any three natural numbers <m>a</m>, <m>b</m> &amp; <m>c</m>, <m>a &gt; b  \Rightarrow \ a + c &gt; b + c</m>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Multiplication property:
-                    </p>
-                    <p>
-                        For any three natural numbers <m>a</m>, <m>b</m> and <m>c</m>, <m>a &gt; b \Rightarrow  \text{ ac } &gt; \text{ bc }</m>
+                        For any three natural numbers <m>a</m>, <m>b</m> &amp; <m>c </m>,
+                         <m> \quad a &gt; b  \Rightarrow  a + c &gt; b + c</m>
                     </p>
                 </li>
                 <li>
                     <p>
-                        Law of trichotomy
+                        <alert>Multiplication property</alert>:
                     </p>
                     <p>
-                        For any two natural numbers <m>a</m> &amp; <m>b</m> we have <m>a &gt; b \text{ or }\ a &lt; b \text{ or } a = b</m>.
+                        For any three natural numbers <m>a</m>, <m>b</m> and <m>c</m>,
+                         <m> \quad a &gt; b \Rightarrow  ac &gt;  bc </m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <alert>Law of trichotomy</alert>
+                    </p>
+                    <p>
+                        For any two natural numbers <m>a</m> &amp; <m>b</m> we have 
+                        <m> \quad a &gt; b \text{ or }\ a &lt; b \text{ or } a = b</m>.
                     </p>
                 </li>
             </ol>
@@ -179,8 +182,9 @@
         <definition xml:id="def-factors-of-a-number">
             <statement>
                 <p>
-                    If <m>a,\ b,\ c\  \in \mathbf{N}</m> such that <m>\text{ab} = c</m>, then <m>a</m> &amp; 
-                    <m>b</m> are factors (divisors) of <m>c</m> and <m>c</m> is called product (multiple) of <m>a</m> &amp; <m>b</m>.
+                    If <m>a,\ b,\ c\  \in \mathbf{N}</m> such that <m>ab = c</m>, then <m>a</m> &amp; 
+                    <m>b</m> are factors (divisors) of <m>c</m> and <m>c</m> is called product 
+                    (multiple) of <m>a</m> &amp; <m>b</m>.
                 </p>
             </statement>
         </definition>
@@ -201,7 +205,7 @@
         <definition xml:id="def-a">
             <statement>
                 <p>
-                    A number <m>a \in \mathbf{N}</m>is said to be
+                    A number <m>a \in \mathbf{N}</m> is said to be
                     <ol marker="i. ">
                         <li>
                             <p>
@@ -273,7 +277,7 @@
         <example>
             <statement>
                 <p>
-                    <ol marker="a)" cols="3">
+                    <ol marker="a)" cols="2">
                         <li>
                             <p>
                                 <m>6 = 2 \times 3</m>
@@ -341,10 +345,10 @@
             </statement>
             <solution>
                 <p>
-                    Now, <m>F_24 = {1,2,3,4,6,8,12,24}</m> and <m>F_60 = {1,2,3,4,6,10,15,20,30,60}</m>
+                    Now <m>F_{24} = {1,2,3,4,6,8,12,24}</m> and <m>F_{60} = {1,2,3,4,6,10,15,20,30,60}</m>
                 </p>
                 <p>
-                    Next, <m>F_24 \cap F_60 = {1,2,3,4,6,12}</m> from which <m>12</m> is greatest
+                    Next <m>F_{24} \cap F_{60} = {1,2,3,4,6,12}</m> from which <m>12</m> is greatest
                 </p>
                 <p>Therefore, GCF<m>(24, 60) = 12</m>.</p>
                 <p>
@@ -373,7 +377,11 @@
                     </md>
                 </p>
                 <p>
-                    Step 2: The factors that appear in both cases are 2 and 3, but take the numbers with the least number of times.
+                    Step 2: The factors that appear in both cases are <m>2</m> and <m>3</m>, but 
+                    take the numbers with the least number of times.
+                </p>
+                <p> 
+                    <m>\therefore GCF(24,60) = 2^2 \times 3 = 12</m> 
                 </p>
             </solution>
         </example>
@@ -393,7 +401,8 @@
                     </md>
                 </p>
                 <p>
-                    Step 2: The factors that appear in all cases are 2 and 5, but take the numbers with the least number of times.
+                    Step 2: The factors that appear in all cases are <m>2</m> and <m>5</m>, but take 
+                    the numbers with the least number of times.
                 </p>
                 <p>
                     <m>\therefore GCF(20,80,450) = 2 \times 5 = 10</m>
@@ -416,15 +425,16 @@
         <example>
             <statement>
                 <p>
-                    Consider the two numbers 18 and 24.
+                    Consider the two numbers <m>18</m> and <m>24</m>.
                 </p>
             </statement>
             <solution>
                 <p>
-                    Now, <m>M_18 = {18,36,54,72,90,108,126,144, \,...}</m> and <m>M_24 = {24,48,72,96,120,144,\, ...}</m>
+                    Now, <m>M_{18} = {18,36,54,72,90,108,126,144, \,...}</m> and 
+                    <m>M_{24} = {24,48,72,96,120,144,\, ...}</m>
                 </p>
                 <p>
-                    Next, <m>M_18 \cap M_24 = {72,144,\, ...}</m> from which <m>72</m> is <alert>least</alert>
+                    Next, <m>M_{18} \cap M_{24} = {72,144,\, ...}</m> from which <m>72</m> is <alert>least</alert>
                 </p>
                 <p>Therefore, LCM <m>(18, 24) = 72</m>.</p>
                 <p>
