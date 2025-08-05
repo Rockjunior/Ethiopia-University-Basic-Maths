@@ -7,7 +7,7 @@
 </row>
 
 <row>
-<cell><p>Argument of a complex number z = x+iy is the angle formed by the complex number z = x+iy with the positive x-axis. The argument of a complex number z = x+iy is deonted by <alert>argz</alert> and is given by arg(z) = <m>\text{tan}^{- 1}(yx)\text{.}</m></p>
+<cell><p>Argument of a complex number z = x+iy is the angle formed by the complex number z = x+iy with the positive x-axis. The argument of a complex number z = x+iy is deonted by <alert>argz</alert> and is given by arg(z) = <m>\text{tan}^{- 1}(\frac{y}{x})\text{.}</m></p>
 <p>The particular argument of z that lies in the range <m>- \pi &lt; \theta \leq \pi</m> is called the principal argument of z and is dented by Argz.</p></cell>
 </row>
 </tabular>
