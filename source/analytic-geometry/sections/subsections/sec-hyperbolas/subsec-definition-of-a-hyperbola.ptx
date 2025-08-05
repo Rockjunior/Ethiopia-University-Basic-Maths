@@ -45,7 +45,7 @@
                 <p>
                     The <term>eccentricity <m>e </m></term> of a hyperbola is defined to be the ratio of the distance between its foci to the length of its transverse axis. That is, similar to the definition of eccentricity of an ellipse, the eccentricity of a hyperbola is
                 </p>
-                <p><m> e =  |{\frac F'F|}{|V'V}| = \frac{C}{a}</m>(But here, <m>e</m> > 1 because <m>c</m> > <m>a</m>)</p>
+                <p><m> e =  \frac {|F'F|}{|V'V|} = \frac{C}{a}</m>(But here, <m>e</m> > 1 because <m>c</m> > <m>a</m>)</p>
             </li>
         </ul>
     </p>
@@ -68,10 +68,10 @@
                                     <li>
                                         <p>
 
-                                            If P is any point on the hyperbola, then |PF| – |PF<term>′</term>| = ±2<m>a</m>.
+                                            If P is any point on the hyperbola, then |PF| – |PF<term>′</term>| = <m>\pm 2a</m>.
                                         </p>
                                         <p>
-                                            (Note: Taking that |PF| – |PF<term>′</term>| = <m>k</m>, a constant, show that <m>k</m> = ±2<m>a</m>.)
+                                            (Note: Taking that |PF| – |PF<term>′</term>| = <m>k</m>, a constant, show that <m>k</m> = <m>\pm 2a</m>.)
 
 
                                         </p>
@@ -88,7 +88,7 @@
                         </li>
                         <li>
                             <p>
-                                Consider a hyperbola whose foci are at (±2, 0) and contains the point P(2, 3).
+                                Consider a hyperbola whose foci are at <m>(\pm2, 0)</m> and contains the point <m>P(2, 3).</m>
                                 <ol marker="(a)">
                                     <li>
                                         <p>
@@ -126,7 +126,7 @@
                                     </li>                            
                                     <li>
                                         <p>
-                                            Suppose the vertices of a hyperbola are at (0, ±2) and its eccentricity is 1.5. Then,
+                                            Suppose the vertices of a hyperbola are at <m>(0, \pm2)</m> and its eccentricity is <m>1.5</m>. Then,
                                             <ol marker="(a)">
                                                 <li>
                                                     <p>

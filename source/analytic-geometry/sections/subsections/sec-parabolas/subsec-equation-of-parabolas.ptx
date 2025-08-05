@@ -37,11 +37,7 @@
                 <ul>
                     <li>
                         <p>
-                            called standard equation of a vertical parabola,
-                  
-                        </p>
-                        <p>
-                            vertex (<em>h, k</em>), focal length <em>p,</em> open upward.
+                            called standard equation of a vertical parabola, vertex (<em>h, k</em>), focal length <em>p,</em> open upward.
                         </p>
                     </li>
                 </ul>    
@@ -79,10 +75,7 @@
                     <ul>
                         <li>
                             <p>
-                                ( Standard equation of a vertical parabola,
-                            </p>
-                            <p>
-                                open downward, vertex (<em>h, k</em>) , and focal length <em>p .</em> )
+                                ( Standard equation of a vertical parabola, open downward, vertex (<em>h, k</em>) , and focal length <em>p .</em> )
                             </p>
                         </li>
                     </ul>
@@ -97,7 +90,7 @@
             </p>
 
             <p>
-                    ( In this case, its focus is at F(0,−<em>p</em>), and its directrix is <em>y = p</em> )
+                    ( In this case, its focus is at<m>\text{ F}(0,−p</m>), and its directrix is <m>y = p</m> )
             </p>
         </sidebyside>
        <example>
@@ -111,6 +104,9 @@
                 The given equation, <m>x^2\,=\,y</m>, is the standard equation of the parabola with vertex at origin <m>(0,0)</m> and <m>4p =1</m> ⇒ its focal length is <m>p</m> = <m>\frac{1}{4}</m>.
                 Since the parabola opens upward, its focus is <em>p</em> units above its vertex ⇒ its focus is at F(0,<m>\frac{1}{4}</m>); and its directrix is horizontal line <em>p</em> units below its vertex ⇒ its directrix is <m>y</m> = <m>\frac{-1}{4}</m>. You may sketch this parabola.
             </p>
+            <image source="/parabola-sketch-example.png" width="80%">
+                <shortdescription></shortdescription>
+            </image>
         </solution>
        </example>
          
@@ -207,7 +203,7 @@
         <example>
             <statement>
                 <p>
-                   ind the focus and directrix of the parabola <m>y^2 +4y +8x-4=0</m> and sketch it.
+                   Find the focus and directrix of the parabola <m>y^2 +4y +8x-4=0</m> and sketch it.
                 </p>
             </statement>
             <solution>
@@ -232,7 +228,7 @@
                 <p>
                     F<m>= (h–p, k) = (–1, –2)</m>, and directrix<m>x=h+p =3</m>. The parabola is sketched in Figure 4.17.
                 </p>
-                <image source="/parabola-equation2.png" width="50%">
+                <image source="/parabola-equation.png" width="80%">
                     <shortdescription></shortdescription>
                 </image>
             </solution>
@@ -257,39 +253,42 @@
                     
                     <ol>
                         <li>
-                            <sidebyside>
+                        
                                 <p>
-                                    1.Focus<m>(0, 1)</m> and directrix <em>y</em><m>= −1.</m> 
+                                    Focus<m>(0, 1)</m> and directrix <m>y = −1.</m> 
                                 </p>
-                                <p>
-                                    5. Vertex<m>(3, 2 )</m> and Focus<m>(3, 3)</m>.
-                                </p>
-                            </sidebyside>
-                            <sidebyside>
-                                <p>
+                                 <p>
                                     2. Focus<m>(−1, 2) </m>and directrix <em>y</em> <m> = -2.</m>
                                 </p>
-                                <p>
-                                    6. Vertex<m>(5, −2 )</m> and Focus<m>(−5, −2).</m> 
-                                </p>
-                            </sidebyside>
-                            <sidebyside>
                                 <p>
                                       3. Focus<m> (3/2, 0)</m> and directrix <em>x</em><m>= −3/2.</m> 
                                     
                                 </p>
                                 <p>
-                                    7. Vertex<m>(1, 0)</m> and directrix <em>x</em><m>= −2.</m>
-                                </p>
-                            </sidebyside>
-                            <sidebyside>
-                                <p>
                                     4. Focus <m>(−1, −2)</m> and directrix <em>x</em> <m>= 0.</m>
                                 </p>
                                 <p>
+                                    5. Vertex<m>(3, 2 )</m> and Focus<m>(3, 3)</m>.
+                                </p>
+                            
+                        
+                               
+                                <p>
+                                    6. Vertex<m>(5, −2 )</m> and Focus<m>(−5, −2).</m> 
+                                </p>
+                            
+                        
+                                
+                                <p>
+                                    7. Vertex<m>(1, 0)</m> and directrix <em>x</em><m>= −2.</m>
+                                </p>
+                            
+                        
+                                
+                                <p>
                                     8. Vertex <m>(0, 2)</m> and directrix <em>y</em> <m>= 4.</m>
                                 </p>
-                            </sidebyside>
+                            
                         </li>
                     </ol>
                 </p>
@@ -332,9 +331,13 @@
                         14. <m>(x+4)^2 = 8y -24</m>
                     </p>
                     <p>
-                        17. <m>-4x^2 +4x -\frac{1}{2}y=1</m>
+                        
                     </p>
                 </sidebyside>
+                    <p>
+                        17. <m>-4x^2 +4x -\frac{1}{2}y=1</m>
+                    </p>
+                
                
                 <p>
                     18. Find an equation of the parabola that has a vertical axis, its vertex at <m>(1, 0)</m> and passing through <m>(0,1).</m>
@@ -357,9 +360,9 @@
                 <p>
                     22. A cross-section of a parabolic reflector is shown in the figure below. A bulb is located at the focus and the opening at the focus, AB, is 12 cm. What is the diameter of the opening, CD, 8 cm from the vertex?
                 </p>
-                <!-- <image source="assets/exercis_par.png" width="50%">
+                <image source="/exercise_parabola.png" width="50%">
                     <shortdescription></shortdescription>
-                </image> -->
+                </image>
             </statement>   
        </exercise>
 
