@@ -5,7 +5,7 @@
     </p>
     
     <p>
-        <m>\textbf{1. Verbal Method}</m>
+        <term>1. Verbal Method</term>
     </p>
     <p>
         In this method, an ordinary English statement with minimum mathematical symbolization of 
@@ -36,7 +36,7 @@
     </example>
 
     <p>
-        <m>\textbf{2. Roster/Complete Listing Method}</m>
+        <term>2. Roster/Complete Listing Method</term>
     </p>
     <p>
         If the elements of a set can be listed, we list them all between a pair of braces 
@@ -62,7 +62,7 @@
         </statement>
     </example>
     <p>
-        <m>\textbf{Remark:}</m>
+        <term>Remark:</term>
     </p>
     <p>
         <ol marker="i.">
@@ -111,7 +111,7 @@
         </statement>
     </example>
     <p>
-        <m>\textbf{3. Partial Listing Method}</m>
+        <term>3. Partial Listing Method</term>
     </p>
     <p>
         In many occassions, the number of elements of a set may be too large to list them all; and in 
@@ -151,7 +151,7 @@
         </statement>
     </example>
     <p>
-        <m>\textbf{Set-builder Method}</m>
+        <term>4. Set-builder Method</term>
     </p>
     <p>
         When all the elements satisfy a common property <m>P,</m> we express the situation as an open 
@@ -235,7 +235,7 @@
     </definition>
 
     <p>
-        <m>\textbf{Relationship between two sets}</m>
+        <term>Relationship between two sets</term>
     </p>
     <definition xml:id="def-description-of-sets-3">
         <statement>
@@ -254,7 +254,7 @@
         </statement>
     </definition>
     <p>
-        <m>\textbf{Remarks: }</m> For any set <m>A, \phi \subseteq A </m> and <m>A \subseteq A.</m>
+        <term>Remarks:</term> For any set <m>A, \phi \subseteq A </m> and <m>A \subseteq A.</m>
     </p>
 
     <example>
@@ -343,7 +343,7 @@
     </definition>
 
     <p>
-        <m>\textbf{Remark: }</m> Some authors do not use the symbol <m>\subseteq.</m> Instead they use the symbol <m>\subset</m> for both subset 
+        <term>Remark:</term> Some authors do not use the symbol <m>\subseteq.</m> Instead they use the symbol <m>\subset</m> for both subset 
         and proper subset. In this material, we prefer to use the notations commonly used in highschool mathematics, and 
         we continue using <m>\subseteq</m> and <m>\subset</m> differently, namely for subset and proper subset, respectively.
     </p>
@@ -361,7 +361,7 @@
         </statement>
     </definition>
     <p>
-        <m>\textbf{Note: }</m> If a set <m>A</m> is finite with <m>n</m> elements, then 
+        <term>Note:</term> If a set <m>A</m> is finite with <m>n</m> elements, then 
         <ol marker="a.">
             <li>
                 <p>

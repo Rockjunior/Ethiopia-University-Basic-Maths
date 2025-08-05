@@ -399,7 +399,7 @@
                         <p>
                             Illustrate <m>A\setminus  B</m> by using a Venn diagram
                         </p>
-                        <image source="/media/venn-diagram-7.png">
+                        <image source="/media/venn-diagram-7.png" width="50%">
                             <shortdescription></shortdescription>
                         </image>
                     </li>
@@ -572,7 +572,169 @@
                 Then find each of the following.
             </p>
             <p>
-                <m>A\cap B, \, \left ( A\cup B \right )\cap C, \, \left ( A-B \right )\cup C, \,A-\left ( B-C \right ), \, \left ( A-C \right )-\left ( B-A \right ), \, A'\cap B'\cap C'</m>
+                <m>A\cap B, \, \left ( A\cup B \right )\cap C, \, \left ( A-B \right )-C,A-\left ( B-C \right ), \,A-\left ( B-C \right ), \, \left ( A-C \right )-\left ( B-A \right ), \, A'\cap B'\cap C'</m>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m> A\cup B=\left\{ a,b,c,d,e,x,y,z\right\} \text{ and } A\cap B=\left\{ b,e,y\right\}.</m>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            If <m>B-A=\left\{ x,y\right\} \text{ then } A = </m>_______________
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>A-B=\phi, \text{ then } B = </m> _______________
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>B=\left\{ b,e,y,z\right\}, \text{ then } A-B = </m>_________________
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>U=\left\{ 1,2,...,10\right\},\,A=\left\{ 3,5,6,8,10\right\},\, B=\left\{ 1,2,4,5,8,9\right\},\, C=\left\{ 1,2,3,4,5,6,8\right\} \text{ and } D=\left\{ 2,3,5,7,8,9\right\}.</m> 
+                Verify each of the following.
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            <m>\left ( A\cup B \right )\cup C=A\cup \left ( B\cup C \right ).</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A\cap \left ( B\cup C\cup D \right )=\left ( A\cap B \right )\cup \left ( A\cap C \right )\cup \left ( A\cap D \right ).</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> \left ( A\cap B\cap C\cap D \right )'= A '\cup B' \cup C' \cup  D' .</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>C-D=C\cap D'.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A\cap \left ( B\cap C \right )'=\left ( A-B \right )\cup \left ( A-C \right ).</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Depending on question No.9 find.
+                <ol marker="a.">
+                    <li>
+                        <p>
+                           <m>A \Delta B.</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>C \Delta D.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left ( A \Delta B \right )\Delta D</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left ( A \cup B \right )\setminus \left ( A \Delta B \right )</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                For any two subsets <m>A \text{ and } B</m> of a universal set <m>U,</m> prove that:
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            <m> A \Delta B = B \Delta A .</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A \Delta B = \left ( A\cup B \right )-\left ( A\cap B \right ).</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> A \Delta \phi = A.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> A \Delta A = \phi .</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Draw an appropriate Venn diagram to depict each of the following sets.
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            <m>U = </m> The set of high scool students in Addis Ababa.
+                        </p>
+                        <p>
+                            <m>A = </m> The set of female high school students in Addis Ababa.
+                        </p>
+                        <p>
+                            <m>B = </m> The set of high school anti-AIDS club members students in Addis Ababa.
+                        </p>
+                        <p>
+                            <m>C = </m> The set of school Nature Club members students in Addis Ababa.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>U = </m> The set of integers
+                        </p>
+                        <p>
+                            <m>A = </m> The set of even integers.
+                        </p>
+                        <p>
+                            <m>B = </m> The set of odd integers.
+                        </p>
+                        <p>
+                            <m>C = </m> The set of multiples of 3.
+                        </p>
+                        <p>
+                            <m>D = </m> The set of prime numbers.
+                        </p>
+                    </li>
+                </ol>
             </p>
         </statement>
     </exercise>
