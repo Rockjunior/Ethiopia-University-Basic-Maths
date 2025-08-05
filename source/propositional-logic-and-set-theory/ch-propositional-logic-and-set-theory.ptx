@@ -22,5 +22,5 @@
     <xi:include href="sections/sec-open-propositions-and-quantifiers.ptx" />
     <xi:include href="sections/sec-argument-and-validity.ptx" />
     <xi:include href="sections/sec-set-theory.ptx" />
-    <xi:include href="sections/sec-description-of-sets.ptx" />
+    
 </chapter>
