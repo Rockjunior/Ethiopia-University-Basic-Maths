@@ -13,7 +13,7 @@
             </statement>
         </definition>
         <p>
-            There is a 1-1 correspondence between the set of real numbers and the number line 
+            There is a <m>1-1</m> correspondence between the set of real numbers and the number line 
             (For each point in the number line, there is a corresponding real number and vice-versa).
         </p>
     </introduction>
@@ -25,13 +25,15 @@
         <paragraphs>
             <title>i) Addition (<m>+</m>)</title>
             <p>
-               If two real numbers are added using the operation “+”, then the sum is also a real number. 
+               If two real numbers are added using the operation 
+               <q><m>+</m></q>, then the sum is also a real number. 
             </p>
         </paragraphs>
         <paragraphs>
             <title>ii) Subtraction (<m>-</m>)</title>
             <p>
-                For any two real numbers <m>a</m> &amp; <m>b</m>, the operation of subtracting <m>b</m> from <m>a</m>,
+                For any two real numbers <m>a</m> &amp; <m>b</m>, 
+                the operation of subtracting <m>b</m> from <m>a</m>,
                 denoted by <m>a - b</m> is defined by <m>a - b = a +(-b)</m>. 
             </p>
         </paragraphs>
@@ -45,7 +47,7 @@
         <paragraphs>
             <title>iv) Division (<m>\div</m>)</title>
             <p>
-                For any two real numbers <m>a</m> &amp; <m>b</m>, dividing <m>a</m> by <m>b</m>is 
+                For any two real numbers <m>a</m> &amp; <m>b</m>, dividing <m>a</m> by <m>b</m> is 
                 defined by <m>a \div b = a \times \frac{1}{b}, b \neq 0</m>.
             </p>
         </paragraphs>
@@ -179,29 +181,29 @@
         <title>Intervals</title>
         <p>
             Let <m>a</m> and <m>b</m> be two real numbers such that <m>a &lt; b</m>,
-            then the intervals which are subsets of <alert>R</alert> with end points a and b are 
+            then the intervals which are subsets of <alert>R</alert> with end points <m>a</m> and <m>b</m> are 
             denoted and defined as below:
         </p>
         <p>
             <ol marker="i. ">
                 <li>
                     <p>
-                        <m>(a,\ b)\  = \left\{ \ x:\ a &lt; x &lt; b \right\}</m> open interval from <em>a</em> to <em>b</em>.
+                        <m>(a,\ b)\  = \left\{ \ x:\ a &lt; x &lt; b \right\}</m> open interval from <m>a</m> to <m>b</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        <m>\lbrack a,\ b\rbrack\  = \left\{ \ x:\ a \leq x \leq b \right\}</m> closed interval from <em>a</em> to <em>b</em>.
+                        <m>\lbrack a,\ b\rbrack\  = \left\{ \ x:\ a \leq x \leq b \right\}</m> closed interval from <m>a</m> to <m>b</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        <m>(a,\ b\rbrack\  = \left\{ \ x:\ a &lt; x \leq b \right\}</m> open-closed interval from <em>a</em> to <em>b</em>.
+                        <m>(a,\ b\rbrack\  = \left\{ \ x:\ a &lt; x \leq b \right\}</m> open-closed interval from <m>a</m> to <m>b</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        <m> \lbrack a,\ b)\  = \left\{ \ x:\ a \leq x &lt; b \right\}</m> closed-open interval from <em>a</em> to <em>b</em>.
+                        <m> \lbrack a,\ b)\  = \left\{ \ x:\ a \leq x &lt; b \right\}</m> closed-open interval from <m>a</m> to <m>b</m>.
                     </p>
                 </li>
             </ol>
@@ -218,24 +220,24 @@
                     <ol marker="i. ">
                         <li>
                             <p>
-                                A point <m>a \in R</m>is said to be an upper bound of A iff <m>x \leq a</m> for all
+                                A point <m>a \in R</m>is said to be an upper bound of <m>A</m> iff <m>x \leq a</m> for all
                                 <m>x \in A</m>.
                             </p>
                         </li>
                         <li>
                             <p>
-                                An upper bound of A is said to be least upper bound (lub) iff it is 
+                                An upper bound of <m>A</m> is said to be least upper bound (lub) iff it is 
                                 the least of all upper bounds.
                             </p>
                         </li>
                         <li>
                             <p>
-                                A point <m>a \in R</m>is said to be lower bound of A iff <m>x \geq a</m> for all <m>x \in A</m>.
+                                A point <m>a \in R</m>is said to be lower bound of <m>A</m> iff <m>x \geq a</m> for all <m>x \in A</m>.
                             </p>
                         </li>
                         <li>
                             <p>
-                                A lower bound of A is said to be greatest lower bound (glb) iff it is the greatest of all lower bounds.
+                                A lower bound of <m>A</m> is said to be greatest lower bound (glb) iff it is the greatest of all lower bounds.
                             </p>
                         </li>
                     </ol>
@@ -532,8 +534,16 @@
         </exercises>
     </subsubsection>
 
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/The-set-of-real-numbers/Determining-Real-and-Imaginary-Parts-of-a-Complex-Function.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/The-set-of-real-numbers/Finding-Real-and-Imaginary-Parts-of-a-Complex-Function-.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/The-set-of-real-numbers/Finding-Real-and-Imaginary-Parts-of-a-Complex-Function.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/The-set-of-real-numbers/Set-of-Real-numbers.xml" /></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/The-set-of-real-numbers/Determining-Real-and-Imaginary-Parts-of-a-Complex-Function.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FThe-Real-and-Complex-Number-Systems-%28NS%29%2FThe-set-of-real-numbers%2FDetermining-Real-and-Imaginary-Parts-of-a-Complex-Function.xml&amp;entry.2077830997=source%2Fthe-real-and-complex-number-systems%2Fsections%2Fsubsections%2Fsec-the-real-number-system%2Fsubsec-the-set-of-real-numbers.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/The-set-of-real-numbers/Finding-Real-and-Imaginary-Parts-of-a-Complex-Function-.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FThe-Real-and-Complex-Number-Systems-%28NS%29%2FThe-set-of-real-numbers%2FFinding-Real-and-Imaginary-Parts-of-a-Complex-Function-.xml&amp;entry.2077830997=source%2Fthe-real-and-complex-number-systems%2Fsections%2Fsubsections%2Fsec-the-real-number-system%2Fsubsec-the-set-of-real-numbers.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/The-set-of-real-numbers/Finding-Real-and-Imaginary-Parts-of-a-Complex-Function.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FThe-Real-and-Complex-Number-Systems-%28NS%29%2FThe-set-of-real-numbers%2FFinding-Real-and-Imaginary-Parts-of-a-Complex-Function.xml&amp;entry.2077830997=source%2Fthe-real-and-complex-number-systems%2Fsections%2Fsubsections%2Fsec-the-real-number-system%2Fsubsec-the-set-of-real-numbers.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/The-set-of-real-numbers/Set-of-Real-numbers.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FThe-Real-and-Complex-Number-Systems-%28NS%29%2FThe-set-of-real-numbers%2FSet-of-Real-numbers.xml&amp;entry.2077830997=source%2Fthe-real-and-complex-number-systems%2Fsections%2Fsubsections%2Fsec-the-real-number-system%2Fsubsec-the-set-of-real-numbers.ptx">Add review</url></exercise>
 </subsection>

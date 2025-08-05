@@ -3,7 +3,7 @@
     <title>Definition and examples of propositions</title>
     <p><term>Consider the following sentences.</term></p>
     <p>
-        <ol marker="a">
+        <ol marker="a).">
             <li>
                 <p>
                     2 is an even number.
@@ -68,8 +68,16 @@
         Every proposition has a truth value, namely <term>true</term> (denoted by <em><term>T</term></em>) or <term>false</term> (denoted by <em><term>F</term></em>).
     </p>
 
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Definition-and-examples-of-propositions/Determine-which-statements-are-true.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Definition-and-examples-of-propositions/Propositional-definitions.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Definition-and-examples-of-propositions/Using-definition-of-statement-to-say-whether-or-not-the-sentences-are-statements.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Definition-and-examples-of-propositions/Evaluating-Statements-and-Truth-Values.xml" /></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Definition-and-examples-of-propositions/Determine-which-statements-are-true.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FDefinition-and-examples-of-propositions%2FDetermine-which-statements-are-true.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-propositional-logic%2Fsubsec-definition-and-examples-of-propositions.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Definition-and-examples-of-propositions/Propositional-definitions.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FDefinition-and-examples-of-propositions%2FPropositional-definitions.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-propositional-logic%2Fsubsec-definition-and-examples-of-propositions.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Definition-and-examples-of-propositions/Using-definition-of-statement-to-say-whether-or-not-the-sentences-are-statements.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FDefinition-and-examples-of-propositions%2FUsing-definition-of-statement-to-say-whether-or-not-the-sentences-are-statements.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-propositional-logic%2Fsubsec-definition-and-examples-of-propositions.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Definition-and-examples-of-propositions/Evaluating-Statements-and-Truth-Values.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FDefinition-and-examples-of-propositions%2FEvaluating-Statements-and-Truth-Values.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-propositional-logic%2Fsubsec-definition-and-examples-of-propositions.ptx">Add review</url></exercise>
 </subsection>

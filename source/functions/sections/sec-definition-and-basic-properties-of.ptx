@@ -3,7 +3,7 @@
 <!-- <introduction> -->
 <p>After completing this section, the student should be able to:</p>
 <p>
-    <ul>
+    <ul >
     <li><p>define exponential, logarithmic, trigonometric and hyperbolic functions</p></li>
     <li><p>understand the relationship of the exponential and logarithmic functions</p></li>
     <li><p>define the hyperbolic functions and be familiar with their properties</p></li>
@@ -20,9 +20,9 @@
 </p>
 <definition xml:id="def-exponents-and-radicals">
     <statement>
-        <p><term>For a natural number</term> <m>n</m> <term>and a real number</term> <m>x</m>, <term>the power</term> <m>x^{n}</m>, <term>read “ the</term> <m>n^{\text{th}}</m> <term>power of</term> <m>x</m>” or “<m>x</m> r<term>raised to</term> <m>n</m>”, <term>is defined as follows:</term></p>
+        <p>For a natural number <m>n</m> and a real number <m>x</m>, the power <m>x^{n}</m>, read “ the <m>n^{\text{th}}</m> power of <m>x</m>” or “<m>x</m> raised to <m>n</m>”, is defined as follows:</p>
         <p><me>x^{n} = \underset{n\ \text{factors}\ \text{each}\ \text{equal}\ \text{to}\ x}{\overset{x \cdot x \cdot \cdots \cdot x}{\underbrace{}}}</me></p>
-        <p><term>In the symbol</term>  <m>x^{n}</m>, <m>x</m> <term>is called the base and</term> <m>n</m> <term>is called the exponent.</term></p>
+        <p>In the symbol <m>x^{n}</m>, <m>x</m> is called the base and <m>n</m> is called the exponent.</p>
     </statement>
 </definition>
 
@@ -35,10 +35,28 @@
 
 <definition xml:id="def-zero-and-negative-exponents">
     <statement>
-        <p><m>\textbf{Zero and Negative Exponents)}</m></p>
-        <p><m>\textit{Definition of zero Exponent   Definition of Negative Exponent}</m></p>
-        <p><m>x^{0} = 1\ (x \neq 0)</m> <m>x^{- n} = \frac{1}{x^{n}}\ \left( x \neq 0 \right)</m></p>
-        <p>Note: <m>0^{0}</m> is undefined.</p>
+        <p>
+            <m>\textbf{Zero and Negative Exponents}</m>
+        </p>
+        <sidebyside>
+            <p>
+                <m>\begin{align}
+                    \textit{Definition of zero Exponent}\\
+                    x^{0}= 1\ (x \neq 0)\\
+                    \text{Note:}\,0^{0}\text{ is undefined}.
+                    \end{align}
+                </m>
+            </p>
+            <p>
+                <m>\begin{align}
+                    \textit{Definition of Negative Exponent}\\
+                    x^{- n} = \frac{1}{x^{n}}\ \left( x \neq 0 \right)\\
+                    
+                    \end{align}
+                </m>
+            </p>
+        </sidebyside>
+        
     </statement>
 </definition>
 
@@ -46,13 +64,16 @@
 <p>As a result of the above definition, we have <m>\frac{1}{x^{- n}} = x^{n}</m>. We have the following rules of exponents for integer exponents:</p>
 
 <tabular  left="medium" right="medium" top="medium">
+    <col width="100%"/>
+    
 <row header="yes" halign="left">
- <cell><alert>Rules for Integer Exponents</alert></cell>
+ <cell><m>\textbf{Rules for Integer Exponents}</m></cell>
 </row>
 
 <row bottom="medium">
-    <cell><p><ol marker="1.">
-    <li><p><m>x^{n} \cdot x^{m} = x^{n + m}</m>  <m>\qquad \qquad \, \text{4.}(\text{xy})^{n} = x^{n}y^{n}</m></p></li>
+    <cell>
+        <p><ol marker="1.">
+    <li><p><m>x^{n} \cdot x^{m} = x^{n + m}</m>  <m>\qquad \quad \text{4.}(\text{xy})^{n} = x^{n}y^{n}</m></p></li>
     <li><p><m>(x^{n})^{m} = x^{\text{nm}}</m>  <m>\qquad \qquad \, \text{5.}\frac{x^{n}}{x^{m}} = x^{n - m}</m></p></li>
     <li><p><m> \left ( \frac{x}{y} \right )^n=\frac{x^n}{y^n} \, (y \neq 0)</m></p></li>
     </ol></p></cell>
@@ -65,7 +86,7 @@
 
 <definition xml:id="def-rational-exponent">
     <statement>
-        <p><m>\textbf{(Rational Exponent}</m> <m>a^{\frac{1}{n}}</m><m>)</m></p>
+        <p><m>\textbf{(Rational Exponent} \,a^{\frac{1}{n}}\textbf{)}</m></p>
     <p>If <m>n</m> is an odd positive integer, then <m>a^{\frac{1}{n}} = b</m> if and only if <m>b^{n} = a</m></p>
     <p>If <m>n</m> is an even positive integer and <m>a \geq 0</m>, then <m>a^{\frac{1}{n}} = \left| b \right|</m> if and only if <m>b^{n} = a</m></p>
     </statement>
@@ -82,7 +103,7 @@
 
 <definition xml:id="def-rational-exponent-2">
     <statement>
-        <p><m>\textbf{Definition 3.17: (Rational Exponent}</m> <m>a^{\frac{m}{n}}</m><m>)</m></p>
+        <p><m>\textbf{ (Rational Exponent} \, a^{\frac{m}{n}} \textbf{)}</m></p>
        <p>If <m>a^{\frac{1}{n}}</m> is a real number, then <m>a^{\frac{m}{n}} = \left( a^{\frac{1}{n}} \right)^{m}</m>(i.e. the <m>n^{\text{th}}</m> root of a raised to the <m>m^{\text{th}}</m> power)</p>
     </statement>
 </definition>
@@ -128,7 +149,7 @@
                 </li>
                 <li>
                     <p>
-                        <m>(-32)^{-\frac{3}{5}}=\frac{1}{\left (-32)^\frac{1}{5} \right)^3}=\frac{1}{(-2)^3}=-\frac{1}{8}
+                        <m>(-32)^{-\frac{3}{5}}=\frac{1}{\left ((-32)^\frac{1}{5} \right)^3}=\frac{1}{(-2)^3}=-\frac{1}{8}
 
                         </m>
                     </p>
@@ -145,7 +166,7 @@
 <definition xml:id="def-n-th-root">
     <statement>
         <p>
-            <alert>(</alert><m>n^{\text{th}}</m> <alert>root of</alert> <m>a</m><alert>):</alert> <m>\sqrt[n]{a}</m>= <m>a^{\frac{1}{n}}</m>, where <m>n</m> is a positive integer.
+            <alert>(</alert><m>n^{\text{th}}</m> <m>\textbf{root of}</m> <m>a</m><alert>):</alert> <m>\sqrt[n]{a}</m>= <m>a^{\frac{1}{n}}</m>, where <m>n</m> is a positive integer.
         </p>
     </statement>
 </definition>
@@ -196,13 +217,20 @@
     <p><m>1\text{.}\text{414} &lt; \sqrt{2} &lt; 1\text{.}\text{415}</m></p>
     <p>Thus, it would seem reasonable to expect that <m>3^{1\text{.}\text{414}} &lt; 3^{\sqrt{2}} &lt; 3^{1\text{.}\text{415}}</m>. Since 1.414 and 1.415 are rational numbers, <m>3^{1\text{.}\text{414}}</m> and <m>3^{1\text{.}\text{415}}</m> are well defined, even though we cannot compute their values by hand. Using a calculator, we get <m>4\text{.}\text{7276950} &lt; 3^{\sqrt{2}} &lt; 4\text{.}\text{7328918}</m>. If we use better approximations to <m>\sqrt{2}</m>, we get <m>3^{1\text{.}\text{4142}} &lt; 3^{\sqrt{2}} &lt; 3</m>. Using a calculator again, we get <m>4\text{.}\text{7287339} &lt; 3^{\sqrt{2}} &lt; 4\text{.}\text{7292535}</m>. Computing <m>3^{\sqrt{2}}</m>directly on a calculator gives <m>3^{\sqrt{2}} \approx 4\text{.}\text{7288044}</m>. This numerical evidence suggests that as <m>x</m> approaches <m>\sqrt{2}</m>, the values of <m>3^{x}</m> approach a unique real number that we designate by <m>3^{\sqrt{2}}</m>, and so we will accept without proof, the fact that the domain of the exponential function is the set of real numbers.</p>
     
-    <tabular left="medium" right="medium" top="medium" bottom="medium">
-        <row>
-        <cell>The exponential function <m>y = b^{x}</m>, where <m>b &gt; 0</m> and <m>b \neq 1</m>, 
-            is defined for all real values of <m>x</m>. In addition all the rules 
-            for rational exponents hold for real number exponents as well.</cell>
-        </row>
-    </tabular>
+    <p>
+        <m>\textbf{Remarks}</m>
+    </p>
+    <p>
+        <m>\textbf{The exponential function}</m> <m>y = b^{x}</m>, 
+        where <m>b &gt; 0</m> <m>\textbf{and}</m> <m>b \neq 1</m>, 
+        <m>\textbf{is defined for all real values of} </m> <m>x</m>. 
+        <m>\textbf{In addition all the rules 
+        for rational exponents hold for real number exponents 
+        as well.}</m>
+    </p>
+    
+   
+    
 
     <p>Before we state some general facts about exponential functions , let’s see 
         if we can determine what the graph of an exponential function will look like.</p>
@@ -231,11 +259,16 @@
         <p>
             <ol>
                 <li>
+                    <p>
+                        To aid in our analysis, we set up a short table of values to give us a frame of
+                        reference.
+                    </p>
                     <sidebyside>
-                    <tabular halign="left" valign="top" left="medium" right="medium" top="medium" bottom="medium"> 
+                    <tabular halign="center" valign="top" left="medium" right="medium" top="medium" bottom="medium"> 
+                        <col width="100%"/>
                         <row header="yes" >
-                            <cell><m>x</m></cell>
-                            <cell><m>y</m></cell>
+                            <cell><m>\textbf{x}</m></cell>
+                            <cell><m>\textbf{y}</m></cell>
                         </row>
 
                         <row>
@@ -339,8 +372,9 @@
                     <p>Here again the <m>x - \text{axis}</m> is a horizontal asymptote, there is no <m>x -</m>intercept, 1 is <m>y -</m>intercept and the range is the set of positive real numbers. However, the graph is now decreasing rather than increasing.</p>
                     <p>The following box summarizes the important facts about exponential functions and their graphs.</p>
                     <tabular left="medium" right="medium" top="medium" bottom="medium">
+                        <col width="100%"/>
                     <row header="yes">
-                    <cell><alert>The Exponential function</alert> <m>y = f(x) = b^{x}</m></cell>
+                    <cell><m>\textbf{The Exponential function}</m> <m>y = f(x) = b^{x}</m></cell>
                     </row>
 
                     <row>
@@ -424,6 +458,7 @@
                         </image>
                         
                         <tabular>
+                            <col width="100%"/>
                         <row>
                         <cell></cell>
                         <cell><p>From the graph we see that</p>
@@ -479,6 +514,7 @@
                         </latex-image>
                         </image>
                         <tabular>
+                            <col width="100%"/>
                         <row>
                         <cell></cell>
                         <cell><p>From the graph we see that</p>
@@ -521,16 +557,24 @@
 <p>To find the inverse of <m>f(x) = b^{x}</m>, let’s review the process for finding an inverse function by comparing the process for the polynomial function <m>y = x^{3}</m> and the exponential function <m>y = 3^{x}</m>. Keep in mind that <m>x</m> is our independent variable and <m>y</m> is the dependent variable and so whenever possible we want a function solved explicitly for <m>y</m>.</p>
 
 <tabular>
+    <col width="100%"/>
     <row header="yes">
     <cell><m>\textbf{To find the inverse of}</m> <m>y = x^{3}</m></cell>
     <cell><m>\textbf{To find the inverse of}</m> <m>y = 3^{x}</m></cell>
+    
     </row>
 
     <row>
-    <cell><p><m>y = x^{3}</m> Interchange <m>x</m> and <m>y</m></p>
-    <p><m>x = y^{3}</m> solve for <m>y</m></p></cell>
-    <cell><p><m>y = 3^{x}</m> Interchange <m>x</m> and <m>y</m></p>
-    <p><m>x = 3^{y}</m> solve for <m>y</m></p></cell>
+    <cell><p><m>y = x^{3} \qquad \text{Interchange}</m> <m>x</m> and <m>y</m></p>
+    <p><m>x = y^{3} \qquad \text{solve for}</m> <m>y</m></p></cell>
+    <cell><p><m>y = 3^{x}\qquad \text{Interchange}</m> <m>x</m> and <m>y</m></p>
+    <p><m>x = 3^{y} \qquad \text{solve for}</m> <m>y</m></p></cell>
+    
+    </row>
+    <row>
+        <cell><p><m>y=3\sqrt{x}</m></p></cell>
+        <cell><p><m>y=\text{??}</m></p></cell>
+
     </row>
 </tabular>
 
@@ -564,6 +608,7 @@
 <p>When an expression is written in the form <m>x=b^{y}</m>, it is said to be in exponential form. When an expression is written in the form <m>y=\log_{b} x</m>, it is said to be in logarithmic form. The table below illustrates the equivalence of the exponential and logarithmic forms.</p>
 
 <tabular halign="center"  left="medium" right="medium" top="medium" bottom="medium">
+    <col width="100%"/>
 <row header="yes">
 <cell>Exponential form</cell>
 <cell>Logarithmic form</cell>
@@ -704,12 +749,19 @@
                                     solve the resulting exponential equation, as follows:
                                 </p>
                                 <p>
-                                    Let <me>t = \log_{3} 81 \text{ Rewrite in exponential form:}</me>
-                                    <me>3^{t} = 81 \, \text{Express both sides in terms of the same base:}</me>
-                                    <me>3^{t} = 3^{4} \, \text{Since the exponential function is }1 – 1</me>
-                                    <me>
-                                        t=4
-                                    </me>
+                                    Let
+                                </p>
+                                <p>
+                                    
+                                    <m>
+                                        \begin{align}
+                                        t &amp;= \log_{3} 81 \quad \text{ Rewrite in exponential form:} \\
+                                        3^{t} &amp;= 81 \qquad \text{Express both sides in terms of the same base:} \\
+                                        3^{t} &amp;= 3^{4} \qquad \text{Since the exponential function is }1 – 1 \\
+                                        t &amp;= 4
+                                        \end{align}
+                                    </m>
+                                    
                                     
                                 </p>
                                 <p>
@@ -721,12 +773,17 @@
                                     We apply the same procedure as in part (a).
                                 </p>
                                 <p>
-                                    Let <me>t = \log_{8} \frac{1}{64} \text{ Rewrite in exponential form:}</me>
-                                    <me>8^{t} = \frac{1}{64} \, \text{Express both sides in terms of the same base:}</me>
-                                    <me>8^{t} = 8^{-2} \, \text{Since the exponential function is }1 – 1</me>
-                                    <me>
-                                        t=-2
-                                    </me>
+                                    Let
+                                </p>
+                                <p>
+                                    <m>\begin{align}
+                                        t &amp;= \log_{8} \frac{1}{64} \quad \text{ Rewrite in exponential form:} \\
+                                        8^{t} &amp;= \frac{1}{64} \qquad \text{Express both sides in terms of the same base:} \\
+                                        8^{t} &amp;= 8^{-2} \qquad \text{Since the exponential function is }1 – 1 \\
+                                        t &amp;= -2
+                                        \end{align}
+                                    </m>
+                                    
                                 </p>
                                 <p>
                                     Therefore, <m>\log_{8} \frac{1}{64} = -2</m>.
@@ -845,6 +902,7 @@
 
 
 <tabular halign="left"  left="medium" right="medium" top="medium" bottom="medium">
+    <col width="100%"/>
 <row header="yes">
 <cell><m>\textbf{The Logarithmic Function}</m> <m>y=\log_{b} x</m></cell>
 </row>
@@ -857,8 +915,8 @@
         <li><p>Its domain is the set of positive real numbers</p></li>
         <li><p>Its range is the set of real numbers.</p></li>
         <li><p>Its graph exhibits logarithmic growth if <m>b>1</m> and logarithmic decay if <m>&lt;b&lt;1</m>.</p></li>
-        <li><p>The <m>x-intercept</m> is <m>1</m>. There is no <m>y-intercept</m>.</p></li>
-        <li><p>The <m>y-axis</m> is a vertical asymptote.</p></li>
+        <li><p>The <m>x-</m> intercept is <m>1</m>. There is no <m>y-intercept</m>.</p></li>
+        <li><p>The <m>y-</m> axisis a vertical asymptote.</p></li>
     </ol>
 </p>
 </cell>
@@ -906,7 +964,7 @@
                         <shortdescription></shortdescription>
                     </image>
                     <p>
-                        We have Dom<m>(f)={x:x>2}</m>, Range<m>(f)={y:y>1}</m> and the graph has the line <m>x=2</m> as a
+                        We have <em>Dom</em> <m>(f)={x:x>2}</m>, <em>Range</em><m>(f)={y:y>1}</m> and the graph has the line <m>x=2</m> as a
                         vertical asymptote. To find the intercept, we set <m>y=0</m> and solve for <m>x</m>. Setting <m>y=0</m>
                         and solving for <m>x</m>, we will obtain <m>x=\frac{7}{3}</m>. Thus, the <m>x-</m> intercept is <m>\frac{7}{3}</m>.
                     </p>
@@ -919,10 +977,13 @@
                         <ol marker="a)">
                             <li>
                                 <p>
+                                    We have
+                                </p>
+                                <p>
                                     <md>
-                                        <mrow>y =\amp 3^x+4 \, \text{Interchange}\, x \, \text{and}\, y </mrow>
-                                        <mrow>x= \amp 3^y+4\, \text{solve explicitly for } \,y </mrow>
-                                        <mrow>x-4= \amp 3^y \, \text{Write in logarithmic form} </mrow>
+                                        <mrow>y =\amp 3^x+4 \quad \text{Interchange}\, x \, \text{and}\, y </mrow>
+                                        <mrow>x= \amp 3^y+4\quad  \text{solve explicitly for } \,y </mrow>
+                                        <mrow>x-4= \amp 3^y \quad  \text{Write in logarithmic form} </mrow>
                                         <mrow>y= \amp \log_{3}(x-4) </mrow>
                                         <mrow>\text{Thus,}\,f^{-1}= \amp \log_{3}(x-4) </mrow>
                                     </md>
@@ -930,10 +991,13 @@
                             </li>
                             <li>
                                 <p>
+                                    We have
+                                </p>
+                                <p>
                                     <md>
-                                        <mrow>y =\amp \log_{3}(x-2) \, \text{Interchange}\, x \, \text{and}\, y </mrow>
-                                        <mrow>x= \amp \log_{3}(y-2) \, \text{Write in logarithmic form} </mrow>
-                                        <mrow> y-2= \amp 3^x\, \text{solve explicitly for } \,y </mrow>
+                                        <mrow>y =\amp \log_{3}(x-2) \quad \text{Interchange}\, x \, \text{and}\, y </mrow>
+                                        <mrow>x= \amp \log_{3}(y-2) \quad  \text{Write in logarithmic form} </mrow>
+                                        <mrow> y-2= \amp 3^x\quad  \text{solve explicitly for } \,y </mrow>
                                         <mrow>y= \amp 3^x+2 </mrow>
                                         <mrow>\text{Thus,}\,g^{-1}= \amp 3^x+2 </mrow>
                                     </md>
@@ -950,8 +1014,9 @@
     The following table contains the basic properties of logarithm:
 </p>
 
-<tabular halign="left"  left="medium" right="medium" top="medium" bottom="medium">
-    <row>
+<tabular halign="left"  left="medium" right="medium" top="medium" >
+    <col width="100%"/>
+    <row >
         <cell><p>
             <m>\textbf{Properties of logarithm}</m>
         </p></cell>
@@ -961,7 +1026,7 @@
             Assume that <m>b</m>, <m>u</m> and <m>v</m> are positive and <m>b \neq 1</m>. Then
         </p></cell>
     </row>
-    <row>
+    <row bottom="medium">
         <cell>
             <p>
                 <ol>
@@ -1018,19 +1083,28 @@
             Express in terms of simpler logarithms.
         </p>
         <p>
-            <ol marker="a)">
+            <ol>
                 <li>
                     <p>
-                       <m>log_{b}(x^3y)  \qquad \qquad \text{b)}\, log_{b}(x^3+y) \qquad \qquad \text{c)}\, log_{b}\left ( \frac{\sqrt{xy}}{z^3} \right )</m> 
+                        <ol marker="a)">
+                            <li>
+                                <p>
+                                    <m>\log_{b}(x^3y)  \qquad \qquad \text{b)}\, \log_{b}(x^3+y) \qquad \qquad \text{c)}\, \log_{b}\left ( \frac{\sqrt{xy}}{z^3} \right )</m> 
+                                </p>
+                            </li>
+                        </ol>
                     </p>
                 </li>
                 <li>
                     <p>
+                        
                         Show that <m>\log_{b} 12 = -\log_{b} 2</m>.
                     </p>
+                    
                 </li>
             </ol>
         </p>
+        
     </statement>
     <solution>
         <p>
@@ -1040,7 +1114,7 @@
                         <ol marker="a)">
                             <li>
                                 <p>
-                                    <m>log_{b}(x^3y) = log_{b}x^3+log_{b}y=3log_{b}(x) + log_{b}(y)</m>
+                                    <m>\log_{b}(x^3y) = \log_{b}x^3+log_{b}y=3\log_{b}(x) + log_{b}(y)</m>
                                 </p>
                             </li>
                             <li>
@@ -1063,7 +1137,7 @@
                 </li>
                 <li>
                     <p>
-                        <m>We have \log_{b} 12 = \log_{b} 1 - \log_{b} 2 = 0 - \log_{b} 2 = - \log_{b} 2 .</m>
+                        <m>\text{We have}\, \log_{b} 12 = \log_{b} 1 - \log_{b} 2 = 0 - \log_{b} 2 = - \log_{b} 2 .</m>
                     </p>
                 </li>
             </ol>
@@ -1079,6 +1153,9 @@
 <definition xml:id="def-common-logarithm">
     <statement>
         <p>
+            <m>\textbf{(Common Logarithm)}</m>
+        </p>
+        <p>
             <m>f ( x )=\log_{10} x</m> is called the common logarithm function. We write <m>\log_{10} x = \log x</m>.
         </p>
     </statement>
@@ -1090,6 +1167,9 @@
 
 <definition xml:id="def-natural-logarithm">
     <statement>
+        <p>
+            <m>\textbf{(Natural Logarithm)}</m>
+        </p>
         <p>
             <m>f ( x )=\log_{e} x</m> is called the natural logarithm function. We write <m>\log_{e} x = \ln x</m>.
         </p>
@@ -1134,7 +1214,7 @@
                 \begin{align}
                  y &amp;=e^x+1 \qquad \text{Interchange x and y} \\
                  y &amp;=e^y+1 \qquad \text{Solve for }\,y \\
-                 x-1 &amp;e^y \qquad \qquad \text{Rewrite in logarithmic form}\\
+                 x-1 &amp;=e^y \qquad \qquad \text{Rewrite in logarithmic form}\\
                  y &amp;=\ln(x-1)\\
                  \text{Thus,}\,f^{-1} &amp;= \ln(x-1)
                 \end{align}
@@ -1328,7 +1408,7 @@
                                 </li>
                                 <li>
                                     <p>
-                                        Again using the conversion formula, we have <m>\frac{3\pi}{5}=\frac{180^\circ}{\pi} \cdot \frac{3\pi}{5}</m>,
+                                        Again using the conversion formula, we get <m>\frac{\theta}{180^\circ}=\frac{\frac{3 \pi}{5}}{\pi} </m>,
                                         which implies that <m>\theta=108^\circ</m>.
                                     </p>
                                 </li>
@@ -1341,7 +1421,7 @@
                                 <li>
                                     <p>
                                         Let <m>\theta</m> represent the radian measure of <m>90^\circ</m>. Using the conversion formula, we
-                                        obtain: <m>\frac{\theta}{\frac{\pi}{2}}=\frac{90^\circ}{180^\circ}</m>, which implies that <m>\theta=\frac{\pi}{2}</m>.
+                                        obtain: <m>\frac{\theta}{\pi}=\frac{90^\circ}{180^\circ}</m>, which implies that <m>\theta=\frac{\pi}{2}</m>.
                                     </p>
                                 </li>
                                 <li>
@@ -1411,8 +1491,9 @@
 
     <definition xml:id="def-trigonometric-functions">
         <statement>
-            <tabular halign="center" left="medium" right="medium" top="medium" >
-                <row header="yes">
+            <tabular halign="center"  top="medium" >
+                <col width="100%"/>
+                <row header="yes" bottom="medium" >
                     <cell><p><m>\textbf{Name of function}</m></p></cell>
                     <cell><p><m>\textbf{Abbreviation}</m></p></cell>
                     <cell><p><m>\textbf{Definition}</m></p></cell>
@@ -1516,7 +1597,7 @@
     <p>
         Based on this analysis, we have the graph of <m>f (\theta ) = \sin{\theta}</m> in the interval <m>[0,2\pi ]</m> as show below.
     </p>
-    <image width="50%">
+    <image width="70%">
     <latex-image label="Trigo5">
         \begin{tikzpicture}[scale=1.2, >=stealth]
             % Axes
@@ -1717,6 +1798,9 @@
 <definition xml:id="def-periodic-function">
     <statement>
         <p>
+            <m>\textbf{(Periodic Function)}</m>
+        </p>
+        <p>
             A function <m>y=f(x)</m> is called periodic if there exists a number <m>p</m> such that <m>f(x+p)=f(x)</m>
             for all <m>x</m> in the domain of <m>f</m>. The smallest such number <m>p</m> is called the period of the
            function.
@@ -1731,6 +1815,9 @@
 
 <definition xml:id="def-amplitude">
     <statement>
+        <p>
+            <m>\textbf{(Amplitude of a periodic function)}</m>
+        </p>
         <p>
             The amplitude of a periodic function f ( x ) is
         </p>
@@ -1750,6 +1837,9 @@
 </p>
 <definition xml:id="def-frequency">
     <statement>
+        <p>
+            <m>\textbf{(Frequency of a periodic function)}</m>
+        </p>
         <p>
             The number of complete cycles a sine or cosine graph makes on an interval of length equal to
             <m>2\pi</m> is called its frequency.
@@ -1823,29 +1913,38 @@
     the table.
 </p>
 
-<tabular halign="left" left="medium" right="medium" top="medium" bottom="medium">
-<row>
-<cell>
-    <p>
-    <ol marker="1.">
-    <li><p><m>f(x)=\sin \,x</m></p></li>
-    <li><p><m>f(x)=\cos \,x</m></p></li>
-    <li><p><m>f(x)=\tan \,x</m></p></li>
-    <li><p><m>f(x)=\csc \,x</m></p></li>
-    <li><p><m>f(x)=\sec \,x</m></p></li>
-    <li><p><m>f(x)=\cot \,x</m></p></li>
-    </ol>
-</p>
-</cell>
-<cell>
-<p>Domain = All real numbers</p>
-<p>Domain = All real numbers</p>
-<p>Domain <m>={x:x \neq \frac{\pi}{2}+n \pi}</m></p>
-<p>Domain <m>={x:x \neq n \pi}</m></p>
-<p>Domain <m>={x:x \neq \frac{\pi}{2}+n \pi}</m></p>
-<p>Domain <m>={x:x \neq n \pi}</m> where <m>n</m> is an integer</p>
-</cell>
-</row>
+<tabular halign="left" left="medium" right="medium" top="medium" >
+    <col width="100%"/>
+
+    <row>
+        <cell><p>1. <m>f(x)=\sin \,x</m></p></cell>
+        <cell><p>Domain = All real numbers</p></cell>
+    </row>
+    <row>
+        <cell><p>2. <m>f(x)=\cos \,x</m></p></cell>
+        <cell><p>Domain = All real numbers</p></cell>
+    </row>
+    <row>
+        <cell><p>3. <m>f(x)=\tan \,x</m></p></cell>
+        <cell><p>Domain <m>={x:x \neq \frac{\pi}{2}+n \pi}</m></p></cell>
+    </row>
+    <row>
+        <cell> <p>4. <m>f(x)=\csc \,x</m></p></cell>
+        <cell><p>Domain <m>={x:x \neq n \pi}</m></p></cell>
+    </row>
+    <row>
+        <cell><p>5. <m>f(x)=\sec \,x</m></p></cell>
+        <cell><p>Domain <m>={x:x \neq \frac{\pi}{2}+n \pi}</m></p></cell>
+    </row>
+    <row>
+        <cell><p>6.<m>f(x)=\cot \,x</m></p></cell>
+        <cell><p>Domain <m>={x:x \neq n \pi}</m> </p></cell>
+    </row>
+    <row bottom="medium">
+        <cell></cell>
+        <cell><p>where <m>n</m> is an integer</p></cell>
+    </row>
+
 </tabular>
 
 <p>
@@ -2040,194 +2139,604 @@
     The two basic hyperbolic functions are the hyperbolic sine and hyperbolic cosine functions. They
     are defined as follows:
 </p>
+<definition xml:id="def-hyperbolic-functions">
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        The <m>\textbf{hyperbolic sine}</m> function is
+                        defined by:
+                    </p>
+                    <p>
+                        <m>
+                            \sinh \,x = \frac{e^x - e^{-x}}{2}
+                        </m>
+                        
+                    </p>
+                    <p>
+                        The domain of <m>\sinh \,x</m> is <m>\mathbb{R}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The <m>\textbf{hyperbolic cosine}</m> function is
+                        defined by:
+                    </p>
+                    <p>
+                        <m>
+                            \cosh \,x = \frac{e^x + e^{-x}}{2}
+                        </m>
+                    </p>
+                    <p>
+                        The domain of <m>\cosh \,x</m> is <m>\mathbb{R}</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</definition>
 
+
+<paragraphs>
+    <title>Remark:</title>
+    <p>
+        <ol marker="1.">
+            <li>
+                <p>
+                    <m>\cosh \,x</m> is pronounced " kosh" x and <m>\sinh \,x</m> is pronounced as " <em>cinch</em>" <m>x</m> .
+                </p>
+            </li>
+            <li>
+                <p>
+                    Since <m>e^{-x} > 0</m> for all <m>x \in \Re</m>, we see that <m>\cosh \,x > \sinh \,x</m> for every <m>x \in \Re</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>f(x)=\frac{e^x+e^{-x}}{2}</m>, then <m>f(-x)=\frac{e^{-x}+e^{x}}{2}=\frac{e^{x}+e^{-x}}{2}=f(x)</m>. Thus, <m>\cosh \,x</m> is an even
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\sinhx</m> is an odd function.
+                </p>
+            </li>
+            <li>
+                <p>
+                    In contrast to sine and cosine, the hyperbolic functions are not periodic.
+                </p>
+            </li>
+        </ol>
+    </p>
+</paragraphs>
+
+<example>
+    <statement>
+        <p>
+            <ol marker="1.">
+                <li>
+                    <p>
+                        <m>\cosh^2\,x-\sinh^2\,=1</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sinh(x+y)=\cosh\,x\sinh\,y+ \sinh\,x\sinh \,y</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sinh(x+y)=\sinh\,x\cosh\,y+ \cosh\,x\sinh \,y</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <ol marker="1.">
+                <li>
+                    <p>
+                        We have
+                    </p>
+                    <p>
+                        <m>\left ( \frac{e^x+e^x}{2} \right )-\left ( \frac{e^x-e^x}{2}  \right )=\left ( \frac{e^{2x}+2+e^{-2x}}{2} \right )-\left ( \frac{e^{2x}-2+e^{-2x}}{2} \right )=1</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <md>
+                            <mrow> \sinh(x+y)=\amp \frac{e^{x+}-e^{-x-y}}{2} </mrow>
+                            <mrow> =\amp \frac{e^xe^y-e^{-x}e^{-y}}{2} </mrow>
+                            <mrow> =\amp \frac{2e^xe^y-2e^{-x}e^{-y}}{2}</mrow>
+                            <mrow> =\amp \frac{2e^xe^y-2e^{-x}e^{-y}}{4}</mrow>
+                            <mrow> =\amp \frac{e^xe^y-e^{-x}e^{-y}+e^{-x}e^{y}-e^{-x}e^{-y}}{4}+\frac{e^xe^y+e^{x}e^{-y}-e^{-x}e^{y}-e^{-x}e^{-y}}{4} </mrow>
+                            <mrow>= \amp \left ( \frac{e^x+e^{-x}}{2} \right )\left ( \frac{e^y+e^{-y}}{2} \right )+\left ( \frac{e^x-e^{-x}}{2} \right )\left ( \frac{e^y+e^{-y}}{2} \right )</mrow>
+                            <mrow>= \amp  \cosh \,x\sinh\,y+\sinh\,x\cosh\,y</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Left as an exercise.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </solution>
+</example>
+
+<p>
+    <ul>
+        <li>
+            <p>
+                <m>\textbf{The graph of} \, y=\sinh x</m>
+            </p>
+        </li>
+    </ul>
+</p>
+
+<p>
+    Since <m>\cosh x</m> is an even function, its graph is symmetric about the <em>y-axis</em>. Its
+    <m>y-</m> intercept is <m>(0,1)</m>, because <m>\cosh(0)=1</m> . As <m>x</m> tends to infinity, <m>\cosh x
+    =\frac{e^x}{2}+\frac{e^{-x}}{2}</m> tends to infinity because <m>\frac{e^x}{2}</m> goes to infinity and <m>\frac{e^{-x}}{2}</m> approaches to 0. When <m>x</m> is a large
+    negative number <m>\cosh x</m> acts like <m>\frac{e^{-x}}{2}</m>, because <m>\frac{e^x}{2}</m> gets close to <m>0</m>. Thus the graph of
+    <m>y = \cosh x</m> looks like:
+
+</p>
+<image width="80%">
+<latex-image label="Hyperbolic1">
+    \begin{tikzpicture}
+         \begin{axis}[
+            axis lines=middle,
+            xlabel={$x$},
+            ylabel={$y$},
+            domain=-2:2,
+            samples=200,
+            legend style={at={(1.05,1)},anchor=north west},
+            grid=both,
+            width=12cm,
+            height=8cm, very thick
+           ]
+            % y = cosh x
+            \addplot [very thick, blue] {cosh(x)};
+            \addlegendentry{$y = \cosh x$}
+            
+            % y = 1/2 e^{-x}
+            \addplot [very thick, red] {0.5*exp(-x)};
+            \addlegendentry{$y = \frac{1}{2} e^{-x}$}
+            
+            % y = 1/2 e^{x}
+            \addplot [very thick, green] {0.5*exp(x)};
+            \addlegendentry{$y = \frac{1}{2} e^{x}$}
+        \end{axis}
+    \end{tikzpicture}
+</latex-image>
+    
+</image>
+
+<p>
+    This graph can also be obtained by geometrically adding the two curves <m>y = e^x</m> and <m>y =e^{-x}</m>, and taking half of each resulting <m>y</m>-value. Observe that range of <m>\cosh x</m> is <m>[1, \infty)</m>.
+</p>
+<p>
+    <ul>
+        <li>
+            <p>
+                <m>\textbf{The graph of} \, y=\sinh x</m>
+            </p>
+        </li>
+    </ul>
+</p>
+<p>
+    Since <m>\sinh\,x</m> is an odd function, its graph is symmetric about the origin. The graph passes
+    through the origin because <m>\sinh(0) = 0</m>. As <m>x</m> gets large, <m>\sinh \,x</m> acts like
+    <m>\frac{e^x}{2}</m> and when <m>x</m> is a large negative number, <m>\sinh \,x</m> acts like <m>-\frac{e^{-x}}{2}</m>.
+    Thus, the graph of <m>y = \sinh \,x</m> looks like:
+</p>
+
+
+<image width="80%">
+<latex-image label="Hyperbolic2">
+    \begin{tikzpicture}
+           \begin{axis}[
+            axis lines=middle,
+            xlabel={$x$},
+            ylabel={$y$},
+            domain=-2:2,
+            samples=200,
+            legend style={at={(1.05,1)},anchor=north west},
+            grid=both,
+            width=12cm,
+            height=8cm, very thick
+        ]
+            % y = cosh x
+            \addplot [very thick, blue] {sinh(x)};
+            \addlegendentry{$y = \sinh x$}
+            
+            % y = 1/2 e^{-x}
+            \addplot [very thick, red] {0.5*exp(x)};
+            \addlegendentry{$y = \frac{1}{2} e^{x}$}
+            
+            % y = 1/2 e^{x}
+            \addplot [very thick, green] {-0.5*exp(-x)};
+            \addlegendentry{$y =- \frac{1}{2} e^{-x}$}
+        \end{axis}
+    \end{tikzpicture}
+</latex-image>
+    
+</image>
+
+<p>
+    The remaining four hyperbolic functions are defined in terms of cosh x and sinh x by
+    analogy with trigonometry.
+</p>
+<p>
+    <m>\tanh\,x=\frac{\sinh\,x}{\cosh\,x}=\frac{e^x-e^{-x}}{e^x+e^{-x}}</m> (The domain of <m>\tanh x</m> is <m>\Re</m>).
+</p>
+<p>
+    <m>\coth\,x=\frac{\cosh\,x}{\sinh\,x}=\frac{e^x+e^{-x}}{e^x-e^{-x}}</m> (The domain of <m>\coth x</m> is <m>\Re\setminus\{0\}</m>).
+</p>
+<p>
+    <m>\text{sech}\,x=\frac{1}{\cosh\,x}=\frac{2}{e^x+e^{-x}}</m> (The domain of <m>\text{sech}\,x</m> is <m>\Re</m>).
+</p>
+<p>
+    <m>\text{csch}\,x=\frac{\sinh\,x}{\cosh\,x}=\frac{e^x-e^{-x}}{e^x+e^{-x}}</m> (The domain of <m>\text{csch}\,x</m> is <m>\Re\setminus\{0\}</m>).
+</p>
+
+<p>
+    You may sketch the graphs of these four hyperbolic functions (see exercise <m>19</m>).
+</p>
+
+<p>
+    The trigonometric terminology and notation for the hyperbolic functions stem from the fact that
+    they satisfy a list of identities that much resemble the familiar trigonometric identities, apart
+    from an occasional difference of sign.
+</p>
 <tabular>
-<row header="yes">
-<cell><alert>Definition 3.27</alert>:</cell>
-<cell></cell>
-</row>
-
-<row>
-<cell><ol type="1">
-<li><p>The <alert>hyperbolic sine</alert> function is defined by:</p></li>
-</ol>
-<p><image source="/media/png72/imageC2050.png" /></p>
-<p>The domain of <image source="/media/png72/imageC2051.png" /> is <image source="/media/png72/imageC2052.png" />.</p></cell>
-<cell><ol start="2" type="1">
-<li><p>The <alert>hyperbolic cosine</alert> function is defined by:</p></li>
-</ol>
-<p><image source="/media/png72/imageC2053.png" /></p>
-<p>The domain of <image source="/media/png72/imageC2054.png" /> is also <image source="/media/png72/imageC2055.png" /></p></cell>
-</row>
+    <col width="100%"/>
+    <row>
+        <cell><p> <m>\cosh^2\,x-\sinh^2\,x=1</m></p></cell>
+        <cell><m>(1)</m></cell>
+    </row>
+    <row>
+        <cell><p><m>1-\tanh^2 \,x= \text{sech}^2\,x</m></p></cell>
+        <cell><m>(2)</m></cell>
+    </row>
+    <row>
+        <cell><p><m>\coth^2\,x-1=\text{csch}^2\,x</m></p></cell>
+        <cell><m>(3)</m></cell>
+    </row>
+    <row>
+        <cell><p><m>\sinh(x+y)=\sinh x\,\cosh y+\cosh x\,\sinh \,y</m></p></cell>
+        <cell><m>(4)</m></cell>
+    </row>
+    <row>
+        <cell><p><m>\cosh(x+y)=\cosh x\,\cosh y+\sinh x\,\sinh\, y</m></p></cell>
+        <cell><m>(5)</m></cell>
+    </row>
 </tabular>
 
+<p>
+    The trigonometric functions are sometimes called circular functions because the point
+    (<m>\cos \theta\,,\sin\,\theta</m>) lies on the circle <m>x^2+y^2=1</m> for all <m>\theta</m> . Similarly, identity (1) tells us that the point
+    (<m>\cosh \theta\,,\sinh\,\theta</m>) lies on the hyperbola <m>x^2-y^2=1</m>, and this is the reason for the name hyperbolic
+    functions.
+</p>
 
-<p><alert>Remark</alert>:</p>
-<p>1. <image source="/media/png72/imageC2056.png" /> is pronounced <image source="/media/png72/imageC2057.png" /> and <image source="/media/png72/imageC2058.png" /> is pronounced as<image source="/media/png72/imageC2059.png" />.</p>
-<p>2. Since <image source="/media/png72/imageC2060.png" /> for all <image source="/media/png72/imageC2061.png" />, we see that <image source="/media/png72/imageC2062.png" /> for every <image source="/media/png72/imageC2063.png" />.</p>
-<p>3. If <image source="/media/png72/imageC2064.png" />, then <image source="/media/png72/imageC2065.png" />. Thus, <image source="/media/png72/imageC2066.png" /> is an even</p>
-<p>function.</p>
-<p>4. <image source="/media/png72/imageC2067.png" /> is an odd function.</p>
-<p>3. In contrast to sine and cosine, the hyperbolic functions are not periodic.</p>
+<exercises xml:id="exercises-Basic-properties-of-functions">
+   
+    <exercise>
+        <statement>
+            <p>
+               Find the domain of the given function. 
+            </p>
+            <ol marker="a)">
+                <li>
+                    <p>
+                        <m>f(x)=\frac{1}{6^x} \qquad \text{b)}\,g(x)=\sqrt{3^x+1}\qquad \text{c)}\, h(x)=\sqrt{2^x-8} \qquad \text{d)}\, f(x)=\frac{1}{2^{3x}-2}</m>
+                    </p>
+                </li>
+            </ol>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Sketch the graph of the given function. Identify the domain, range, intercepts, and
+                asymptotes
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>y=5^{-x} \qquad \text{b)}\,y=9-3^x \qquad \text{c)}\,y=1-e^{-x} \qquad \text{d)}\,y=e^{x-2}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Solve the given exponential equation.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>2^{x-1}=8 \qquad \text{b)}\,3^{2x}=273 \qquad \text{c)}\,8^{x}=\sqrt{2} \qquad \text{d)}\,16^{3a-2}=\frac{1}{4}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x) = 2^x</m> . Show that <m>f(x+3)=8f(x)</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>g(x)=5^x</m>. Show that <m>g(x-2)=\frac{1}{25}g(x)</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x)=3^x</m>.Show that <m>\frac{f(x+2)-f(2)}{2}=4(3^x)</m>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Evaluate the given logarithmic expression (where it is defined).
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>\log_{2} 32 \qquad \text{c)}\,\log_{3}(-9) \qquad \text{e)}\,\log_{5}(\log_{3}243)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\log_{\frac{1}{3}} 9 \qquad \text{d)}\,\log_{6}\frac{1}{\sqrt{6}} \qquad \text{f)} \,2^{\log_{2}\sqrt{5}}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                If <m>f(x)=\log_{2}(x^2-4)</m>, find <m>f(6)</m> and the domain of <m>f</m> .
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                If <m>g(x)=\log_{3}(x^2-4x+3)</m>, find <m>g(4)</m> and the domain of <m>g</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that <m>\log_{\frac{1}{6}}(x)=-\log_{6}(x)</m>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Sketch the graph of the given function and identify the domain, range, intercepts and
+                asymptotes.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>f(x)=log_{2}((x-3) \qquad \text{b)} f(x)=-3+\log_{2}x\qquad \text{c)} f(x)=-log_{3}(-x) \qquad \text{d)} f(x)=3\log_{5}x</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            
 
-<p><alert>Example 3.28</alert>: Using the above definitions, show that</p>
-<ol type="1">
-<li><p><image source="/media/png72/imageC2068.png" /></p></li>
-<li></li>
-<li><p><image source="/media/png72/imageC2070.png" /></p></li>
-</ol>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Find the inverse of <m>f(x)=e^{(3x-1)}</m>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x)=e^{\sqrt{x}}</m>. Find a function so that <m>(f \circ g)(x)=(g \circ f)(x)=x</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Convert the given angle from radians to degrees
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>\frac{\pi}{3} \qquad \text{b)}\,-\frac{5 \pi}{2} \qquad \text{d)}\, - \frac{4 \pi}{3}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Convert the given angle from degrees to radians
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>315^{\circ} \qquad \text{b)}\, -40^{\circ} \qquad \text{c)}\, 330^{\circ} \qquad </m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Sketch the graph of 
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            <m>f(\theta)=\sec \,\theta \qquad \text{c)} \, f(\theta)=\csc \, \theta \qquad \text{e)} \, f(\theta)=\cot \,\theta </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>f(x)=1+\cos \,x \qquad \text{d)}=\sin(x+\frac{\pi}{2}) \qquad \text{f)} \tan\,2x</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
 
-<p><alert>Solution</alert>:</p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Verify the following identities:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>(\sin\,x-\cos\,x)(\csc\,x+\sec\,x)=\tan\,x-\cot\,x</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\sec^2\,x-\csc^2\,x=\tan^2\,x-\cot^2\,x</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Given <m>\tan \,\theta=\frac{1}{2}</m> and <m>\sin\,\theta &lt;  0</m>, find <m>\cos\,\theta</m>.
+            </p>
+        </statement>
+    </exercise>
+        <exercise>
+        <statement>
+            <p>
+                Sketch the graphs of
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>f(x)=\tanh\,x \qquad \text{c)}=\text{csch}\,x</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>f(x)=\text{sech}\,x \qquad \text{d)}\,f(x)=\coth\,x</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+        <exercise>
+        <statement>
+            <p>
+                Prove the identities (2) and (3).
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Find the exact numerical value of
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            <m>\sinh(\ln\,2) \qquad \text{b}\, \cosh(-\ln3) \qquad \text{c)}\,\tanh(2 \ln3)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Prove the following identities:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>\sinh(x-y)=\sinh \,x \cosh\,y-\cosh\,x\sinh\,y</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\cosh(x-y)=\cosh \,x \cosh\,y-\sinh\,x\sinh\,y</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    
+</exercises>
 
-<ol type="1">
-<li><p>We have</p></li>
-</ol>
 
-<p><image source="/media/png72/imageC2071.png" /></p>
 
-<ol start="2" type="1">
-<li><p><image source="/media/png72/imageC2072.png" /></p></li>
-</ol>
-
-<p><image source="/media/png72/imageC2073.png" /><image source="/media/png72/imageC2074.png" /></p>
-<p><image source="/media/png72/imageC2075.png" /></p>
-<p><image source="/media/png72/imageC2076.png" /></p>
-
-<ol start="3" type="1">
-<li><p>Left as an exercise.</p></li>
-</ol>
-<ul>
-<li><p><alert>The graph of</alert> <image source="/media/png72/imageC2077.png" /></p></li>
-</ul>
-<p>Since <image source="/media/png72/imageC2078.png" /> is an even function, its graph is symmetric about the <image source="/media/png72/imageC2079.png" />. Its <image source="/media/png72/imageC2080.png" />intercept is <image source="/media/png72/imageC2081.png" />, because <image source="/media/png72/imageC2082.png" />. As <image source="/media/png72/imageC2083.png" /> tends to infinity, <image source="/media/png72/imageC2084.png" /> tends to infinity because <image source="/media/png72/imageC2085.png" /> goes to infinity and <image source="/media/png72/imageC2086.png" /> approaches to 0. When <image source="/media/png72/imageC2087.png" /> is a large negative number <image source="/media/png72/imageC2088.png" /> acts like <image source="/media/png72/imageC2089.png" />, because <image source="/media/png72/imageC2090.png" /> gets close to 0. Thus the graph of <image source="/media/png72/imageC2091.png" />looks like:</p>
-<p><image source="/media/imageC2092.png" style="width:2.5875in;height:2.00833in" /></p>
-<p>This graph can also be obtained by geometrically adding the two curves <image source="/media/png72/imageC2093.png" /> and <image source="/media/png72/imageC2094.png" />, and taking half of each resulting <image source="/media/png72/imageC2095.png" />. Observe that range of <image source="/media/png72/imageC2096.png" /> is <image source="/media/png72/imageC2097.png" />.</p>
-<ul>
-<li><p><alert>The graph of</alert> <image source="/media/png72/imageC2098.png" /></p></li>
-</ul>
-<p>Since <image source="/media/png72/imageC2099.png" /> is an odd function, its graph is symmetric about the origin. The graph passes through the origin because <image source="/media/png72/imageC2100.png" />. As <image source="/media/png72/imageC2101.png" /> gets large <image source="/media/png72/imageC2102.png" /> acts like <image source="/media/png72/imageC2103.png" /> and when <image source="/media/png72/imageC2104.png" /> is a large negative number, <image source="/media/png72/imageC2105.png" /> acts like <image source="/media/png72/imageC2106.png" />. Thus, the graph of <image source="/media/png72/imageC2107.png" /> looks like:</p>
-
-<p><image source="/media/imageC2108.png" style="width:2.83958in;height:2.5in" /></p>
-
-<p>The remaining four hyperbolic functions are defined in terms of <image source="/media/png72/imageC2109.png" /> and <image source="/media/png72/imageC2110.png" /> by</p>
-<p>analogy with trigonometry.</p>
-<table>
-<tabular>
-<row>
-<cell><p><image source="/media/png72/imageC2111.png" /> (The domain of <image source="/media/png72/imageC2112.png" /> is <image source="/media/png72/imageC2113.png" />.</p>
-<p><image source="/media/png72/imageC2114.png" /> (The domain of <image source="/media/png72/imageC2115.png" /> is <image source="/media/png72/imageC2116.png" />)</p>
-<p><image source="/media/png72/imageC2117.png" /> (The domain of <image source="/media/png72/imageC2118.png" />is <image source="/media/png72/imageC2119.png" />)</p>
-<p><image source="/media/png72/imageC2120.png" /> (The domain of <image source="/media/png72/imageC2121.png" /> is <image source="/media/png72/imageC2116.png" />)</p></cell>
-</row>
-</tabular>
-</table>
-<p>You may sketch the graphs of these four hyperbolic functions (see exercise 19).</p>
-<p>The trigonometric terminology and notation for the hyperbolic functions stem from the fact that they satisfy a list of identities that much resemble the familiar trigonometric identities, apart from an occasional difference of sign.</p>
-<table>
-<tabular>
-<row>
-<cell><p><image source="/media/png72/imageC2122.png" /> (1)</p>
-<p><image source="/media/png72/imageC2123.png" /> (2)</p>
-<p><image source="/media/png72/imageC2124.png" /> (3)</p>
-<p><image source="/media/png72/imageC2125.png" /> (4)</p>
-<p><image source="/media/png72/imageC2126.png" /> (5)</p></cell>
-</row>
-</tabular>
-</table>
-<p>The trigonometric functions are sometimes called circular functions because the point <image source="/media/png72/imageC2127.png" /> lies on the circle <image source="/media/png72/imageC2128.png" /> for all <image source="/media/png72/imageC2129.png" />. Similarly, identity (1) tells us that the point <image source="/media/png72/imageC2130.png" /> lies on the hyperbola , and this is the reason for the name hyperbolic functions.</p>
-<p><alert>Exercise 3.5</alert></p>
-<ol type="1">
-<li><p>Find the domain of the given function.</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2132.png" /> b) <image source="/media/png72/imageC2133.png" /> c) <image source="/media/png72/imageC2134.png" /> d) <image source="/media/png72/imageC2135.png" /></p></li>
-</ol>
-<ol start="2" type="1">
-<li><p>Sketch the graph of the given function. Identify the domain, range, intercepts, and asymptotes.</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2136.png" /> b) <image source="/media/png72/imageC2137.png" /> c) <image source="/media/png72/imageC2138.png" /> d) <image source="/media/png72/imageC2139.png" /></p></li>
-</ol>
-<ol start="3" type="1">
-<li><p>Solve the given exponential equation.</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2140.png" /> b) <image source="/media/png72/imageC2141.png" /> c) <image source="/media/png72/imageC2142.png" /> d) <image source="/media/png72/imageC2143.png" /></p></li>
-</ol>
-<ol start="4" type="1">
-<li><p>Let <image source="/media/png72/imageC2144.png" />. Show that <image source="/media/png72/imageC2145.png" />.</p></li>
-<li><p>Let <image source="/media/png72/imageC2146.png" />. Show that <image source="/media/png72/imageC2147.png" />.</p></li>
-<li><p>Let <image source="/media/png72/imageC2148.png" />. Show that <image source="/media/png72/imageC2149.png" />.</p></li>
-<li><p>Evaluate the given logarithmic expression (where it is defined).</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2150.png" /> c) <image source="/media/png72/imageC2151.png" /> e) <image source="/media/png72/imageC2152.png" /></p></li>
-<li><p><image source="/media/png72/imageC2153.png" /> d) <image source="/media/png72/imageC2154.png" /> f) <image source="/media/png72/imageC2155.png" /></p></li>
-</ol>
-<ol start="8" type="1">
-<li><p>If <image source="/media/png72/imageC2156.png" />, find <image source="/media/png72/imageC2157.png" /> and the domain of <image source="/media/png72/imageC2158.png" />.</p></li>
-<li><p>If <image source="/media/png72/imageC2159.png" />, find <image source="/media/png72/imageC2160.png" /> and the domain of <image source="/media/png72/imageC2161.png" />.</p></li>
-<li><p>Show that <image source="/media/png72/imageC2162.png" /></p></li>
-<li><p>Sketch the graph of the given function and identify the domain, range, intercepts and asymptotes.</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2163.png" /> b) <image source="/media/png72/imageC2164.png" /> c) <image source="/media/png72/imageC2165.png" /> d) <image source="/media/png72/imageC2166.png" /></p></li>
-</ol>
-<ol start="12" type="1">
-<li><p>Find the inverse of <image source="/media/png72/imageC2167.png" />.</p></li>
-<li><p>Let <image source="/media/png72/imageC2168.png" />. Find a function so that <image source="/media/png72/imageC2169.png" />.</p></li>
-<li><p>Convert the given angle from radians to degrees</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2170.png" /> b) <image source="/media/png72/imageC2171.png" /> c) <image source="/media/png72/imageC2172.png" /></p></li>
-</ol>
-<ol start="15" type="1">
-<li><p>Convert the given angle from degrees to radians</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2173.png" /> b) <image source="/media/png72/imageC2174.png" /> c) <image source="/media/png72/imageC2175.png" /></p></li>
-</ol>
-<ol start="16" type="1">
-<li><p>Sketch the graph of</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2176.png" /> c) <image source="/media/png72/imageC2177.png" /> e) <image source="/media/png72/imageC2178.png" /></p></li>
-<li><p><image source="/media/png72/imageC2179.png" /> d) <image source="/media/png72/imageC2180.png" /> f) <image source="/media/png72/imageC2181.png" /></p></li>
-</ol>
-<ol start="17" type="1">
-<li><p>Verify the following identities:</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2182.png" /></p></li>
-<li><p><image source="/media/png72/imageC2183.png" /></p></li>
-</ol>
-<ol start="18" type="1">
-<li><p>Given <image source="/media/png72/imageC2184.png" /> and <image source="/media/png72/imageC2185.png" />, find <image source="/media/png72/imageC2186.png" />.</p></li>
-<li><p>Sketch the graphs of</p></li>
-</ol>
-<ol type="a">
-<li><p>c)</p></li>
-<li><p>d)</p></li>
-</ol>
-<ol start="20" type="1">
-<li><p>Prove the identities (2) and (3).</p></li>
-<li><p>Find the exact numerical value of</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2191.png" /> b) <image source="/media/png72/imageC2192.png" /> c) <image source="/media/png72/imageC2193.png" /></p></li>
-</ol>
-<ol start="22" type="1">
-<li><p>Prove the following identities:</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2194.png" /></p></li>
-<li><p><image source="/media/png72/imageC2195.png" /></p></li>
-</ol>
 <!-- </introduction> -->
 
 
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Definition-and-basic-properties-of-logarithmic,-exponential,-trigonometric-functions-and-their-graphs/Solve-the-exponential-equation.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Definition-and-basic-properties-of-logarithmic,-exponential,-trigonometric-functions-and-their-graphs/Identify-the-graph-of-the-trigonometric-function-of-y=f(x).xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Definition-and-basic-properties-of-logarithmic,-exponential,-trigonometric-functions-and-their-graphs/Solve-the-logarithmic-equation,-giving-your-answer-in-exact-form.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Definition-and-basic-properties-of-logarithmic,-exponential,-trigonometric-functions-and-their-graphs/Find-several-x-values-on-the-graph-of-the-trigonometric-function-y=f(x)=tan(x)-or-y=cos(x)-or-y=sin(x).xml" /></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Definition-and-basic-properties-of-logarithmic,-exponential,-trigonometric-functions-and-their-graphs/Solve-the-exponential-equation.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FDefinition-and-basic-properties-of-logarithmic%2C-exponential%2C-trigonometric-functions-and-their-graphs%2FSolve-the-exponential-equation.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-definition-and-basic-properties-of.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Definition-and-basic-properties-of-logarithmic,-exponential,-trigonometric-functions-and-their-graphs/Identify-the-graph-of-the-trigonometric-function-of-y=f(x).xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FDefinition-and-basic-properties-of-logarithmic%2C-exponential%2C-trigonometric-functions-and-their-graphs%2FIdentify-the-graph-of-the-trigonometric-function-of-y%3Df%28x%29.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-definition-and-basic-properties-of.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Definition-and-basic-properties-of-logarithmic,-exponential,-trigonometric-functions-and-their-graphs/Solve-the-logarithmic-equation,-giving-your-answer-in-exact-form.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FDefinition-and-basic-properties-of-logarithmic%2C-exponential%2C-trigonometric-functions-and-their-graphs%2FSolve-the-logarithmic-equation%2C-giving-your-answer-in-exact-form.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-definition-and-basic-properties-of.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Definition-and-basic-properties-of-logarithmic,-exponential,-trigonometric-functions-and-their-graphs/Find-several-x-values-on-the-graph-of-the-trigonometric-function-y=f(x)=tan(x)-or-y=cos(x)-or-y=sin(x).xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FDefinition-and-basic-properties-of-logarithmic%2C-exponential%2C-trigonometric-functions-and-their-graphs%2FFind-several-x-values-on-the-graph-of-the-trigonometric-function-y%3Df%28x%29%3Dtan%28x%29-or-y%3Dcos%28x%29-or-y%3Dsin%28x%29.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-definition-and-basic-properties-of.ptx">Add review</url></exercise>
 </section>

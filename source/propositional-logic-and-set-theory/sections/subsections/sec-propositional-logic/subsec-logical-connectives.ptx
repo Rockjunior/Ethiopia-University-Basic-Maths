@@ -13,32 +13,21 @@
         </p>
     </note>
 
-    <tabular top="minor" left="minor" right="minor" halign="center">
-        <col width="100%"></col>
-        <row>
-            <cell>
-                <p>
-                    <term>Conjunction </term>
-                </p>
-            </cell>
-        </row>
-        <row bottom="minor">
-            <cell>
-                <p>
-                    When two propositions are joined with the connective “<term>and</term>,” the proposition formed is a logical <em><term><em>conjunction</em></term></em>. 
-                    “and” is denoted by <m>“^”</m>. So, the logical conjunction of two propositions, <m>p</m> and <m>q</m>, is written:
-                </p>
-                <p>
-                    <me>
-                        p\text{^}q,\, \text{read as} \, \text{"p and q" or "p conjunction q".} 
-                    </me>                    
-                </p>
-                <p>
-                    <em>p</em> and <em>q</em> are called <em><term>the components of the conjunction</term></em>. <m>p\text{^}q</m> is true if and only if <m>p</m> is true and <m>q</m> is true.
-                </p>
-            </cell>
-        </row>
-    </tabular>
+    <assemblage xml:id="assemblage-Conjunction">
+        <title>Conjunction</title>
+        <p>
+            When two propositions are joined with the connective “<term>and</term>,” the proposition formed is a logical <em><term><em>conjunction</em></term></em>. 
+            “and” is denoted by <m>“^”</m>. So, the logical conjunction of two propositions, <m>p</m> and <m>q</m>, is written:
+        </p>
+        <p>
+            <me>
+                p\text{^}q,\, \text{read as} \, \text{"p and q" or "p conjunction q".} 
+            </me>                    
+        </p>
+        <p>
+            <em>p</em> and <em>q</em> are called <em><term>the components of the conjunction</term></em>. <m>p\text{^}q</m> is true if and only if <m>p</m> is true and <m>q</m> is true.
+        </p>
+    </assemblage>
 
     <p>
         The truth table for conjunction is given as follows:
@@ -94,32 +83,21 @@
         </statement>
     </example>
 
-    <tabular left="minor" right="minor" top="minor" halign="center">
-        <col width="100%"></col>
-        <row>
-            <cell>
-                <p>
-                    <term>Disjunction</term>
-                </p>
-            </cell>
-        </row>
-        <row bottom="minor">
-            <cell>
-                <p>
-                    When two propositions are joined with the connective “<term>or</term>,” 
-                    the proposition formed is called a logical <em><term>disjunction</term></em>. 
-                    “or” is denoted by “<m>\vee</m>”. So, the logical disjunction of two propositions, 
-                    <m>p</m> and <m>q</m>, is written:
-                </p>
-                <p>
-                    <m>p \vee q</m>, read as “<m>p</m> or <m>q</m>” or “<m>p</m> disjunction <m>q</m>”.
-                </p>
-                <p>
-                    <m>p \vee q</m> is false if and only if both <m>p</m> and <m>q</m> are false.
-                </p>
-            </cell>
-        </row>
-    </tabular>
+    <assemblage xml:id="assemblage-Disjunction">
+        <title>Disjunction</title>
+        <p>
+            When two propositions are joined with the connective “<term>or</term>,” 
+            the proposition formed is called a logical <em><term>disjunction</term></em>. 
+            “or” is denoted by “<m>\vee</m>”. So, the logical disjunction of two propositions, 
+            <m>p</m> and <m>q</m>, is written:
+        </p>
+        <p>
+            <m>p \vee q</m>, read as “<m>p</m> or <m>q</m>” or “<m>p</m> disjunction <m>q</m>”.
+        </p>
+        <p>
+            <m>p \vee q</m> is false if and only if both <m>p</m> and <m>q</m> are false.
+        </p>
+    </assemblage>
     
     <p>
         The truth table for disjunction is given as follows:
@@ -187,32 +165,25 @@
             Here “or” is used in the exclusive sense. But in propositional logic, “or” is used in the inclusive sense; that is, we allow Solomon the possibility of doing both things without him being inconsistent.
         </p>
     </note>
-    
-    <tabular top="minor" left="minor" right="minor" halign="center">
-        <col width="100%"></col>
-        <row>
-            <cell><term>Implication</term></cell>
-        </row>
-        <row bottom="minor">
-            <cell>
-                <p>
-                    When two propositions are joined with the connective “<alert>implies</alert>,” the proposition formed is called a <em>logical <alert>implication</alert></em>. 
-                    “implies” is denoted by “<m>\rightarrow</m>” So, the logical implication of two propositions, <m>p</m> and <m>q</m>, is written:
-                </p>
-                <p>
-                    <me>
-                        p \Longrightarrow q \text{read as} \, "p \text{implies} q"
-                    </me>.
-                </p>
-                <p>
-                    The function of the connective “implies” between two propositions is the same as the use of “If … then …” Thus <m>p \Longrightarrow q</m> can be read as “if <m>p</m>, then <m>q</m>.”
-                </p>
-                <p>
-                    <m>p \Longrightarrow q\ </m>is false if and only if <m>p</m> is true and <m>q</m> is false.
-                </p>
-            </cell>
-        </row> 
-    </tabular>
+
+    <assemblage xml:id="assemblage-Implication">
+        <title>Implication</title>
+        <p>
+            When two propositions are joined with the connective “<alert>implies</alert>,” the proposition formed is called a <em>logical <alert>implication</alert></em>. 
+            “implies” is denoted by “<m>\rightarrow</m>” So, the logical implication of two propositions, <m>p</m> and <m>q</m>, is written:
+        </p>
+        <p>
+            <me>
+                p \Longrightarrow q \text{ read as } \, \text{"}p \text{ implies } q\text{"}
+            </me>.
+        </p>
+        <p>
+            The function of the connective “implies” between two propositions is the same as the use of “If … then …” Thus <m>p \Longrightarrow q</m> can be read as “if <m>p</m>, then <m>q</m>.”
+        </p>
+        <p>
+            <m>p \Longrightarrow q\ </m>is false if and only if <m>p</m> is true and <m>q</m> is false.
+        </p>
+    </assemblage>
 
     <p>
         This form of a proposition is common in mathematics. 
@@ -282,50 +253,43 @@
                 then <m>q</m>” and “<m>p</m> implies <m>q</m>. ” There are various ways of expressing the proposition <m>p \Longrightarrow q</m>, namely:
             </p>
             <p >
-                <me>\text{If} p, \, \text{then} \, q</me>.
+                <m>\qquad \qquad \text{ If } p, \, \text{ then } \, q</m>.
             </p>
             <p>
-                <me>q\, \text{if} \, p</me>.
+                <m>\qquad \qquad q\, \text{ if } \, p</m>.
             </p>
             <p>
-                <me>p \text{implies} q</me>.
+                <m>\qquad \qquad p \text{ implies } q</m>.
             </p>
             <p>
-                <me>p \text{only if} q</me>.
+                <m>\qquad \qquad p \text{ only if } q</m>.
             </p>
             <p>
-                <me>p \text{is sufficient for} q</me>.
+                <m>\qquad \qquad p \text{ is sufficient for } q</m>.
             </p>
             <p>
-                <me>q \text{is necessary for} p</me>.
+                <m>\qquad \qquad q \text{ is necessary for } p</m>.
             </p>
         </statement>
     </example>
 
-    <tabular top="minor" left="minor" right="minor" halign="center">
-        <col width="100%"></col>
-        <row>
-            <cell><term>Bi-implication</term></cell>
-        </row>
-        <row bottom="minor">
-            <cell>
-                <p>
-                    When two propositions are joined with the connective “<term>bi-implication</term>,” 
-                    the proposition formed is called a <em>logical</em> <em><term>bi-implication</term></em> or a <em>logical <alert>equivalence</alert></em>. 
-                    A bi-implication is denoted by “<m>\Leftrightarrow</m>”. 
-                    So the logical bi-implication of two propositions, <m>p</m> and <m>q</m>, is written:
-                </p>
-                <p>
-                    <me>
-                        p \Longleftrightarrow q
-                    </me>.
-                </p>
-                <p>
-                    <m>p \Longleftrightarrow q</m> is false if and only if <m>p</m> and <m>q</m> have different truth values.
-                </p> 
-            </cell>
-        </row>
-    </tabular>
+    <assemblage xml:id="assemblage-Bi-Implication">
+        <title>Bi-Implication</title>
+        <p>
+            When two propositions are joined with the connective “<term>bi-implication</term>,” 
+            the proposition formed is called a <em>logical</em> <em><term>bi-implication</term></em> or a <em>logical <alert>equivalence</alert></em>. 
+            A bi-implication is denoted by “<m>\Leftrightarrow</m>”. 
+            So the logical bi-implication of two propositions, <m>p</m> and <m>q</m>, is written:
+        </p>
+        <p>
+            <me>
+                p \Longleftrightarrow q
+            </me>.
+        </p>
+        <p>
+            <m>p \Longleftrightarrow q</m> is false if and only if <m>p</m> and <m>q</m> have different truth values.
+        </p>
+    </assemblage>
 
     <p>
         The truth table for bi-implication is given by:
@@ -419,20 +383,14 @@
             </p>
         </statement>
     </example>
-    <tabular top="minor" left="minor" right="minor" halign="center">
-        <col width="100%"></col>
-        <row>
-            <cell><term>Negation.</term></cell>
-        </row>
-        <row bottom="minor">
-            <cell>
-                <p>
-                    Given any proposition <m>p</m>, we can form the proposition <m>\neg p</m> called the <alert>negation</alert> of <m>p</m>. 
-                    The truth value of <m>\neg p</m> is <m>F</m> if <m>p</m> is <m>T</m> and <m>T</m> if <m>p</m> is <em><m>F</m></em>.
-                </p>
-            </cell>
-        </row>
-    </tabular>
+
+    <assemblage xml:id="assemblage-Negation">
+        <title>Negation</title>
+        <p>
+            Given any proposition <m>p</m>, we can form the proposition <m>\neg p</m> called the <alert>negation</alert> of <m>p</m>. 
+            The truth value of <m>\neg p</m> is <m>F</m> if <m>p</m> is <m>T</m> and <m>T</m> if <m>p</m> is <em><m>F</m></em>.
+        </p>
+    </assemblage>
 
     <p>
         We can describe the relation between <m>p</m> and <m>\neg p</m> as follows.
@@ -617,7 +575,13 @@
         </exercise>
     </exercises>
 
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Logical-connectives/Give-statement-forms-of-the-axioms-of-an-enigma-and-answer-to-an-enigma-.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Logical-connectives/Truth-Tables-and-Logical-Connectives-Interchanging-Operators-and-Analyzing-Patterns.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Logical-connectives/Truth-tables-for-logical-operators.xml" /></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Logical-connectives/Give-statement-forms-of-the-axioms-of-an-enigma-and-answer-to-an-enigma-.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FLogical-connectives%2FGive-statement-forms-of-the-axioms-of-an-enigma-and-answer-to-an-enigma-.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-propositional-logic%2Fsubsec-logical-connectives.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Logical-connectives/Truth-Tables-and-Logical-Connectives-Interchanging-Operators-and-Analyzing-Patterns.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FLogical-connectives%2FTruth-Tables-and-Logical-Connectives-Interchanging-Operators-and-Analyzing-Patterns.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-propositional-logic%2Fsubsec-logical-connectives.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Logical-connectives/Truth-tables-for-logical-operators.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FLogical-connectives%2FTruth-tables-for-logical-operators.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-propositional-logic%2Fsubsec-logical-connectives.ptx">Add review</url></exercise>
 </subsection>

@@ -52,10 +52,10 @@
         </p>
     <p>
         <ol>
-            <li><p><m>(f + g)(x) = f(x) + g(x)</m> The sum of the two functions</p></li>
-            <li><p><m>(f - g)(x) = f(x) - g(x)</m> The difference of the two functions</p></li>
-            <li><p><m>(f \cdot g)(x) = f(x)g(x)</m> The product of the two functions</p></li>
-            <li><p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)}</m> The quotient of the two functions (provided <m>g(x) \neq 0)</m></p></li>
+            <li><p><m>(f + g)(x) = f(x) + g(x) \qquad</m> The sum of the two functions</p></li>
+            <li><p><m>(f - g)(x) = f(x) - g(x) \qquad</m> The difference of the two functions</p></li>
+            <li><p><m>(f \cdot g)(x) = f(x)g(x) \qquad</m> The product of the two functions</p></li>
+            <li><p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)} \qquad</m> The quotient of the two functions (provided <m>g(x) \neq 0)</m></p></li>
         </ol>
     </p>
 
@@ -112,6 +112,18 @@
                                 
             </ol>
         </p>
+
+        <p>
+            We have
+        </p>
+
+        <p>
+            <m>\text{Dom}(f + g) = \text{Dom}(f-g) = \text{Dom}(fg) = \text{Dom}(f) \cap \text{Dom}(g)=\Re \cap \Re=\Re</m>
+        </p>
+
+        <p>
+            <m>\text{Dom}\left( \frac{f}{g} \right) = [\text{Dom}(f) \cap \text{Dom}(g)]  {\left\{ x: g(x) = 0 \right\}} = \Re  \left\{ \frac{5}{4} \right\}</m>
+        </p>
     </solution>
 </example>
 
@@ -123,14 +135,38 @@
     </statement>
 
     <solution>
-        <!-- <p>
-<cell><p><m>(f + g)(x) = f(x) + g(x) = \sqrt[4]{x + 1} + \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
-<p><m>(f - g)(x) = f(x) - g(x) = \sqrt[4]{x + 1} - \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
-<p><m>(f \cdot g)(x) = f(x) \cdot g(x) = \sqrt[4]{x + 1} \cdot \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
-<p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)} = \frac{\sqrt[4]{x + 1}}{\sqrt{9 - x^{2}}}</m> <m>\lbrack - 1,\ 3)</m></p>
-<p><m>f^{3}(x) = \left( f(x) \right)^{3} = \left( \sqrt[4]{x + 1} \right)^{3} = \left( x + 1 \right)^{\frac{3}{4}}</m> <m>\lbrack - 1,\infty)</m></p></cell>
+        <tabular >
+            <row header="yes">
+                <cell>Formula</cell>
+                <cell>Domain</cell>
+            </row>
 
-        </p> -->
+            <row>
+                <cell><m>(f + g)(x) = f(x) + g(x) = \sqrt[4]{x + 1} + \sqrt{9 - x^{2}}</m></cell>
+                <cell><m>[-1,3]</m></cell>
+            </row>
+
+            <row>
+                <cell><m>(f - g)(x) = f(x) - g(x) = \sqrt[4]{x + 1} - \sqrt{9 - x^{2}}</m> </cell>
+                <cell><m>[-1,3]</m></cell>
+            </row>
+
+            <row>
+                <cell><m>(f \cdot g)(x) = f(x) \cdot g(x) = \sqrt[4]{x + 1} \cdot \sqrt{9 - x^{2}}</m> </cell>
+                <cell><m>[-1,3]</m></cell>
+            </row>
+
+            <row>
+                <cell><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)} = \frac{\sqrt[4]{x + 1}}{\sqrt{9 - x^{2}}}</m> </cell>
+                <cell><m>[-1,3]</m></cell>
+            </row>
+
+            <row>
+                <cell><m>f^{3}(x) = \left( f(x) \right)^{3} = \left( \sqrt[4]{x + 1} \right)^{3} = \left( x + 1 \right)^{\frac{3}{4}}</m> </cell>
+                <cell><m>\lbrack - 1,\infty \rbrack</m></cell>
+
+            </row>
+        </tabular>
 
         <p>
             There is yet another way of producing a new function from two given functions.
@@ -165,8 +201,51 @@
         </p>
 
         <p>
-            If we attempt to find <m>f(g(c))</m> we get <m>f(5)</m>, but 5 is not in the domain of <m>f(x)</m> and so we cannot find <m>(f \circ g)(c)</m>. Hence, <m>f \circ g = \left\{ (a,z),(b,q) \right\}</m>. The figure below illustrates this situation.
+            If we attempt to find <m>f(g(c))</m> we get <m>f(5)</m>, but <m>5</m> is not in the domain of <m>f(x)</m> and so we cannot find <m>(f \circ g)(c)</m>. Hence, <m>f \circ g = \left\{ (a,z),(b,q) \right\}</m>. The figure below illustrates this situation.
         </p>
+
+        <image width="50%">
+            <shortdescription></shortdescription>
+            <latex-image >
+                \begin{tikzpicture}
+                    % Left oval: Domain of g
+                    \draw (-4,0) ellipse (0.7 and 2) node[below=2.2cm] {Domain of $g$};
+
+                    % Middle oval: Range of g and Domain of f
+                    \draw (0,0) ellipse (0.7 and 2) node[below=2.2cm] {Range of $g$};
+                    \draw (0,0) ellipse (0.4 and 1.2);
+
+                    % Right oval: Range of f
+                    \draw (4,0) ellipse (0.7 and 2) node[below=2.2cm] {Range of $f$};
+
+                    % Nodes for elements
+                    \node at (-4,1.2) (a) {$a$};
+                    \node at (-4,0)   (b) {$b$};
+                    \node at (-4,-1.2)(c) {$c$};
+
+                    \node at (0,0.8)  (2) {$2$};
+                    \node at (0,0)    (3) {$3$};
+                    \node at (0,-0.8) (5) {$5$};
+
+                    % Label Domain of f moved inside inner ellipse below 3
+                    \node at (0,-1.2) {Domain of $f$};
+
+                    \node at (4,0.8)  (z) {$z$};
+                    \node at (4,-0.2)(q) {$q$};
+
+                    % Arrows for g
+                    \draw[-&gt;] (a) -- (2) node[midway, above] {$g$};
+                    \draw[-&gt;] (b) -- (3);
+                    \draw[-&gt;] (c) -- (5);
+
+                    % Arrows for f
+                    \draw[-&gt;] (2) -- (z) node[midway, above] {$f$};
+                    \draw[-&gt;] (3) -- (q);
+\
+                \end{tikzpicture}
+            </latex-image>
+            
+        </image>
     </statement>
 </example>
 
@@ -298,7 +377,7 @@
 
     <solution>
         <p>
-            <ol>
+            <ol marker="a)">
                 <li>
                     <p>
                         <m>(f \circ g)(x) = f\left( \frac{2}{x - 1} \right) = \frac{\frac{2}{x - 1}}{\frac{2}{x - 1} + 1} = \frac{2}{x + 1}</m>. Thus, <m>\text{Dom}(f \circ g) = \left\{ x:x \neq \pm 1 \right\}</m>.
@@ -612,8 +691,16 @@
 </exercises>
 
 
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function_3.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function_2.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function.xml" /></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Composition-of-Functions.xml" /></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function_3.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FReal-valued-functions-and-their-properties%2FDomain-and-Range-of-a-Function_3.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-real-valued-functions-and-their.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function_2.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FReal-valued-functions-and-their-properties%2FDomain-and-Range-of-a-Function_2.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-real-valued-functions-and-their.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FReal-valued-functions-and-their-properties%2FDomain-and-Range-of-a-Function.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-real-valued-functions-and-their.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Composition-of-Functions.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FReal-valued-functions-and-their-properties%2FComposition-of-Functions.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-real-valued-functions-and-their.ptx">Add review</url></exercise>
 </section>
