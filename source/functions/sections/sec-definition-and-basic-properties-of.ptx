@@ -2040,189 +2040,590 @@
     The two basic hyperbolic functions are the hyperbolic sine and hyperbolic cosine functions. They
     are defined as follows:
 </p>
+<definition xml:id="def-hyperbolic-functions">
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        The <m>\textbf{hyperbolic sine}</m> function is
+                        defined by:
+                    </p>
+                    <p>
+                        <m>
+                            \sinh \,x = \frac{e^x - e^{-x}}{2}
+                        </m>
+                        
+                    </p>
+                    <p>
+                        The domain of <m>\sinh \,x</m> is <m>\mathbb{R}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The <m>\textbf{hyperbolic cosine}</m> function is
+                        defined by:
+                    </p>
+                    <p>
+                        <m>
+                            \cosh \,x = \frac{e^x + e^{-x}}{2}
+                        </m>
+                    </p>
+                    <p>
+                        The domain of <m>\cosh \,x</m> is <m>\mathbb{R}</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</definition>
 
+
+<paragraphs>
+    <title>Remark:</title>
+    <p>
+        <ol marker="1.">
+            <li>
+                <p>
+                    <m>\cosh \,x</m> is pronounced " kosh" x and <m>\sinh \,x</m> is pronounced as " <em>cinch</em>" <m>x</m> .
+                </p>
+            </li>
+            <li>
+                <p>
+                    Since <m>e^{-x} > 0</m> for all <m>x \in \Re</m>, we see that <m>\cosh \,x > \sinh \,x</m> for every <m>x \in \Re</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>f(x)=\frac{e^x+e^{-x}}{2}</m>, then <m>f(-x)=\frac{e^{-x}+e^{x}}{2}=\frac{e^{x}+e^{-x}}{2}=f(x)</m>. Thus, <m>\cosh \,x</m> is an even
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\sinhx</m> is an odd function.
+                </p>
+            </li>
+            <li>
+                <p>
+                    In contrast to sine and cosine, the hyperbolic functions are not periodic.
+                </p>
+            </li>
+        </ol>
+    </p>
+</paragraphs>
+
+<example>
+    <statement>
+        <p>
+            <ol marker="1.">
+                <li>
+                    <p>
+                        <m>\cosh^2\,x-\sinh^2\,=1</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sinh(x+y)=\cosh\,x\sinh\,y+ \sinh\,x\sinh \,y</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sinh(x+y)=\sinh\,x\cosh\,y+ \cosh\,x\sinh \,y</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <ol marker="1.">
+                <li>
+                    <p>
+                        We have
+                    </p>
+                    <p>
+                        <m>\left ( \frac{e^x+e^x}{2} \right )-\left ( \frac{e^x-e^x}{2}  \right )=\left ( \frac{e^{2x}+2+e^{-2x}}{2} \right )-\left ( \frac{e^{2x}-2+e^{-2x}}{2} \right )=1</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <md>
+                            <mrow> \sinh(x+y)=\amp \frac{e^{x+}-e^{-x-y}}{2} </mrow>
+                            <mrow> =\amp \frac{e^xe^y-e^{-x}e^{-y}}{2} </mrow>
+                            <mrow> =\amp \frac{2e^xe^y-2e^{-x}e^{-y}}{2}</mrow>
+                            <mrow> =\amp \frac{2e^xe^y-2e^{-x}e^{-y}}{4}</mrow>
+                            <mrow> =\amp \frac{e^xe^y-e^{-x}e^{-y}+e^{-x}e^{y}-e^{-x}e^{-y}}{4}+\frac{e^xe^y+e^{x}e^{-y}-e^{-x}e^{y}-e^{-x}e^{-y}}{4} </mrow>
+                            <mrow>= \amp \left ( \frac{e^x+e^{-x}}{2} \right )\left ( \frac{e^y+e^{-y}}{2} \right )+\left ( \frac{e^x-e^{-x}}{2} \right )\left ( \frac{e^y+e^{-y}}{2} \right )</mrow>
+                            <mrow>= \amp  \cosh \,x\sinh\,y+\sinh\,x\cosh\,y</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Left as an exercise.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </solution>
+</example>
+
+<p>
+    <ul>
+        <li>
+            <p>
+                <m>\textbf{The graph of} \, y=\sinh x</m>
+            </p>
+        </li>
+    </ul>
+</p>
+
+<p>
+    Since <m>\cosh x</m> is an even function, its graph is symmetric about the <em>y-axis</em>. Its
+    <m>y-</m> intercept is <m>(0,1)</m>, because <m>\cosh(0)=1</m> . As <m>x</m> tends to infinity, <m>\cosh x</m> 
+    <m>=\frac{e^x}{2}+\frac{e^{-x}}{2}</m> tends to infinity because <m>\frac{e^x}{2}</m> goes to infinity and <m>\frac{e^{-x}}{2}</m> approaches to 0. When <m>x</m> is a large
+    negative number <m>\cosh x</m> acts like <m>\frac{e^{-x}}{2}</m>, because <m>\frac{e^x}{2}</m> gets close to <m>0</m>. Thus the graph of
+    <m>y = \cosh x</m> looks like:
+
+</p>
+<image width="80%">
+<latex-image label="Hyperbolic1">
+    \begin{tikzpicture}
+         \begin{axis}[
+            axis lines=middle,
+            xlabel={$x$},
+            ylabel={$y$},
+            domain=-2:2,
+            samples=200,
+            legend style={at={(1.05,1)},anchor=north west},
+            grid=both,
+            width=12cm,
+            height=8cm, very thick
+           ]
+            % y = cosh x
+            \addplot [very thick, blue] {cosh(x)};
+            \addlegendentry{$y = \cosh x$}
+            
+            % y = 1/2 e^{-x}
+            \addplot [very thick, red] {0.5*exp(-x)};
+            \addlegendentry{$y = \frac{1}{2} e^{-x}$}
+            
+            % y = 1/2 e^{x}
+            \addplot [very thick, green] {0.5*exp(x)};
+            \addlegendentry{$y = \frac{1}{2} e^{x}$}
+        \end{axis}
+    \end{tikzpicture}
+</latex-image>
+    
+</image>
+
+<p>
+    This graph can also be obtained by geometrically adding the two curves <m>y = e^x</m> and <m>y =e^{-x}</m>, and taking half of each resulting <m>y</m>-value. Observe that range of <m>\cosh x</m> is <m>[1, \infty)</m>.
+</p>
+<p>
+    <ul>
+        <li>
+            <p>
+                <m>\textbf{The graph of} \, y=\sinh x</m>
+            </p>
+        </li>
+    </ul>
+</p>
+<p>
+    Since <m>\sinh\,x</m> is an odd function, its graph is symmetric about the origin. The graph passes
+    through the origin because <m>\sinh(0) = 0</m>. As <m>x</m> gets large, <m>\sinh \,x</m> acts like
+    <m>\frac{e^x}{2}</m> and when <m>x</m> is a large negative number, <m>\sinh \,x</m> acts like <m>-\frac{e^{-x}}{2}</m>.
+    Thus, the graph of <m>y = \sinh \,x</m> looks like:
+</p>
+
+
+<image width="80%">
+<latex-image label="Hyperbolic2">
+    \begin{tikzpicture}
+           \begin{axis}[
+            axis lines=middle,
+            xlabel={$x$},
+            ylabel={$y$},
+            domain=-2:2,
+            samples=200,
+            legend style={at={(1.05,1)},anchor=north west},
+            grid=both,
+            width=12cm,
+            height=8cm, very thick
+        ]
+            % y = cosh x
+            \addplot [very thick, blue] {sinh(x)};
+            \addlegendentry{$y = \sinh x$}
+            
+            % y = 1/2 e^{-x}
+            \addplot [very thick, red] {0.5*exp(x)};
+            \addlegendentry{$y = \frac{1}{2} e^{x}$}
+            
+            % y = 1/2 e^{x}
+            \addplot [very thick, green] {-0.5*exp(-x)};
+            \addlegendentry{$y =- \frac{1}{2} e^{-x}$}
+        \end{axis}
+    \end{tikzpicture}
+</latex-image>
+    
+</image>
+
+<p>
+    The remaining four hyperbolic functions are defined in terms of cosh x and sinh x by
+    analogy with trigonometry.
+</p>
+<p>
+    <m>\tanh\,x=\frac{\sinh\,x}{\cosh\,x}=\frac{e^x-e^{-x}}{e^x+e^{-x}}</m> (The domain of <m>\tanh x</m> is <m>\Re</m>).
+</p>
+<p>
+    <m>\coth\,x=\frac{\cosh\,x}{\sinh\,x}=\frac{e^x+e^{-x}}{e^x-e^{-x}}</m> (The domain of <m>\coth x</m> is <m>\Re\setminus\{0\}</m>).
+</p>
+<p>
+    <m>\text{sech}\,x=\frac{1}{\cosh\,x}=\frac{2}{e^x+e^{-x}}</m> (The domain of <m>\text{sech}\,x</m> is <m>\Re</m>).
+</p>
+<p>
+    <m>\text{csch}\,x=\frac{\sinh\,x}{\cosh\,x}=\frac{e^x-e^{-x}}{e^x+e^{-x}}</m> (The domain of <m>\text{csch}\,x</m> is <m>\Re\setminus\{0\}</m>).
+</p>
+
+<p>
+    You may sketch the graphs of these four hyperbolic functions (see exercise <m>19</m>).
+</p>
+
+<p>
+    The trigonometric terminology and notation for the hyperbolic functions stem from the fact that
+    they satisfy a list of identities that much resemble the familiar trigonometric identities, apart
+    from an occasional difference of sign.
+</p>
 <tabular>
-<row header="yes">
-<cell><alert>Definition 3.27</alert>:</cell>
-<cell></cell>
-</row>
-
-<row>
-<cell><ol type="1">
-<li><p>The <alert>hyperbolic sine</alert> function is defined by:</p></li>
-</ol>
-<p><image source="/media/png72/imageC2050.png" /></p>
-<p>The domain of <image source="/media/png72/imageC2051.png" /> is <image source="/media/png72/imageC2052.png" />.</p></cell>
-<cell><ol start="2" type="1">
-<li><p>The <alert>hyperbolic cosine</alert> function is defined by:</p></li>
-</ol>
-<p><image source="/media/png72/imageC2053.png" /></p>
-<p>The domain of <image source="/media/png72/imageC2054.png" /> is also <image source="/media/png72/imageC2055.png" /></p></cell>
-</row>
+    <row>
+        <cell><p> <m>\cosh^2\,x-\sinh^2\,x=1</m></p></cell>
+        <cell><m>(1)</m></cell>
+    </row>
+    <row>
+        <cell><p><m>1-\tanh^2 \,x= \text{sech}^2\,x</m></p></cell>
+        <cell><m>(2)</m></cell>
+    </row>
+    <row>
+        <cell><p><m>\coth^2\,x-1=\text{csch}^2\,x</m></p></cell>
+        <cell><m>(3)</m></cell>
+    </row>
+    <row>
+        <cell><p><m>\sinh(x+y)=\sinh x\,\cosh y+\cosh x\,\sinh \,y</m></p></cell>
+        <cell><m>(4)</m></cell>
+    </row>
+    <row>
+        <cell><p><m>\cosh(x+y)=\cosh x\,\cosh y+\sinh x\,\sinh\, y</m></p></cell>
+        <cell><m>(5)</m></cell>
+    </row>
 </tabular>
 
+<p>
+    The trigonometric functions are sometimes called circular functions because the point
+    (<m>\cos \theta\,,\sin\,\theta</m>) lies on the circle <m>x^2+y^2=1</m> for all <m>\theta</m> . Similarly, identity (1) tells us that the point
+    (<m>\cosh \theta\,,\sinh\,\theta</m>) lies on the hyperbola <m>x^2-y^2=1</m>, and this is the reason for the name hyperbolic
+    functions.
+</p>
 
-<p><alert>Remark</alert>:</p>
-<p>1. <image source="/media/png72/imageC2056.png" /> is pronounced <image source="/media/png72/imageC2057.png" /> and <image source="/media/png72/imageC2058.png" /> is pronounced as<image source="/media/png72/imageC2059.png" />.</p>
-<p>2. Since <image source="/media/png72/imageC2060.png" /> for all <image source="/media/png72/imageC2061.png" />, we see that <image source="/media/png72/imageC2062.png" /> for every <image source="/media/png72/imageC2063.png" />.</p>
-<p>3. If <image source="/media/png72/imageC2064.png" />, then <image source="/media/png72/imageC2065.png" />. Thus, <image source="/media/png72/imageC2066.png" /> is an even</p>
-<p>function.</p>
-<p>4. <image source="/media/png72/imageC2067.png" /> is an odd function.</p>
-<p>3. In contrast to sine and cosine, the hyperbolic functions are not periodic.</p>
+<exercises xml:id="exercises-Basic-properties-of-functions">
+   
+    <exercise>
+        <statement>
+            <p>
+               Find the domain of the given function. 
+            </p>
+            <ol marker="a)">
+                <li>
+                    <p>
+                        <m>f(x)=\frac{1}{6^x} \qquad \text{b)}\,g(x)=\sqrt{3^x+1}\qquad \text{c)}\, h(x)=\sqrt{2^x-8} \qquad \text{d)}\, f(x)=\frac{1}{2^{3x}-2}</m>
+                    </p>
+                </li>
+            </ol>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Sketch the graph of the given function. Identify the domain, range, intercepts, and
+                asymptotes
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>y=5^{-x} \qquad \text{b)}\,y=9-3^x \qquad \text{c)}\,y=1-e^{-x} \qquad \text{d)}\,y=e^{x-2}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Solve the given exponential equation.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>2^{x-1}=8 \qquad \text{b)}\,3^{2x}=273 \qquad \text{c)}\,8^{x}=\sqrt{2} \qquad \text{d)}\,16^{3a-2}=\frac{1}{4}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x) = 2^x</m> . Show that <m>f(x+3)=8f(x)</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>g(x)=5^x</m>. Show that <m>g(x-2)=\frac{1}{25}g(x)</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x)=3^x</m>.Show that <m>\frac{f(x+2)-f(2)}{2}=4(3^x)</m>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Evaluate the given logarithmic expression (where it is defined).
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>\log_{2} 32 \qquad \text{c)}\,\log_{3}(-9) \qquad \text{e)}\,\log_{5}(\log_{3}243)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\log_{\frac{1}{3}} 9 \qquad \text{d)}\,\log_{6}\frac{1}{\sqrt{6}} \qquad \text{f)} \,2^{\log_{2}\sqrt{5}}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                If <m>f(x)=\log_{2}(x^2-4)</m>, find <m>f(6)</m> and the domain of <m>f</m> .
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                If <m>g(x)=\log_{3}(x^2-4x+3)</m>, find <m>g(4)</m> and the domain of <m>g</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that <m>\log_{\frac{1}{6}}(x)=-\log_{6}(x)</m>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Sketch the graph of the given function and identify the domain, range, intercepts and
+                asymptotes.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>f(x)=log_{2}((x-3) \qquad \text{b)} f(x)=-3+\log_{2}x\qquad \text{c)} f(x)=-log_{3}(-x) \qquad \text{d)} f(x)=3\log_{5}x</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            
 
-<p><alert>Example 3.28</alert>: Using the above definitions, show that</p>
-<ol type="1">
-<li><p><image source="/media/png72/imageC2068.png" /></p></li>
-<li></li>
-<li><p><image source="/media/png72/imageC2070.png" /></p></li>
-</ol>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Find the inverse of <m>f(x)=e^{(3x-1)}</m>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>e^{\sqrt{x}}</m>. Find a function so that <m>(f \circ g)(x)=(g \circf)(x)=x</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Convert the given angle from radians to degrees
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>\frac{\pi}{3} \qquad \text{b)}\,-\frac{5 \pi}{2} \qquad \text{d)}\, - \frac{4 \pi}{3}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Convert the given angle from degrees to radians
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>315^{\circ} \qquad \text{b)}\, -40^{\circ} \qquad \text{c)}\, 330^{\circ} \qquad </m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Sketch the graph of 
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            <m>f(\theta)=\sec \,\theta \qquad \text{c)} \, f(\theta)=\csc \, \theta \qquad \text{e)} \, f(\theta)=\cot \,\theta </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>f(x)=1+\cos \,x \qquad \text{d)}=\sin(x+\frac{\pi}{2}) \qquad \text{f)} \tan\,2x</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
 
-<p><alert>Solution</alert>:</p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Verify the following identities:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>(\sin\,x-\cos\,x)(\csc\,x+\sec\,x)=\tan\,x-\cot\,x</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\sec^2\,x-\csc^2\,x=\tan^2\,x-\cot^2\,x</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Given <m>\tan \,\theta=\frac{1}{2}</m> and <m>\sin\,\theta &lt;  0</m>, find <m>\cos\,\theta</m>.
+            </p>
+        </statement>
+    </exercise>
+        <exercise>
+        <statement>
+            <p>
+                Sketch the graphs of
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>f(x)=\tanh\,x \qquad \text{c)}=\text{csch}\,x</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>f(x)=\text{sech}\,x \qquad \text{d)}\,f(x)=\coth\,x</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+        <exercise>
+        <statement>
+            <p>
+                Prove the identities (2) and (3).
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Find the exact numerical value of
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            <m>\sinh(\ln\,2) \qquad \text{b}\, \cosh(-\ln3) \qquad \text{c)}\,\tanh(2 \ln3)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Prove the following identities:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>\sinh(x-y)=\sinh \,x \cosh\,y-\cosh\,x\sinh\,y</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\cosh(x-y)=\cosh \,x \cosh\,y-\sinh\,x\sinh\,y</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    
+</exercises>
 
-<ol type="1">
-<li><p>We have</p></li>
-</ol>
 
-<p><image source="/media/png72/imageC2071.png" /></p>
 
-<ol start="2" type="1">
-<li><p><image source="/media/png72/imageC2072.png" /></p></li>
-</ol>
-
-<p><image source="/media/png72/imageC2073.png" /><image source="/media/png72/imageC2074.png" /></p>
-<p><image source="/media/png72/imageC2075.png" /></p>
-<p><image source="/media/png72/imageC2076.png" /></p>
-
-<ol start="3" type="1">
-<li><p>Left as an exercise.</p></li>
-</ol>
-<ul>
-<li><p><alert>The graph of</alert> <image source="/media/png72/imageC2077.png" /></p></li>
-</ul>
-<p>Since <image source="/media/png72/imageC2078.png" /> is an even function, its graph is symmetric about the <image source="/media/png72/imageC2079.png" />. Its <image source="/media/png72/imageC2080.png" />intercept is <image source="/media/png72/imageC2081.png" />, because <image source="/media/png72/imageC2082.png" />. As <image source="/media/png72/imageC2083.png" /> tends to infinity, <image source="/media/png72/imageC2084.png" /> tends to infinity because <image source="/media/png72/imageC2085.png" /> goes to infinity and <image source="/media/png72/imageC2086.png" /> approaches to 0. When <image source="/media/png72/imageC2087.png" /> is a large negative number <image source="/media/png72/imageC2088.png" /> acts like <image source="/media/png72/imageC2089.png" />, because <image source="/media/png72/imageC2090.png" /> gets close to 0. Thus the graph of <image source="/media/png72/imageC2091.png" />looks like:</p>
-<p><image source="/media/imageC2092.png" style="width:2.5875in;height:2.00833in" /></p>
-<p>This graph can also be obtained by geometrically adding the two curves <image source="/media/png72/imageC2093.png" /> and <image source="/media/png72/imageC2094.png" />, and taking half of each resulting <image source="/media/png72/imageC2095.png" />. Observe that range of <image source="/media/png72/imageC2096.png" /> is <image source="/media/png72/imageC2097.png" />.</p>
-<ul>
-<li><p><alert>The graph of</alert> <image source="/media/png72/imageC2098.png" /></p></li>
-</ul>
-<p>Since <image source="/media/png72/imageC2099.png" /> is an odd function, its graph is symmetric about the origin. The graph passes through the origin because <image source="/media/png72/imageC2100.png" />. As <image source="/media/png72/imageC2101.png" /> gets large <image source="/media/png72/imageC2102.png" /> acts like <image source="/media/png72/imageC2103.png" /> and when <image source="/media/png72/imageC2104.png" /> is a large negative number, <image source="/media/png72/imageC2105.png" /> acts like <image source="/media/png72/imageC2106.png" />. Thus, the graph of <image source="/media/png72/imageC2107.png" /> looks like:</p>
-
-<p><image source="/media/imageC2108.png" style="width:2.83958in;height:2.5in" /></p>
-
-<p>The remaining four hyperbolic functions are defined in terms of <image source="/media/png72/imageC2109.png" /> and <image source="/media/png72/imageC2110.png" /> by</p>
-<p>analogy with trigonometry.</p>
-<table>
-<tabular>
-<row>
-<cell><p><image source="/media/png72/imageC2111.png" /> (The domain of <image source="/media/png72/imageC2112.png" /> is <image source="/media/png72/imageC2113.png" />.</p>
-<p><image source="/media/png72/imageC2114.png" /> (The domain of <image source="/media/png72/imageC2115.png" /> is <image source="/media/png72/imageC2116.png" />)</p>
-<p><image source="/media/png72/imageC2117.png" /> (The domain of <image source="/media/png72/imageC2118.png" />is <image source="/media/png72/imageC2119.png" />)</p>
-<p><image source="/media/png72/imageC2120.png" /> (The domain of <image source="/media/png72/imageC2121.png" /> is <image source="/media/png72/imageC2116.png" />)</p></cell>
-</row>
-</tabular>
-</table>
-<p>You may sketch the graphs of these four hyperbolic functions (see exercise 19).</p>
-<p>The trigonometric terminology and notation for the hyperbolic functions stem from the fact that they satisfy a list of identities that much resemble the familiar trigonometric identities, apart from an occasional difference of sign.</p>
-<table>
-<tabular>
-<row>
-<cell><p><image source="/media/png72/imageC2122.png" /> (1)</p>
-<p><image source="/media/png72/imageC2123.png" /> (2)</p>
-<p><image source="/media/png72/imageC2124.png" /> (3)</p>
-<p><image source="/media/png72/imageC2125.png" /> (4)</p>
-<p><image source="/media/png72/imageC2126.png" /> (5)</p></cell>
-</row>
-</tabular>
-</table>
-<p>The trigonometric functions are sometimes called circular functions because the point <image source="/media/png72/imageC2127.png" /> lies on the circle <image source="/media/png72/imageC2128.png" /> for all <image source="/media/png72/imageC2129.png" />. Similarly, identity (1) tells us that the point <image source="/media/png72/imageC2130.png" /> lies on the hyperbola , and this is the reason for the name hyperbolic functions.</p>
-<p><alert>Exercise 3.5</alert></p>
-<ol type="1">
-<li><p>Find the domain of the given function.</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2132.png" /> b) <image source="/media/png72/imageC2133.png" /> c) <image source="/media/png72/imageC2134.png" /> d) <image source="/media/png72/imageC2135.png" /></p></li>
-</ol>
-<ol start="2" type="1">
-<li><p>Sketch the graph of the given function. Identify the domain, range, intercepts, and asymptotes.</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2136.png" /> b) <image source="/media/png72/imageC2137.png" /> c) <image source="/media/png72/imageC2138.png" /> d) <image source="/media/png72/imageC2139.png" /></p></li>
-</ol>
-<ol start="3" type="1">
-<li><p>Solve the given exponential equation.</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2140.png" /> b) <image source="/media/png72/imageC2141.png" /> c) <image source="/media/png72/imageC2142.png" /> d) <image source="/media/png72/imageC2143.png" /></p></li>
-</ol>
-<ol start="4" type="1">
-<li><p>Let <image source="/media/png72/imageC2144.png" />. Show that <image source="/media/png72/imageC2145.png" />.</p></li>
-<li><p>Let <image source="/media/png72/imageC2146.png" />. Show that <image source="/media/png72/imageC2147.png" />.</p></li>
-<li><p>Let <image source="/media/png72/imageC2148.png" />. Show that <image source="/media/png72/imageC2149.png" />.</p></li>
-<li><p>Evaluate the given logarithmic expression (where it is defined).</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2150.png" /> c) <image source="/media/png72/imageC2151.png" /> e) <image source="/media/png72/imageC2152.png" /></p></li>
-<li><p><image source="/media/png72/imageC2153.png" /> d) <image source="/media/png72/imageC2154.png" /> f) <image source="/media/png72/imageC2155.png" /></p></li>
-</ol>
-<ol start="8" type="1">
-<li><p>If <image source="/media/png72/imageC2156.png" />, find <image source="/media/png72/imageC2157.png" /> and the domain of <image source="/media/png72/imageC2158.png" />.</p></li>
-<li><p>If <image source="/media/png72/imageC2159.png" />, find <image source="/media/png72/imageC2160.png" /> and the domain of <image source="/media/png72/imageC2161.png" />.</p></li>
-<li><p>Show that <image source="/media/png72/imageC2162.png" /></p></li>
-<li><p>Sketch the graph of the given function and identify the domain, range, intercepts and asymptotes.</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2163.png" /> b) <image source="/media/png72/imageC2164.png" /> c) <image source="/media/png72/imageC2165.png" /> d) <image source="/media/png72/imageC2166.png" /></p></li>
-</ol>
-<ol start="12" type="1">
-<li><p>Find the inverse of <image source="/media/png72/imageC2167.png" />.</p></li>
-<li><p>Let <image source="/media/png72/imageC2168.png" />. Find a function so that <image source="/media/png72/imageC2169.png" />.</p></li>
-<li><p>Convert the given angle from radians to degrees</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2170.png" /> b) <image source="/media/png72/imageC2171.png" /> c) <image source="/media/png72/imageC2172.png" /></p></li>
-</ol>
-<ol start="15" type="1">
-<li><p>Convert the given angle from degrees to radians</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2173.png" /> b) <image source="/media/png72/imageC2174.png" /> c) <image source="/media/png72/imageC2175.png" /></p></li>
-</ol>
-<ol start="16" type="1">
-<li><p>Sketch the graph of</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2176.png" /> c) <image source="/media/png72/imageC2177.png" /> e) <image source="/media/png72/imageC2178.png" /></p></li>
-<li><p><image source="/media/png72/imageC2179.png" /> d) <image source="/media/png72/imageC2180.png" /> f) <image source="/media/png72/imageC2181.png" /></p></li>
-</ol>
-<ol start="17" type="1">
-<li><p>Verify the following identities:</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2182.png" /></p></li>
-<li><p><image source="/media/png72/imageC2183.png" /></p></li>
-</ol>
-<ol start="18" type="1">
-<li><p>Given <image source="/media/png72/imageC2184.png" /> and <image source="/media/png72/imageC2185.png" />, find <image source="/media/png72/imageC2186.png" />.</p></li>
-<li><p>Sketch the graphs of</p></li>
-</ol>
-<ol type="a">
-<li><p>c)</p></li>
-<li><p>d)</p></li>
-</ol>
-<ol start="20" type="1">
-<li><p>Prove the identities (2) and (3).</p></li>
-<li><p>Find the exact numerical value of</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2191.png" /> b) <image source="/media/png72/imageC2192.png" /> c) <image source="/media/png72/imageC2193.png" /></p></li>
-</ol>
-<ol start="22" type="1">
-<li><p>Prove the following identities:</p></li>
-</ol>
-<ol type="a">
-<li><p><image source="/media/png72/imageC2194.png" /></p></li>
-<li><p><image source="/media/png72/imageC2195.png" /></p></li>
-</ol>
 <!-- </introduction> -->
 
 
