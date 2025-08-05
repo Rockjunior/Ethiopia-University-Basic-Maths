@@ -21,7 +21,7 @@
     <statement>
         <p>
             Suppose <m>A</m> and <m>B</m> are sets. The Cartesian product of <m>A</m> and <m>B</m>, denoted by <m>A \times B</m>, is the set which contains every ordered pair whose first coordinate is an element of <m>A</m> and second coordinate is an element of <m>B</m>, i.e.</p>
-            <p><m>A \times B ={(a,b):a}</m> and <m>b \in B</m>.
+            <p><m>A \times B ={(a,b):a \in A}</m> and <m>b \in B</m>.
         </p>
     </statement>
 </definition>
@@ -33,7 +33,7 @@
     </statement>
 </example>
 <p>
-<ol marker="a">
+<ol marker="a)">
 <li><p><m>A \times B = \left\{ (2, - 1),(2,3),(4, - 1),(4,3) \right\}</m>, and</p></li>
 <li><p><m>B \times A = \left\{ ( - 1,2),( - 1,4),(3,2),(3,4) \right\}</m>.</p></li>
 </ol>
@@ -67,72 +67,47 @@
 </definition>
 <p>Suppose <em>R</em> is a relation from a set <em>A</em> to a set <em>B</em>. Then, <em>R</em>⊆ <em>A</em>×<em>B</em> and hence for each <m>(a,b) \in A \times B</m>, we have either <m>(a,b) \in R</m> or <m>(a,b) \notin R</m>. If <m>(a,b) \in R</m>, we say “<em>a</em> is <em>R-</em>related (or simply related) to <em>b</em>”, and write <m>\text{aRb}</m>. If <m>(a,b) \notin R</m>, we say that “<em>a</em> is not related to <em>b</em>”.</p>
 <p>In particular if <em>R</em> is a relation from a set <em>A</em> to itself, then we say that <em>R</em> is a relation on <em>A</em>.</p>
-<p>
-<ol marker="1">
-<li><p>Let <m>A = \left\{ 1,3,5,7 \right\}</m> and <m>B = \left\{ 6,8 \right\}</m>. Let <m>R</m> be the relation “less than” from <m>A</m> to <m>B</m>. Then, <m>R = \left\{ (1,6),(1,8),((3,6),(3,8),(5,6),(5,8),(7,8) \right\}</m>.</p></li>
-<li><p>Let <m>A = \left\{ 1,2,3,4,5 \right\}</m> and <m>B = \left\{ a,b,c \right\}</m>.</p></li>
-<li>
-    <p>
-        <ol marker="a)">
+<example>
+    <statement>
+            <p>
+            <ol>
             <li>
-                <p>
-                    The following are relations from <m>A</m> into <m>B</m>;
-                </p>
+                <p>Let <m>A = \left\{ 1,3,5,7 \right\}</m> and <m>B = \left\{ 6,8 \right\}</m>. Let <m>R</m> be the relation “less than” from <m>A</m> to <m>B</m>. Then, <m>R = \left\{ (1,6),(1,8),((3,6),(3,8),(5,6),(5,8),(7,8) \right\}</m>.</p>
             </li>
-
             <li>
+                <p> 
+                    Let <m>A = \left\{ 1,2,3,4,5 \right\}</m> and <m>B = \left\{ a,b,c \right\}</m>.
+                </p>
+
                 <p>
-                    <ol marker="i)">
-                        <li>
+                   (a) The following are relations from <m>A</m> into <m>B</m>;
+                </p>
                             <p>
-                               <m>R_1={(1,a)}</m> 
+                              (i) <m>R_1={(1,a)}</m> 
                             </p>
-                        </li>
-                        <li>
                             <p>
-                                <m>R_2{(2,b ),(3,b ),(4,c ),(5, a)}</m> 
+                              (ii)  <m>R_2{(2,b ),(3,b ),(4,c ),(5, a)}</m> 
                             </p>
-                        </li>
-                        <li>
                             <p>
-                                <m>R_3={(1,a),(2,b),(3,c)}</m>
+                               (iii) <m>R_3={(1,a),(2,b),(3,c)}</m>
                             </p>
-                        </li>
-                    </ol>
+    <p>
+       (b) The following are relations from <m>B</m> to <m>A</m>;
+    </p>
+                <p>
+                   (i) <m>R_4={(a,3),(b,1)}</m>
+                </p>
+                <p>
+                    (ii) <m>R_5={(b,2),(c,4),(a,2),(b,3)}</m>
+                </p>
+                <p>
+                    (iii) <m>R_6={(b,5)}</m>
                 </p>
             </li>
         </ol>
     </p>
-</li>
-
-<li>
-    <p>
-        The following are relations from <m>B</m> to <m>A</m>;
-    </p>
-</li>
-<li>
-    <p>
-        <ol marker="i)">
-            <li>
-                <p>
-                    <m>R_4={(a,3),(b,1)}</m>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <m>R_5={(b,2),(c,4),(a,2),(b,3)}</m>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <m>R_6={(b,5)}</m>
-                </p>
-            </li>
-        </ol>
-    </p>
-</li>
-</ol>
-</p>
+    </statement>
+</example>
 
 <definition xml:id="def-relation-from-A-B">
     <statement>
@@ -287,34 +262,20 @@
             <p>
                 A relation <m>R</m> on a set <m>A</m> is called
             </p>
+                        <p>
+                          (i)  a universal relation if <m>R = A \times A</m>
+                        </p>
+                        <p>
+                           (ii) identity relation if <m>R = \left\{ (a,a):a \in A \right\}</m>
+                        </p>
+                        <p>
+                           (iii) void or empty relation if <m>R = \varphi</m>
+                        </p>
         </li>
 
         <li>
             <p>
-                <ol marker="i)">
-                    <li>
-                        <p>
-                            a universal relation if <m>R = A \times A</m>
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            identity relation if <m>R = \left\{ (a,a):a \in A \right\}</m>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            void or empty relation if <m>R = \varphi</m>
-                        </p>
-                    </li>
-                </ol>
-            </p>
-        </li>
-
-        <li>
-            <p>
-                If <m>R</m>is a relation from <m>A</m> into <m>B</m>, then the inverse relation of <m>R</m>, denoted by <m>R^{- 1}</m>, is a relation from <m>B</m> to <m>A</m> and is given by:
+                If <m>R</m> is a relation from <m>A</m> into <m>B</m>, then the inverse relation of <m>R</m>, denoted by <m>R^{- 1}</m>, is a relation from <m>B</m> to <m>A</m> and is given by:
             </p>
 
             <p>
@@ -404,7 +365,7 @@
             <ol marker="a)">
                 <li>
                     <p>
-                        Since the domain element 3 is assigned to two different values in the range, 5 and 7, it is not a function.
+                        Since the domain element <m>3</m> is assigned to two different values in the range, <m>5</m> and <m>7</m>, it is not a function.
                     </p>
                 </li>
 
@@ -419,7 +380,7 @@
 </example>
 
 <p>
-    <m>\textbf{Remark:}</m> Map or mapping, transformation and correspondence are synonyms for the word function. If <m>f</m> is a function and <m>(x,y) \in f</m>, we say <em>x</em> is mapped to <em>y</em> by <em>f</em>.
+    <m>\textbf{Remark:}</m> Map or mapping, transformation and correspondence are synonyms for the word function. If <m>f</m> is a function and <m>(x,y) \in f</m>, we say <m>x</m> is mapped to <m>y</m> by <m>f</m>.
 </p>
 
 <definition xml:id="def-mapping-transformation-correspondence">
@@ -457,22 +418,22 @@
     <m>\textbf{Remark:}</m>
 </p>
 <p>
-    <ol marker="a)">
+    <ol >
         <li>
             <p>
-                If to the element <em>x</em> of <m>A</m> corresponds <m>y\ ( \in B)</m> under the function <m>f</m>, then we write <m>f(x) = y</m> and <m>y</m> is called the image of <em>x</em> under <m>y</m> and <em>x</em> is called a pimageA of <m>y</m> under <m>f</m>.
+                If to the element <m>x</m> of <m>A</m> corresponds <m>y\ ( \in B)</m> under the function <m>f</m>, then we write <m>f(x) = y</m> and <m>y</m> is called the image of <em>x</em> under <m>f</m> and <em>x</em> is called a preimage of <m>y</m> under <m>f</m>.
             </p>
         </li>
 
         <li>
             <p>
-                The symbol <m>f(x)</m> is read as “<m>f</m> of <em>x</em>” but not “<m>f</m> times <em>x</em>”.
+                The symbol <m>f(x)</m> is read as “<m>f</m> of <m>x</m>” but not “<m>f</m> times <m>x</m>”.
             </p>
         </li>
 
         <li>
             <p>
-                In order to show that a relation <m>f</m> from <em>A</em> into <em>B</em> is a function, we first show that the domain of <m>f</m> is <em>A</em> and next we show that <m>f</m> well defined or single-valued, i.e. if <m>x = y</m> in <em>A</em>, then <m>f(x) = f(y)</m> in <em>B</em> for all <m>x,y \in A</m>.
+                In order to show that a relation <m>f</m> from <m>A</m> into <m>B</m> is a function, we first show that the domain of <m>f</m> is <m>A</m> and next we show that <m>f</m> well defined or single-valued, i.e. if <m>x = y</m> in <m>A</m>, then <m>f(x) = f(y)</m> in <m>B</m> for all <m>x,y \in A</m>.
             </p>
         </li>
     </ol>
@@ -499,19 +460,19 @@
             <ol marker="a)">
                 <li>
                     <p>
-                        <m>f</m> is a function because to each element of <em>A</em> there corresponds exactly one element of <m>B</m>.
+                        <m>f</m> is a function because to each element of <m>A</m> there corresponds exactly one element of <m>B</m>.
                     </p>
                 </li>
 
                 <li>
                     <p>
-                        <m>f</m> is not a function because there is no element of <em>B</em> which correspond to <em>4</em>(<m>\in</m><em>A</em>).
+                        <m>f</m> is not a function because there is no element of <m>B</m> which correspond to <m>4</m>(<m>\in</m><m>A</m>).
                     </p>
                 </li>
 
                 <li>
                     <p>
-                        <m>f</m> is a function because to each element of <em>A</em> there corresponds exactly one element of <em>B</em>. In the given function, the images of all element of <em>A</em> are the same.
+                        <m>f</m> is a function because to each element of <m>A</m> there corresponds exactly one element of <m>B</m>. In the given function, the images of all element of <m>A</m> are the same.
                     </p>
                 </li>
 
@@ -532,7 +493,7 @@
 </example>
 
 <p>
-    As with relations, we can describe a function with an equation. For example, <em>y=2x+1</em> is a function, since each <em>x</em> will produce only one <m>y</m>.
+    As with relations, we can describe a function with an equation. For example, <m>y=2x+1</m> is a function, since each <m>x</m> will produce only one <m>y</m>.
 </p>
 
 <example>
@@ -542,26 +503,26 @@
         </p>
 
         <p>
-            <m>1 \text{to} 1 \,\, -1 \text{to} 1</m>
+            <m>1\, \text{to} \,1 \qquad -1 \,\text{to} \,1</m>
         </p>
 
         <p>
-            <m>2 \text{to} 4 \,\, -2 \text{to} 4</m>
+            <m>2\, \text{to} \,4 \qquad -2\, \text{to} \,4</m>
         </p>
 
         <p>
-            <m>3 \text{to} 9 \,\, -3 \text{to} 9</m>
+            <m>3\, \text{to} \,9 \qquad -3\, \text{to} \,9</m>
         </p>
     </statement>
 </example>
 
-<p>More generally any real number <em>x</em> is mapped to its square. As the square of a number is unique, <m>f</m> maps every real number to a unique number. Thus, <m>f</m> is a function from <m>\Re</m> into <m>\Re</m>.</p>
-<p>We will find it useful to use the following vocabulary: The independent variable refers to the variable representing possible values in the domain, and the dependent variable refers to the variable representing possible values in the range. Thus, in our usual ordered pair notation <m>(x,y)</m>, <em>x</em> is the independent variable and <m>y</m> is the dependent variable.</p>
+<p>More generally any real number <m>x</m> is mapped to its square. As the square of a number is unique, <m>f</m> maps every real number to a unique number. Thus, <m>f</m> is a function from <m>\Re</m> into <m>\Re</m>.</p>
+<p>We will find it useful to use the following vocabulary: The independent variable refers to the variable representing possible values in the domain, and the dependent variable refers to the variable representing possible values in the range. Thus, in our usual ordered pair notation <m>(x,y)</m>, <m>x</m> is the independent variable and <m>y</m> is the dependent variable.</p>
 
 <example>
     <statement>
         <p>
-            Let <em>f</em> be the subset of <m>Q \times Z</m>defined by <m>f = \left\{ \left( \frac{p}{q},p \right):p,q \in Z,\ q \neq 0 \right\}</m>. Is <em>f</em> a function?
+            Let <m>f</m> be the subset of <m>Q \times Z</m>defined by <m>f = \left\{ \left( \frac{p}{q},p \right):p,q \in Z,\ q \neq 0 \right\}</m>. Is <m>f</m> a function?
         </p>
     </statement>
 
@@ -619,14 +580,6 @@
         </li>
     </ol>
 </p>
-
-<example>
-    <statement>
-        <p>
-            
-        </p>
-    </statement>
-</example>
 
 <example>
     <statement>
@@ -698,7 +651,7 @@
 
                 <li>
                     <p>
-                        Looking at the equation <m>y = \frac{2x}{3x - 5}</m> carefully, we can see that each <em>x-value</em> uniquely determines a <em>y-value</em> (one <em>x-value</em> can not produce two different <em>y-values</em>). Therefore, <m>y = \frac{2x}{3x - 5}</m> is a function.
+                        Looking at the equation <m>y = \frac{2x}{3x - 5}</m> carefully, we can see that each <m>x-value</m> uniquely determines a <m>y-value</m> (one <m>x-value</m> can not produce two different <m>y-values</m>). Therefore, <m>y = \frac{2x}{3x - 5}</m> is a function.
                     </p>
 
                     <p>
@@ -783,7 +736,7 @@
     <exercise>
         <statement>
             <p>
-                Let <em>R</em> be a relation on the set <m>A = \left\{ 1,2,3,4,5,6,7 \right\}</m> defined by <m>R ={(a,b):4}</m> divides <m>\left. \ a - b \right\</m>.
+                Let <m>R</m> be a relation on the set <m>A = \left\{ 1,2,3,4,5,6,7 \right\}</m> defined by <m>R ={(a,b):4}</m> divides <m>a - b </m>.
             </p>
 
             <p>
@@ -796,7 +749,7 @@
 
                     <li>
                         <p>
-                            Find <m>\text{Dom}(R)\  \land \ \text{Range}(R)</m>
+                            Find <m>\text{Dom}(R)</m>  &amp; <m>\text{Range}(R)</m>
                         </p>
                     </li>
 
@@ -808,7 +761,7 @@
 
                     <li>
                         <p>
-                            Find <m>\text{Dom}(R^{- 1})\  \land \ \text{Range}(R^{- 1})</m>
+                            Find <m>\text{Dom}(R^{- 1})</m>  &amp; <m>\text{Range}(R^{- 1})</m>
                         </p>
                     </li>
                 </ol>
@@ -945,7 +898,7 @@
                         <p>
                             <m>f(x) =
                         \begin{cases}
-                        3x + 4,  -1 \le x \le 2 \\
+                        3x + 4,  -1 \le x &lt; 2 \\
                         1 + x,  2 \le x \le 5
                         \end{cases}</m>
                         </p>
@@ -960,8 +913,8 @@
             <p>
                 Given   <m>f(x) =f(x) =
                 \begin{cases}
-                3x - 5,  x \le 1 \\
-                x^2 - 1,  x \gt 1
+                3x - 5,  x &lt; 1 \\
+                x^2 - 1,  x \geq 1
                 \end{cases}</m>.
             </p>
 
