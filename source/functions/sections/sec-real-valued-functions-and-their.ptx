@@ -52,10 +52,10 @@
         </p>
     <p>
         <ol>
-            <li><p><m>(f + g)(x) = f(x) + g(x)</m> The sum of the two functions</p></li>
-            <li><p><m>(f - g)(x) = f(x) - g(x)</m> The difference of the two functions</p></li>
-            <li><p><m>(f \cdot g)(x) = f(x)g(x)</m> The product of the two functions</p></li>
-            <li><p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)}</m> The quotient of the two functions (provided <m>g(x) \neq 0)</m></p></li>
+            <li><p><m>(f + g)(x) = f(x) + g(x) \qquad</m> The sum of the two functions</p></li>
+            <li><p><m>(f - g)(x) = f(x) - g(x) \qquad</m> The difference of the two functions</p></li>
+            <li><p><m>(f \cdot g)(x) = f(x)g(x) \qquad</m> The product of the two functions</p></li>
+            <li><p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)} \qquad</m> The quotient of the two functions (provided <m>g(x) \neq 0)</m></p></li>
         </ol>
     </p>
 
@@ -112,6 +112,18 @@
                                 
             </ol>
         </p>
+
+        <p>
+            We have
+        </p>
+
+        <p>
+            <m>\text{Dom}(f + g) = \text{Dom}(f-g) = \text{Dom}(fg) = \text{Dom}(f) \cap \text{Dom}(g)=\Re \cap \Re=\Re</m>
+        </p>
+
+        <p>
+            <m>\text{Dom}\left( \frac{f}{g} \right) = [\text{Dom}(f) \cap \text{Dom}(g)]  {\left\{ x: g(x) = 0 \right\}} = \Re  \left\{ \frac{5}{4} \right\}</m>
+        </p>
     </solution>
 </example>
 
@@ -122,146 +134,573 @@
         </p>
     </statement>
 
-    <!-- <solution>
+    <solution>
+        <tabular >
+            <row header="yes">
+                <cell>Formula</cell>
+                <cell>Domain</cell>
+            </row>
+
+            <row>
+                <cell><m>(f + g)(x) = f(x) + g(x) = \sqrt[4]{x + 1} + \sqrt{9 - x^{2}}</m></cell>
+                <cell><m>[-1,3]</m></cell>
+            </row>
+
+            <row>
+                <cell><m>(f - g)(x) = f(x) - g(x) = \sqrt[4]{x + 1} - \sqrt{9 - x^{2}}</m> </cell>
+                <cell><m>[-1,3]</m></cell>
+            </row>
+
+            <row>
+                <cell><m>(f \cdot g)(x) = f(x) \cdot g(x) = \sqrt[4]{x + 1} \cdot \sqrt{9 - x^{2}}</m> </cell>
+                <cell><m>[-1,3]</m></cell>
+            </row>
+
+            <row>
+                <cell><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)} = \frac{\sqrt[4]{x + 1}}{\sqrt{9 - x^{2}}}</m> </cell>
+                <cell><m>[-1,3]</m></cell>
+            </row>
+
+            <row>
+                <cell><m>f^{3}(x) = \left( f(x) \right)^{3} = \left( \sqrt[4]{x + 1} \right)^{3} = \left( x + 1 \right)^{\frac{3}{4}}</m> </cell>
+                <cell><m>\lbrack - 1,\infty \rbrack</m></cell>
+
+            </row>
+        </tabular>
+
         <p>
-<cell><p><m>(f + g)(x) = f(x) + g(x) = \sqrt[4]{x + 1} + \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
-<p><m>(f - g)(x) = f(x) - g(x) = \sqrt[4]{x + 1} - \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
-<p><m>(f \cdot g)(x) = f(x) \cdot g(x) = \sqrt[4]{x + 1} \cdot \sqrt{9 - x^{2}}</m> <m>\lbrack - 1,\ 3\rbrack</m></p>
-<p><m>\left( \frac{f}{g} \right)(x) = \frac{f(x)}{g(x)} = \frac{\sqrt[4]{x + 1}}{\sqrt{9 - x^{2}}}</m> <m>\lbrack - 1,\ 3)</m></p>
-<p><m>f^{3}(x) = \left( f(x) \right)^{3} = \left( \sqrt[4]{x + 1} \right)^{3} = \left( x + 1 \right)^{\frac{3}{4}}</m> <m>\lbrack - 1,\infty)</m></p></cell>
-
+            There is yet another way of producing a new function from two given functions.
         </p>
-    </solution> -->
+    </solution>
 </example>
-<!-- </row>
-</tabular>
-</table>
-<p>There is yet another way of producing a new function from two given functions.</p>
-<table>
-<tabular>
-<row>
-<cell><p><alert>Definition 3.8: (Composition of functions)</alert></p>
-<p>Given two functions <m>f(x)</m> and <m>g(x)</m>, the composition of the two functions is denoted by <m>f \circ g</m> and is defined by:</p>
-<p><m>(f \circ g)(x) = f\lbrack g(x)\rbrack</m>.</p>
-<p><m>(f \circ g)(x)</m> is read as <m>\text{f\}\ \{}</m> composed with <m>g</m> of <m>x\text{\}\ \{}</m>.<m></m>The domain of <m>f \circ g</m> consists of those <m>x^{&#39;}</m>s in the domain of <m>g</m> whose range values are in the domain of <m>f</m>, i.e. those <m>x^{&#39;}</m>s for which <m>g(x)</m> is in the domain of <m>f</m>.</p></cell>
-</row>
-</tabular>
-</table>
-<p><alert>Example 3.12</alert>:</p>
-<ol type="1">
-<li><p>Suppose <m>f = \left\{ (2,z),(3,q) \right\}</m> and <m>g = \left\{ (a,2),(b,3),(c,5) \right\}</m>. The function <m>(f \circ g)(x) = f(g(x))</m> is found by taking elements in the domain of <m>g</m> and evaluating as follows:</p></li>
-</ol>
-<p>If we attempt to find <m>f(g(c))</m> we get <m>f(5)</m>, but 5 is not in the domain of <m>f(x)</m> and so we cannot find <m>(f \circ g)(c)</m>. Hence, <m>f \circ g = \left\{ (a,z),(b,q) \right\}</m>. The figure below illustrates this situation.</p>
-<ol start="2" type="1">
-<li><p>Given <m>f(x) = 5x^{2} - 3x + 2</m> and <m>g(x) = 4x + 3</m>, find</p></li>
-</ol>
-<ol type="a">
-<li><p><m>(f \circ g)( - 2)</m> b) <m>(g \circ f)(2)</m> c) <m>(f \circ g)(x)</m> d) <m>(g \circ f)(x)</m></p></li>
-</ol>
-<p><alert>Solution</alert>:</p>
-<ol type="a">
-<li><p><m>(f \circ g)( - 2) = f(g( - 2))</m>…… First evaluate <m>g( - 2) = 4( - 2) + 3 = - 5</m></p></li>
-</ol>
 
-<p><m>= f( - 5)</m></p>
-<p><m>= 5( - 5)^{2} - 3( - 5) + 2 = \text{142}</m></p>
+<definition xml:id="def-Composition-of-functions">
+    <statement>
+        <p>
+            Given two functions <m>f(x)</m> and <m>g(x)</m>, the composition of the two functions is denoted by <m>f \circ g</m> and is defined by:
+        </p>
 
-<ol start="2" type="a">
-<li><p><m>(g \circ f)(2) = g(f(2))</m>…….First evaluate <m>f(2) = 5(2)^{2} - 3(2) + 2 = \text{16}</m></p></li>
-</ol>
-<p><m>= g(\text{16})</m></p>
-<p><m>= 4(\text{16}) + 3 = \text{67}</m></p>
-<ol start="3" type="a">
-<li><p><m>(f \circ g)(x) = f(g(x))</m>……. But <m>g(x) = 4x + 3</m></p></li>
-</ol>
+        <p>
+            <m>(f \circ g)(x) = f\lbrack g(x)\rbrack</m>.
+        </p>
 
-<p><m>= f(4x + 3)</m></p>
-<p><m>= 5(4x + 3)^{2} - 3(4x + 3) + 2</m></p>
-<p><m>= \text{80}x^{2} + \text{108}x + \text{38}</m></p>
+        <p>
+            <m>(f \circ g)(x)</m> is read as <m>\text{f\}\ \{}</m> composed with <m>g</m> of <m>x\text{\}\ \{}</m>.<m></m>The domain of <m>f \circ g</m> consists of those <m>x^{&#39;}</m>s in the domain of <m>g</m> whose range values are in the domain of <m>f</m>, i.e. those <m>x^{&#39;}</m>s for which <m>g(x)</m> is in the domain of <m>f</m>.
+        </p>
+    </statement>
+</definition>
 
-<ol start="4" type="a">
-<li><p><m>(g \circ f)(x) = g(f(x))</m>……. But <m>f(x) = 5x^{2} - 3x + 2</m></p></li>
-</ol>
+<example>
+    <statement>
+        <p>
+            Suppose <m>f = \left\{ (2,z),(3,q) \right\}</m> and <m>g = \left\{ (a,2),(b,3),(c,5) \right\}</m>. The function <m>(f \circ g)(x) = f(g(x))</m> is found by taking elements in the domain of <m>g</m> and evaluating as follows:
+        </p>
 
-<p><m>= g(5x^{2} - 3x + 2)</m></p>
-<p><m>= 4(5x^{2} - 3x + 2) + 3</m></p>
-<p><m>= \text{20}x^{2} - \text{12}x + \text{11}</m></p>
+        <p>
+            <m>(f \circ g)(a)=f(g(a))=f(2)=z</m>, <m>(f \circ g)(b)=f(g(b))=f(3)=q</m>
+        </p>
 
-<ol start="3" type="1">
-<li><p>Given <m>f(x) = \frac{x}{x + 1}</m> and <m>g(x) = \frac{2}{x - 1}</m>, find</p></li>
-</ol>
-<ol type="a">
-<li><p><m>(f \circ g)(x)</m> and its domain b) <m>(g \circ f)(x)</m> and its domain</p></li>
-</ol>
-<p><alert>Solution</alert>: a) <m>(f \circ g)(x) = f\left( \frac{2}{x - 1} \right) = \frac{\frac{2}{x - 1}}{\frac{2}{x - 1} + 1} = \frac{2}{x + 1}</m>. Thus, <m>\text{Dom}(f \circ g) = \left\{ x:x \neq \pm 1 \right\}</m>.</p>
-<ol start="2" type="a">
-<li><p><m>(g \circ f)(x) = g(f(x)) = \frac{2}{\frac{x}{x + 1} - 1} = - 2x - 2</m>. Since <m>x</m> must first be an input into <m>f(x)</m> and so must be in the domain of <m>f</m>, we see that <m>\text{Dom}(g \circ f) = \left\{ x:x \neq - 1 \right\}</m>.</p></li>
-</ol>
-<ol start="4" type="1">
-<li><p>Let <m>f(x) = \frac{6x}{x^{2} - 9}</m> and <m>g(x) = \sqrt{3x}</m>. Find <m>(f \circ g)(\text{12})</m> and <m>(g \circ f)(x)</m> and its domain.</p></li>
-</ol>
-<p><alert>Solution</alert>: We have <m>(f \circ g)(\text{12}) = f(g(\text{12})) = f(\sqrt{\text{36}}) = f(6) = \frac{\text{36}}{\text{27}} = \frac{4}{3}</m>.</p>
+        <p>
+            If we attempt to find <m>f(g(c))</m> we get <m>f(5)</m>, but <m>5</m> is not in the domain of <m>f(x)</m> and so we cannot find <m>(f \circ g)(c)</m>. Hence, <m>f \circ g = \left\{ (a,z),(b,q) \right\}</m>. The figure below illustrates this situation.
+        </p>
 
-<p><m>(f \circ g)(x) = f(g(x)) = f(\sqrt{3x}) = \frac{6\sqrt{3x}}{(\sqrt{3x})^{2} - 9} = \frac{6\sqrt{3x}}{3x - 9} = \frac{2\sqrt{3x}}{x - 3}</m>.</p>
+        <image width="50%">
+            <shortdescription></shortdescription>
+            <latex-image >
+                \begin{tikzpicture}
+                    % Left oval: Domain of g
+                    \draw (-4,0) ellipse (0.7 and 2) node[below=2.2cm] {Domain of $g$};
 
-<p>The domain of <m>f \circ g</m> is <m>\lbrack 0,3) \cup (3,\infty)</m>.</p>
-<p>We now explore the meaning of equality of two functions. Let <m>f:A \rightarrow B</m> and <m>g:A \rightarrow B</m> be two functions. Then, <m>f</m> and <m>g</m> are subsets of <m>A \times B</m>. Suppose <m>f = g</m>. Let <m>x</m> be any element of <m>A</m>. Then, <m>(x,f(x)) \in f = g</m> and thus <m>(x,f(x)) \in g</m>. Since <m>g</m> is a function and <m>(x,f(x)),</m><m>(x,g(x)) \in g</m>, we must have <m>f(x) = g(x)\text{.}</m> Conversely, assume that <m>g(x) = f(x)</m> for all <m>x \in A</m>. Let <m>(x,y) \in f</m>. Then, <m>y = f(x) = g(x)</m>. Thus, <m>(x,y) \in g</m>, which implies that <m>f \subseteq g</m>. Similarly, we can show that <m>g \subseteq f</m>. It now follows that <m>f = g</m>. Thus two functions <m>f:A \rightarrow B</m> and <m>g:A \rightarrow B</m> are equal if and only if <m>f(x) = g(x)</m> for all <m>x \in A</m>. In general we have the following definition.</p>
-<table>
-<tabular>
-<row>
-<cell><p><alert>Definition 3.9: (Equality of functions)</alert></p>
-<p>Two functions are said to be equal if and only if the following two conditions hold:</p>
-<ol type="i">
-<li><p>The functions have the same domain;</p></li>
-<li><p>Their functional values are equal at each element of the domain.</p></li>
-</ol></cell>
-</row>
-</tabular>
-</table>
-<p><alert>Example 3.13</alert>:</p>
-<ol type="1">
-<li><p>Let <m>f:Z \rightarrow Z^{+} \cup \left\{ 0 \right\}</m> and <m>g:Z \rightarrow Z^{+} \cup \left\{ 0 \right\}</m> be defined by <m>f = \left\{ (n,n^{2}):n \in Z \right\}</m> and <m>g = \left\{ (n,\left| n \right|^{2}):n \in Z \right\}</m>. Now, for all <m>n \in Z</m>, <m>f(n) = n^{2} = \left| n \right|^{2} = g(n)</m>. Thus, <m>f = g</m>.</p></li>
-<li><p>Let <m>f(x) = \frac{x^{2} - \text{25}}{x - 5},\ x \in \Re\{ 5</m>, and <m>g(x) = x + 5,\ x \in \Re</m>. The function <m>f</m> and <m>g</m> are not equal because <m>\text{Dom}(f) \neq \text{Dom}(g)\text{.}</m></p></li>
-</ol>
-<p><alert>Exercise 3.2</alert></p>
-<ol type="1">
-<li><p>For <m>f(x) = x^{2} + x</m> and <m>g(x) = \frac{2}{x + 3}</m>, find each value:</p></li>
-</ol>
-<ol type="a">
-<li><p><m>(f - g)(2)</m> c) <m>g^{2}(3)</m> e) <m>(g \circ f)(1)</m></p></li>
-<li><p><m>\left( \frac{f}{g} \right)(1)</m> d) <m>(f \circ g)(1)</m> f) <m>(g \circ g)(3)</m></p></li>
-</ol>
-<ol start="2" type="1">
-<li><p>If <m>f(x) = x^{3} + 2</m> and <m>g(x) = \frac{2}{x - 1}</m>, find a formula for each of the following and state its domain.</p></li>
-</ol>
-<ol type="a">
-<li><p><m>(f + g)(x)</m> c) <m>\left( \frac{g}{f} \right)(x)</m></p></li>
-<li><p><m>(f \circ g)(x)</m> d) <m>(g \circ f)(x)</m></p></li>
-</ol>
-<ol start="3" type="1">
-<li><p>Let <m>f(x) = x^{2}</m> and <m>g(x) = \sqrt{x}</m>.</p></li>
-</ol>
-<ol type="a">
-<li><p>Find <m>(f \circ g)(x)</m> and its domain.</p></li>
-<li><p>Find <m>(g \circ f)(x)</m> and its domain</p></li>
-<li><p>Are <m>(f \circ g)(x)</m> and <m>(g \circ f)(x)</m> the same functions? Explain.</p></li>
-</ol>
-<ol start="4" type="1">
-<li><p>Let <m>f(x) = 5x - 3</m>. Find <m>g(x)</m> so that <m>(f \circ g)(x) = 2x + 7</m>.</p></li>
-<li><p>Let <m>f(x) = 2x + 1\text{.}</m> Find <m>g(x)</m> so that <m>(f \circ g)(x) = 3x - 1</m>.</p></li>
-<li><p>If <m>f</m> is a real function defined by <m>f(x) = \frac{x - 1}{x + 1}</m>. Show that <m>f(2x) = \frac{3f(x) + 1}{f(x) + 3}</m>.</p></li>
-<li><p>Find two functions <m>f</m> and <m>g</m> so that the given function <m>h(x) = (f \circ g)(x)</m>, where</p></li>
-</ol>
-<ol type="a">
-<li><p><m>h(x) = (x + 3)^{3}</m> c) <m>h(x) = \frac{1}{x} + 6</m></p></li>
-<li><p><m>h(x) = \sqrt{5x - 3}</m> d) <m>h(x) = \frac{1}{x + 6}</m></p></li>
-</ol>
-<ol start="8" type="1">
-<li><p>Let <m>f(x) = 4x - 3,\ g(x) = \frac{1}{x}</m> and <m>h(x) = x^{2} - x</m>. Find</p></li>
-</ol>
-<ol type="a">
-<li><p><m>f(5x + 7)</m> c) <m>f(g(h(3)))</m> e) <m>f(x + a)</m></p></li>
-<li><p><m>5f(x) + 7</m> d) <m>f(1) \cdot g(2) \cdot h(3)</m> f) <m>f(x) + a</m></p></li>
-</ol> -->
+                    % Middle oval: Range of g and Domain of f
+                    \draw (0,0) ellipse (0.7 and 2) node[below=2.2cm] {Range of $g$};
+                    \draw (0,0) ellipse (0.4 and 1.2);
 
+                    % Right oval: Range of f
+                    \draw (4,0) ellipse (0.7 and 2) node[below=2.2cm] {Range of $f$};
+
+                    % Nodes for elements
+                    \node at (-4,1.2) (a) {$a$};
+                    \node at (-4,0)   (b) {$b$};
+                    \node at (-4,-1.2)(c) {$c$};
+
+                    \node at (0,0.8)  (2) {$2$};
+                    \node at (0,0)    (3) {$3$};
+                    \node at (0,-0.8) (5) {$5$};
+
+                    % Label Domain of f moved inside inner ellipse below 3
+                    \node at (0,-1.2) {Domain of $f$};
+
+                    \node at (4,0.8)  (z) {$z$};
+                    \node at (4,-0.2)(q) {$q$};
+
+                    % Arrows for g
+                    \draw[-&gt;] (a) -- (2) node[midway, above] {$g$};
+                    \draw[-&gt;] (b) -- (3);
+                    \draw[-&gt;] (c) -- (5);
+
+                    % Arrows for f
+                    \draw[-&gt;] (2) -- (z) node[midway, above] {$f$};
+                    \draw[-&gt;] (3) -- (q);
+\
+                \end{tikzpicture}
+            </latex-image>
+            
+        </image>
+    </statement>
+</example>
+
+<example>
+    <statement>
+        <p>
+            Given <m>f(x) = 5x^{2} - 3x + 2</m> and <m>g(x) = 4x + 3</m>, find
+        </p>
+
+        <p>
+            <ol marker="a)">
+                <li>
+                    <p>
+                        <m>(f \circ g)( - 2)</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>(g \circ f)(2)</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>(f \circ g)(x)</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>(g \circ f)(x)</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+
+    <solution>
+        <p>
+            <ol marker="a)">
+                <li>
+                    <p>
+                        <m>(f \circ g)( - 2) = f(g( - 2))</m>…… First evaluate <m>g( - 2) = 4( - 2) + 3 = - 5</m>
+                    </p>
+                    <p>
+                        <m>= f( - 5)</m>
+                    </p>
+                    <p>
+                        <m>= 5( - 5)^{2} - 3( - 5) + 2 = \text{142}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>(g \circ f)(2) = g(f(2))</m>…….First evaluate <m>f(2) = 5(2)^{2} - 3(2) + 2 = \text{16}</m>
+                    </p>
+                    <p>
+                        <m>= g(\text{16})</m>
+                    </p>
+                    <p>
+                        <m>= 4(\text{16}) + 3 = \text{67}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>(f \circ g)(x) = f(g(x))</m>……. But <m>g(x) = 4x + 3</m>
+                    </p>
+
+                    <p>
+                        <m>= f(4x + 3)</m>
+                    </p>
+
+                    <p>
+                        <m>= 5(4x + 3)^{2} - 3(4x + 3) + 2</m>
+                    </p>
+
+                    <p>
+                        <m>= \text{80}x^{2} + \text{108}x + \text{38}</m>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>(g \circ f)(x) = g(f(x))</m>……. But <m>f(x) = 5x^{2} - 3x + 2</m>
+                    </p>
+                    <p>
+                        <m>= g(5x^{2} - 3x + 2)</m>
+                    </p>
+
+                    <p>
+                        <m>= 4(5x^{2} - 3x + 2) + 3</m>
+                    </p>
+
+                    <p>
+                        <m>= \text{20}x^{2} - \text{12}x + \text{11}</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </solution>
+</example>
+
+<example>
+    <statement>
+        <p>
+            Given <m>f(x) = \frac{x}{x + 1}</m> and <m>g(x) = \frac{2}{x - 1}</m>, find
+        </p>
+        
+        <sidebyside>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>(f \circ g)(x)</m> and its domain
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                             <m>(g \circ f)(x)</m> and its domain
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </sidebyside>
+    </statement>
+
+    <solution>
+        <p>
+            <ol marker="a)">
+                <li>
+                    <p>
+                        <m>(f \circ g)(x) = f\left( \frac{2}{x - 1} \right) = \frac{\frac{2}{x - 1}}{\frac{2}{x - 1} + 1} = \frac{2}{x + 1}</m>. Thus, <m>\text{Dom}(f \circ g) = \left\{ x:x \neq \pm 1 \right\}</m>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>(g \circ f)(x) = g(f(x)) = \frac{2}{\frac{x}{x + 1} - 1} = - 2x - 2</m>. Since <m>x</m> must first be an input into <m>f(x)</m> and so must be in the domain of <m>f</m>, we see that <m>\text{Dom}(g \circ f) = \left\{ x:x \neq - 1 \right\}</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </solution>
+</example> 
+
+<example>
+    <statement>
+        <p>
+            Let <m>f(x) = \frac{6x}{x^{2} - 9}</m> and <m>g(x) = \sqrt{3x}</m>. Find <m>(f \circ g)(\text{12})</m> and <m>(g \circ f)(x)</m> and its domain.
+        </p>
+    </statement>
+
+    <solution>
+        <p>
+            We have <m>(f \circ g)(\text{12}) = f(g(\text{12})) = f(\sqrt{\text{36}}) = f(6) = \frac{\text{36}}{\text{27}} = \frac{4}{3}</m>.
+        </p>
+
+        <p>
+            <m>(f \circ g)(x) = f(g(x)) = f(\sqrt{3x}) = \frac{6\sqrt{3x}}{(\sqrt{3x})^{2} - 9} = \frac{6\sqrt{3x}}{3x - 9} = \frac{2\sqrt{3x}}{x - 3}</m>.
+        </p>
+
+        <p>
+            The domain of <m>f \circ g</m> is <m>\lbrack [0,3) \cup (3,\infty)</m>.
+        </p>
+
+        <p>
+            We now explore the meaning of equality of two functions. Let <m>f:A \rightarrow B</m> and <m>g:A \rightarrow B</m> be two functions. Then, <m>f</m> and <m>g</m> are subsets of <m>A \times B</m>. Suppose <m>f = g</m>. Let <m>x</m> be any element of <m>A</m>. Then, <m>(x,f(x)) \in f = g</m> and thus <m>(x,f(x)) \in g</m>. Since <m>g</m> is a function and <m>(x,f(x)),</m><m>(x,g(x)) \in g</m>, we must have <m>f(x) = g(x)\text{.}</m> Conversely, assume that <m>g(x) = f(x)</m> for all <m>x \in A</m>. Let <m>(x,y) \in f</m>. Then, <m>y = f(x) = g(x)</m>. Thus, <m>(x,y) \in g</m>, which implies that <m>f \subseteq g</m>. Similarly, we can show that <m>g \subseteq f</m>. It now follows that <m>f = g</m>. Thus two functions <m>f:A \rightarrow B</m> and <m>g:A \rightarrow B</m> are equal if and only if <m>f(x) = g(x)</m> for all <m>x \in A</m>. In general we have the following definition.
+        </p>
+    </solution>
+</example>
+
+<definition xml:id="def-Equality-of-functions">
+    <statement>
+        <p>
+            Two functions are said to be equal if and only if the following two conditions hold:
+        </p>
+
+        <p>
+            <ol marker="i)">
+                <li>
+                    <p>
+                        The functions have the same domain;
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Their functional values are equal at each element of the domain.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</definition>
+
+<example>
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Let <m>f:Z \rightarrow Z^{+} \cup \left\{ 0 \right\}</m> and <m>g:Z \rightarrow Z^{+} \cup \left\{ 0 \right\}</m> be defined by <m>f = \left\{ (n,n^{2}):n \in Z \right\}</m> and <m>g = \left\{ (n,\left| n \right|^{2}):n \in Z \right\}</m>. Now, for all <m>n \in Z</m>, <m>f(n) = n^{2} = \left| n \right|^{2} = g(n)</m>. Thus, <m>f = g</m>.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Let <m>f(x) = \frac{x^{2} - \text{25}}{x - 5},\ x \in \Re\{ 5</m>, and <m>g(x) = x + 5,\ x \in \Re</m>. The function <m>f</m> and <m>g</m> are not equal because <m>\text{Dom}(f) \neq \text{Dom}(g)\text{.}</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</example>
+
+<exercises xml:id="exercises-Real-Valued-functions-and-their-properties">
+    <exercise>
+        <statement>
+            <p>
+                For <m>f(x) = x^{2} + x</m> and <m>g(x) = \frac{2}{x + 3}</m>, find each value:
+            </p>
+
+            <sidebyside>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>(f - g)(2)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>\left( \frac{f}{g} \right)(1)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>g^{2}(3)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>(f \circ g)(1)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>(g \circ f)(1)</m>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <m>(g \circ g)(3)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </sidebyside>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                If <m>f(x) = x^{3} + 2</m> and <m>g(x) = \frac{2}{x - 1}</m>, find a formula for each of the following and state its domain.
+            </p>
+
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>(f + g)(x)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>(f \circ g)(x)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>\left( \frac{g}{f} \right)(x)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>(g \circ f)(x)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x) = x^{2}</m> and <m>g(x) = \sqrt{x}</m>.
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Find <m>(f \circ g)(x)</m> and its domain.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Find <m>(g \circ f)(x)</m> and its domain
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Are <m>(f \circ g)(x)</m> and <m>(g \circ f)(x)</m> the same functions? Explain.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x) = 5x - 3</m>. Find <m>g(x)</m> so that <m>(f \circ g)(x) = 2x + 7</m>.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x) = 2x + 1\text{.}</m> Find <m>g(x)</m> so that <m>(f \circ g)(x) = 3x - 1</m>.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                If <m>f</m> is a real function defined by <m>f(x) = \frac{x - 1}{x + 1}</m>. Show that <m>f(2x) = \frac{3f(x) + 1}{f(x) + 3}</m>.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Find two functions <m>f</m> and <m>g</m> so that the given function <m>h(x) = (f \circ g)(x)</m>, where
+            </p>
+
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>h(x) = (x + 3)^{3}</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>h(x) = \sqrt{5x - 3}</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>h(x) = \frac{1}{x} + 6</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>h(x) = \frac{1}{x + 6}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>f(x) = 4x - 3,\ g(x) = \frac{1}{x}</m> and <m>h(x) = x^{2} - x</m>. Find
+            </p>
+
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>f(5x + 7)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                           <m>5f(x) + 7</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>f(g(h(3)))</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>f(1) \cdot g(2) \cdot h(3)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>f(x + a)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>f(x) + a</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+</exercises>
+
+
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function_3.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FReal-valued-functions-and-their-properties%2FDomain-and-Range-of-a-Function_3.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-real-valued-functions-and-their.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function_2.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FReal-valued-functions-and-their-properties%2FDomain-and-Range-of-a-Function_2.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-real-valued-functions-and-their.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Domain-and-Range-of-a-Function.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FReal-valued-functions-and-their-properties%2FDomain-and-Range-of-a-Function.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-real-valued-functions-and-their.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Functions-(NS-and-SS)/Real-valued-functions-and-their-properties/Composition-of-Functions.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FFunctions-%28NS-and-SS%29%2FReal-valued-functions-and-their-properties%2FComposition-of-Functions.xml&amp;entry.2077830997=source%2Ffunctions%2Fsections%2Fsec-real-valued-functions-and-their.ptx">Add review</url></exercise>
 </section>

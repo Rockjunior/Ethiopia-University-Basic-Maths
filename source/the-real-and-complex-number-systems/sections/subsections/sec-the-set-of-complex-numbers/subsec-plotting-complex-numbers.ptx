@@ -1,10 +1,43 @@
 <subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-plotting-complex-numbers">
 <title>Plotting complex numbers</title>
-<p><image source="/./media/png72/image38.png" style="width:3in;height:2.17292in" /></p>
-<p><alert>Example 2.44</alert>: Draw the complex number z = 2+3i</p>
-<p><alert>Solution:</alert></p>
-<p><image source="/./media/image39.png" style="width:3.11528in;height:1.69236in" /></p>
-<p><alert>Equality of Complex numbers</alert></p>
-<p><alert>Example 2.45</alert> <m>\ \text{If}\ z_{1} = 2 + \text{ix}\ \text{and}\ z_{2} = y + 6i\ \text{are}\ \text{equal}\ ,\ \text{then}\ \text{find}\ \text{the}\ \text{value}\ \text{of}\ x\  \land \ y\text{.}\ </m></p>
-</subsection>
+<p>
+    Any complex number <m> z = x + iy </m> can be drawn in the complex plane as below :
+</p>
+<image source="/media/plottingcn.png" width="60%" />
 
+<example>
+    <statement>
+        <p>
+            Draw the complex number <m>z = 2+3i</m>
+        </p>
+    </statement>
+    <solution>
+        <image source="/media/image39.png" width="60%" />
+    </solution>
+</example>
+
+<p><me>\textbf{Equality of Complex numbers}</me></p>
+<p>
+    Two complex numbers <m>z_1 = a + ib</m> and <m>z_2 = c + id</m> are equal iff <m>a = c </m> &amp; <m>b = d </m>.
+</p>
+
+<example>
+    <statement>
+        <p>
+            If <m>z_1 = 2 + ix</m> and <m>z_2 = y + 6i</m> are equal, then find the value of <m>x</m> &amp; <m>y</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m>x = 6</m>, <m>y = 2</m>.
+        </p>
+    </solution>
+</example>
+
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/Plotting-complex-numbers/Plotting-complex-numbers-on-an-Argand-diagram.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FThe-Real-and-Complex-Number-Systems-%28NS%29%2FPlotting-complex-numbers%2FPlotting-complex-numbers-on-an-Argand-diagram.xml&amp;entry.2077830997=source%2Fthe-real-and-complex-number-systems%2Fsections%2Fsubsections%2Fsec-the-set-of-complex-numbers%2Fsubsec-plotting-complex-numbers.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/Plotting-complex-numbers/Interpreting-complex-numbers-on-an-Argand-diagram.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FThe-Real-and-Complex-Number-Systems-%28NS%29%2FPlotting-complex-numbers%2FInterpreting-complex-numbers-on-an-Argand-diagram.xml&amp;entry.2077830997=source%2Fthe-real-and-complex-number-systems%2Fsections%2Fsubsections%2Fsec-the-set-of-complex-numbers%2Fsubsec-plotting-complex-numbers.ptx">Add review</url></exercise>
+</subsection>

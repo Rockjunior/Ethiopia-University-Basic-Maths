@@ -1,0 +1,794 @@
+<subsection xml:id="subsec-description-of-sets">
+    <title>Description of Sets</title>
+    <p>
+        Sets are described or characterized by one of the following four different ways.
+    </p>
+    
+    <p>
+        <term>1. Verbal Method</term>
+    </p>
+    <p>
+        In this method, an ordinary English statement with minimum mathematical symbolization of 
+        the property of the elements is used to describe a set. actually, the statement could be in any language.
+    </p>
+    <example>
+    <statement>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        The set of counting numbers less than ten.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The set of letters in the word <q>Addis Ababa.</q>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The set of all countries in Africa.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    </example>
+
+    <p>
+        <term>2. Roster/Complete Listing Method</term>
+    </p>
+    <p>
+        If the elements of a set can be listed, we list them all between a pair of braces 
+        without repetion separating by commas, and without concern about the order of their appearance.
+        Such a method of describing a set is called <term>the rooster/complete listing</term> method.
+    </p>
+    <example>
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            The set of vowels in English alphabet may also be desribed as <m>\left\{a, e, i, o, u\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of positive factors of <m>24</m> is also described as <m>\left\{1, 2, 3, 4, 6, 8, 12, 24\right\}.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+    <p>
+        <term>Remark:</term>
+    </p>
+    <p>
+        <ol marker="i.">
+            <li>
+                <p>
+                   We agree on the convention that the order of writing the elements in the list is immaterial.
+                   As a result the sets <m>\left\{ a, b, \left\{ c\right\}\right\},\, \left\{ b, c, a\right\} \text{ and } \left\{ c, a, b\right\}</m> contain the same elements, 
+                   namely <m>a, b \text{ and } c.</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    The set <m>\left\{a, a, b, b\right\}</m> contains just two distinct elements; namely <m>a \text{ and } b,</m> hence 
+                    it is the same set as <m>\left\{a, b\right\}.</m> We list distinct elements without repetition.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <example>
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            Let <m>A = \left\{a, b,\left\{c\right\}\right\}.</m> Elements of <m>A</m> are <m>a, b \text{ and } {c}.</m>
+                        </p> 
+                        <p>
+                           Notice that <m>c \text{ and } \left\{c\right\}</m> are different objects. Here <m>\left\{c\right\} \in A</m> but <m>c \notin A.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Let <m>B = \left\{\left\{a\right\}\right\}.</m> The only element of <m>B</m> is <m>\left\{a\right\}.</m> But <m>a \notin B.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Let <m>C = \left\{a, b, \left\{a, b\right\}, \left\{a, \left\{a\right\}\right\}\right\}.</m> Then <m>C</m> has four elements.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                The readers are invited to write down all the elements of <m>C.</m>
+            </p>
+        </statement>
+    </example>
+    <p>
+        <term>3. Partial Listing Method</term>
+    </p>
+    <p>
+        In many occassions, the number of elements of a set may be too large to list them all; and in 
+        other occassions there may not be an end to the list. In such cases we look for a common 
+        property of the elements and describe the set by partially listing the elements. More precisely, 
+        if the common property is simple that it can easily be identified from a list of the first few 
+        elements, then within a pair of braces, we list these few elements followed (or preceded) by 
+        exactly three dotes and possibly by one last element. The following are such instances of 
+        describing sets by partial listing method.
+    </p>
+    <example>
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            The set of all counting numbers in <m>\mathbb{N} = \left\{1, 2, 3, 4, ...\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of non-positive integers is <m>\left\{..., -4, -3, -2, -1, 0, ...\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of multiples of <m>5</m> is <m>\left\{..., -15, -10, -5, 0, 5, 10, 15, ...\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of odd integers less than <m>100</m> is <m>\left\{..., -3, -1, 1, 3, 5, ... 99\right\}.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+    <p>
+        <term>4. Set-builder Method</term>
+    </p>
+    <p>
+        When all the elements satisfy a common property <m>P,</m> we express the situation as an open 
+        proposition <m>P(x)</m> and describe the set using a method called the <term>set-builder Method</term> 
+        as follows:
+    </p>
+    <p>
+        <m>A = \left\{x | P(x)\right\} or A = \left\{x: P(x)\right\}</m>
+    </p>
+    <p>
+        We read it as <q><m>A</m> is equal to the set of all <m>x</m>'s is true.</q> Here the bar <q>| </q> and the 
+        colon <q>:</q> mean <q>such that.</q> Notice that the letter <m>x</m> is only a place holder and can be replaced 
+        throughout by other letters. So, for a property <m>P,</m> the set <m>\left\{x | P(x)\right\},\, \left\{t | P(t)\right\} \text{ and } \left\{y | P(y)\right\}</m> are 
+        all the same set.
+    </p>
+    <example>
+        <statement>
+            <p>
+                The following sets are described using the set-builder method.
+            </p>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            <m>A = \left\{x | x \text{ is a vowel in the English alphabet}\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>B = \left\{t | t \text{ is an integer}\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>C = \left\{n | n \text{is an natural number and } 2n-15 \text{ is negative}\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>D = \left\{y | y^2 - y -6 = 0\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>E = \left\{x | x \text{ is an integer and } x - 1 &lt; 0  \Rightarrow x^2 - 4 &gt; 0 \right\}.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                Express each of the above by using either the complete or the oartial listing method.
+            </p>
+        </statement>
+    </exercise>
+    <definition xml:id="def-description-of-sets-1">
+        <statement>
+            <p>
+                The set which has no elements is called the empty (or null) set and is denoted by <m>\phi \text{ or} \left\{\right\}</m>
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <statement>
+            <p>
+               The set of <m>x \in \mathbb{R}</m> such that <m>x^2 + 1 = 0</m> is an empty set.
+            </p>
+        </statement>
+    </example>
+    
+    <definition xml:id="def-description-of-sets-2">
+        <statement>
+            <p>
+                A set is finite if it has limited number of elements and it is called infinite if it  
+                unlimited number of elements.    
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        <term>Relationship between two sets</term>
+    </p>
+    <definition xml:id="def-description-of-sets-3">
+        <statement>
+            <p>
+                Set <m>B</m> is said to be a <term>subset</term> of set <m>A</m> (or contained in <m>A</m>), denoted by <m>B \subseteq A,</m> 
+                every element of <m>B</m> is an element of <m>A,</m> i.e.,
+                <me>
+                    (\forall x) (x\in B\Rightarrow x\in A).
+                </me>    
+            </p>
+            <p>
+                It follows from the definition that set <m>B</m> is not a subset of <m>A</m> if at least one element of <m>B</m> is not an 
+                element of <m>A.</m> i.e., <m>B\notin A\Leftrightarrow (\exists x)(x\in B\Rightarrow x\notin A).</m> In such cases we write 
+                <m>B\nsubseteq A</m> or <m>A\nsupseteq B.</m>
+            </p>
+        </statement>
+    </definition>
+    <p>
+        <term>Remarks:</term> For any set <m>A, \phi \subseteq A </m> and <m>A \subseteq A.</m>
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            If <m>A = \left\{a, b\right\},\, B = \left\{a, b, c\right\} \text{ and } C = \left\{a, b, d\right\}</m> then <m>A \subseteq B</m> and <m>A \subseteq C.</m> On the 
+                            other hand, it is clear that <m>B \nsubseteq A,\, B \nsubseteq C </m> and <m>C \nsubseteq B.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>S = \left\{x | x \text{ is a multiple of } 6 \right\}</m> and <m>T = \left\{x | x \text{ is even integer }\right\},</m> then <m>S \subseteq T</m> since 
+                            every multiple of <m>6</m> is even. However, <m>2 \subseteq T</m> while <m>2 \nsubseteq S.</m> Thus <m>T \nsubseteq S.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p> 
+                            If <m>A = \left\{a, \left\{b\right\}\right\}</m> then <m>\left\{a\right\}\subseteq A</m> and <m>\left\{\left\{b\right\}\right\} \subseteq A.</m> On the other hand, since <m>b \notin A, \, \left\{b\right\} \nsubseteq A</m> 
+                            and <m>\left\{a, b\right\} \nsubseteq A.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+    
+    <definition xml:id="def-description-of-sets-4">
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                           Sets <m>A</m> and <m>B</m> are said to be <term>equal</term> if they contain exactly the same elements. 
+                            In this case, we write
+                            <me>
+                                A = B. \text{That is, } (\forall x) (x\in B\Rightarrow x\in A).
+                            </me>   
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Sets <m>A</m> and <m>B</m> are said to be <term>equivalent</term> if and only if there is a one to one correspondence among 
+                           their elements. In this case, we write <m>A\leftrightarrow B.</m>
+                        </p>
+                    </li>
+                </ol>      
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            The sets <m>\left\{1, 2, 3\right\},\, \left\{2, 1, 3\right\}, \, \left\{1, 3, 2\right\}</m> are all equal.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left\{x | x \text{ is a counting number }\right\} = \left\{x | x \text{ is a positive inetger }\right\}</m>
+                        </p>
+                    </li>
+                </ol>
+               
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-description-of-sets-5">
+        <statement>
+            <p>
+                he set <m>A</m> is said to be a <term>proper subset</term>  of <m>B</m> if every element <m>A</m> is also an element in <m>B,</m> 
+                but <m>B</m> has at least one element that is not in <m>A.</m> In this case, we write <m>A\subset B.</m> We also say <m>B</m> is a 
+                proper set of <m>A,</m> and write <m>B\supset A.</m> It is clear that
+                <me>
+                    A\subset B\Leftrightarrow \left [ \left ( \forall x \right ) \left ( x\in A\Rightarrow x\in B \right )\wedge \left ( A\neq B \right )\right ]
+                </me>
+                
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        <term>Remark:</term> Some authors do not use the symbol <m>\subseteq.</m> Instead they use the symbol <m>\subset</m> for both subset 
+        and proper subset. In this material, we prefer to use the notations commonly used in highschool mathematics, and 
+        we continue using <m>\subseteq</m> and <m>\subset</m> differently, namely for subset and proper subset, respectively.
+    </p>
+
+    <definition xml:id="def-description-of-sets-6">
+        <statement>
+            <p>
+                Let <m>A</m> be a set. The power set of <m>A,</m> denoted by <m> P\left ( A \right ),</m> is the set whose elements are all 
+                subsets of <m>A.</m> That is,
+                <me>
+                    P\left ( A \right )= \left\{ B:B\subseteq A\right\}.
+                </me>
+                
+            </p>
+        </statement>
+    </definition>
+    <p>
+        <term>Note:</term> If a set <m>A</m> is finite with <m>n</m> elements, then 
+        <ol marker="a.">
+            <li>
+                <p>
+                    The number of subsets of <m>A</m> is <m>2^n</m> and
+                </p>
+            </li>
+            <li>
+                <p>
+                    The number of proper subsets of <m>A</m> is <m>2^n - 1.</m>
+                </p>
+            </li>
+        </ol>
+    </p>
+    <example>
+        <statement>
+            <p>
+                Let <m>A = \left\{ x, y, z\right\}.</m> As denoted before, <m>\phi</m> and <m>A</m> are subset af <m>A.</m> 
+                Moreover, <m> \left\{ x\right\},\left\{ y\right\}, \left\{ z\right\}, \left\{ x, y\right\}, \left\{ x, z\right\}\text{ and } \left\{ y, z\right\}</m> 
+                are all subsets of <m>A.</m> Therefore,
+                <me>
+                     P\left ( A \right )=\left\{ \phi,  \left\{ x\right\},\left\{ y\right\}, \left\{ z\right\}, \left\{ x, y\right\}, \left\{ x, z\right\}, \left\{ y, z\right\}, A\right\}
+                </me>
+            </p>
+        </statement>
+    </example>
+    <p>
+        Frequently it is necessary to limit the topic of discussion to elements of a certain fixed set and 
+        regard all sets under consideration as a subset of this fixed set. We call this set the <term>universal set</term> 
+        or the <term>universe</term> and denoted by <term>U.</term>
+    </p>
+
+    <exercises xml:id="exercises-description-of-sets">
+        <exercise>
+            <statement>
+                <p>
+                    Which of the following are sets?
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                               <m>1, 2, 3</m> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{1, 2 \right\}, 3</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ \left\{ 1,\right\} 2\right\}, 3</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{1 \left\{ 2\right\},3\right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{1, 2, a, b\right\}.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Which of the following sets can be described in complete listing, partial listing and/or 
+                    set-builder methods? Describe each set by at least one of the three methods.
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                               The set of the first <m>10</m> letters in the English alphabet. 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The set of all countries in the world.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The set of students of Addis Ababa University in the 2018/2019 academic year.
+                            </p>
+                        </li>
+                        <li>
+                           <p>
+                               The set of positive multiples of <m>5.</m> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The set of all horses with six legs.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Write each of the following sets by listing its elements within braces.
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>A=\left\{ x\in \mathbb{Z}:-4 &lt;x\leq 4\right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>B=\left\{ x\in \mathbb{Z}:x^2 &lt; 5 \right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>C=\left\{ x\in \mathbb{N}:x^3 &lt; 5 \right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>D=\left\{ x\in \mathbb{R}:x^2 -x = 0 \right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                               <m>D=\left\{ x\in \mathbb{R}:x^2 + 1 = 0 \right\}.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Let <m>A</m> be the set of positive even integers less than <m>15.</m> Find the truth value of each of the 
+                    following.
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>15 \in A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>-16 \in A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\phi \in A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>12 \subset A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ 2, 8, 14\right\} \in A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ 2, 3, 4\right\} \subseteq A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ 2, 4\right\} \in A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\phi \subset A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ 246\right\} \subseteq A</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Find the truth value of each of the following and verify your conclusion.
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>\phi \subseteq \phi</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ 1,2\right\}\subseteq \left\{ 1,2\right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\phi \in A</m> for any set <m>A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ \phi \right\}\subseteq A</m> for any set <m>A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>5, 7 \subseteq \left\{ 5, 6, 7, 8\right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\phi \in \left\{ \left\{ \phi \right\}\right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For any set <m>A, A \subset A</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ \left\{ \phi \right\}\right\} = \phi</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    For each of the following set, find its power set.
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                               <m>\left\{ ab\right\}</m> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ 1, 1.5\right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ a, b\right\}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left\{ a, 0.5, x\right\}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    How many subsets and proper subsets do the sets that contain exactly <m>1, 2, 3, 4, 8, 10 \text{ and } 20</m> elements have?
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Is there a set <m>A</m> with exactly the following indicated property?
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                               Only one subset 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                               Only one proper subset 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Exactly 3 proper subsets
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Exactly 4 subsets
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                 Exactly 6 proper subse
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Exactly 30 subsets
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Exactly 14 proper subsets
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Exactly 15 proper subsets
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    How many elements does <m>A</m> contain if it has:
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>64</m> subsets?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>31</m> proper subsets?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                No proper subset?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                 <m>255</m> proper subsets?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Find the truth value of each of the following.
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                               <m>\phi \in P\left ( \phi  \right )</m> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                 For any set <m>A, \phi \subseteq P\left ( A \right )</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                For any set <m>A, A \in P\left ( A \right )</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                               For any set <m>A, A \subset  P\left ( A \right ).</m> 
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    For any three sets <m>A, B \text{ and } C,</m> prove that:
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                If <m>A\subseteq B</m> and <m>B\subseteq C,</m> then <m>A\subseteq C.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>A\subset B</m> and <m>B\subset C,</m> then <m>A\subset C.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+    
+    
+        
+
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Description-of-sets/Find-the-cardinality-of-the-largest-possible-set.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FDescription-of-sets%2FFind-the-cardinality-of-the-largest-possible-set.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-set-theory%2Fsubsec-description-of-sets.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Description-of-sets/Set-Operations-and-Cardinality-Calculations-in-Set-Theory.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FDescription-of-sets%2FSet-Operations-and-Cardinality-Calculations-in-Set-Theory.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-set-theory%2Fsubsec-description-of-sets.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Description-of-sets/Set-Definition-and-Statement-Evaluation.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FDescription-of-sets%2FSet-Definition-and-Statement-Evaluation.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-set-theory%2Fsubsec-description-of-sets.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Description-of-sets/Set-Operations-and-Complements-with-Given-Sets-and-a-Universal-Set.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FDescription-of-sets%2FSet-Operations-and-Complements-with-Given-Sets-and-a-Universal-Set.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-set-theory%2Fsubsec-description-of-sets.ptx">Add review</url></exercise>
+</subsection>

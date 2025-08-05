@@ -53,7 +53,9 @@
         If P(<em>x,y</em>) is any point on the parabola, then by the definition, the distance of P from the directrix is equal to the distance between P and the focus F. This is used to determine an equation of a parabola. To do this, we consider first the cases when the axis of the parabola is parallel to one of the coordinate axes.
     </p>
     <exercises xml:id="exercises-definition-of-a-parabola">
+
         <exercise >
+
             <statement>
                 <p>
         Use the definition of parabola and the given information to answer or solve each of the following problems.
@@ -62,12 +64,18 @@
         <ol>
             <li>
                 <p>
+
+
                    Suppose the focal length of a parabola is <m>p</m>, for some <em>p</em> &gt; 0. Then, show that the focal width (length of the latus rectum) of the parabola is <m>4p</m>.
+
                 </p>
             </li>
             <li>
                 <p>
+
+
                    Suppose the vertex of a parabola is the origin and its focus is<m> \text{F}(0,1)</m>. Then,         
+
                 </p>
                 <p>
                     <ol marker="(a)">
@@ -103,7 +111,9 @@
             </li>
             <li>
                 <p>
+
                      Suppose the vertex of a parabola is <m>\text{V}(0, 1)</m> and its directrix is the line <m>x = −2</m>. Then,
+
                 </p>
                 <p>
                     <ol marker="(a)">
@@ -127,7 +137,9 @@
                                 Determine whether each of the following point is on the parabola or not.
                             </p>
                             <p>
+
                                  <m>(\text{i}) (1, 0)\,\,\,\,\,\,\,      (\text{ii}) (3, 0)\,\,\,\,\,\,\,      (\text{iii}) (8, 9) \,\,\,\,\,\,\,      (\text{iv}) (8, -7) \,\,\,\,\,\,\,       (\text{v}) (8, 8)</m>
+
                             </p>
                         </li>
                     </ol>
@@ -138,4 +150,14 @@
             </statement>
         </exercise>
     </exercises>
+
+
+
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Definition-of-a-parabola/Deriving-the-Focal-Width-of-a-Parabola-from-its-Focal-Length.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FAnalytic-Geometry-%28NS%29%2FDefinition-of-a-parabola%2FDeriving-the-Focal-Width-of-a-Parabola-from-its-Focal-Length.xml&amp;entry.2077830997=source%2Fanalytic-geometry%2Fsections%2Fsubsections%2Fsec-parabolas%2Fsubsec-definition-of-a-parabola.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Definition-of-a-parabola/Properties-of-a-Parabola-with-Origin-Vertex-and-given-Focus.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FAnalytic-Geometry-%28NS%29%2FDefinition-of-a-parabola%2FProperties-of-a-Parabola-with-Origin-Vertex-and-given-Focus.xml&amp;entry.2077830997=source%2Fanalytic-geometry%2Fsections%2Fsubsections%2Fsec-parabolas%2Fsubsec-definition-of-a-parabola.ptx">Add review</url></exercise>
 </subsection>
+

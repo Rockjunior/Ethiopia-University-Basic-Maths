@@ -1,4 +1,6 @@
+
 <subsection xml:id="subsec-equation-of-parabolas" xmlns:xi="http://www.w3.org/2001/XInclude">
+
     <title>Equation of Parabolas</title>
         <p>
             <alert>I: Equation of a parabola whose axis is parallel to the <em>y</em>-axis</alert>:
@@ -26,9 +28,11 @@
             Upon simplification, this becomes 
         </p>
         <sidebyside>
+
             <p>
                 <m>(x -h)^2 = 4p(y - k)</m>
             </p>
+
             <p>
                 <ul>
                     <li>
@@ -50,6 +54,7 @@
         </p>
         
        <sidebyside>
+
             <p>
                 <m>x^2 = 4py</m>
             </p>
@@ -357,4 +362,14 @@
                 </image> -->
             </statement>   
        </exercise>
+
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Equation-of-a-parabola/Finding-Focus-and-Directrix-of-a-Parabola(Guided).xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FAnalytic-Geometry-%28NS%29%2FEquation-of-a-parabola%2FFinding-Focus-and-Directrix-of-a-Parabola%28Guided%29.xml&amp;entry.2077830997=source%2Fanalytic-geometry%2Fsections%2Fsubsections%2Fsec-parabolas%2Fsubsec-equation-of-parabolas.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Equation-of-a-parabola/Finding-the-Parabola-with-Given-Focus-and-Directrix.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FAnalytic-Geometry-%28NS%29%2FEquation-of-a-parabola%2FFinding-the-Parabola-with-Given-Focus-and-Directrix.xml&amp;entry.2077830997=source%2Fanalytic-geometry%2Fsections%2Fsubsections%2Fsec-parabolas%2Fsubsec-equation-of-parabolas.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Analytic-Geometry-(NS)/Equation-of-a-parabola/Finding-Focus-and-Directrix-of-a-Parabola-(Direct).xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FAnalytic-Geometry-%28NS%29%2FEquation-of-a-parabola%2FFinding-Focus-and-Directrix-of-a-Parabola-%28Direct%29.xml&amp;entry.2077830997=source%2Fanalytic-geometry%2Fsections%2Fsubsections%2Fsec-parabolas%2Fsubsec-equation-of-parabolas.ptx">Add review</url></exercise>
 </subsection>

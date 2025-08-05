@@ -44,6 +44,7 @@
     </ul>
 </objectives>
     
+
     <xi:include href="subsections/sec-parabolas/subsec-definition-of-a-parabola.ptx" />
     <xi:include href="subsections/sec-parabolas/subsec-equation-of-parabolas.ptx" />
 </section>

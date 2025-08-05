@@ -1,0 +1,753 @@
+<subsection xml:id="subsec-set-operations-and-venn-diagrams">
+    <title>Set Operations and Venn diagrams</title>
+    <p>
+        Given two subsets <m>A</m> and <m>B</m> of a universal set <m>U</m>, new sets can be formed using <m>A</m> and <m>B</m> in many
+        ways, such as taking common elements or non-common elements, and putting everything
+        together. Such processes of forming new sets are called <term>set operations.</term> In this section, three most
+        important operations, namely union, intersection and complement are discussed.
+    </p>
+    <definition xml:id="def-set-operations-and-venn-diagrams-1">
+        <statement>
+            <p>
+                The union of two sets <m>A</m> and <m>B</m>, denoted by <m>A\cup  B</m>, is the set of all elements that are
+                either in <m>A</m> or in <m>B</m>(or in both sets). That is,
+                <me>
+                    A\cup  B=\left\{ x:\left ( x\in A \right ) \vee \left ( x\in B \right )\right\}
+                </me>
+            </p>
+        </statement>
+    </definition>
+    <p>
+        As easily seen the union operator <q><m>\cup</m></q> in the theory of set id the counterpart of the logical operator 
+        <q><m>\vee</m></q>
+    </p>
+
+    <definition xml:id="definition-set-theory-2">
+        <statement>
+            <p>
+                The union of two sets <m>A</m> and <m>B</m>, denoted by <m>A\cap  B</m>, is the set of all elements that are 
+                in <m>A \text{ and } B.</m> That is,
+                <me>
+                    A\cap   B=\left\{ x:\left ( x\in A \right ) \wedge  \left ( x\in B \right )\right\}
+                </me>    
+            </p>
+        </statement>
+    </definition>
+    <p>
+        As suggested by <xref ref="definition-set-theory-2"/>, the intersection operator <q><m>\cap</m></q> in the theory of sets is the
+        counterpart of the logical operator <q><m>\wedge</m></q>.
+    </p>
+    <p>
+        <term>Note:-</term> Two sets <m>A</m> and <m>B</m> are said to be disjoint sets if <m>A\cap   B=\phi .</m>
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            Let <m>A=\left\{ 0, 1, 3, 5, 6\right\} \text{ and } B=\left\{ 1, 2, 3, 4, 6, 7\right\}.</m> Then,
+                        </p>
+                        <p>
+                            <m>A\cup B=\left\{ 0, 1, 2, 3, 4, 5, 6, 7\right\} \text{ and } A\cap B=\left\{ 1, 3, 6\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Let <m>A = </m> The set of positive even integers and <m>B = </m> The set of positive multiples of 3. Then,
+                        </p>
+                        <p>
+                            <m>A\cup B=\left\{ x : x \text{ is a positive integer that is either even or a multiple of } 3 \right\}</m>
+                        </p>
+                        <p>
+                            <m>\qquad = \left\{ 2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 16, ...\right\}</m>
+                        </p>
+                        <p>
+                            <m>A\cap B=\left\{ x|x\text{ is a positive integer that is both even and a multiple of } 3\right\}</m>
+                        </p>
+                        <p>
+                            <m>\qquad = \left\{ 6, 12, 18, 24, ...\right\}</m>
+                        </p>
+                        <p>
+                            <m>\qquad = \left\{ x|x \text{ is a positive multiple of} 6.\right\}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-set-operations-and-venn-diagrams-3">
+        <statement>
+            <p>
+               The difference between two sets <m>A \text{ and } B,</m> denoted by <m>A - B,</m> is all the elements in 
+               <m>A</m> and not in <m>B;</m> this set is also called the <term>relative complement</term> of <m>B</m> with respect to <m>A.</m> 
+               Symbolically,
+               <me>
+                  A- B=\left\{ x:x\in A\wedge x\notin B\right\}
+               </me>  
+            </p>
+        </statement>
+    </definition>
+    <p>
+        <term>Note:</term> <m>A - B</m> is sometimes denoted by <m>A\setminus B.</m> <m>A-B \text{ and } A\setminus B</m> are used interchangeably.
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                If <m>A=\left\{1, 3, 5 \right\}, \, B=\left\{1, 2\right\},</m> then <m>A -B =\left\{ 3, 5 \right\}</m> and <m>B - A =\left\{ 2 \right\}.</m>
+            </p>
+        </statement>
+    </example>
+    <p>
+        <term>Note:</term> The above example shows that, in general, <m>A - B \text{ and } B - A</m> are disjoint.
+    </p>
+
+    <definition xml:id="def-set-operations-and-venn-diagrams-4">
+        <statement>
+            <p>
+                Let <m>A</m> be a subset of a universal set <m>U.</m> The <term>absolute complement</term> (or simply <term>complement</term>) 
+                of <m>A, </m> denoted by <m>A'(\text{ or }{A}^c \text{ or } \overline{A}),</m> is defined to be the set of all elements of <m>U</m> that are not 
+                in <m>A.</m> That is,
+                <me>
+                    A'= \left\{x:x\in U\wedge x\notin A \right\} \text{ or } A'\Leftrightarrow x\notin A\Leftrightarrow \neg \left ( x\in A \right )
+                </me>
+            </p>
+        </statement>
+    </definition>
+    <p>
+        Notice that taking the absolute complement of <m>A</m> is the same as finding the relative complement of 
+        <m>A</m> with respect to the universal set <m>U.</m> That is 
+        <me>
+            A' = U - A.
+        </me>  
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                           If <m>U=\left\{ 0, 1, 2, 3, 4\right\}</m> and if <m>A=\left\{ 3, 4\right\},</m> then 
+                           <m>A' =\left\{ 0, 1, 2\right\}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>U=\left\{ 1, 2, 3, ..., 12\right\}</m>
+                        </p>
+                        <p>
+                            <m>A = \left\{ x|x \text{ is a positive factor of} 12\right\} </m> and 
+                        </p>
+                        <p>
+                            <m>B = \left\{ x|x \text{ is an odd integer of } U\right\}. </m>
+                        </p>
+                        <p>
+                            Then, <m>A'=\left\{ 5, 7, 8, 9, 10, 11\right\}, \, </m> <m>B'=\left\{ 2, 4, 6, 8, 10, 12\right\},</m>
+                        </p>
+                        <p>
+                            <m>\left ( A\cup B \right )'=\left\{  8, 10\right\},\, A'\cup B' = \left\{ 2, 4, 5, 6, ..., 12\right\},</m>
+                        </p>
+                        <p>
+                            <m>\left ( A\cap B \right )'=\left\{  8, 10\right\}, \text{ and }  \left ( A\setminus  B\right )'  = \left\{ 1, 3, 5, 7, 8, 9, 10, 11\right\}.</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Let <m>U= \left\{ a, b, c, d, e , f, g, h \right\},\, A=\left\{ a, e, g, h\right\}\text{ and } B=\left\{ b, c, e, f, h\right\}.</m> Then 
+                        </p>
+                        <p>
+                            <m>A'=\left\{ b, c, d, f\right\}, \, B'=\left\{ a, d, g\right\}, B-A = \left\{ b, c, f\right\}</m>
+                        </p>
+                        <p>
+                            <m>A-B=\left\{ a, g\right\}, \text{ and } \left ( A\cup B \right )'=\left\{ d\right\}</m>
+                        </p>
+                    </li>  
+                </ol>
+            </p>
+        </statement>
+    </example>
+    <p>
+        Find <m>\left ( A\cap B \right )' ,\, A'\cap B', \, A'\cup B'.</m> Which of these are equal?
+    </p>
+
+    <theorem xml:id="thm-set-operations-and-venn-diagrams-1-1">
+        <statement>
+            <p>
+                For any two sets <m>A</m> and <m>B,</m> each of the following holds.
+                <ol>
+                    <li>
+                        <p>
+                            <m>\left ( A' \right )'=A.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A'=U-A.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A - B = A\cap B'.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left ( A\cup B \right ) '=A'\cap B'.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left ( A\cap B \right ) '=A'\cup B'.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A\subseteq B\Leftrightarrow B'\subseteq A' .</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </theorem>
+    <p>
+        Now we define the symmetric difference of two sets.
+    </p>
+    <definition xml:id="def-set-operations-and-venn-diagrams-5">
+        <statement>
+            <p>
+                The symmetric difference of two sets <m>A \text{ and } B,</m> denoted by <m>A\Delta B,</m> is the set
+                <me>
+                    A\Delta B=\left ( A-B \right )\cup \left ( B-A \right )
+                </me>    
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Let <m>U=\left\{1,2,3,...,10 \right\}</m> be the universal set, <m>A=\left\{2,4,6,8,9,10 \right\}</m> and <m>B=\left\{3,5,7,9 \right\}</m> Then <m>B-A=\left\{3,5,7 \right\}</m> and <m>A-B=\left\{2, 4, 6, 8, 10 \right\}.</m> Thus
+                 <m>A\Delta B=\left\{2, 3, 4, 5, 6, 7, 8, 10 \right\}.</m>
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="theorem-set-theory-1">
+        <statement>
+            <p>
+                For any three sets, <m>A, B \text{ and } C,</m> each of the following holds.
+            </p>
+            <tabular>
+                <row>
+                    <cell>a. <m>\, A\cup B = B\cup A</m></cell>
+                    <cell><m>\left ( \cup  \text{ is commutative} \right )\\</m></cell>
+                </row>
+                 <row>
+                    <cell>b. <m>A\cap B = B\cap A</m></cell>
+                    <cell><m>\left ( \cap  \text{ is commutative} \right )</m></cell>
+                </row>
+                 <row>
+                    <cell>c. <m>\left ( A\cup B \right )\cup C = B\cup A</m></cell>
+                    <cell><m>\left ( \cup  \text{ is associative} \right )</m></cell>
+                </row>
+                 <row>
+                    <cell>d. <m>\left ( A\cap B \right )\cap C = A\cap \left ( B\cap C \right )</m></cell>
+                    <cell><m>\left ( \cap  \text{ is associative} \right )</m></cell>
+                </row>
+                 <row>
+                    <cell>e. <m>\left ( A\cup B \right )\cap C = \left ( A\cup B \right )\cap \left ( A\cup C \right )</m></cell>
+                    <cell><m>\left ( \cup  \text{ is distributive over }\cap \right )</m></cell>
+                </row>
+                 <row>
+                    <cell>f. <m>A\cap\left ( B\cup C \right ) = \left ( A\cap B \right )\cup \left ( A\cap C \right )</m></cell>
+                    <cell><m>\left ( \cap  \text{ is distributive over }\cup \right )</m></cell>
+                </row>
+            </tabular>
+            
+        </statement>
+    </theorem>
+
+    <p>
+        Let us prove property <q>e</q> formally.
+    </p>
+    <tabular>
+        <row>
+            <cell><m> x\in A\cup (B\cap C)</m></cell>
+            <cell><m>\Leftrightarrow \left ( x\in A \right )\vee \left ( x\in B\cap C \right )</m></cell>
+            <cell><m>\left( \text{ definition of } \cup\right)</m></cell>
+        </row>
+        <row>
+            <cell></cell>
+            <cell><m>\Leftrightarrow x\in A \vee \left ( x\in B \wedge x\in  C  \right ) </m></cell>
+            <cell><m>\left( \text{ definition of } \cap\right)</m></cell>
+        </row>
+        <row>
+            <cell></cell>
+            <cell><m>\Leftrightarrow \left ( x\in A \vee  x\in B  \right )\wedge\left(x\in A\vee  x\in  C  \right ) </m></cell>
+            <cell><m>\left(\vee  \text{ is distributive over } \wedge \right)</m></cell>
+        </row>
+        <row>
+            <cell></cell>
+            <cell><m>\Leftrightarrow \left ( x\in A \cup B  \right )\wedge\left(x\in A\cup  C  \right ) </m></cell>
+            <cell> <m>\left( \text{ definition of } \cup \right)</m></cell>
+        </row>
+        <row>
+            <cell></cell>
+            <cell><m>\Leftrightarrow  x\in \left ( A \cup B  \right )\cap\left(A\cup  C  \right )</m></cell>
+            <cell><m>\left( \text{ definition of } \cap \right)</m></cell>
+        </row>
+    </tabular>
+    
+    <p>
+        The readers are invited to prove the rest part of the theorem <xref ref="theorem-set-theory-1"/>
+    </p>
+    <p>
+        
+    </p>
+
+    <p>
+        <term>Venn diagrams</term>
+    </p>
+    <p>
+        While working with sets, it is helpful to use diagrams, called <term>Venn diagrams</term>, to illustrate the
+        relationships involved. A Venn diagram is a schematic or pictorial representative of the sets
+        involved in the discussion. Usually sets are represented as interlocking circles, each of which is
+        enclosed in a rectangle, which represents the universal set <m>U.</m>
+    </p>
+    <image source="/media/venn-diagram-1.png"  width="50%"></image>
+    <p>
+        In some occasions, we list the elements of set <m>A</m> inside the curve representing A.
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            If <m>U=\left\{ 1,2,3,4,5,6,7\right\} \text{ and } A=\left\{ 2,4,6\right\},</m> then a Venn diagram representation 
+                            of these two sets looks like the following.
+                        </p>
+                        <image source="/media/venn-diagram-2.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Let <m>U = \left\{ x|x \text{ is a positive integer less than} 13\right\}</m>
+                        </p>
+                        <p>
+                            <m>A=\left\{ x|x\in U  \text{ and } x \text{ is even} \right\}</m>
+                        </p>
+                        <p>
+                            <m>B=\left\{ x|x\in U  \text{ and } x \text{ is a multiple of } 3\right\}.</m>
+                        </p>
+                        <p>
+                            A Venn diagram representation of these sets is given below.
+                        </p>
+                        <image source="/media/venn-diagram-3.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                Let <m>U = \text{The set of one digits numbers}</m>
+            </p>
+            <p>
+                <m>A = </m> The set of one digits even numbers
+            </p>
+            <p>
+                <m>B = </m> The set of positive prime numbers less than 10
+            </p>
+            <p>
+                We illustrate the sets using a Venn diagram as follows.
+            </p>
+            <image source="/media/venn-diagram-4.png" width="50%">
+                <shortdescription></shortdescription>
+            </image>
+            <p>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            Illustrate <m>A\cap B</m> by a Venn diagram
+                        </p>
+                        <image source="/media/venn-diagram-5.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                    <li>
+                        <p>
+                            Illustrate <m>A'</m> by Venn diagram
+                        </p>
+                        <image source="/media/venn-diagram-6.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                    <li>
+                        <p>
+                            Illustrate <m>A\setminus  B</m> by using a Venn diagram
+                        </p>
+                        <image source="/media/venn-diagram-7.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </example>
+    <p>
+        Now we illustrate intersections and unions of sets by Venn diagram.
+    </p>
+    <image source="/media/venn-intersection-union.png">
+        <shortdescription></shortdescription>
+    </image>
+
+    <exercises xml:id="exercises-set-operations-and-venn-diagrams">
+        <exercise>
+            <statement>
+                <p>
+                    If <m> B\subseteq A, \, A\cap B'= \left\{ 1,4,5\right\} \text{ and }A\cup B=\left\{ 1,2,3,4,5,6\right\}</m> find <m>B.</m>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Let <m>A=\left\{ 2,4,6,7,8,9\right\}, \, B=\left\{ 1,3,5,6,10\right\}</m> and <m> C= \left\{x:3x+6=0 \text{ or } 2x+6=0\right\}.</m> Find 
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>A\cup B</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left ( A\cup B \right )\cup C=A\cup \left ( B\cup C \right )?</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Suppose <m>U = </m> The set of one digit numbers and <m>A= \left\{ x:x \text{ is an even natural number less than or equal to } 9\right\}</m>
+                </p>
+                <p>
+                    Describe each of the sets by complete listing method:
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                               <m>A'</m> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>A \cap A'</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>A \cup A'</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left( A'\right)'</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\phi - U.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\phi'</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>U'</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    <ol marker="a.">
+                        <li>
+                            <p>
+                                <m>\left ( A\cup B \right )'=A'\cap B'</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\left ( A\cap B \right )'=A'\cup B'</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>A\nsubseteq B, \text{ then } A\setminus B\neq \phi </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>A \cup A' = U</m>
+                            </p>
+                        </li>
+                    </ol>
+                    
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                   Let <m>A=\left\{ 1,2,3,4\right\}, \, B=\left\{ 5,7,8,9\right\} \text{ and } C=\left\{ 6,7,8\right\}.</m> 
+                   Then show that <m>\left ( A\setminus B \right )\setminus C=A\setminus \left ( B\setminus C \right ).</m>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+        <statement>
+            <p>
+                Perform each of the following operations
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            <m>\phi \cap \left\{ \phi \right\}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left\{ \phi , \left\{ \phi \right\}\right\}- \left\{ \left\{ \phi\right\}\right\}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          <m>\left\{ \phi , \left\{ \phi \right\}\right\}- \left\{ \phi\right\}</m>  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left\{ \left\{ \left\{ \phi\right\}\right\}\right\}-\phi</m>
+                        </p>
+                    </li>
+                </ol>
+                
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>U=\left\{ 2,3,6,8,9,11,13,15\right\},</m>  
+            </p>
+            <p>
+                <m>A=\left\{x|x \text{ is a positive prime factor of } 66\right\}</m>
+            </p>
+            <p>
+                <m>B=\left\{x\in U|x \text{ is a composite number }\right\} \text{ and } C= \left\{ x\in U|x-5\in U\right\}.</m> 
+                Then find each of the following.
+            </p>
+            <p>
+                <m>A\cap B, \, \left ( A\cup B \right )\cap C, \, \left ( A-B \right )-C,A-\left ( B-C \right ), \,A-\left ( B-C \right ), \, \left ( A-C \right )-\left ( B-A \right ), \, A'\cap B'\cap C'</m>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m> A\cup B=\left\{ a,b,c,d,e,x,y,z\right\} \text{ and } A\cap B=\left\{ b,e,y\right\}.</m>
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            If <m>B-A=\left\{ x,y\right\} \text{ then } A = </m>_______________
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>A-B=\phi, \text{ then } B = </m> _______________
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>B=\left\{ b,e,y,z\right\}, \text{ then } A-B = </m>_________________
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Let <m>U=\left\{ 1,2,...,10\right\},\,A=\left\{ 3,5,6,8,10\right\},\, B=\left\{ 1,2,4,5,8,9\right\},\, C=\left\{ 1,2,3,4,5,6,8\right\} \text{ and } D=\left\{ 2,3,5,7,8,9\right\}.</m> 
+                Verify each of the following.
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            <m>\left ( A\cup B \right )\cup C=A\cup \left ( B\cup C \right ).</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A\cap \left ( B\cup C\cup D \right )=\left ( A\cap B \right )\cup \left ( A\cap C \right )\cup \left ( A\cap D \right ).</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> \left ( A\cap B\cap C\cap D \right )'= A '\cup B' \cup C' \cup  D' .</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>C-D=C\cap D'.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A\cap \left ( B\cap C \right )'=\left ( A-B \right )\cup \left ( A-C \right ).</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Depending on question No.9 find.
+                <ol marker="a.">
+                    <li>
+                        <p>
+                           <m>A \Delta B.</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>C \Delta D.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left ( A \Delta B \right )\Delta D</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\left ( A \cup B \right )\setminus \left ( A \Delta B \right )</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                For any two subsets <m>A \text{ and } B</m> of a universal set <m>U,</m> prove that:
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            <m> A \Delta B = B \Delta A .</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>A \Delta B = \left ( A\cup B \right )-\left ( A\cap B \right ).</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> A \Delta \phi = A.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> A \Delta A = \phi .</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>
+                Draw an appropriate Venn diagram to depict each of the following sets.
+                <ol marker="a.">
+                    <li>
+                        <p>
+                            <m>U = </m> The set of high scool students in Addis Ababa.
+                        </p>
+                        <p>
+                            <m>A = </m> The set of female high school students in Addis Ababa.
+                        </p>
+                        <p>
+                            <m>B = </m> The set of high school anti-AIDS club members students in Addis Ababa.
+                        </p>
+                        <p>
+                            <m>C = </m> The set of school Nature Club members students in Addis Ababa.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>U = </m> The set of integers
+                        </p>
+                        <p>
+                            <m>A = </m> The set of even integers.
+                        </p>
+                        <p>
+                            <m>B = </m> The set of odd integers.
+                        </p>
+                        <p>
+                            <m>C = </m> The set of multiples of 3.
+                        </p>
+                        <p>
+                            <m>D = </m> The set of prime numbers.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    </exercises>
+
+    
+    
+
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Set-operations-and-Venn-diagrams/Find-the-number-of-students-who-played-one-sport-using-the-venn-diagrams.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FSet-operations-and-Venn-diagrams%2FFind-the-number-of-students-who-played-one-sport-using-the-venn-diagrams.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-set-theory%2Fsubsec-set-operations-and-venn-diagrams.ptx">Add review</url></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/Propositional-Logic-and-Set-Theory-(NS-and-SS)/Set-operations-and-Venn-diagrams/Identify-set-operation-in-shaded-venn-diagram.xml" />
+
+                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FPropositional-Logic-and-Set-Theory-%28NS-and-SS%29%2FSet-operations-and-Venn-diagrams%2FIdentify-set-operation-in-shaded-venn-diagram.xml&amp;entry.2077830997=source%2Fpropositional-logic-and-set-theory%2Fsections%2Fsubsections%2Fsec-set-theory%2Fsubsec-set-operations-and-venn-diagrams.ptx">Add review</url></exercise>
+</subsection>
