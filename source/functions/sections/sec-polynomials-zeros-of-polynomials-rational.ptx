@@ -743,9 +743,12 @@
             The following figure illustrates these notion and notations.
         </p>
           <!-- An image needs to be inserted here -->
-        <p>
-            Fig. 2.1. Graphical illustration of the idea of <m>x \rightarrow a^+</m>, <m>f(x) \rightarrow \infty</m>, etc.
-        </p>
+        <figure xml:id="rational-func">
+            <caption>Graphical illustration of the idea of <m>x \rightarrow a^+</m>, <m>f(x) \rightarrow \infty</m>, etc.</caption>
+            <image source="rational-functions.png">
+                <shortdescription>(for accessibility)</shortdescription>
+            </image>
+        </figure>
 
         <p>
             We may also write <m>f(x) \rightarrow b</m> (read: ‘ <m>f(x)</m> approaches <m>b</m>’) 
@@ -840,7 +843,7 @@
                     <m>x=a</m> is a VA of <m>f(x)</m>. Moreover, <m>y=\frac{1}{a^n}</m> or 
                     (<m>0,\frac{1}{a^n}</m>) is its y-intercept since <m>f(0) = \frac{1}{a^n}</m>.
                     However, it has no <m>x</m>-intercept since <m>f(x) &gt; 0</m> for all <m>x</m> in its domain 
-                    (See, Fig. 2.2 (A)).
+                    (See, <xref ref="fig-n-even"/>).
                 </p>
                 <p>
                     Suppose <m>n</m> is odd: In this case, <m>(x - a)^n &gt; 0</m> for all <m>x &gt; a</m>, and 
@@ -849,7 +852,7 @@
                     <m>x \rightarrow a^–</m>, since <m>(x - a)^n &lt; 0</m> for <m>x &lt; a</m>. 
                     Moreover, <m>y = \frac{-1}{a^n}</m> or <m>(0, \frac{-1}{a^n})</m> is its y-intercept, 
                     since <m>f(0) = \frac{-1}{a^n}</m>. However, it has no <m>x</m>-intercept in this case either. 
-                    (See, Fig. 2.2 (B)).
+                    (See, <xref ref="fig-n-odd"/>).
                 </p>
                 <p>
                     Note that in both cases, <m>f(x) = \frac{1}{(x-a)^n} \rightarrow 0</m> as <m>x \rightarrow \infty</m>
@@ -861,6 +864,20 @@
          <!-- <image source="./media/png72/image50.png">
             <shortdescription>(for accessibility)</shortdescription>
          </image> -->
+        <sidebyside>
+            <figure xml:id="fig-n-even">
+                <caption>(A)</caption>
+                <image source="n-even.png" width="80%">
+                    <shortdescription>(for accessibility)</shortdescription>
+                </image>
+            </figure>
+            <figure xml:id="fig-n-odd">
+                <caption>(B)</caption>
+                <image source="n-odd.png">
+                    <shortdescription>(for accessibility)</shortdescription>
+                </image>
+            </figure>
+        </sidebyside>
         <remark>
             <p>
                 Let <m>f(x)  = \frac{n(x)}{d(x)}</m> be a rational function. Then,
@@ -893,7 +910,7 @@
                         In this case, the graph of <em>f</em> becomes almost a horizontal line along with
                         (or near) the line <m>y=b</m> as <m>x \rightarrow \infty</m> and as <m>x \rightarrow -\infty</m> . 
                         For instance, from the above example, the HA of <m>f(x)=\frac{1}{(x-a)^n}</m> is <m>y=0</m> (the <m>x</m>-axis) , 
-                        for any positive integer <m>n</m> (See, Fig. 2.2).
+                        for any positive integer <m>n</m> (See, <xref ref="fig-n-even"/> , <xref ref="fig-n-odd"/>).
                     </p>
                 </li>
             </ul>
@@ -1076,10 +1093,24 @@
                     except that <m>g(x)</m> is not defined at <m>x= –1</m>. 
                     Therefore, the graph of <m>g</m> and its VA are the same as that of <m>f</m>
                     except that there should be a <q>hole</q> at the point corresponding to <m>x= –1</m> 
-                    on the graph of <m>g</m> as shown on Fig. 2.3(B) below.
+                    on the graph of <m>g</m> as shown on <xref ref="func-02"/> below.
                 </p>
             </solution>
         </example>
+        <sidebyside widths="50% 50%">
+            <figure xml:id="func-01">
+                <caption>(A) <m>f(x) = \frac{x-2}{x+1}</m></caption>
+                <image source="graph-01.png">
+                    <shortdescription>(for accessibility)</shortdescription>
+                </image>
+            </figure>
+            <figure xml:id="func-02">
+                <caption>(B) <m>f(x) = \frac{x-2}{x+1}, x \neq -1</m></caption>
+                <image source="graph-02.png">
+                    <shortdescription>(for accessibility)</shortdescription>
+                </image>
+            </figure>
+        </sidebyside>
     </paragraphs>
     <exercises xml:id="exercises-polynomials-zeros-of-polynomials-rationals">
         <exercise>
