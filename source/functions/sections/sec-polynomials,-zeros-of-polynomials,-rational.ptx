@@ -862,7 +862,7 @@
          <!-- <image source="./media/png72/image50.png">
             <shortdescription>(for accessibility)</shortdescription>
          </image> -->
-         <remark>
+        <remark>
             <p>
                 Let <m>f(x)  = \frac{n(x)}{d(x)}</m> be a rational function. Then,
             </p>
@@ -881,12 +881,12 @@
                     </li>
                 </ol>
             </p>
-         </remark>
-         <p>
+        </remark>
+        <p>
             <ul>
                 <li>
                     <p>
-                        Horizontal Asymptote: A horizontal line <m>y=b</m> is called horizontal asymptote
+                        <alert>Horizontal Asymptote</alert>: A horizontal line <m>y=b</m> is called horizontal asymptote
                         (HA) of <m>f(x)</m> if the value of the function becomes closer and closer to <m>b</m>
                         (i.e., <m>f(x) \rightarrow b</m> as <m>x \rightarrow \infty</m> or as <m>x \rightarrow -\infty</m>.
                     </p>
@@ -898,218 +898,399 @@
                     </p>
                 </li>
             </ul>
-         </p>
-         <remark>
+        </p>
+        <remark>
             <p>
                 A rational function <m>f(x)=\frac{n(x)}{d(x)}</m> has a HA only when <em>degree</em>(<m>n(x)</m>)
                 <m>\leq</m><em>degree</em>(<m>d(x)</m>)
             </p>
-         </remark>
-    </paragraphs>
-          <!--                                          
-
-
-    <p>
-        <alert>Remark</alert>: A rational function has a HA only when <em>degree</em>(<em>n</em>(<em>x</em>))
-        ≤<em>degree</em>(<em>d</em>(<em>x</em>)).
-    </p>
-    <p>
-        In this case, (i) If <em>degree</em>(<em>n</em>(<em>x</em>)) &lt;<em>degree</em>(<em>d</em>(<em>x</em>)), 
-        then <em>y</em> = 0 (the x-axis) is the HA of <em>f</em>.
-    </p>
-    <p>
-        (ii) If <em>degree</em>(<em>n</em>(<em>x</em>)) =<em>degree</em>(<em>d</em>(<em>x</em>))<em>=n</em>, 
-        i.e., ,
-    </p>
-
-    <p>
-        then is the HA of <em>f</em>.
-    </p>
-
-    <ul>
-    <li>
             <p>
-            Oblique Asymptote: The oblique line <em>y</em>=<em>ax</em>+<em>b</em>, <em>a</em>≠0, 
-            is called an oblique asymptote (OA) of <em>f</em> if the value of the function,
-            <em>f</em>(<em>x),</em> becomes closer and closer to <em>ax</em>+<em>b</em>
-            (i.e., <em>f</em>(<em>x</em>) becomes approximately <em>ax</em>+<em>b</em>) as either
-            <em>x</em>→∞ or <em>x</em>→ –∞. In this case, the graph of <em>f</em> becomes almost
-            a straight line along with (or near) the oblique line <em>y</em>=<em>ax</em>+<em>b</em> as 
-            <em>x</em>→∞ and as <em>x</em>→ –∞.
+                In this case,
+                <ol marker="i) ">
+                    <li>
+                        <p>
+                            If <em>degree</em><m>(n(x))</m> &lt; <em>degree</em><m>(d(x))</m>, 
+                            then <m>y=0</m> (the x-axis) is the HA of <em>f</em>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <em>degree</em><m>(n(x)) = </m> <em>degree</em><m>(d(x))=n</m>, 
+                            i.e., <m>f(x) = \frac{a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x+a_0}{b_nx^n + b_{n-1}x^{n-1} + \cdots + b_1x+b_0}</m>,
+                        </p>
+                        <p>
+                            then <m>y=\frac{a_n}{b_n}</m> is the HA of <m>f</m>.
+                        </p>
+                    </li>
+                </ol>
             </p>
-        </li>
-    </ul>
-    <p>
-        <alert>Note</alert>: A rational function has an OA only when
-        <em>degree</em>(<em>n</em>(<em>x</em>)) = <em>degree</em>(<em>d</em>(<em>x</em>)) + 1. 
-        In this case, using long division, if the quotient of <em>n</em>(<em>x</em>) ÷<em>d</em>(<em>x</em>) is
-        <em>ax +b</em>, then <em>y</em>=<em>ax</em>+<em>b</em> is the OA of <em>f</em>.
-    </p>
-    <p><alert>Example 3.28:</alert> Sketch the graphs of</p>
-    <p>
-        <alert>Solution</alert>: (a) Since <em>x</em>−1=0 at <em>x</em>=1, dom(<em>f</em>) = ℜ\{1}.
-    </p>
-    <ul>
-    <li>
-        <p>Intercepts: y-intercept: <em>x</em>=0 ⇒<em>y=f</em> 
-            (0) = –2. Hence, (0, – 2) is y-intercept.
-        </p>
-    </li>
-    </ul>
-
-    <p>
-        x-intercept: <em>y</em>=0 ⇒<em>x</em>+2=0 ⇒<em>x</em>= –2. Hence, (–2, 0) is x-intercept.
-    </p>
-
-    <ul>
-    <li><p>Asymptotes:</p></li>
-    </ul>
-    <ul>
-    <li>
-    <p> 
-        VA: Since <em>x</em>−1=0 at<em>x</em>=1 and <em>x</em>+2≠0 at
-        <em>x</em>=1, <em>x</em>=1 is VA of <em>f</em>. In fact, if <em>x</em>→1<sup>+</sup>, 
-        then <em>x</em>+2 ≈3 but the denominator <em>x</em>–1 is almost 0 (but positive).
-        </p>
-    </li>
-    </ul>
-
-    <p>
-        Consequently, <em>f</em>(<em>x</em>)→∞ as <em>x</em>→1<sup>+</sup>.
-    </p>
-    <p>
-        Moreover, <em>f</em>(<em>x</em>)→ –∞ as <em>x</em>→1<sup>–</sup>
-        (since , if <em>x</em>→1<sup>–</sup> then <em>x</em>–1 is almost 0 but negative ) 
-    </p>
-
-    <p>
-        (So, the graph of <em>f</em> rises up to +∞ at the right side of <em>x=</em>1, and 
-        sink down to −∞ at the left side of <em>x=</em>1)
-    </p>
-    <ul>
-    <li>
-    <p>
-        HA: Note that if you divide <em>x</em>+2 by <em>x</em>–1, the quotient is 1 and remainder is 3. Thus,
-    </p>
-    </li>
-    </ul>
-
-    <p>. 
-        Thus, if <em>x</em>→∞ (or <em>x</em>→ –∞), then →0 so that <em>f</em>(<em>x</em>)→1. Hence, 
-        <em>y</em>=1 is the HA of <em>f</em>.
-    </p>
-
-    <p>Using these information, you can sketch the graph of <em>f</em> as displayed below in Fig. 2.3 (A).</p>
-    <p>(b) Both the denominator and numerator are 0 at <em>x</em>=1. So, first factorize and simplify them:</p>
-    <p><em>x</em><sup>2</sup>+3<em>x</em>+2=(<em>x</em>+2)(<em>x</em>+1) and <em>x</em><sup>2</sup>–1 = (<em>x –</em>1)( <em>x+</em>1) . Therefore,</p>
-    <p>, <em>x</em>≠ –1</p>
-    <p>. (So, dom(<em>g</em>) = ℜ\{1, –1} )</p>
-    <p>This implies that only <em>x</em>=1 is VA.</p>
-    <p>Hence, the graph of is exactly the same as that of except that <em>g</em>(<em>x</em>) is not defined at <em>x</em>= –1. Therefore, the graph of <em>g</em> and its VA are the same as that of <em>f</em> except that there should be a ‘hole’ at the point corresponding to <em>x</em>= –1 on the graph of <em>g</em> as shown on Fig. 2.3(B) below.</p>
-    <p><image source="/./media/png72/image68.png" style="width:6.26319in;height:3.34514in" /></p>
-    <p><alert>Exercise 3.4</alert></p>
-    <ol type="1">
-    <li> 
+        </remark>
         <p>
-            Perform the requested divisions. Find the quotient and remainder and verify the
-            Remainder Theorem by computing <m>p(a)</m>.
+            In this case,
+            <ol marker="i) ">
+                <li>
+                    <p>
+                        If <em>degree</em><m>(n(x))</m> &lt; <em>degree</em><m>(d(x))</m>, 
+                        then <m>y=0</m> (the x-axis) is the HA of <em>f</em>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If <em>degree</em><m>(n(x)) = </m> <em>degree</em><m>(d(x))=n</m>, 
+                        i.e., <m>f(x) = \frac{a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x+a_0}{b_nx^n + b_{n-1}x^{n-1} + \cdots + b_1x+b_0}</m>,
+                    </p>
+                    <p>
+                        then <m>y=\frac{a_n}{b_n}</m> is the HA of <m>f</m>.
+                    </p>
+                </li>
+            </ol>
         </p>
-        </li>
-    </ol>
-    <ol type="a">
-    <li>
         <p>
-            Divide <m>p(x) = x^{2} - 5x + 8\ \text{by}\ x + 4</m>
+            <ul>
+                <li>
+                    <p>
+                        <alert>Oblique Asymptote:</alert> The oblique line <m>y=ax+b</m>, <m>a \neq 0</m>, 
+                        is called an oblique asymptote (OA) of <em>f</em> if the value of the function,
+                        <m>f(x)</m>, becomes closer and closer to <m>ax+b</m>
+                        (i.e., <m>f(x)</m> becomes approximately <m>ax+b</m>) as either <m>x \rightarrow \infty</m> or <m>x \rightarrow -\infty</m>.
+                        In this case, the graph of <em>f</em> becomes almost
+                        a straight line along with (or near) the oblique line <m>y=ax+b</m> as 
+                        <m>x \rightarrow \infty</m> and as <m>x \rightarrow -\infty</m>.
+                    </p>
+                </li>
+            </ul>
         </p>
-    </li>
-    <li>
-        <p>
-            Divide <m>p(x) = 2x^{3} - 7x^{2} + x + 4\ \text{by}\ x - 4</m>
-        </p>
-    </li>
-    <li>
-        <p>
-            Divide <m>p(x) = 1 - x^{4}\ \text{by}\ x - 1</m>
-        </p>
-    </li>
-    <li>
-        <p>
-            Divide <m>p(x) = x^{5} - 2x^{2} - 3\ \text{by}\ x + 1</m>
-        </p>
-
-    </li>
-    </ol>
-    <ol start="2" type="1">
-    <li>
-        <p>
-            Given that <m></m>, factor <m>p(x) = 2x^{3} - \text{11}x^{2} + \text{10}x + 8\ </m>as completely as possible.
-        </p>
-    </li>
-    <li>
-        <p>Given that <m>r(x) = 4x^{3} - x^{2} - \text{36}x + 9\ </m>and <m>r\left( \frac{1}{4} \right) = 0</m>, 
-            find the remaining zeros of <m>r(x)</m>. 
-        </p>
-    </li>
-    <li>
-        <p>
-            Given that 3 is a double zero of <m>p(x) = x^{4} - 3x^{3} - \text{19}x^{2} + \text{87}x - \text{90}\ </m>, 
-            find all the zeros of <m>p(x)</m>.
-        </p>
-    </li>
-    <li>
-        <p>
-            a. Write the general polynomial <m>p(x)</m> whose only zeros are 1, 2 and 3, 
-            with multiplicity 3, 2 and 1 respectively. What is its degree?
-    </p>
-    </li>
-    </ol>
-    <p>
-        b. Find <m>p(x)</m> described in part (a) if <m>p(0) = 6</m>.
-    </p>
-    <ol start="6" type="1">
-    <li>
-        <p>
-            If <m>2 - 3i\ </m>is a root of <m>p(x) = 2x^{3} - 5x^{2} + \text{14}x + \text{39},\ </m>
-            find the remaining zeros of p(<em>x</em>).
-        </p>
-    </li>
-    <li>
-        <p>
-            Determine the rational zeros of the polynomials
-        </p>
-    </li>
-    </ol>
-    <ol type="a">
-    <li></li>
-    <li></li>
-    <li></li>
-    </ol>
-    <ol start="8" type="1">
-    <li>
-        <p>Find the domain and the real zeros of the given function.</p>
-    </li>
-    </ol>
-    <ol type="a">
-    <li><p><m>f(x) = \frac{3}{x^{2} - \text{25}}</m> b. <m>g(x) = \frac{x - 3}{x^{2}4x - \text{12}}</m> c) <m>f(x) = \frac{(x - 3)^{2}}{x^{3} - 3x^{2} + 2x}</m> d) <m>f(x) = \frac{x^{2} - \text{16}}{x^{2} + 4}</m></p></li>
-    </ol>
-    <ol start="9" type="1">
-    <li><p>Sketch the graph of</p></li>
-    </ol>
-
-    <p>   
-        a. <m>f(x) = \frac{1 - x}{x - 3}</m> 
-        b. <m>f(x) = \frac{x^{2} + 1}{x}</m> 
-        c.<m>f(x) = \frac{1}{x} + 2</m> 
-        d <m>f(x) = \frac{x^{2}}{x^{2} - 4}</m>
-    </p>
-
-    <ol start="10" type="1">
-    <li><p>Determine the behavior of <m>f(x) = \frac{x^{3} - 8x - 3}{x - 3}</m> when <m>x</m> is near 3.</p></li>
-    <li><p>The graph of any rational function in which the degree of the numerator is exactly one more than the degree of the denominator will have an oblique (or slant) asymptote.</p></li>
-    </ol>
-    <ol type="a">
-    <li><p>Use long division to show that</p></li>
-    <li><p>Show that this means that the line <m>y = x + 1</m> is a slant asymptote for the graph and sketch the graph of <m>y = f(x)</m>.</p>
-    </li>
-    </ol> -->
+        <note>
+            <p>
+                A rational function <m>f(x)=\frac{n(x)}{d(x)}</m> has an OA only when
+                <em>degree</em><m>(n(x)) = </m> <em>degree</em> <m>(n(x))+1</m>. 
+                In this case, using long division, if the quotient of <m>n(x) \div d(x)</m> is
+                <m>ax +b</m>, then <m>y=ax+b</m> is the OA of <m>f</m>.
+            </p>
+        </note>
+        <example>
+            <statement>
+                <p>
+                    Sketch the graphs of
+                </p>
+                <p>
+                    <ol marker="(a) " cols="2">
+                        <li>
+                            <p>
+                                <m>f(x) = \frac{x+2}{x-1}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>g(x) = \frac{x^2+3x+2}{x^2-1}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="(a) ">
+                        <li>
+                            <p>
+                                Since <m>x-1=0</m> at <m>x=1</m>, dom(<m>f</m>)<m>=\mathbb{R} \{1\}</m>.                      
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <alert>Intercepts</alert>: <m>y</m>-intercept: <m>x=0 \Rightarrow  y=f(0)=-2</m>. Hence, <m>(0,-2)</m> is <m>y</m>-intercept.
+                                        </p>
+                                        <p>
+                                            <m>x</m>-intercept: <m>y=0 \Rightarrow x+2=0 \Rightarrow x=-2</m>. Hence, <m>(-2,0)</m> is <m>x</m>-intercept.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <alert>Asymptotes:</alert>
+                                        </p>
+                                        <p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        VA: Since <m>x-1=0</m> at <m>x=1</m> and <m>x+2 \neq 0</m> at <m>x=1</m>,
+                                                        <m>x=1</m> is VA of <m>f</m>. In fact, if <m>x \rightarrow 1^+</m>,
+                                                        then <m>x+2 \approx  3</m> but the denominator <m>x-1</m> is almost <m>0</m>
+                                                        (but positive).
+                                                    </p>
+                                                    <p>
+                                                        Consequently, <m>f(x) \rightarrow \infty</m> as <m>x \rightarrow 1^+</m>.
+                                                    </p>
+                                                    <p>
+                                                        Moreover, <m>f(x) \rightarrow -\infty</m> as <m>x \rightarrow 1^-</m> 
+                                                        (since, if <m>x \rightarrow 1^-</m> then <m>x-1</m> is almost <m>0</m> but negative).
+                                                    </p>
+                                                    <p>
+                                                        (So, the graph of <m>f</m> rises up to <m>+\infty</m> at the right side of <m>x=1</m>, 
+                                                        and sink down to <m>-\infty</m> at the left side of <m>x=1</m>)
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        HA: Note that if you divide <m>x+2</m> by <m>x–1</m>, the quotient is <m>1</m> and 
+                                                        remainder is <m>3</m>. Thus, <m>\frac{x+2}{x-1} = 1+ \frac{3}{x-1}</m>.
+                                                        Thus, if <m>x \rightarrow \infty</m> (or <m>x \rightarrow -\infty</m>),
+                                                        then <m>\frac{3}{x-1} \rightarrow 0</m> so that <m>f(x) \rightarrow 1</m>.
+                                                    </p>
+                                                    <p>
+                                                        Hence, <m>y=1</m> is the HA of <m>f</m>.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                        <p>
+                                            Using these information, you can sketch the graph of <m>f</m> as displayed 
+                                            below in Fig. 2.3 (A). 
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Both the denominator and numerator are <m>0</m> at <m>x=1</m>.
+                                So, first factorize and simplify them: 
+                            </p>
+                            <p>
+                                <m>x^2 + 3x + 2 = (x+2)(x+1)</m> and <m>x^2 - 1 = (x-1)(x+1)</m>. Therefore,
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>g(x) = \frac{x^2 + 3x + 2}{x^2 - 1} \amp = \frac{(x+2)(x+1)}{(x-1)(x+1)}, x \neq -1 </mrow>
+                                    <mrow> \amp = \frac{x+2}{x-1}. \qquad \qquad (\text{So,  dom}(g) = \Re \{ 1,-1\})</mrow>
+                                </md>
+                            </p>
+                            <p>
+                                This implies that only <m>x=1</m> is VA.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <p>
+                    Hence, the graph of <m>g(x) = \frac{x+2}{x-1}, x \neq -1</m>, 
+                    is exactly the same as that of <m>f(x) = \frac{x+2}{x-1}</m> 
+                    except that <m>g(x)</m> is not defined at <m>x= –1</m>. 
+                    Therefore, the graph of <m>g</m> and its VA are the same as that of <m>f</m>
+                    except that there should be a <q>hole</q> at the point corresponding to <m>x= –1</m> 
+                    on the graph of <m>g</m> as shown on Fig. 2.3(B) below.
+                </p>
+            </solution>
+        </example>
+    </paragraphs>
+    <exercises xml:id="exercises-polynomials-zeros-of-polynomials-rationals">
+        <exercise>
+            <statement>
+                <p>
+                    Perform the requested divisions. Find the quotient and remainder and verify the
+                    Remainder Theorem by computing <m>p(a)</m>.
+                    <ol marker="a) ">
+                        <li>
+                            <p>
+                                Divide <m>p(x) = x^{2} - 5x + 8 \text{ by } x + 4</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Divide <m>p(x) = 2x^{3} - 7x^{2} + x + 4 \text{ by } x - 4</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Divide <m>p(x) = 1 - x^{4} \text{ by } x - 1</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Divide <m>p(x) = x^{5} - 2x^{2} - 3 \text{ by } x + 1</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Given that <m>p(4)=0</m>, factor <m>p(x) = 2x^{3} - 
+                    11x^{2} + 10x + 8 </m> as completely as possible.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Given that <m>r(x) = 4x^{3} - x^{2} - 36x + 9 </m> and 
+                    <m>r\left( \frac{1}{4} \right) = 0</m>, 
+                    find the remaining zeros of <m>r(x)</m>. 
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Given that <m>3</m> is a double zero of 
+                    <m>p(x) = x^{4} - 3x^{3} - 19x^{2} + 87x - 90 </m>, 
+                    find all the zeros of <m>p(x)</m>.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    <ol marker="a) ">
+                        <li>
+                            <p>
+                                Write the general polynomial <m>p(x)</m> whose only zeros are <m>1, 2</m> and <m>3</m>, 
+                                with multiplicity <m>3, 2</m> and <m>1</m> respectively. What is its degree?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find <m>p(x)</m> described in part <m>a)</m> if <m>p(0) = 6</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    If <m>2 - 3i </m> is a root of <m>p(x) = 2x^{3} - 5x^{2} + 14x + 39 </m>,
+                    find the remaining zeros of p(<m>x</m>).
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Determine the rational zeros of the polynomials
+                </p>
+                <p>
+                    <ol marker="a) ">
+                        <li>
+                            <p>
+                                <m>p(x) = x^3 - 4x^2 - 7x +10</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>p(x) = 2x^3 - 5x^2 - 28x +15</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>p(x) = 6x^3 + x^2 - 4x + 1</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Find the domain and the real zeros of the given function.
+                </p>
+                <p>
+                    <ol marker="a) " cols="2">
+                        <li>
+                            <p>
+                                <m>f(x) = \frac{3}{x^{2} - 25}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>g(x) = \frac{x - 3}{x^{2}4x - 12}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f(x) = \frac{(x - 3)^{2}}{x^{3} - 3x^{2} + 2x}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f(x) = \frac{x^{2} - 16}{x^{2} + 4}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Sketch the graph of
+                </p>
+                <p>
+                    <ol marker="a) " cols="2">
+                        <li>
+                            <p>
+                                <m>f(x) = \frac{1 - x}{x - 3}</m> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f(x) = \frac{x^{2} + 1}{x}</m> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f(x) = \frac{1}{x} + 2</m> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f(x) = \frac{x^{2}}{x^{2} - 4}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Determine the behavior of <m>f(x) = \frac{x^{3} - 8x - 3}{x - 3}</m> 
+                    when <m>x</m> is near <m>3</m>.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    The graph of any rational function in which the degree of the 
+                    numerator is exactly one more than the degree of the denominator will 
+                    have an oblique (or slant) asymptote.
+                </p>
+                <p>
+                    <ol marker="a) ">
+                        <li>
+                            <p>
+                                Use long division to show that
+                            </p>
+                            <p>
+                                <m>y=f(x)=\frac{x^2 - x + 6}{x-2}=x+1+ \frac{8}{x-2}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Show that this means that the line <m>y = x + 1</m> is a 
+                                slant asymptote for the graph and sketch the graph of <m>y = f(x)</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+ 
+ 
+ 
 </section>
