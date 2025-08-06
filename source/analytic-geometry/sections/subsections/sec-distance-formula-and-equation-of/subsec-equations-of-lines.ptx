@@ -94,10 +94,10 @@
     </figure>
 
 
-    <p>Thus the slope of a line <em><alert>l</alert></em> is the ratio of the change in <em>y</em>, ∆<em>y</em>, to the change in <em>x</em>, ∆<em>x</em> (see Figure 4.4). Hence, slope is the rate of change of <em>y</em> with respect <em>x</em>. The slope depends also on the angle of inclination of the line. Note that the angle of inclination <em>θ</em> is the angle between <em>x</em>-axis and the line (measured counterclockwise from the direction of positive <em>x</em>-axis to the line). Observe that</p>
+    <p>Thus the slope of a line <em><alert>l</alert></em> is the ratio of the change in <em>y</em>, ∆<em>y</em>, to the change in <em>x</em>, ∆<em>x</em>. Hence, slope is the rate of change of <em>y</em> with respect <em>x</em>. The slope depends also on the angle of inclination of the line. Note that the angle of inclination <em>θ</em> is the angle between <em>x</em>-axis and the line (measured counterclockwise from the direction of positive <em>x</em>-axis to the line). Observe that</p>
     <p>
         <me>
-            \text{tan} \theta =\frac{\Delta y}{\Delta x}
+            \text{tan}  \, \theta =\frac{\Delta y}{\Delta x}
         </me>
         
     </p>
@@ -130,7 +130,8 @@
         </row>
         <row>
             <cell><p>Slope <m>m</m> and a point (<m>x_1</m>, <m>y_1</m>) on <em><alert>l</alert></em></p></cell>
-            <cell><p>Point-Slope-Form: <m>y – y_1</m>= <m>m</m>(<m>x –x_1</m>) Or <em>y</em> = <em>m</em>(<m>x –x_1</m>) <m>+ y_1</m></p></cell>
+            <cell><p>Point-Slope-Form: <m>y – y_1</m>= <m>m</m>(<m>x –x_1</m>) </p> <p>
+                    Or <em>y</em> = <em>m</em>(<m>x –x_1</m>) <m>+ y_1</m></p></cell>
         </row>
         <row>
             <cell><p>Two points (<m>x_1</m>, <m>y_1</m>) and (<m>x_2</m>, <m>y_2</m>) on <em><alert>l</alert></em></p></cell>
@@ -220,20 +221,20 @@
         <ol marker="(i)">
             <li>
                 <p>
-                    <m>I_1</m> and <m>I_2</m> are parallel by <m>I_1</m> || <m>I_2</m> iff <m>m_1</m> = <m>m_2</m>.
+                    <m>l_1</m> and <m>l_2</m> are parallel by <m>l_1</m> || <m>l_2</m> iff <m>m_1</m> = <m>m_2</m>.
 
                 </p>
             </li>
             <li>
                 <p>
-                    <m>I_1</m> and <m>I_2</m> are perpendicular, denoted by <m>I_1</m> | <m>I_2</m> iff <m>m_1</m><m>m_2</m>
+                    <m>l_1</m> and <m>l_2</m> are perpendicular, denoted by <m>l_1</m> | <m>l_2</m> iff <m>m_1</m><m>m_2</m>
                     (or <m>m_{2}= -\frac{1}{m_{1}}</m>)
                 </p>
             </li>
         </ol>
     </p>
     <p>
-        Moreover, if <m>I_1</m> and <m>I_2</m> are are both vertical lines then they are parallel. However, if one of them is horizontal and the other is vertical, then they are perpendicular.
+        Moreover, if <m>l_1</m> and <m>l_2</m> are are both vertical lines then they are parallel. However, if one of them is horizontal and the other is vertical, then they are perpendicular.
     </p>
     <example>
         <statement>
@@ -241,7 +242,7 @@
                 Find an equation of the line through the point (3,2) that is parallel to the line
             </p>
             <p>
-                <m>2x +3y =12</m>
+                <m>2x +3y +5 =0</m>
             </p>
         </statement>
         <solution>

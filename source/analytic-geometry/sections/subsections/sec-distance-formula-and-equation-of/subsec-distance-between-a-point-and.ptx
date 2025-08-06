@@ -1,8 +1,8 @@
 <subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-distance-between-a-point-and" >
     <title>Distance between a point and a line</title>
-    <p>Suppose a line <em><alert>l</alert></em> and a point P(<em>x,y</em>) not on the line are given. The distance from P to <em><alert>l</alert></em>, <em>d</em>(P, <em><alert>l</alert></em>), 
+    <p>Suppose a line <m>l</m> and a point P(<em>x,y</em>) not on the line are given. The distance from P to <m>l</m>, <em>d</em>(P, <m>l</m>), 
         is defined as the perpendicular distance between P and <em><alert>l</alert></em> . That is,</p>
-    <p><em>d</em>(P, <em><alert>l</alert></em>) = <alert>|</alert>PQ<alert>|</alert>, where Q is the point on <em><alert>l</alert></em> such that PQ⊥ <em><alert>l</alert></em>. </p>
+    <p><em>d</em>(P, <m>l</m>) = <alert>|</alert>PQ<alert>|</alert>, where Q is the point on <m>l</m> such that PQ⊥ <m>l</m>. </p>
     <figure xml:id="distance-between-a-point">
         <caption></caption>
         <image width="60%">
@@ -37,25 +37,25 @@
         </image>
     </figure>
 
-    <p>If P is on <em><alert>l</alert></em>, then <em>d</em>(P, <em><alert>l</alert></em>) = 0. Moreover, given a point P(<em>h,k</em>) observe that</p>
+    <p>If P is on <m>l</m>, then <em>d</em>(P, <m>l</m>) = 0. Moreover, given a point P(<em>h,k</em>) observe that</p>
     <p>
         <ol marker="(i)">
             <li>
                 <p>
-                    if the line <em><alert>l</alert></em> is a horizontal line <em>y=b</em>, then <em>d</em>(P, <em><alert>l</alert></em>) = <alert>|</alert><em>k – b</em><alert>|</alert>.
+                    if the line <m>l</m> is a horizontal line <em>y=b</em>, then <em>d</em>(P, <m>l</m>) = <alert>|</alert><em>k – b</em><alert>|</alert>.
                 </p>
             </li>
             <li>
                 <p>
-                    if the line <em><alert>l</alert></em> is a vertical line <em>x=a</em>, then <em>d</em>(P, <em><alert>l</alert></em>) = <alert>|</alert><em>h – a</em><alert>|</alert>
+                    if the line <m>l</m> is a vertical line <em>x=a</em>, then <em>d</em>(P, <m>l</m>) = <alert>|</alert><em>h – a</em><alert>|</alert>
                 </p>
             </li>
         </ol>
     </p>
 
     <p>In general, however, to find the distance between a point P(<m>x_0</m><m>, y_0</m>) 
-        and an arbitrary line <em><alert>l</alert></em> given by <em>ax</em> + <em>by</em> +<em>c</em> = 0,
-        we have to first get a point Q on <em><alert>l</alert></em> such that PQ⊥ <em><alert>l</alert></em> 
+        and an arbitrary line <m>l</m> given by <em>ax</em> + <em>by</em> +<em>c</em> = 0,
+        we have to first get a point Q on <m>l</m> such that PQ⊥ <m>l</m> 
         and then compute <alert>|</alert>PQ<alert>|</alert>. This yields the formula given in the following Theorem.
     </p>
     <theorem xml:id="thm-distance_between_a_point">

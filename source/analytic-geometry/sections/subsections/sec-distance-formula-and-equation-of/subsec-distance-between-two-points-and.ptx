@@ -2,8 +2,9 @@
     <title>Distance between two points and division of segments </title>
     <p>If P and Q are two points on the coordinate plane, then PQ represents the line segment joining P and Q and <em>d</em>(P<em>,</em>Q) or <alert>|</alert>PQ<alert>|</alert> represents the distance between P and Q<em>.</em></p>
     <p>
-        Recall that the distance between points <em>a</em> and <em>b</em> on a number line is     
-        |<em>a</em> -<em>b</em>| = |<em>b</em> −<em>a</em>|. Thus, the distance between two points P(<m>x_1</m>, <m>y_1</m>) and R(<m>x_2</m>, <m>y_1</m>) on a horizontal line must be |<m>x_2</m> <m>x_1</m>| and the distance between Q(<m>x_2</m>, <m>y_2</m>) and R(<m>x_2</m>, <m>y_1</m>) on a vertical line must be |<m>y_2</m> -<m>y_1</m>|. .
+        Recall that the distance between points <em>a</em> and <em>b</em> on a number line is      
+        |<em>a</em> -<em>b</em>| = |<em>b</em> −<em>a</em>|. 
+        Thus, the distance between two points P(<m>x_1</m>, <m>y_1</m>) and R(<m>x_2</m>, <m>y_1</m>) on a horizontal line must be |<m>x_2</m> <m>x_1</m>| and the distance between Q(<m>x_2</m>, <m>y_2</m>) and R(<m>x_2</m>, <m>y_1</m>) on a vertical line must be |<m>y_2</m> -<m>y_1</m>|. .
     </p>
 
     <figure xml:id="distance_between-two-points">
@@ -50,8 +51,12 @@
         </image>
     </figure>
 
-        
-    <p>To find distance <alert>|</alert>PQ<alert>|</alert> between any two points P(<m>x_1</m>, <m>y_1</m>) and Q(<m>x_2</m>, <m>y_2</m>), we note that triangle PRQ in Figure 4.2 is a right triangle, and so by Pythagorean Theorem we get:</p>
+   
+    <p>To find distance <m>|PQ|</m> between any two points <m>P(x_1, y_1)</m> and <m>Q(x_2, y_2)</m>, we note that triangle PRQ
+    in Figure 4.2 is a right triangle, and so by Pythagorean Theorem we get:</p>
+
+    <p><m>|PQ|^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2 \iff |PQ| = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</m></p>
+
     <p>Therefore, we have the following:</p>
 
     <p>
@@ -190,7 +195,7 @@
     <p>Solving for <m>x_0</m> and <m>y_0</m> , we obtain</p>
     <p>
         <me>
-            x_{0}= \frac{x_{1}r_{2}+x_{2}r_{1}}{r_{1}+r_{2}} and y_{0}= \frac{y_{1}r_{2}+y_{2}r_{1}}{r_{1}+r_{2}}
+            x_{0}= \frac{x_{1}r_{2}+x_{2}r_{1}}{r_{1}+r_{2}} \, \quad and \quad \, y_{0}= \frac{y_{1}r_{2}+y_{2}r_{1}}{r_{1}+r_{2}}
         </me>
         
     </p>
@@ -228,7 +233,7 @@
                 <ol marker="(i)">
                     <li>
                         <p>
-                            find the coordinates of the point R on the line segment PQ such that |PR| <alert>:</alert> |RQ| = 2 <alert>:</alert> 3.
+                            find the coordinates of the point R on the line segment PQ such that |PR| : |RQ| = 2 : 3.
                         </p>
                     </li>
                     <li>
@@ -316,7 +321,7 @@
                     </li>
                     <li>
                         <p>
-                            P divides AB in the ratio 2<alert>:</alert>3 (That is, |AP|<alert>:</alert> |PB| = 2<alert>:</alert>3 ).
+                            P divides AB in the ratio 2:3 (That is, |AP|<alert>:</alert> |PB| = 2<alert>:</alert>3 ).
                         </p>
                     </li>
                     <li>
