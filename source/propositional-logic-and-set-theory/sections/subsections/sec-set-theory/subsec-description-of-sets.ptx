@@ -5,7 +5,7 @@
     </p>
     
     <p>
-        <term>1. Verbal Method</term>
+        <m>\textbf{1. Verbal Method}</m>
     </p>
     <p>
         In this method, an ordinary English statement with minimum mathematical symbolization of 
@@ -36,7 +36,7 @@
     </example>
 
     <p>
-        <term>2. Roster/Complete Listing Method</term>
+        <m>\textbf{2. Roster/Complete Listing Method}</m>
     </p>
     <p>
         If the elements of a set can be listed, we list them all between a pair of braces 
@@ -61,10 +61,9 @@
             </p>
         </statement>
     </example>
-    <p>
-        <term>Remark:</term>
-    </p>
-    <p>
+
+    <remark>
+        <p>
         <ol marker="i.">
             <li>
                 <p>
@@ -81,6 +80,8 @@
             </li>
         </ol>
     </p>
+    </remark>
+    
     <example>
         <statement>
             <p>
@@ -111,7 +112,7 @@
         </statement>
     </example>
     <p>
-        <term>3. Partial Listing Method</term>
+        <m>\textbf{3. Partial Listing Method}</m>
     </p>
     <p>
         In many occassions, the number of elements of a set may be too large to list them all; and in 
@@ -151,7 +152,7 @@
         </statement>
     </example>
     <p>
-        <term>4. Set-builder Method</term>
+        <m>\textbf{4. Set-builder Method}</m>
     </p>
     <p>
         When all the elements satisfy a common property <m>P,</m> we express the situation as an open 
@@ -235,7 +236,7 @@
     </definition>
 
     <p>
-        <term>Relationship between two sets</term>
+        <m>\textbf{Relationship between two sets}</m>
     </p>
     <definition xml:id="def-description-of-sets-3">
         <statement>
@@ -253,9 +254,13 @@
             </p>
         </statement>
     </definition>
-    <p>
-        <term>Remarks:</term> For any set <m>A, \phi \subseteq A </m> and <m>A \subseteq A.</m>
-    </p>
+    
+    <remark>
+        <p>
+            For any set <m>A, \phi \subseteq A </m> and <m>A \subseteq A.</m>
+        </p>
+    </remark>
+
 
     <example>
         <statement>
@@ -342,11 +347,13 @@
         </statement>
     </definition>
 
-    <p>
-        <term>Remark:</term> Some authors do not use the symbol <m>\subseteq.</m> Instead they use the symbol <m>\subset</m> for both subset 
-        and proper subset. In this material, we prefer to use the notations commonly used in highschool mathematics, and 
-        we continue using <m>\subseteq</m> and <m>\subset</m> differently, namely for subset and proper subset, respectively.
-    </p>
+    <remark>
+        <p>
+            Some authors do not use the symbol <m>\subseteq.</m> Instead they use the symbol <m>\subset</m> for both subset 
+            and proper subset. In this material, we prefer to use the notations commonly used in highschool mathematics, and 
+            we continue using <m>\subseteq</m> and <m>\subset</m> differently, namely for subset and proper subset, respectively.
+        </p>
+    </remark>
 
     <definition xml:id="def-description-of-sets-6">
         <statement>
@@ -360,21 +367,25 @@
             </p>
         </statement>
     </definition>
-    <p>
-        <term>Note:</term> If a set <m>A</m> is finite with <m>n</m> elements, then 
-        <ol marker="a.">
-            <li>
-                <p>
-                    The number of subsets of <m>A</m> is <m>2^n</m> and
-                </p>
-            </li>
-            <li>
-                <p>
-                    The number of proper subsets of <m>A</m> is <m>2^n - 1.</m>
-                </p>
-            </li>
-        </ol>
+
+    <note>
+        <p>
+           If a set <m>A</m> is finite with <m>n</m> elements, then 
+            <ol marker="a.">
+                <li>
+                    <p>
+                        The number of subsets of <m>A</m> is <m>2^n</m> and
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The number of proper subsets of <m>A</m> is <m>2^n - 1.</m>
+                    </p>
+                </li>
+            </ol>
     </p>
+    </note>
+    
     <example>
         <statement>
             <p>
