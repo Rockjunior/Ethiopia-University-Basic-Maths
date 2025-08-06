@@ -57,5 +57,7 @@
     <colophon-items/>
   </colophon>
 
+  <xi:include href="preface.ptx"/>
+
 </frontmatter>
 
