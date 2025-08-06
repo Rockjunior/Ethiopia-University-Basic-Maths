@@ -172,7 +172,7 @@
                 <li>
                     <p>
                         <alert>Transitive property:</alert> For any three integers <m>a</m>, 
-                        <m>b</m> &amp; <m>c</m>, <m>a &gt; b\  \land \ b &gt; c\  \Rightarrow a &gt; c</m>
+                        <m>b</m> &amp; <m>c</m>, <m>a &gt; b\  </m> &amp; <m> \ b &gt; c\  \Rightarrow a &gt; c</m>
                     </p>
                 </li>
                 <li>
