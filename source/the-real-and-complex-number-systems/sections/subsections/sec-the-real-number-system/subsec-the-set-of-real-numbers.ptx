@@ -147,7 +147,7 @@
                 <li>
                     <p>
                         <alert>Transitive property:</alert> For any three real numbers<m>a</m>,
-                         <m>b</m>&amp; <m>c</m>, <m>a &gt; b  \land \ b &gt; c  \Rightarrow a &gt; c </m>.
+                         <m>b</m>&amp; <m>c</m>, <m>a &gt; b </m> &amp; <m> \ b &gt; c  \Rightarrow a &gt; c </m>.
                     </p>
                 </li>
                 <li>
@@ -214,13 +214,13 @@
         <definition xml:id="def-upper-bounds-lower-bounds">
             <statement>
                 <p>
-                    Let <m>A</m> be <em>non - empty and </em> <m>A \in \Re </m>.
+                    Let <m>A</m> be <em>non - empty</em> and <m>A \in \Re </m>.
                 </p>
                 <p>
                     <ol marker="i. ">
                         <li>
                             <p>
-                                A point <m>a \in R</m>is said to be an upper bound of <m>A</m> iff <m>x \leq a</m> for all
+                                A point <m>a \in R</m> is said to be an upper bound of <m>A</m> iff <m>x \leq a</m> for all
                                 <m>x \in A</m>.
                             </p>
                         </li>
@@ -232,7 +232,7 @@
                         </li>
                         <li>
                             <p>
-                                A point <m>a \in R</m>is said to be lower bound of <m>A</m> iff <m>x \geq a</m> for all <m>x \in A</m>.
+                                A point <m>a \in R</m> is said to be lower bound of <m>A</m> iff <m>x \geq a</m> for all <m>x \in A</m>.
                             </p>
                         </li>
                         <li>
@@ -319,7 +319,7 @@
         <title>Completeness property of real number (R)</title>
         <p>
             Completeness property of real numbers states that: Every non-empty subset of <m>\Re</m> 
-            that has lower bounds has glb and every non-empty subset of <m>\Re</m>that has upper bounds has a lub.
+            that has lower bounds has glb and every non-empty subset of <m>\Re</m> that has upper bounds has a lub.
         </p>
         <exercises xml:id="exercises-real-number">
             <exercise>
