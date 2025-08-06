@@ -144,7 +144,7 @@
                     </p>
                     <p>
                         For any three natural numbers <m>a</m>, <m>b</m> &amp; <m>c</m>, 
-                        <m> \quad a &gt; b &amp; b &gt; c\  \Rightarrow a &gt; c</m>
+                        <m> \quad a &gt; b \text{ &amp; } b &gt; c\  \Rightarrow a &gt; c</m>
                     </p>
                 </li>
                 <li>

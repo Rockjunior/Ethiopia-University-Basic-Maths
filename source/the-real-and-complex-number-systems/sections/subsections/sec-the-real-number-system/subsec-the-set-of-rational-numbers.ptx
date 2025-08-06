@@ -297,12 +297,26 @@
                         Solution: <m>k = 1, p = 2</m>.
                     </p>
                     <p>
-                        <m>
+                        <md>
+                            <mrow> 
+                                \therefore d =  d \times 1 = d \times \frac{1}{1} \amp = d \times 
+                                \left( \frac{10^{k+p} - 10^k}{10^{k+p} - 10^k}\right)
+                            </mrow>
+                            <mrow> 
+                                \amp = 42.5\overline{\text{38}} \times 
+                                \left( \frac{10^3 - 10}{10^3 - 10}\right) 
+                            </mrow>
+                            <mrow> 
+                                \amp= \frac{42538.\overline{\text{38}} - 425.
+                                \overline{\text{38}}}{100 - 10} = \frac{42113}{990}. 
+                            </mrow>
+                        </md>
+                        <!-- <m>
                             \therefore d =  d \times 1 = d \times \frac{1}{1} = d \times 
                             \left( \frac{10^{k+p} - 10^k}{10^{k+p} - 10^k}\right) = 42.5\overline{\text{38}} \times 
                             \left( \frac{10^3 - 10}{10^3 - 10}\right) = \frac{42538.\overline{\text{38}} - 425.
                             \overline{\text{38}}}{100 - 10} = \frac{42113}{990}.
-                        </m>
+                        </m> -->
                     </p>
                 </solution>
             </example>
