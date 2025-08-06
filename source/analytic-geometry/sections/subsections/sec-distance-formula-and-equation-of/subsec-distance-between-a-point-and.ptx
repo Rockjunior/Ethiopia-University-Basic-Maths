@@ -2,7 +2,7 @@
     <title>Distance between a point and a line</title>
     <p>Suppose a line <m>l</m> and a point P(<em>x,y</em>) not on the line are given. The distance from P to <m>l</m>, <em>d</em>(P, <m>l</m>), 
         is defined as the perpendicular distance between P and <em><alert>l</alert></em> . That is,</p>
-    <p><em>d</em>(P, <m>l</m>) = <alert>|</alert>PQ<alert>|</alert>, where Q is the point on <m>l</m> such that PQ⊥ <m>l</m>. </p>
+    <p><em>d</em>(P, <m>l</m>) = <alert>|</alert>PQ<alert>|</alert>, where Q is the point on <m>l</m> such that PQ⊥ <m>l</m>.(See <xref ref="distance-between-a-point"/>) </p>
     <figure xml:id="distance-between-a-point">
         <caption></caption>
         <image width="60%">
