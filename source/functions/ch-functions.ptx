@@ -34,6 +34,6 @@
     <xi:include href="sections/sec-review-of-relations-and-functions.ptx" />
     <xi:include href="sections/sec-real-valued-functions-and-their.ptx" />
     <xi:include href="sections/sec-types-of-functions-and-inverse.ptx" />
-    <xi:include href="sections/sec-polynomials,-zeros-of-polynomials,-rational.ptx" />
+    <xi:include href="sections/sec-polynomials-zeros-of-polynomials-rational.ptx" />
     <xi:include href="sections/sec-definition-and-basic-properties-of.ptx" />
 </chapter>
