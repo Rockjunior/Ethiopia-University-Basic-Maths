@@ -3,7 +3,7 @@
     <definition xml:id="def-definition-of-a-hyperbola">
         <statement>
             <p>
-                Let F and F<term>′</term> be two fixed points in the plane. A <term>hyperbola</term> is the set of all points in the plane such that the difference of the distance of each point from F and F<term>′</term> is constant. We shall denote the constant by 2<m>a</m>, for some <m>a</m> <m>\</m> 0. That is, a point P is on the hyperbola if and only if |PF<term>′</term>| – |PF| = 2<m>a</m> (or |PF|– |PF<term>′</term>| = 2<m>a</m> , whichever is positive). The two fixed points F and F<term>′</term> are called the foci of the hyperbola.
+                Let F and <m>\text{F} \textbf{′}</m> be two fixed points in the plane. A <term>hyperbola</term> is the set of all points in the plane such that the difference of the distance of each point from F and F<term>′</term> is constant. We shall denote the constant by 2<m>a</m>, for some <m>a</m> <m>\</m> 0. That is, a point P is on the hyperbola if and only if |PF<term>′</term>| – |PF| = 2<m>a</m> (or |PF|– |PF<term>′</term>| = 2<m>a</m> , whichever is positive). The two fixed points F and F<term>′</term> are called the foci of the hyperbola.
             </p>
         </statement>
     </definition>
