@@ -6,13 +6,13 @@
             <alert>I: Equation of a parabola whose axis is parallel to the <em>y</em>-axis</alert>:
         </p>
         <p>
-            A parabola whose axis is parallel to <em><alert>y</alert></em>-axis is called <alert>vertical parabola</alert>. A vertical parabola is either open upward (as in Figure 4.13 (a) ) or open downward (as in Figure 4.13 (b)).
+            A parabola whose axis is parallel to <m>y</m>-axis is called <alert>vertical parabola</alert>. A vertical parabola is either open upward (as in Figure 4.13 (a) ) or open downward (as in Figure 4.13 (b)).
         </p>
         <image source="/equation-parabola.png">
             <shortdescription></shortdescription>
         </image>
         <p>
-            Let <em>p</em> be the distance from vertex V(<em>h,k</em>) to the focus F of the parabola, i.e.,<alert>|</alert>VF<alert>|</alert> = <em>p</em>. Then, by the definition, F is located <em>p</em> units above V if the parabola opens upward and it is located <em>p</em> units below V if the parabola opens downward as indicated on Figure 4.13(a) and (b), respectively. To determine the desired equation, we first consider the case when the parabola opens upward.
+            Let <em>p</em> be the distance from vertex V(<em>h,k</em>) to the focus F of the parabola, i.e.,|<m>VF|</m> = <em>p</em>. Then, by the definition, F is located <em>p</em> units above V if the parabola opens upward and it is located <em>p</em> units below V if the parabola opens downward as indicated on Figure 4.13(a) and (b), respectively. To determine the desired equation, we first consider the case when the parabola opens upward.
         </p>
         <p>
             Therefore, considering a vertical parabola with vertex V(<em>h,k</em>) that opens upward (Figure 4.13a), its focus is at F(<em>h, k+p</em>). ⇒ The equation of its directrix is <em>y = k−p.</em>
