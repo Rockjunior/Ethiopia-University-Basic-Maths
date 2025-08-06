@@ -10,7 +10,7 @@
     </figure>
 
     <p>The angle <em>θ</em> considered in the above discussion is called the angle of rotation. Our aim is to find the relationships between the coordinates (<em>x</em>,<em>y</em>) and the coordinates (<em>x</em>′,<em>y</em>′) of the same point P.</p>
-    <p>To find this relationships, let P(<em>x,y</em>) be any point in <em>xy</em>-plane, <em>θ</em> be an angle of rotation (i.e., <em>θ</em> is angle between <em>x</em> and <em>x</em>' axes ) and <em>φ</em> be the angle between OP and <alert><em>x</em>'</alert>-axis.</p>
+    <p>To find this relationships, let P(<em>x,y</em>) be any point in <em>xy</em>-plane, <em>θ</em> be an angle of rotation (i.e., <em>θ</em> is angle between <em>x</em> and <em>x</em>' axes ) and <em>θ</em> be the angle between OP and <alert><em>x</em>'</alert>-axis.</p>
     
     <figure xml:id="rotation-of-coordinates2">
         <caption></caption>
@@ -46,7 +46,7 @@
     <p>
         <m>
             \begin{align}
-            x &amp; = x'cos\theta -y'sin\theta  \\
+            x &amp; = x'cos\theta -y'sin\theta  \\ .........(3)
             y &amp; = x'sin\theta -y'cos\theta 
             \end{align}
         </m>
@@ -57,7 +57,7 @@
     <p>
         <m>
             \begin{align}
-            x' &amp; = xcos\theta +ysin\theta  \\
+            x' &amp; = xcos\theta +ysin\theta  \\ ...... (4)
             y' &amp; = ysin\theta +ycos\theta 
             \end{align}
         </m>
@@ -102,7 +102,7 @@
                     <li>
                         <p>
                             Since P(1,2) has the coordinates <em>x</em>=1 and <em>y</em>=2, its <em>x</em>' and <em>y</em>' coordinates are,
-                            using formula 
+                            using formula (4)
                         </p>
                         <p>
                             <me>
@@ -125,7 +125,7 @@
                         <p>
                             We need to express <em>x</em> and <em>y</em> in the equation <em>xy</em> =1 in terms of <em>x</em>' and <em>y</em>'
                             using the rotation formula (3). So, again since <m>cos\left ( \frac{\pi}{4} \right )=sin\left ( \frac{\pi}{4} \right )=\frac{\sqrt{2}}{2}</m>
-                            ,we obtain the formulam(3)
+                            ,we obtain the formula (3)
                         </p>
                         <p>
                             <me>
@@ -166,7 +166,7 @@
                             in the <em>x</em>'<em>y</em>'-coordinate system with principal axis on <em><alert>x</alert></em>'-axis.
                             Since the <alert><em>x</em></alert> and <alert>y</alert>- axes were rotated though an 
                             angle of π/4 to obtain <em><alert>x</alert></em>' and <em><alert>y</alert></em>'-axes, 
-                            the hyperbola can be sketched as in Figure 4.32. (You may use Formula (3) to show that the vertices
+                            the hyperbola can be sketched as shown. (You may use Formula (3) to show that the vertices
                             <m>\left ( -\sqrt{2} ,0\right )</m> and <m>\left ( \sqrt{2} ,0\right )</m> are (-1,1) and (1,1),
                             respectively, relative to the <em><alert>x</alert></em> and <em><alert>y</alert></em>-axes).
                         </p>
@@ -206,7 +206,7 @@
                 Therefore, the equation of the ellipse relative to the <em>x</em>'<em>y</em>' system is
             </p>
             <p>
-                <m>\frac{x'^{2}}{a^{2}}=\frac{y'^{2}}{b'^{2}}=1</m>
+                <me>\frac{x'^{2}}{a^{2}}=\frac{y'^{2}}{b'^{2}}=1</me>
             </p>
             <p>
                 Moreover, from the given information, <m>a_2</m> = <m>|OV|_2</m> =<m> 3_2</m>+ <m>4_2</m> =25; and
@@ -219,7 +219,7 @@
             </p>
             <p>
                 <me>
-                    \frac{x'^{2}}{25}=\frac{y'^{2}}{9}=1 \text{or} 9x'^{2}+25y'^{2}=225 ......(1)
+                    \frac{x'^{2}}{25}=\frac{y'^{2}}{9}=1 \, \quad \text{or} \, \quad 9x'^{2}+25y'^{2}=225 ......(1)
                 </me>
                 
             </p>
@@ -231,7 +231,7 @@
             </p>
             <p>
                 <me>
-                    cos\theta=\frac{4}{5} \text{and} sin\theta=\frac{3}{5}
+                    cos\theta=\frac{4}{5} \, \quad \text{and} \, \quad sin\theta=\frac{3}{5}
                 </me>
                 
             </p>

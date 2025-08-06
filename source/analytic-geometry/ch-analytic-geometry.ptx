@@ -26,7 +26,7 @@
     </p>
     <p>
 
-        The major part of this chapter is <alert>conic sections</alert>. Conic sections are <alert>circles</alert>, <alert>parabolas, ellipse</alert>s and <alert>hyperbolas</alert>.
+        The major part of this chapter is <m>\textbf{conic sections}</m>. Conic sections are <m>\textbf{circles}</m>, <m>\textbf{parabolas, ellipses}</m> and <m>\textbf{hyperbolas}</m>.
      They are called conic sections because they are generated when a plane cuts a right circular double cone. Depending on how the plane cuts the cone
       the intersection forms a curve called a circle, an ellipse, a parabola or a hyperbola (See,(<xref ref="conic_sections"/>)).
     </p>
@@ -51,7 +51,13 @@
     </p>
     <p>
         <me>
-            x^2 + ax = b \quad \text{to} \quad (x+h)^2 = 0 \qquad \text{can you establish the relationships between a,b and h,c?}
+            x^2 + ax = b \quad \text{to} \quad (x+h)^2 = 0 \qquad 
+        </me>
+        
+    </p>
+    <p>
+        <me>
+            \textbf{(can you establish the relationships between a,b and h,c?)}
         </me>
         
     </p>
@@ -59,7 +65,10 @@
         To do this :- <em>Add</em> <m>\left (\frac{a}{2}  \right )^{2}</m> <em>to both sides of the former equation</em>.
     </p>
     <p>
-         Then complete the square of the resulting expression to get the later form.
+         <me>
+            \textbf{-Then complete the square of the resulting expression to get the later form.}
+         </me>
+         
     </p>
     <p>
         Here recall that: 

@@ -20,13 +20,13 @@
     <theorem xml:id="thm-4analysis">
         <statement>
             <p>
-                Consider the general second degree equation:
+                Consider the general second degree equation of the form (2), i..e.,
             </p>
             <p>
                 <m>A x^2 + B x y + C y^2 + D x + E y + F = 0</m>, where <m>B ≠ 0</m> ........... (2)
             </p>
             <p>
-                There exists a rotation angle <m>θ ∈ (0, π/2)</m> such that, after rotating the <m>xy</m>-coordinate system by this angle, the equation becomes:
+                there is a rotation angle <m>θ ∈ (0, π/2)</m>through which the <m>xy</m>-coordinate system  in which Equation (2) reduces to the form
             </p>
             <p>
                 <m>A' x'^2 + C' y'^2 + D' x' + E' y' + F' = 0</m>........... (3)
@@ -46,8 +46,12 @@
     <p> we substitute for <m>x</m> and <m>y</m> in Equation (2) so that </p>
     <p>
         <me>
-            A\left ( x'cos\theta -y'sin\theta\right)^{2} +B\left ( x'cos\theta -y'cos\theta  \right )\left ( x'sin\theta +y'cos\theta  \right ) +C\left ( x'sin\theta +ycos'\theta  \right )^{2} +D\left ( x'cos\theta -y'sin\theta  \right )+E\left ( x'sin\theta +y'cos\theta  \right )+F=0 
+            A\left ( x'cos\theta -y'sin\theta\right)^{2} +B\left ( x'cos\theta -y'cos\theta  \right )\left ( x'sin\theta +y'cos\theta  \right ) +C\left ( x'sin\theta +ycos'\theta  \right )^{2}
         </me>
+        <me>
+            + D\left ( x'cos\theta -y'sin\theta  \right )+E\left ( x'sin\theta +y'cos\theta  \right )+F=0 
+        </me>
+        
         
     </p>
     <p>
@@ -63,7 +67,7 @@
 
     <p>
         Here the exact expressions for A', C', D', E' are omitted as they are irrelevant. What we
-        need is to get the angle of rotation <m>\theta</m> for which Equation (4) has no x'y' term, that is B'=0.
+        need is to get the angle of rotation <m>\theta</m> for which Equation (4) has <m>\textbf{no}</m> x'y' term, that is B'=0.
     </p>
     <p>
         This means that,
@@ -85,23 +89,23 @@
         
     </p>
     <p>
-        or <me>
-            \frac{\text{cos}2\theta}{\text{sin}2\theta}=\frac{A-C}{B}, \text{Since} B \neq  0
+        <me>
+            \text{or} \, \quad \frac{\text{cos}2\theta}{\text{sin}2\theta}=\frac{A-C}{B}, \text{Since} B \neq  0
         </me>
         
     </p>
     <p>
-        or <me>
-            \text{cot}2\theta=\frac{A-C}{B} .......(5)
+        <me>
+           \text{or} \, \quad \text{cot}2\theta=\frac{A-C}{B} .......(5)
         </me>
         
     </p>
     <p>
-        That is, if we choose the angle of rotation  satisfying (5), then B' = 0 in Equation (4) 
+        That is, if we choose the angle of rotation <m>\theta</m> satisfying (5), then B' = 0 in Equation (4) 
          so that the resulting equation in x'y'-coordinate system is in the form of Equation (3).
-         Moreover, we can always find an angle that satisfies <m>\text{cot}2\theta=\frac{A-C}{B}</m> for any A C, <m>\text{B}\epsilon \Re , \text{B}\neq 0</m>
+         Moreover, we can always find an angle that satisfies <m>\text{cot}2\theta=\frac{A-C}{B}</m> for any A C, <m>\text{B} \,\, \quad \epsilon  \,\, \quad \Re , \text{B}\neq 0</m>
          since the range of the cotangent function is the entire set of real numbers.
-         Note also that since <m>2\theta \epsilon (0,\pi )</m>, the angel of rotation  can always be chosen so that <m>0&lt; \theta &lt; \frac{\pi}{2}</m>. So, the Theorem is proved. 
+         Note also that since <m>2 \,\,\theta \, \quad \epsilon (0,\pi )</m>, the angel of rotation  can always be chosen so that <m>0&lt; \theta &lt; \frac{\pi}{2}</m>. So, the Theorem is proved. 
     </p>
 
 
@@ -124,44 +128,68 @@
         <m>A'x'^2 + C'y'^2 + D'x' + E'y' + F' = 0</m> (with no <m>x'y'</m> term),
         if we choose <m>\theta \in (0, \frac{\pi}{2})</m> such that:
     </p>
+    <p>
+        <me>
+            \tan 2\theta = \frac{B}{A - C}, \text{ if } A \ne C
+        </me>
+        
+    </p>
 
     <p>
-        <m>\tan 2\theta = \frac{B}{A - C}, \text{ if } A \ne C</m>
-    </p>
-    <p>
-        <m>\theta = \frac{\pi}{4}, \text{ if } \text{A = C}</m>
+        <me>
+            \theta = \frac{\pi}{4}, \text{ if } \text{A = C}
+        </me>
+        
     </p>
     <example>
         <statement>
             <p>
-            Use rotation of axes to eliminate the <m>xy</m> term in the equation
-            <m>8x^2 + 8y^2 + 28xy - 32x - 32y + 30 = 0</m>,
-            describe the locus (type of conic section), and sketch the graph.
+                Use rotation of axes to eliminate the <m>xy</m> term in each of the following equations,\
+                describe the locus (type of conic section) and sketch the graph of the equation
             </p>
-        </statement>
-        <solution>
             <p>
                 <ol marker="(a)">
                     <li>
                         <p>
-                            Given: <m>8x^2 + 8y^2 + 28xy - 32x - 32y + 30 = 0</m>
-                            <m>\Rightarrow A = C = 8</m>. So from the above remark, <m>\theta = \frac{\pi}{4}</m>
+                            <m>8x^2 + 28xy + 8y^2 - 32x - 32y + 30 = 0</m>
                         </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>73x^2 - 72xy + 52y^2 + 30x + 40y - 75 = 0</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+
+
+        <solution>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>Given:</p>
+                        <p><m>8x^2 + 28xy + 8y^2 - 32x - 32y + 30 = 0 \Rightarrow A = C = 8</m>. So, from the above Remark, the
+                        rotation angle is <m>\theta = \frac{\pi}{4}</m> <m>\Rightarrow \cos\theta = \sin\theta = \frac{1}{\sqrt{2}}</m>,
+                        <m>\Rightarrow x = \frac{x' - y'}{\sqrt{2}}</m> and <m>y = \frac{x' + y'}{\sqrt{2}}</m>.</p>
+
+                        <p>Now we substitute these for <m>x</m> and <m>y</m> in the given equation:</p>
 
                         <p>
-                            Then <m>\cos \theta = \sin \theta = \frac{1}{\sqrt{2}}</m>,
-                            so the transformation is:
-                            <m>x = \frac{1}{\sqrt{2}}(x' - y')</m>, <m>y = \frac{1}{\sqrt{2}}(x' + y')</m>
+                            <m>
+                                8\left( \frac{x' - y'}{\sqrt{2}} \right)^2 + 28\left( \frac{x' - y'}{\sqrt{2}} \right)\left( \frac{x' + y'}{\sqrt{2}} \right)
+                            </m>
+                            <m>+ 8\left( \frac{x' + y'}{\sqrt{2}} \right)^2 - 32\left( \frac{x' - y'}{\sqrt{2}} \right) - 32\left( \frac{x' + y'}{\sqrt{2}} \right) + 30 = 0</m>
                         </p>
 
-                        <p>
-                            Substituting into the original equation and simplifying, we obtain:
-                            <m>8x'^2 - 16y' + 8 = 0</m> or <m>(y' - 2)^2 = x'</m>
-                        </p>
+                        <p>Expanding the squared expressions, combining like terms and simplifying, we obtain</p>
+
+                        <p><m>8x'^2 + 16y' - 32 = 0</m> or, <m>8(x'^2 + 2y' - 4) = 0</m></p>
 
                         <p>
-                            This is an equation of a parabola with vertex at <m>(0,2)</m> in the <m>x'y'</m> system,
-                            and axis along the <m>y'</m>-axis, opening in the negative <m>y'</m>direction.
+                            This is an equation of a parabola. Its vertex is <m>(h', k') = (0, 2)</m> relative to the <m>x'y'</m>-system, principal
+                            axis is on <m>y'</m>-axis and opens towards negative <m>y'</m> direction. (You can show that its vertex is <m>(h, k) = \left( \frac{2}{\sqrt{2}}, -\frac{2}{\sqrt{2}} \right)</m>
+                            relative to the <m>xy</m>-system.) The graph of the equation is sketched in
                         </p>
                         <figure xml:id="analytic-geometry1">
                             <caption></caption>
@@ -171,39 +199,41 @@
                         </figure>
                     </li>
                     <li>
-                        <p>
-                            Given: <m>73x^2 - 72xy + 52y^2 + 30x + 40y - 75 = 0</m>
-                        </p>
-                        <p>
-                            Here <m>A = 73</m>, <m>B = -72</m>, <m>C = 52</m>
-                        </p>
+                      
+                        <p>Given: <m>73x^2 - 72xy + 52y^2 + 30x + 40y - 75 = 0 \Rightarrow A = 73</m>, <m>B = -72</m> and <m>C = 52</m>.</p>
+
+                        <p>Hence,</p>
+
+                        <p><m>\tan 2\theta = \frac{A - C}{B} = \frac{21}{-72} = -\frac{7}{24}</m></p>
+
+                        <p>The terminal side of <m>2\theta</m> is through <m>(-7, 24)</m> since <m>0 &lt; 2\theta &lt; \pi</m>.</p>
+
+                        <p><m>\cos 2\theta = -\frac{7}{25}</m>. Now as <m>0 &lt; \theta &lt; \frac{\pi}{2}</m>, both <m>\cos\theta</m> and <m>\sin\theta</m> are positive. Hence,</p>
+
+                        <p><m>\cos\theta = \sqrt{\frac{1 + \cos 2\theta}{2}} = \sqrt{\frac{1 - 7/25}{2}} = \frac{3}{5}</m></p>
+
+                        <p><m>\sin\theta = \sqrt{\frac{1 - \cos 2\theta}{2}} = \sqrt{\frac{1 + 7/25}{2}} = \frac{4}{5}</m></p>
+
+                        <p>This implies the <m>x'</m>-axis is through the coordinate point <m>(3, 4)</m>, that is the line <m>y = \frac{4}{3}x</m>.</p>
+
+                        <p>Therefore, using the rotation formula (3), we get</p>
+
+                        <p><m>x = \frac{3}{5}x' - \frac{4}{5}y'</m> and <m>y = \frac{4}{5}x' + \frac{3}{5}y'</m></p>
+
+                        <p>Now we substitute these for <m>x</m> and <m>y</m> in the given equation to obtain</p>
 
                         <p>
-                            Hence <m>\tan 2\theta = \frac{B}{A - C} = \frac{-72}{73 - 52} = -\frac{72}{21} = -\frac{24}{7}</m>
+                            <m>
+                                73\left( \frac{3x' - 4y'}{5} \right)^2 - 72\left( \frac{3x' - 4y'}{5} \right)\left( \frac{4x' + 3y'}{5} \right) + 52\left( \frac{4x' + 3y'}{5} \right)^2 
+                            </m>
+                            <m>+ 30\left( \frac{3x' - 4y'}{5} \right) + 40\left( \frac{4x' + 3y'}{5} \right) - 75 = 0</m>
                         </p>
 
-                        <p>
-                            So terminal side of <m>2\theta</m> is in 2nd quadrant, through <m>(-7,24)</m>.
-                            Hence <m>\cos 2\theta = -\frac{7}{25}</m>. Then
-                        </p>
+                        <p>Expanding the squared expressions, combining like terms and simplifying, we obtain</p>
 
-                        <p>
-                            <m>\cos \theta = \sqrt{\frac{1 + \cos 2\theta}{2}} = \sqrt{\frac{1 - 7/25}{2}} = \sqrt{\frac{18}{50}} = \frac{3}{5}</m>
-                        </p>
+                        <p><m>25x'^2 + 100x' - 50y' + 75 = 0</m></p>
 
-                        <p>
-                            <m>\sin \theta = \sqrt{1 - \cos^2 \theta} = \frac{4}{5}</m>
-                        </p>
 
-                        <p>
-                            So the rotation is:
-                            <m>x = \frac{3}{5}x' - \frac{4}{5}y'</m>, <m>y = \frac{4}{5}x' + \frac{3}{5}y'</m>
-                        </p>
-
-                        <p>
-                            Substituting and simplifying, we get:
-                            <m>25x'^2 + 100x' - 50y' + 75 = 0</m>
-                        </p>
 
                         <p>
                             Completing the square and dividing by 100 to get
