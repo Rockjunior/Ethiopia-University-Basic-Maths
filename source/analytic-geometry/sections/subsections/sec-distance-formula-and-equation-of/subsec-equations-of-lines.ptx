@@ -94,7 +94,7 @@
     </figure>
 
 
-    <p>Thus the slope of a line <em><alert>l</alert></em> is the ratio of the change in <em>y</em>, ∆<em>y</em>, to the change in <em>x</em>, ∆<em>x</em>. Hence, slope is the rate of change of <em>y</em> with respect <em>x</em>. The slope depends also on the angle of inclination of the line. Note that the angle of inclination <em>θ</em> is the angle between <em>x</em>-axis and the line (measured counterclockwise from the direction of positive <em>x</em>-axis to the line). Observe that</p>
+    <p>Thus the slope of a line <em><alert>l</alert></em> is the ratio of the change in <em>y</em>, ∆<em>y</em>, to the change in <em>x</em>, ∆<em>x</em> (See <xref ref="equations-of-line2"/>). Hence, slope is the rate of change of <em>y</em> with respect <em>x</em>. The slope depends also on the angle of inclination of the line. Note that the angle of inclination <em>θ</em> is the angle between <em>x</em>-axis and the line (measured counterclockwise from the direction of positive <em>x</em>-axis to the line). Observe that</p>
     <p>
         <me>
             \text{tan}  \, \theta =\frac{\Delta y}{\Delta x}

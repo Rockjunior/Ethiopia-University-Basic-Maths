@@ -1,6 +1,6 @@
 <subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-rotation-of-coordinate-axes">
     <title>Rotation of Coordinate Axes </title>
-    <p>A rotation of the <em>x</em> and <em>y</em> coordinate axes by an angle <em>θ</em> about the origin O(0,0) creates a new <em>x</em>'<em>y</em>'-coordinate system whose <em>x</em>'-axis is the line obtained by rotating the <em>x</em>-axis by angle <em>θ</em> about O and <alert><em>y</em>'</alert>-axis is the line obtained by rotating the <em><alert>y</alert></em>-axis in the same way. This makes a point P to have two sets of coordinates denoted by (<em>x</em>,<em>y</em>) and (<em>x</em>′,<em>y</em>′) relative to the <em>xy</em><alert>-</alert> and <em>x</em>′<em>y</em>′-coordinate axes, respectively.</p>
+    <p>A rotation of the <em>x</em> and <em>y</em> coordinate axes by an angle <em>θ</em> about the origin O(0,0) creates a new <em>x</em>'<em>y</em>'-coordinate system whose <em>x</em>'-axis is the line obtained by rotating the <em>x</em>-axis by angle <em>θ</em> about O and <alert><em>y</em>'</alert>-axis is the line obtained by rotating the <em><alert>y</alert></em>-axis in the same way. This makes a point P to have two sets of coordinates denoted by (<em>x</em>,<em>y</em>) and (<em>x</em>′,<em>y</em>′) relative to the <em>xy</em><alert>-</alert> and <em>x</em>′<em>y</em>′-coordinate axes, respectively.(See <xref ref="rotation-of-coordinates1"/>)</p>
 
     <figure xml:id="rotation-of-coordinates1">
         <caption></caption>
@@ -10,7 +10,7 @@
     </figure>
 
     <p>The angle <em>θ</em> considered in the above discussion is called the angle of rotation. Our aim is to find the relationships between the coordinates (<em>x</em>,<em>y</em>) and the coordinates (<em>x</em>′,<em>y</em>′) of the same point P.</p>
-    <p>To find this relationships, let P(<em>x,y</em>) be any point in <em>xy</em>-plane, <em>θ</em> be an angle of rotation (i.e., <em>θ</em> is angle between <em>x</em> and <em>x</em>' axes ) and <em>θ</em> be the angle between OP and <alert><em>x</em>'</alert>-axis.</p>
+    <p>To find this relationships, let P(<em>x,y</em>) be any point in <em>xy</em>-plane, <em>θ</em> be an angle of rotation (i.e., <em>θ</em> is angle between <em>x</em> and <em>x</em>' axes ) and <em>θ</em> be the angle between OP and <alert><em>x</em>'</alert>-axis. (See <xref ref="rotation-of-coordinates2"/>)</p>
     
     <figure xml:id="rotation-of-coordinates2">
         <caption></caption>
@@ -46,8 +46,8 @@
     <p>
         <m>
             \begin{align}
-            x &amp; = x'cos\theta -y'sin\theta  \\ .........(3)
-            y &amp; = x'sin\theta -y'cos\theta 
+            x &amp; = x'cos\theta -y'sin\theta  \\ 
+            y &amp; = x'sin\theta -y'cos\theta    .........(3)
             \end{align}
         </m>
     </p>
@@ -57,8 +57,8 @@
     <p>
         <m>
             \begin{align}
-            x' &amp; = xcos\theta +ysin\theta  \\ ...... (4)
-            y' &amp; = ysin\theta +ycos\theta 
+            x' &amp; = xcos\theta +ysin\theta  \\  
+            y' &amp; = ysin\theta +ycos\theta    ......(4)
             \end{align}
         </m>
     </p>
@@ -192,7 +192,7 @@
         </statement>
         <solution>
             <p>
-                The position of the ellipse is as shown in .
+                The position of the ellipse is as shown in <xref ref="rotation-of-coordinates4"/> .
             </p>
             <figure xml:id="rotation-of-coordinates4">
                 <caption></caption>

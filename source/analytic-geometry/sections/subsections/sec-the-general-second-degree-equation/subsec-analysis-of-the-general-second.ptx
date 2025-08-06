@@ -46,10 +46,10 @@
     <p> we substitute for <m>x</m> and <m>y</m> in Equation (2) so that </p>
     <p>
         <me>
-            A\left ( x'cos\theta -y'sin\theta\right)^{2} +B\left ( x'cos\theta -y'cos\theta  \right )\left ( x'sin\theta +y'cos\theta  \right ) +C\left ( x'sin\theta +ycos'\theta  \right )^{2}
+            A\left ( x'cos\theta -y'sin\theta\right)^{2} +B\left ( x'cos\theta -y'cos\theta  \right )\left ( x'sin\theta +y'cos\theta  \right ) 
         </me>
         <me>
-            + D\left ( x'cos\theta -y'sin\theta  \right )+E\left ( x'sin\theta +y'cos\theta  \right )+F=0 
+            +C\left ( x'sin\theta +ycos'\theta  \right )^{2}+ D\left ( x'cos\theta -y'sin\theta  \right )+E\left ( x'sin\theta +y'cos\theta  \right )+F=0 
         </me>
         
         
@@ -103,9 +103,9 @@
     <p>
         That is, if we choose the angle of rotation <m>\theta</m> satisfying (5), then B' = 0 in Equation (4) 
          so that the resulting equation in x'y'-coordinate system is in the form of Equation (3).
-         Moreover, we can always find an angle that satisfies <m>\text{cot}2\theta=\frac{A-C}{B}</m> for any A C, <m>\text{B} \,\, \quad \epsilon  \,\, \quad \Re , \text{B}\neq 0</m>
+         Moreover, we can always find an angle that satisfies <m>\text{cot}2\theta=\frac{A-C}{B}</m> for any A C, <m>\text{B}  \, \epsilon \, \Re , \text{B}\neq 0</m>
          since the range of the cotangent function is the entire set of real numbers.
-         Note also that since <m>2 \,\,\theta \, \quad \epsilon (0,\pi )</m>, the angel of rotation  can always be chosen so that <m>0&lt; \theta &lt; \frac{\pi}{2}</m>. So, the Theorem is proved. 
+         Note also that since <m>2 \,\,\theta \,  \epsilon (0,\pi )</m>, the angel of rotation  can always be chosen so that <m>0&lt; \theta &lt; \frac{\pi}{2}</m>. So, the Theorem is proved. 
     </p>
 
 
@@ -179,6 +179,9 @@
                             <m>
                                 8\left( \frac{x' - y'}{\sqrt{2}} \right)^2 + 28\left( \frac{x' - y'}{\sqrt{2}} \right)\left( \frac{x' + y'}{\sqrt{2}} \right)
                             </m>
+                            
+                        </p>
+                        <p>
                             <m>+ 8\left( \frac{x' + y'}{\sqrt{2}} \right)^2 - 32\left( \frac{x' - y'}{\sqrt{2}} \right) - 32\left( \frac{x' + y'}{\sqrt{2}} \right) + 30 = 0</m>
                         </p>
 
@@ -189,7 +192,7 @@
                         <p>
                             This is an equation of a parabola. Its vertex is <m>(h', k') = (0, 2)</m> relative to the <m>x'y'</m>-system, principal
                             axis is on <m>y'</m>-axis and opens towards negative <m>y'</m> direction. (You can show that its vertex is <m>(h, k) = \left( \frac{2}{\sqrt{2}}, -\frac{2}{\sqrt{2}} \right)</m>
-                            relative to the <m>xy</m>-system.) The graph of the equation is sketched in
+                            relative to the <m>xy</m>-system.) The graph of the equation is sketched in <xref ref="analytic-geometry1"/>
                         </p>
                         <figure xml:id="analytic-geometry1">
                             <caption></caption>
@@ -226,6 +229,8 @@
                             <m>
                                 73\left( \frac{3x' - 4y'}{5} \right)^2 - 72\left( \frac{3x' - 4y'}{5} \right)\left( \frac{4x' + 3y'}{5} \right) + 52\left( \frac{4x' + 3y'}{5} \right)^2 
                             </m>
+                        </p>
+                        <p>
                             <m>+ 30\left( \frac{3x' - 4y'}{5} \right) + 40\left( \frac{4x' + 3y'}{5} \right) - 75 = 0</m>
                         </p>
 
@@ -243,6 +248,7 @@
                             which is an ellipse with center at <m>(h',k') = (-1, 0)</m> relative to the <m>x'y'</m>-system, major axis on <m>x'</m>-
                             axis (which is the line <m>y = \frac{4}{3}x</m> ), length of major axis = 4 and length of minor axis = 2. (You
                             can show that the center is <m>(h, k) =\left( -\frac{3}{5}, -\frac{4}{5} \right)</m> relative to the <m>xy</m>-system).
+                            The graph of the equation is sketched in <xref ref="analytic-geometry2"/>
                         </p>
                         <figure xml:id="analytic-geometry2">
                             <caption></caption>

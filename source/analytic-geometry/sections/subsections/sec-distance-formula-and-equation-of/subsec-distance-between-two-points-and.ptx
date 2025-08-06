@@ -4,7 +4,7 @@
     <p>
         Recall that the distance between points <em>a</em> and <em>b</em> on a number line is      
         |<em>a</em> -<em>b</em>| = |<em>b</em> −<em>a</em>|. 
-        Thus, the distance between two points P(<m>x_1</m>, <m>y_1</m>) and R(<m>x_2</m>, <m>y_1</m>) on a horizontal line must be |<m>x_2</m> <m>x_1</m>| and the distance between Q(<m>x_2</m>, <m>y_2</m>) and R(<m>x_2</m>, <m>y_1</m>) on a vertical line must be |<m>y_2</m> -<m>y_1</m>|. .
+        Thus, the distance between two points P(<m>x_1</m>, <m>y_1</m>) and R(<m>x_2</m>, <m>y_1</m>) on a horizontal line must be |<m>x_2</m> <m>x_1</m>| and the distance between Q(<m>x_2</m>, <m>y_2</m>) and R(<m>x_2</m>, <m>y_1</m>) on a vertical line must be |<m>y_2</m> -<m>y_1</m>|.(See, <xref ref="distance_between-two-points"/>) .
     </p>
 
     <figure xml:id="distance_between-two-points">
@@ -53,7 +53,7 @@
 
    
     <p>To find distance <m>|PQ|</m> between any two points <m>P(x_1, y_1)</m> and <m>Q(x_2, y_2)</m>, we note that triangle PRQ
-    in Figure 4.2 is a right triangle, and so by Pythagorean Theorem we get:</p>
+    in <xref ref="distance_between-two-points"/> is a right triangle, and so by Pythagorean Theorem we get:</p>
 
     <p><m>|PQ|^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2 \iff |PQ| = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</m></p>
 
@@ -125,7 +125,7 @@
         
     </p>
     <p>
-        where <m>r_1</m> and <m>r_2</m> are given positive numbers.
+        where <m>r_1</m> and <m>r_2</m> are given positive numbers. (<xref ref="division_point-of-a-line-segment"/>)
     </p>
     <figure xml:id="division_point-of-a-line-segment">
         <caption></caption>
