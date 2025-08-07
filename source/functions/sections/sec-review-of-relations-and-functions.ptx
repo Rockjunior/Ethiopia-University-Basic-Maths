@@ -21,7 +21,7 @@
     <statement>
         <p>
             Suppose <m>A</m> and <m>B</m> are sets. The Cartesian product of <m>A</m> and <m>B</m>, denoted by <m>A \times B</m>, is the set which contains every ordered pair whose first coordinate is an element of <m>A</m> and second coordinate is an element of <m>B</m>, i.e.</p>
-            <p><m>A \times B ={(a,b):a \in A}</m> and <m>b \in B</m>.
+            <p><me>A \times B =\left\{ (a,b):a \in A \text{and} b \in B \right\}</me>.
         </p>
     </statement>
 </definition>
@@ -51,7 +51,11 @@
 
 <p>From example 3.1, we can see that <m>A \times B</m> and <m>B \times A</m> are not equal. Recall that two sets are equal if one is a subset of the other and vice versa. To check equality of Cartesian products we need to define equality of ordered pairs.</p>
 <definition xml:id="def-Equality-of-ordered-pairs">
+    <title>(Equality of ordered pairs)</title>
     <statement>
+        <p>
+            
+        </p>
         <p>
             Two ordered pairs <m>(a,b)</m> and <m>(c,d)</m> are equal if and only if <m>a = c</m> and <m>b = d</m>.
         </p>
@@ -59,14 +63,18 @@
 </definition>
 
 <definition xml:id="def-Relation">
+    <title>Relation from A into B</title>
     <statement>
+        <p>
+            
+        </p>
         <p>
             If <m>A</m> and <m>B</m> are sets, any subset of <m>A \times B</m> is called a relation from <em>A</em> into <em>B</em>.
         </p>
     </statement>
 </definition>
-<p>Suppose <em>R</em> is a relation from a set <em>A</em> to a set <em>B</em>. Then, <em>R</em>⊆ <em>A</em>×<em>B</em> and hence for each <m>(a,b) \in A \times B</m>, we have either <m>(a,b) \in R</m> or <m>(a,b) \notin R</m>. If <m>(a,b) \in R</m>, we say “<em>a</em> is <em>R-</em>related (or simply related) to <em>b</em>”, and write <m>\text{aRb}</m>. If <m>(a,b) \notin R</m>, we say that “<em>a</em> is not related to <em>b</em>”.</p>
-<p>In particular if <em>R</em> is a relation from a set <em>A</em> to itself, then we say that <em>R</em> is a relation on <em>A</em>.</p>
+<p>Suppose <m>R</m> is a relation from a set <m>A</m> to a set <m>B</m>. Then, <m>R</m>⊆ <m>A</m>×<m>B</m> and hence for each <m>(a,b) \in A \times B</m>, we have either <m>(a,b) \in R</m> or <m>(a,b) \notin R</m>. If <m>(a,b) \in R</m>, we say <q><m>a</m> is <m>R-</m>related (or simply related) to <m>b</m></q>, and write <m>\text{aRb}</m>. If <m>(a,b) \notin R</m>, we say that <q><m>a</m> is not related to <m>b</m></q>.</p>
+<p>In particular if <m>R</m> is a relation from a set <m>A</m> to itself, then we say that <m>R</m> is a relation on <m>A</m>.</p>
 <example>
     <statement>
             <p>
@@ -83,25 +91,25 @@
                    (a) The following are relations from <m>A</m> into <m>B</m>;
                 </p>
                             <p>
-                              (i) <m>R_1={(1,a)}</m> 
+                              (i) <m>R_1=\left\{ (1,a)\right\}</m> 
                             </p>
                             <p>
-                              (ii)  <m>R_2{(2,b ),(3,b ),(4,c ),(5, a)}</m> 
+                              (ii)  <m>R_2=\left\{(2,b ),(3,b ),(4,c ),(5, a)\right\}</m> 
                             </p>
                             <p>
-                               (iii) <m>R_3={(1,a),(2,b),(3,c)}</m>
+                               (iii) <m>R_3=\left\{(1,a),(2,b),(3,c)\right\}</m>
                             </p>
     <p>
        (b) The following are relations from <m>B</m> to <m>A</m>;
     </p>
                 <p>
-                   (i) <m>R_4={(a,3),(b,1)}</m>
+                   (i) <m>R_4=\left\{(a,3),(b,1)\right\}</m>
                 </p>
                 <p>
-                    (ii) <m>R_5={(b,2),(c,4),(a,2),(b,3)}</m>
+                    (ii) <m>R_5=\left\{(b,2),(c,4),(a,2),(b,3)\right\}</m>
                 </p>
                 <p>
-                    (iii) <m>R_6={(b,5)}</m>
+                    (iii) <m>R_6=\left\{(b,5)\right\}</m>
                 </p>
             </li>
         </ol>
@@ -119,19 +127,19 @@
             <ol marker="a)">
                 <li>
                     <p>
-                        the domain of <m>R</m>, denoted by <m>\text{Dom}(R)</m>, is the set of first coordinates of the elements of <m>R</m>, i.e
+                        the domain of <m>R</m>, denoted by <m>Dom(R)</m>, is the set of first coordinates of the elements of <m>R</m>, i.e
                     </p>
                     <p>
-                        <m>\text{Dom}(R) = {a \epsilon A:(a,b) \epsilon R}</m>
+                        <me>Dom(R) = \left\{a \in A:(a,b) \in R  \right\}</me>
                     </p>
                 </li>
 
                 <li>
                     <p>
-                        the range of <m>R</m>, denoted by <m>\text{Range}(R)</m>, is the set of second coordinates of elements of <m>R</m>, i.e
+                        the range of <m>R</m>, denoted by <m>Range(R)</m>, is the set of second coordinates of elements of <m>R</m>, i.e
                     </p>
                     <p>
-                        <m>\text{Range}(R) = {b \epsilon B:(a,b) \epsilon R}</m>
+                        <me>Range(R) = \left \{b \in B:(a,b) \in R \right \}</me>
                     </p>
                 </li>
             </ol>
@@ -139,9 +147,11 @@
     </statement>
 </definition>
 
+<remark>
 <p>
-    <m>\textbf{Remark}</m>: If <m>R</m> is a relation from the set <m>A</m> to the set <m>B</m>, then the set <m>B</m> is called the codomain of the relation <m>R</m>. The range of relation is always a subset of the codomain.
+     If <m>R</m> is a relation from the set <m>A</m> to the set <m>B</m>, then the set <m>B</m> is called the codomain of the relation <m>R</m>. The range of relation is always a subset of the codomain.
 </p>
+</remark>
 
 <example>
     <statement>
@@ -149,27 +159,25 @@
             <ol>
                 <li>
                     <p>
-                        The set <m>R = \left\{ (4,7),(5,8),(6,\text{10}) \right\}</m> is a relation from set <m>A = \left\{ 1,2,3,4,5,6 \right\}</m> to set <m>B = \left\{ 6,7,8,9,\text{10} \right\}</m>. The domain of <m>R</m> is <m>\left\{ 4,5,6 \right\}</m>, the range of <m>R</m> is <m>\left\{ 7,8,\text{10} \right\}</m> and the codomain of <m>R</m> is <m>\left\{ 6,7,8,9,\text{10} \right\}</m>.
+                        The set <m>R = \left \{ (4,7),(5,8),(6,\text{10}) \right \}</m> is a relation from set <m>A = \left\{ 1,2,3,4,5,6 \right\}</m> to set <m>B = \left\{ 6,7,8,9,\text{10} \right\}</m>. The domain of <m>R</m> is <m>\left\{ 4,5,6 \right\}</m>, the range of <m>R</m> is <m>\left\{ 7,8,\text{10} \right\}</m> and the codomain of <m>R</m> is <m>\left\{ 6,7,8,9,\text{10} \right\}</m>.
                     </p>
                 </li>
 
                 <li>
                     <p>
-                        The set of ordered pairs <m>R = \left\{ (8,2),(6, - 3),(5,7),(5, - 3) \right\}</m> is a relation between the sets <m>\left\{ 5,6,8 \right\}</m> and <m>\left\{ 2, - 3,7 \right\}</m>, where <m>\left\{ 5,6,7 \right\}</m> is the domain and <m>\left\{ 2, - 3,7 \right\}</m> is the range.
+                        The set of ordered pairs <m>R = \left \{ (8,2),(6, - 3),(5,7),(5, - 3) \right \}</m> is a relation between the sets <m>\left \{ 5,6,8 \right \}</m> and <m>\left \{ 2, - 3,7 \right \}</m>, where <m>\left\{ 5,6,7 \right\}</m> is the domain and <m>\left\{ 2, - 3,7 \right\}</m> is the range.
                     </p>
                 </li>
             </ol>
         </p>
     </statement>
 </example>
-<p>
-    <m>\textbf{Remark}</m>
-</p>
+<remark>
 <p>
     <ol>
         <li>
             <p>
-                If <m>(a,b) \in R</m> for a relation <m>R</m>, we say <m>a</m> is related to (or paired with) <m>b</m>. Note that <m>a</m> may also be paired with an element different from <m>b</m>. In any case, <m>b</m> is called the image of <m>a</m> while <m>a</m> is called the pimageA of <m>b</m>under <m>R</m>.
+                If <m>(a,b) \in R</m> for a relation <m>R</m>, we say <m>a</m> is related to (or paired with) <m>b</m>. Note that <m>a</m> may also be paired with an element different from <m>b</m>. In any case, <m>b</m> is called the image of <m>a</m> while <m>a</m> is called the pre-image of <m>b</m>under <m>R</m>.
             </p>
         </li>
         <li>
@@ -178,7 +186,7 @@
             </p>
 
             <p>
-                <m>R={(x,y):y=2x-3,x,y  \epsilon R}</m>
+                <me>R=\left \{(x,y):y=2x-3,x,y  \in R \right \}</me>
             </p>
             <p>
                 is a relation for which the range value is 3 less than twice the domain value. Hence, <m>(0,\  - 3),(0\text{.}5,\  - 2)</m>and <m>( - 2, - 7)</m> are examples of ordered pairs that are of the assignment.
@@ -186,6 +194,7 @@
         </li>
     </ol>
 </p>
+</remark>
 
 <example>
     <statement>
@@ -193,7 +202,10 @@
             <ol>
                 <li>
                     <p>
-                        Let <m>A = \left\{ 1,\ 2,\ 3,\ 4,\ 6 \right\}</m> Let <m>R</m> be the relation on <m>A</m> defined by <m>R =</m>is a factor of <m>b</m>. Find the domain and range of <m>R</m>.
+                        Let <m>A = \left\{ 1,\ 2,\ 3,\ 4,\ 6 \right\}</m> 
+                    </p>
+                    <p>
+                        Let <m>R</m> be the relation on <m>A</m> defined by <m>R =\left\{(a,b):a,b \in A,a\,\text{is a factor of}\,b \right\}</m>. Find the domain and range of <m>R</m>.
                     </p>
                 </li>
 
@@ -203,7 +215,7 @@
                     </p>
 
                     <p>
-                        Let <m>R={(x,y) \epsilon A \times B:x is cube root of y}.  </m>Find
+                        Let <m>R=\left \{(x,y) \in A \times B:x\, \text{is cube root of}\, y\right \}.  </m>Find
                     </p>
 
                     <sidebyside>
@@ -211,11 +223,11 @@
                             (a) <m>R</m>
                         </p>
                         <p>
-                            (b) <m>\text{Dom}(R)</m>
+                            (b) <m>Dom(R)</m>
                         </p>
 
                         <p>
-                            (c) <m>\text{Range}(R)</m>
+                            (c) <m>Range(R)</m>
                         </p>
                     </sidebyside>
                 </li>
@@ -234,7 +246,7 @@
                     </p>
 
                     <p>
-                        Then, <m>\text{Dom}(R) = \left\{ 1,2,3,4,6 \right\}</m> and <m>\text{Range}(R) = \left\{ 1,2,3,4,6 \right\}</m>.
+                        Then, <m>Dom(R) = \left\{ 1,2,3,4,6 \right\}</m> and <m>Range(R) = \left\{ 1,2,3,4,6 \right\}</m>.
                     </p>
                 </li>
 
@@ -244,17 +256,14 @@
                     </p>
 
                     <p>
-                         <m>1 = \sqrt[{3,}]{1},\ 2 = \sqrt[3]{8},\ 3 = \sqrt[3]{\text{27}},\ 4 = \sqrt[3]{\text{64}},\ 5 = \sqrt[3]{\text{125}}</m> and <m>1,\ 8,\ \text{27}</m> and 64 are in <m>B</m> whereas 125 is not in <m>B</m>. Thus, <m>R = \left\{ (1,1),(2,8),(3,\text{27}),(4,\text{64}) \right\}</m>, <m>\text{Dom}(R) = \left\{ 1,2,3,4 \right\}</m> and <m>R = \left\{ 1,8,\text{27},\text{64} \right\}</m>.
+                         <m>1 = \sqrt[{3,}]{1},\ 2 = \sqrt[3]{8},\ 3 = \sqrt[3]{\text{27}},\ 4 = \sqrt[3]{\text{64}},\ 5 = \sqrt[3]{\text{125}}</m> and <m>1,\ 8,\ \text{27}</m> and <m>64</m> are in <m>B</m> whereas <m>125</m> is not in <m>B</m>. Thus, <m>R = \left\{ (1,1),(2,8),(3,\text{27}),(4,\text{64}) \right\}</m>, <m>\text{Dom}(R) = \left\{ 1,2,3,4 \right\}</m> and <m>R = \left\{ 1,8,\text{27},\text{64} \right\}</m>.
                     </p>
                 </li>
             </ol>
         </p>
     </solution>
 </example>
-
-<p>
-    <m>\textbf{Remark:}</m>
-</p>
+<remark>
 
 <p>
     <ol>
@@ -269,7 +278,7 @@
                            (ii) identity relation if <m>R = \left\{ (a,a):a \in A \right\}</m>
                         </p>
                         <p>
-                           (iii) void or empty relation if <m>R = \varphi</m>
+                           (iii) void or empty relation if <m>R = \phi</m>
                         </p>
         </li>
 
@@ -279,20 +288,21 @@
             </p>
 
             <p>
-                <m>R^{- 1} = \left\{ (y,x):(x,y) \in R \right\}</m>.
+                <me>R^{- 1} = \left\{ (y,x):(x,y) \in R \right\}</me>.
             </p>
 
             <p>
-                Observe that <m>\text{Dom}(R) = \text{Range}(R^{- 1})</m> and <m>\text{Range}(R) = \text{Dom}(R^{- 1})</m>. For instance, if <m>R = \left\{ (1,4),(9,\text{15}),(\text{10},2) \right\}</m> is a relation on a set <m>A = \left\{ 1,2,3,\cdots,\text{20} \right\}</m>, then <m>R^{- 1} = \left\{ (4,1),(\text{15},9),(2,\text{10}) \right\}</m>
+                Observe that <m>Dom(R) = Range(R^{- 1})</m> and <m>Range(R) = Dom(R^{- 1})</m>. For instance, if <m>R = \left\{ (1,4),(9,\text{15}),(\text{10},2) \right\}</m> is a relation on a set <m>A = \left\{ 1,2,3,\cdots,\text{20} \right\}</m>, then <m>R^{- 1} = \left\{ (4,1),(\text{15},9),(2,\text{10}) \right\}</m>
             </p>
         </li>
     </ol>
 </p>
+</remark>
 
 <example>
     <statement>
         <p>
-            Let <m>R</m> be a relation defined on <m>\text{IN}</m> by <m>R = \left\{ (a,b):a,b \in \text{IN},\ a + 2b = \text{11} \right\}</m>.Find
+            Let <m>R</m> be a relation defined on <m>\mathbb{N}</m> by <m>R = \left\{ (a,b):a,b \in \mathbb{N},\ a + 2b = \text{11} \right\}</m>.Find
         </p>
         <sidebyside>
             <p>
@@ -300,11 +310,11 @@
             </p>
 
             <p>
-                (b) <m>\text{Dom}(R)</m>
+                (b) <m>Dom(R)</m>
             </p>
 
             <p>
-                (c) <m>\text{Range}(R)</m>
+                (c) <m>Range(R)</m>
             </p>
 
             <p>
@@ -322,8 +332,8 @@
         <p><m>b = 3\  \Rightarrow \ a + 2(3) = \text{11}\  \Rightarrow a = 5</m></p>
         <p><m>b = 4\  \Rightarrow \ a + 2(4) = \text{11}\  \Rightarrow a = 3</m></p>
         <p><m>b = 5\  \Rightarrow \ a + 2(5) = \text{11}\  \Rightarrow a = 1</m></p>
-        <p><m>b = 6\  \Rightarrow \ a + 2(6) = \text{11}\  \Rightarrow a = - 1 \notin \text{IN}</m></p>
-        <p>Therefore, <m>R = \left\{ (9,1),(7,2),(5,3),(3,4),(1,5) \right\}</m>, <m>\text{Dom}(R) = \left\{ 1,3,5,7,9 \right\}</m>, <m>\text{Range}(R) = \left\{ 1,2,3,4,5 \right\}</m> and <m>R^{- 1} = \left\{ (1,9),(2,7),(3,5),(4,3),(5,1) \right\}</m>.</p>
+        <p><m>b = 6\  \Rightarrow \ a + 2(6) = \text{11}\  \Rightarrow a = - 1 \notin \mathbb{N}</m></p>
+        <p>Therefore, <m>R = \left\{ (9,1),(7,2),(5,3),(3,4),(1,5) \right\}</m>, <m>Dom(R) = \left\{ 1,3,5,7,9 \right\}</m>, <m>Range(R) = \left\{ 1,2,3,4,5 \right\}</m> and <m>R^{- 1} = \left\{ (1,9),(2,7),(3,5),(4,3),(5,1) \right\}</m>.</p>
     </solution>
 </example>
 <p>
@@ -338,7 +348,11 @@
 <p>Mathematically, it is important for us to distinguish among the relations that assign a unique range element to each domain element and those that do not.</p>
 
 <definition xml:id="def-Function">
+    <title>Function</title>
     <statement>
+        <p>
+            
+        </p>
         <p>
             A function is a relation in which each element of the domain corresponds to exactly one element of the range.
         </p>
@@ -356,7 +370,7 @@
             </p>
 
             <p>
-                (b)  <m>R{(2,4),(3,4),(6,-4)}</m>
+                (b)  <m>R\left\{(2,4),(3,4),(6,-4)\right\}</m>
             </p>
         </sidebyside>
     </statement>
@@ -371,26 +385,27 @@
 
                 <li>
                     <p>
-                        Each element in the domain, <m>\left\{ 2,3,6 \right\}</m>, is assigned no more than one value in the range, 2 is assigned only 4, 3 is assigned only 4, and 6 is assigned only <m>-4</m>. Therefore, it is a function.
+                        Each element in the domain, <m>\left\{ 2,3,6 \right\}</m>, is assigned no more than one value in the range, <m>2</m> is assigned only <m>4</m>, <m>3</m> is assigned only <m>4</m>, and <m>6</m> is assigned only <m>-4</m>. Therefore, it is a function.
                     </p>
                 </li>
             </ol>
         </p>
     </solution>
 </example>
-
+<remark>
 <p>
-    <m>\textbf{Remark:}</m> Map or mapping, transformation and correspondence are synonyms for the word function. If <m>f</m> is a function and <m>(x,y) \in f</m>, we say <m>x</m> is mapped to <m>y</m> by <m>f</m>.
+  Map or mapping, transformation and correspondence are synonyms for the word function. If <m>f</m> is a function and <m>(x,y) \in f</m>, we say <m>x</m> is mapped to <m>y</m> by <m>f</m>.
 </p>
+</remark>
 
 <definition xml:id="def-mapping-transformation-correspondence">
     <statement>
         <p>
-            A relation <m>f</m>from <em>A</em> into <em>B</em> is called a function from <em>A</em> into <em>B</em>, denoted by
+            A relation <m>f</m> from <em>A</em> into <em>B</em> is called a function from <em>A</em> into <em>B</em>, denoted by
         </p>
 
         <p>
-            <m>f:A \rightarrow B</m> or <m>A\overrightarrow{f}B</m>
+            <m>f:A \rightarrow B</m> or <m>A\,\xrightarrow{f}\,B</m>
         </p>
 
         <p>
@@ -414,9 +429,7 @@
         </p>
     </statement>
 </definition>
-<p>
-    <m>\textbf{Remark:}</m>
-</p>
+<remark>
 <p>
     <ol >
         <li>
@@ -438,6 +451,7 @@
         </li>
     </ol>
 </p>
+</remark>
 
 <example>
     <statement>

@@ -27,66 +27,65 @@
         </p>
     </assemblage>
 
-
-    <paragraphs>
-        <title>Basic Concepts of Arguments</title>
-
-        <definition >
-            <statement>
-                <p>
-                    An argument (logical deduction) is an assertion that a given set of statements <m>p_{1},\,p_{2},\dots,p_{n}</m>, called <m>\textbf{hypotheses}</m> or <em><m>\textbf{premises}</m></em>, yield another statement <m>\textbf{Q}</m>, called the <m>\textbf{conclusion}</m>.
-                    Such a logical deduction is denoted by:
-                </p>
-
-                <tabular>
-                    <row>
-                        <cell><m>p_{1},</m></cell>
-                        <cell><m>p_{2},</m></cell>
-                        <cell><m>\ldots,</m></cell>
-                        <cell><m>p_{n}</m></cell>
-                        <cell><m>\vdash\;Q \,\, \text{ or}</m></cell>
-                    </row>
-
-                    <row>
-                        <cell><m>p_{1}</m></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                    </row>
-
-                    <row>
-                        <cell><m>p_{2}</m></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                    </row>
-
-                    <row>
-                        <cell><m>\\ \vdots\\</m></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                    </row>
-
-                    <row>
-                        <cell><m>\frac{p_{n}}{Q}</m></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                    </row>
-                </tabular>
-            </statement>
-        </definition>
-
-        <example>
+    <definition >
+        <statement>
             <p>
-                Consider the following argument:
+                An argument (logical deduction) is an assertion that a given set of 
+                statements <m>p_{1},\,p_{2},\dots,p_{n}</m>, called <m>\textbf{hypotheses}</m> or 
+                <alert>premises</alert>, yield another statement <m>Q</m>, called the <alert>conclusion</alert>.
+                Such a logical deduction is denoted by:
             </p>
 
+            <tabular>
+                <row>
+                    <cell><m>p_{1},</m></cell>
+                    <cell><m>p_{2},</m></cell>
+                    <cell><m>\ldots,</m></cell>
+                    <cell><m>p_{n}</m></cell>
+                    <cell><m>\vdash\;Q \,\, \text{ or}</m></cell>
+                </row>
+
+                <row>
+                    <cell><m>p_{1}</m></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+
+                <row>
+                    <cell><m>p_{2}</m></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+
+                <row>
+                    <cell><m>\\ \vdots\\</m></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+
+                <row>
+                    <cell><m>\frac{p_{n}}{Q}</m></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </statement>
+    </definition>
+
+    <example>
+        <p>
+            Consider the following argument:
+        </p>
+
+        <blockquote>
             <p>
                 If you study hard, then you will pass the exam.
             </p>
@@ -98,13 +97,12 @@
             <p>
                 Therefore, you did not study hard.
             </p>
-
             <p>
                 Let <m>p</m>: You study hard.
             </p>
 
             <p>
-                <m >\qquad q</m>: You will pass the exam.
+                <m >\quad \,\,\, q</m>: You will pass the exam.
             </p>
 
             <p>
@@ -116,312 +114,310 @@
                     \begin{array}{r} p \Rightarrow q\\ \neg q\\ \hline \neg p \end{array}
                 </me>
             </p>
-        </example>
-
-        <p>
-            When is an argument form accepted to be correct? In normal usage, we use an argument in order to demonstrate that a certain conclusion follows from known premises.
-            Therefore, we shall require that under any assignment of truth values to the statements appearing, if the premises became all true, then the conclusion must also become true.
-            Hence, we state the following definition.
-        </p>
-    </paragraphs>
+        </blockquote>
 
 
-    <paragraphs>
-        <title>Validity of Arguments</title>
+     
+    </example>
 
-        <definition>
-            <statement>
-                <p>
-                    An argument form <m>p_1, p_2, p_3, \ldots, p_n \vdash Q</m> is said to be <em>valid</em> if <m>Q</m> is true whenever all the premises <m>p_1, p_2, p_3, \ldots, p_n</m> are true; otherwise it is <em>invalid</em>.
-                </p>
-            </statement>
-        </definition>
+    <p>
+        When is an argument form accepted to be correct? In normal usage, we use an argument in order to demonstrate that a certain conclusion follows from known premises.
+        Therefore, we shall require that under any assignment of truth values to the statements appearing, if the premises became all true, then the conclusion must also become true.
+        Hence, we state the following definition.
+    </p>
 
-        <example>
-            <statement>
-                <p>
-                    Investigate the validity of the following arguments:
-                </p>
-
-                <p>
-                    <ol marker="a. ">
-                        <li>
-                            <p>
-                                <m>p \Rightarrow q, \, \neg q \vdash \neg p</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                <m>p \Rightarrow q, \, \neg q \Rightarrow r \vdash p</m>
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                If it rains, crops will be good.
-                                It did not rain.
-                                Therefore, crops were not good.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-
-            <solution>
-                <p>
-                    First we construct a truth table for the statements appearing in the argument forms.
-                </p>
-
-                <p>
-                    <ol>
-                        <li>
-                            <p>
-                            </p>
-
-                            <tabular top="major" bottom="medium" left="medium" right="medium">
-                                <row>
-                                    <cell><m>p</m></cell>
-                                    <cell><m>q</m></cell>
-                                    <cell><m>\neg p</m></cell>
-                                    <cell><m>\neg q</m></cell>
-                                    <cell><m>p \Rightarrow q</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-                            </tabular>
-
-                            <p>
-                                The premises <m>p \Rightarrow q</m> and <m>\neg q</m> are true simultaneously in row 4 only.
-                                Since in this case <m>\neg p</m> is also true, the argument is valid.
-                            </p>
-                        </li>
-
-                        <li>
-                            <tabular top="major" bottom="medium" left="medium" right="medium">
-                                <row>
-                                    <cell><m>p</m></cell>
-                                    <cell><m>q</m></cell>
-                                    <cell><m>r</m></cell>
-                                    <cell><m>\neg q</m></cell>
-                                    <cell><m>p \Rightarrow q</m></cell>
-                                    <cell><m>\neg q \Rightarrow r</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                </row>
-                            </tabular>
-
-                            <p>
-                                The <m>1^{\text{st}}</m>, <m>2^{\text{nd}}</m>, <m>5^{\text{th}}</m>, <m>6^{\text{th}}</m> and <m>7^{\text{th}}</m> rows are those in which all the premises take value <m>T</m>.
-                                In the <m>5^{\text{th}}</m>, <m>6^{\text{th}}</m> and <m>7^{\text{th}}</m> rows however the conclusion takes value <m>F</m>.
-                                Hence, the argument form is invalid.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                Let <m>p</m>: It rains.
-                            </p>
-
-                            <p>
-                                <m>\qquad q</m>: Crops are good.
-                            </p>
-
-                            <p>
-                                <m>\qquad \neg p</m>: It did not rain.
-                            </p>
-
-                            <p>
-                                <m>\qquad \neg q</m>: Crops were not good.
-                            </p>
-
-                            <p>
-                                The argument form is <m>p \Rightarrow q, -p \vdash -q</m>
-                            </p>
-
-                            <p>
-                                Now we can use truth table to test validity as follows:
-                            </p>
-
-                            <tabular top="major" bottom="medium" left="medium" right="medium">
-                                <row>
-                                    <cell><m>p</m></cell>
-                                    <cell><m>q</m></cell>
-                                    <cell><m>\neg p</m></cell>
-                                    <cell><m>\neg q</m></cell>
-                                    <cell><m>p \Rightarrow q</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-
-                                <row>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>F</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                    <cell><m>T</m></cell>
-                                </row>
-                            </tabular>
-
-                            <p>
-                                Examining the table, we can see that the premises <m>p \Rightarrow q</m> and <m>\neg p</m> are true in both rows 3 and 4.
-                                However, in row 3, <m>\neg q</m> is false, which means the argument is invalid.
-                            </p>
-
-                            <p>
-                                The premises <m>p \Longrightarrow q</m> and <m>\neg p</m> are true simultaneously in row 4 only.
-                                Since in this case <m>\neg q</m> is also true, the argument is valid.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </solution>
-        </example>
-
-        <remark>
+    <definition>
+        <statement>
             <p>
-                <ol>
+                An argument form <m>p_1, p_2, p_3, \ldots, p_n \vdash Q</m> is said to be <em>valid</em> if <m>Q</m> is true whenever all the premises <m>p_1, p_2, p_3, \ldots, p_n</m> are true; otherwise it is <em>invalid</em>.
+            </p>
+        </statement>
+    </definition>
+
+    <example>
+        <statement>
+            <p>
+                Investigate the validity of the following arguments:
+            </p>
+
+            <p>
+                <ol marker="a. ">
                     <li>
                         <p>
-                            What is important in validity is the form of the argument rather than the meaning or content of the statements involved.
+                            <m>p \Rightarrow q, \, \neg q \vdash \neg p</m>
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            The argument form <m>p_{1},\ p_{2},p_{3},\ldots,p_{n}\ ├\ \ Q</m> is valid iff the statement
+                            <m>p \Rightarrow q, \, \neg q \Rightarrow r \vdash p</m>
                         </p>
+                    </li>
 
+                    <li>
                         <p>
-                            <m>(p_{1} \land p_{2} \land p_{3} \land \ldots \land p_{n}\ ) \Longrightarrow Q</m> is a tautology.
+                            If it rains, crops will be good.
+                            It did not rain.
+                            Therefore, crops were not good.
                         </p>
                     </li>
                 </ol>
             </p>
-        </remark>
-    </paragraphs>
+        </statement>
+
+        <solution>
+            <p>
+                First we construct a truth table for the statements appearing in the argument forms.
+            </p>
+
+            <p>
+                <ol marker="a. ">
+                    <li>
+                        <p>
+                        </p>
+
+                        <tabular top="major" bottom="medium" left="medium" right="medium">
+                            <row>
+                                <cell><m>p</m></cell>
+                                <cell><m>q</m></cell>
+                                <cell><m>\neg p</m></cell>
+                                <cell><m>\neg q</m></cell>
+                                <cell><m>p \Rightarrow q</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+                        </tabular>
+
+                        <p>
+                            The premises <m>p \Rightarrow q</m> and <m>\neg q</m> are true simultaneously in row 4 only.
+                            Since in this case <m>\neg p</m> is also true, the argument is valid.
+                        </p>
+                    </li>
+
+                    <li>
+                        <tabular top="major" bottom="medium" left="medium" right="medium">
+                            <row>
+                                <cell><m>p</m></cell>
+                                <cell><m>q</m></cell>
+                                <cell><m>r</m></cell>
+                                <cell><m>\neg q</m></cell>
+                                <cell><m>p \Rightarrow q</m></cell>
+                                <cell><m>\neg q \Rightarrow r</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                            </row>
+                        </tabular>
+
+                        <p>
+                            The <m>1^{\text{st}}</m>, <m>2^{\text{nd}}</m>, <m>5^{\text{th}}</m>, <m>6^{\text{th}}</m> and <m>7^{\text{th}}</m> rows are those in which all the premises take value <m>T</m>.
+                            In the <m>5^{\text{th}}</m>, <m>6^{\text{th}}</m> and <m>7^{\text{th}}</m> rows however the conclusion takes value <m>F</m>.
+                            Hence, the argument form is invalid.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Let <m>p</m>: It rains.
+                        </p>
+
+                        <p>
+                            <m>\qquad q</m>: Crops are good.
+                        </p>
+
+                        <p>
+                            <m>\qquad \neg p</m>: It did not rain.
+                        </p>
+
+                        <p>
+                            <m>\qquad \neg q</m>: Crops were not good.
+                        </p>
+
+                        <p>
+                            The argument form is <m>p \Rightarrow q, -p \vdash -q</m>
+                        </p>
+
+                        <p>
+                            Now we can use truth table to test validity as follows:
+                        </p>
+
+                        <tabular top="major" bottom="medium" left="medium" right="medium">
+                            <row>
+                                <cell><m>p</m></cell>
+                                <cell><m>q</m></cell>
+                                <cell><m>\neg p</m></cell>
+                                <cell><m>\neg q</m></cell>
+                                <cell><m>p \Rightarrow q</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+
+                            <row>
+                                <cell><m>F</m></cell>
+                                <cell><m>F</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                                <cell><m>T</m></cell>
+                            </row>
+                        </tabular>
+
+                        <p>
+                            Examining the table, we can see that the premises <m>p \Rightarrow q</m> and <m>\neg p</m> are true in both rows 3 and 4.
+                            However, in row 3, <m>\neg q</m> is false, which means the argument is invalid.
+                        </p>
+
+                        <p>
+                            The premises <m>p \Longrightarrow q</m> and <m>\neg p</m> are true simultaneously in row 4 only.
+                            Since in this case <m>\neg q</m> is also true, the argument is valid.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+
+    <remark>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        What is important in validity is the form of the argument rather than the meaning or content of the statements involved.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        The argument form <m>p_{1},\ p_{2},p_{3},\ldots,p_{n}\ ├\ \ Q</m> is valid iff the statement
+                    </p>
+
+                    <p>
+                        <m>(p_{1} \land p_{2} \land p_{3} \land \ldots \land p_{n}\ ) \Longrightarrow Q</m> is a tautology.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </remark>
 
 
     <paragraphs>
@@ -551,16 +547,13 @@
 
 
     <paragraphs>
-        <title>Formal Proofs of Validity</title>
-
-        <p>
-            A formal proof demonstrates the validity of an argument using a sequence of logical steps.
-        </p>
-
+        <title>Formal proofs of validity of an argument</title>
         <definition>
             <statement>
                 <p>
-                    A formal proof of a conclusion <m>Q</m> given hypotheses <m>p_{1},\ p_{2},p_{3},\ldots,p_{n}</m> is a sequence of steps, each of which applies some inference rule to hypotheses or previously proven statements (antecedent) to yield a new true statement (the consequent).
+                    A formal proof of a conclusion <m>Q</m> given hypotheses <m>p_{1},\ p_{2},p_{3},\ldots,p_{n}</m>
+                    is a sequence of steps, each of which applies some inference rule to hypotheses or previously 
+                    proven statements (antecedent) to yield a new true statement (the consequent).
                 </p>
             </statement>
         </definition>
@@ -714,7 +707,7 @@
             </p>
 
             <p>
-                <ol marker="i">
+                <ol marker="i. ">
                     <li>
                         <p>
                             <m>\neg p \Longrightarrow \neg q,\ q\ \vdash\ p</m>.
@@ -755,7 +748,7 @@
                 For the following arguments given a, b and c below:
             </p>
 
-            <ol marker="i">
+            <ol marker="i. ">
                 <li>
                     <p>
                         Identify the premises.
@@ -772,57 +765,29 @@
                     <p>
                         Check the validity.
                     </p>
-                </li>
-            </ol>
-
-            <ol marker="a">
-                <li>
                     <p>
-                        <m>\qquad</m> If he studies medicine, he will get a good job.
-                    </p>
+                        <ol marker="a. ">
+                            <li>
+                                <p>
+                                    If he studies medicine, he will get a good job. If he gets a good job, he will get a good wage.
+                                    He did not get a good wage. Therefore, he did not study medicine.
+                                </p>
+                            </li>
 
-                    <p>
-                        <m>\qquad</m> If he gets a good job, he will get a good wage.
-                    </p>
+                            <li>
+                                <p>
+                                    If the team is late, then it cannot play the game. If the referee is here, then the team can play the game.
+                                    The team is late. Therefore, the referee is not here.
+                                </p>
+                            </li>
 
-                    <p>
-                        <m>\qquad</m> He did not get a good wage.
-                    </p>
-
-                    <p>
-                        <m>\qquad</m> Therefore, he did not study medicine.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        <m>\qquad</m> If the team is late, then it cannot play the game.
-                    </p>
-
-                    <p>
-                        <m>\qquad</m> If the referee is here, then the team can play the game.
-                    </p>
-
-                    <p>
-                        <m>\qquad</m> The team is late.
-                    </p>
-
-                    <p>
-                        <m>\qquad</m> Therefore, the referee is not here.
-                    </p>
-                </li>
-
-                <li>
-                    <p>
-                        <m>\qquad</m> If the professor offers chocolate for an answer, you answer the professor's question.
-                    </p>
-
-                    <p>
-                        <m>\qquad</m> The professor offers chocolate for an answer.
-                    </p>
-
-                    <p>
-                        <m>\qquad</m> Therefore, you answer the professor's question.
+                            <li>
+                                <p>
+                                    If the professor offers chocolate for an answer, you answer the professor's question. 
+                                    The professor offers chocolate for an answer. Therefore, you answer the professor's question.
+                                </p>
+                            </li>
+                        </ol>
                     </p>
                 </li>
             </ol>
@@ -836,13 +801,10 @@
             </p>
 
             <p>
-                <ol marker="a. ">
+                <ol marker="a.  ">
                     <li>
                         <p>
                             <m>\neg p \Longrightarrow \neg q,\ q\ \vdash\ p</m>.
-                        </p>
-
-                        <p>
                         </p>
                     </li>
 
@@ -850,17 +812,11 @@
                         <p>
                             <m>p \Longrightarrow \neg q,\ p,\ r \Longrightarrow q\ \vdash\ \neg r</m>.
                         </p>
-
-                        <p>
-                        </p>
                     </li>
 
                     <li>
                         <p>
                             <m>p \Longrightarrow q,\ \neg r \Longrightarrow \neg q\ \vdash\ \neg r \Longrightarrow \neg p</m>.
-                        </p>
-
-                        <p>
                         </p>
                     </li>
 
@@ -868,17 +824,11 @@
                         <p>
                             <m>\neg r \land \neg s,\ (\neg s \Longrightarrow p) \Longrightarrow r\ \vdash\ \neg p</m>.
                         </p>
-
-                        <p>
-                        </p>
                     </li>
 
                     <li>
                         <p>
                             <m>p \Longrightarrow q,\ \neg p \Longrightarrow r,\ r \Longrightarrow s\ \vdash\ \neg q \Longrightarrow s</m>.
-                        </p>
-
-                        <p>
                         </p>
                     </li>
 
@@ -886,26 +836,17 @@
                         <p>
                             <m>\neg p \vee q,\ r \Longrightarrow p,\ r\ \vdash\ q</m>.
                         </p>
-
-                        <p>
-                        </p>
                     </li>
 
                     <li>
                         <p>
                             <m>\neg p \land \neg q,\ (q \vee r) \Longrightarrow p\ \vdash\ \neg r</m>.
                         </p>
-
-                        <p>
-                        </p>
                     </li>
 
                     <li>
                         <p>
                             <m>p \Longrightarrow (q \vee r),\ \neg r,\ p\ \vdash\ q</m>.
-                        </p>
-
-                        <p>
                         </p>
                     </li>
 
@@ -923,10 +864,7 @@
         <statement>
             <p>
                 Prove the following are valid arguments by giving formal proof.
-            </p>
-
-            <p>
-                <ol marker="a">
+                <ol marker="a. ">
                     <li>
                         <p>
                             If the rain does not come, the crops are ruined and the people will starve.
