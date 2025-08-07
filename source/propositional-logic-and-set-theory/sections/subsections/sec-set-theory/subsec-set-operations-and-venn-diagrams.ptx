@@ -37,9 +37,12 @@
         As suggested by <xref ref="definition-set-theory-2"/>, the intersection operator <q><m>\cap</m></q> in the theory of sets is the
         counterpart of the logical operator <q><m>\wedge</m></q>.
     </p>
-    <p>
-        <term>Note:-</term> Two sets <m>A</m> and <m>B</m> are said to be disjoint sets if <m>A\cap   B=\phi .</m>
-    </p>
+
+    <note>
+        <p>
+            Two sets <m>A</m> and <m>B</m> are said to be disjoint sets if <m>A\cap   B=\phi .</m>
+        </p>
+    </note>
 
     <example>
         <statement>
@@ -90,9 +93,12 @@
             </p>
         </statement>
     </definition>
-    <p>
-        <term>Note:</term> <m>A - B</m> is sometimes denoted by <m>A\setminus B.</m> <m>A-B \text{ and } A\setminus B</m> are used interchangeably.
-    </p>
+    
+    <note>
+        <p>
+            <m>A - B</m> is sometimes denoted by <m>A\setminus B.</m> <m>A-B \text{ and } A\setminus B</m> are used interchangeably.
+        </p>
+    </note>
 
     <example>
         <statement>
@@ -101,9 +107,12 @@
             </p>
         </statement>
     </example>
-    <p>
-        <term>Note:</term> The above example shows that, in general, <m>A - B \text{ and } B - A</m> are disjoint.
-    </p>
+    
+    <note>
+        <p>
+            The above example shows that, in general, <m>A - B \text{ and } B - A</m> are disjoint.
+        </p>
+    </note>
 
     <definition xml:id="def-set-operations-and-venn-diagrams-4">
         <statement>
@@ -311,7 +320,7 @@
     </p>
 
     <p>
-        <term>Venn diagrams</term>
+        <m>\textbf{Venn diagrams}</m>
     </p>
     <p>
         While working with sets, it is helpful to use diagrams, called <term>Venn diagrams</term>, to illustrate the

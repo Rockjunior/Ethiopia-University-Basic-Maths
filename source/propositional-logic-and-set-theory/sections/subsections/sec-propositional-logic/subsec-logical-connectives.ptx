@@ -34,6 +34,7 @@
     </p>
 
     <tabular right="minor" left="minor" top="minor" halign="center">
+        <col width="100%"></col>
         <row header="yes" bottom="minor">
             <cell><m>p</m></cell> <cell><m>q</m></cell> <cell><m>p\text{^}q</m></cell>
         </row>
@@ -104,6 +105,7 @@
     </p>
 
     <tabular left="medium" right="minor" top="minor" halign="center">
+        <col width="100%"></col>
         <row header="yes" bottom="minor">
             <cell><m>p</m></cell>
             <cell><m>q</m></cell>
@@ -554,6 +556,7 @@
                     Complete the following truth table.
                 </p>
                 <tabular left="minor" right="minor" top="minor">
+                    <col width="100%"></col>
                     <row header="yes" bottom="minor">
                         <cell><m>p</m></cell> <cell><m>q</m></cell> 
                         <cell><m>\neg q</m></cell> <cell><m>p \land \neg q</m></cell>

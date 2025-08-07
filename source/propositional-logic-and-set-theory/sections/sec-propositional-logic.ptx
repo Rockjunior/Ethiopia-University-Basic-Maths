@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="propositional-logic" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Propositional Logic</title>
-    <p>
+    <introduction>
+        <p>
         Mathematical or symbolic logic is an analytical theory of the art of reasoning whose goal is to systematize and codify principles of valid reasoning. 
         It has emerged from a study of the use of language in argument and persuasion and is based on the identification and examination of those parts of language which are essential for these purposes. 
         It is formal in the sense that it lacks reference to meaning. Thereby it achieves versatility: 
@@ -40,6 +41,7 @@
             </li>
         </ul>
     </p>
+    </introduction>
 
     <xi:include href="subsections/sec-propositional-logic/subsec-definition-and-examples-of-propositions.ptx" />
     <xi:include href="subsections/sec-propositional-logic/subsec-logical-connectives.ptx" />

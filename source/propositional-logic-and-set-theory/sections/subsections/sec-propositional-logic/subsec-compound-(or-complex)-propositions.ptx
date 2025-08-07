@@ -158,6 +158,7 @@
                 <em>Q</em>:<m>\neg p \Longrightarrow \neg q</m>.
             </p>
             <tabular top="minor" left="minor" right="minor" halign="center">
+                <col width="100%"></col>
                 <row header="yes" bottom="minor">
                     <cell><m>p</m></cell> <cell><m>q</m></cell> <cell><m>\neg p</m></cell> <cell><m>\neg q</m></cell> <cell><m>p \Longrightarrow q</m></cell> <cell><m>\neg p \Longrightarrow \neg q</m></cell>
                 </row>

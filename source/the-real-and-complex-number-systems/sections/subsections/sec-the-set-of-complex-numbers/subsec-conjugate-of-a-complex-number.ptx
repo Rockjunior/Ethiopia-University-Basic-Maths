@@ -1,6 +1,6 @@
 <subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-conjugate-of-a-complex-number">
 <title>Conjugate of a complex number</title>
-<definition xml:id="def-">
+<definition xml:id="def-conjugate">
     <statement>
         <p>
             The conjugate of a complex number z = x+iy is denoted by <m>\ \overline{z}</m> and is defined as <m>\ \overline{z}</m> = x-iy. It can be represented by the point (x, -y) which is the reflection of the point (x, y) about the x-axis.

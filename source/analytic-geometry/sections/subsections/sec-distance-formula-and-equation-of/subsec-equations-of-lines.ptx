@@ -2,10 +2,10 @@
     <title>Equations of lines</title>
     <p>An equation of a line <em><alert>l</alert></em> is an equation which must be satisfied by the coordinates (<em>x</em>, <em>y</em>) of every point on the line. A line can be vertical, horizontal or oblique. The equation of a vertical line that intersects the <em>x</em>-axis at (<em>a</em>, 0) is <em>x=a</em> because the <em>x</em>-coordinate of every point on the line is <em>a</em>. Similarly, the equation of a horizontal line that intersects the <em>y</em>-axis at (0, <em>b</em>) is <em>y=b</em> because the <em>y</em>-coordinate of every point on the line is <em>b</em>.</p>
     <p>An oblique line is a straight line which is neither vertical nor horizontal. To find equation of an oblique line we use its slope which is the measure of the steepness of the line. In particular, the slope of a line is defined as follows.</p>
-    <definition xml:id="def-">
+    <definition xml:id="def-slope">
         <statement>
             <p>
-                The <alert>slope</alert> of a non-vertical line that passes through the points
+                The <term>slope</term> of a non-vertical line that passes through the points
             </p>
             <p>
                 <m>P_1</m>(<m>x_1</m>, <m>y_1</m>) and <m>P_2</m>(<m>x_2</m>, <m>y_2</m>) is 
