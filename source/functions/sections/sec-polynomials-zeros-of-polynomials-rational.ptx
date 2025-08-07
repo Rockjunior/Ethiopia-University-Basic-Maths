@@ -57,71 +57,71 @@
     <p>
         These demand and revenue functions are examples of polynomial functions. 
         The major aim of this section is to better understand the significance of
-        applied functions (such as this demand function).In order to do this, 
+        applied functions (such as this demand function). In order to do this, 
         we need to analyze the domain, range, and behavior of such functions.
     </p>
+    <paragraphs>
+        <title>Polynomial functions</title>
+        <definition xml:id="def-polynomial-function">
+            <statement>
+                <p>
+                    A polynomial function is a function of the form
+                    <me>y = a_{n}x^{n} + a_{n-1}x^{n-1} + \ldots + a_{1}x+a_{0},\,\, a_{n}\neq 0</me>
+                    Each <m>a_{i}</m> is assumed to be a real number and <m>n</m> is a non-negative integer, <m> a_{n}</m>
+                    is called the leading coefficient. Such a polynomial is said to be of degree <m>n</m>.
+                </p>
+            </statement>
+        </definition>
 
-    <definition xml:id="def-polynomial-function">
-        <statement>
+        <remark>
             <p>
-                A polynomial function is a function of the form
-                <m>y(x) = a_{n}x^{n} + a_{n-1}x^{n-1} + \ldots + a_{1}x+a_{0},a^{3}\neq 0</m>
-                Each <m>a_{i}</m> is assumed to be a real number and <m>n</m> is a non-negative integer, <m> a_{n}</m>
-                is called the leading coefficient. Such a polynomial is said to be of degree <m>n</m>
+                <ol marker="1">
+                    <li>
+                        <p> 
+                            The domain of a polynomial function is always the set of real numbers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            (Types of polynomials)
+                        </p>
+                        <p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        A polynomial of degree <m>1</m> is called a linear function.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        A polynomial of degree <m>2</m> is called quadratic function.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        A polynomial of degree <m>3</m> is called a cubic function.
+                                    </p>
+                                    <p>
+                                        i.e <m>p(x)=a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0},\,\, a_{3}\neq 0</m>
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                </ol>
             </p>
-        </statement>
-    </definition>
+        </remark>
 
-    <remark>
-        <p>
-            <ol marker="1">
-                <li>
-                    <p> 
-                        The domain of a polynomial function is always the set of real numbers.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        (Types of polynomials)
-                    </p>
-                    <p>
-                        <ul>
-                            <li>
-                                <p>
-                                    A polynomial of degree <m>1</m> is called a linear function.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    A polynomial of degree <m>2</m> is called quadratic function.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    A polynomial of degree <m>3</m> is called a cubic function.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    i.e <m>p(x)=a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0},a^{3}\neq 0</m>
-                                </p>
-                            </li>
-                        </ul>
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </remark>
-
-    <example>
-        <statement>
-            <p>
-                <m>p(x) = 2x^{2} + 1</m>, 
-                <m>q(x) = \sqrt{3}x^{4} + 2x - \pi</m> and 
-                <m>f(x) = 2x^{3}</m> are examples of polynomial functions. 
-            </p>
-        </statement>
-    </example>
+        <example>
+            <statement>
+                <p>
+                    <m>p(x) = 2x^{2} + 1</m>, 
+                    <m>q(x) = \sqrt{3}x^{4} + 2x - \pi</m> and 
+                    <m>f(x) = 2x^{3}</m> are examples of polynomial functions. 
+                </p>
+            </statement>
+        </example>
+    </paragraphs>
     <paragraphs>
         <title>Properties of polynomial functions</title>
         <p>
@@ -213,7 +213,7 @@
                     </row>
                     <row>
                         <cell></cell>
-                        <cell halign="left" colspan="2"><m>\quad \qquad -2x^3 - 0x^2</m></cell>
+                        <cell halign="left" colspan="2"><m>\quad \qquad -2x^3 + 0x^2</m></cell>
                         <cell></cell>
                         <cell></cell>
                     </row>
@@ -276,10 +276,11 @@
             The result we just proved is called the remainder theorem.
         </p>
         <theorem xml:id="thm-remainder-theorem">
+            <title>The Remainder Theorem</title>
             <statement>
                 <p>
-                    When a polynomial <m>p(x)</m> of degree at least <m>1</m> is divided by <m>x-r</m>, the remainder is
-                    <m>p(r)</m>
+                    When a polynomial <m>p(x)</m> of degree at least <m>1</m> is divided by <m>x-r</m>, then the remainder is
+                    <m>p(r)</m>.
                 </p>
             </statement>
         </theorem> 
@@ -287,7 +288,7 @@
             <statement>
                 <p>
                     The remainder when <m>P(x) = x^{3} - x^{2} + 3x - 1</m> is divided by
-                    <m>x - 2</m> is <m>p(2) = 9</m>.As a consequence of the remainder theorem, 
+                    <m>x - 2</m> is <m>p(2) = 9</m>. As a consequence of the remainder theorem, 
                     if <m>x - r</m> is a factor of <m>p(x)</m>, then the remainder must be <m>0</m>. 
                     Conversely, if the remainder is 0, then <m>x - r</m>, is a factor of <m>p(x)</m>. 
                     This is known as the Factor Theorem.
@@ -295,6 +296,7 @@
             </statement>
         </example>
         <theorem xml:id="thm-factor-theorem">
+            <title>The Factor Theorem</title>
             <statement>
                 <p>
                     <m>x - r</m> is a factor of <m>p(x)</m> if and only if <m>p(r) = 0</m>.
@@ -306,6 +308,7 @@
             an interval of numbers, and can also be used to zoom in closer on a value.
         </p>
         <theorem xml:id="thm-location-theorem">
+            <title>Location Theorem</title>
             <statement>
                 <p>
                     Let <m>f</m> be a polynomial function and <m>a</m> and <m>b</m> be real numbers 
@@ -326,6 +329,7 @@
             Fundamental theorem of Algebra.
         </p> 
         <theorem xml:id="thm-fundamental-theorem-of-algebra">
+            <title>Fundamental Theorem of Algebra</title>
             <statement>
                 <p>
                     If <m>p(x)</m> is a polynomial of degree <m>n &gt; 0</m> whose coefficients are complex 
@@ -339,6 +343,7 @@
             consequence of the Fundamental theorem of Algebra, we have 
         </p>
         <theorem xml:id="thm-linear-factorization-theorem">
+            <title>The linear Factorization Theorem</title>
             <statement>
                 <p>
                     If <m>p(x) = a_{n}x^{n} + a_{n - 1}x^{n - 1} + \cdots + a_{1}x + a_{0}</m>,
@@ -363,17 +368,17 @@
                     <ol marker="a) ">
                         <li>
                             <p>
-                                <m>p(x)= x^{3}-(6)x^{2}-16x</m>
+                                <m>p(x)= x^{3}-6x^{2}-16x</m>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <m>q(x)=(3)x^{2}- 10x +8</m> 
+                                <m>q(x)=3x^{2}- 10x +8</m> 
                             </p>
                         </li>
                         <li>
                             <p>
-                                <m>f(x)= (2)x{4}+(8)x^{3}+(10)x^{2}</m>
+                                <m>f(x)= 2x{4}+8x^{3}+10x^{2}</m>
                             </p>
                         </li>
                     </ol>
@@ -422,7 +427,7 @@
                                 </md>
                             </p>
                             <p>
-                                Thus, the zeros of f(x) are 0 with multiplicity two and <m>- 2 + i</m> and 
+                                Thus, the zeros of <m>f(x)</m> are <m>0</m> with multiplicity two and <m>- 2 + i</m> and 
                                 <m>- 2 - i</m> each with multiplicity one.
                             </p>
                         </li>
@@ -476,6 +481,8 @@
                                 Based on the Factor Theorem, we may write the polynomial as
                                 <m>p(x)\  = (x - ( - 1))^{3}\ (x - 2)^{4}(x - 5)^{2} = (x + 1)^{3}\ (x - 2)^{4}(x - 5)^{2}</m>
                                 which gives the required roots and multiplicities.
+                            </p> 
+                            <p>
                                 Any polynomial of the form <m>kp(x)</m>, where <m>k</m> is a non-zero constant will give
                                 the same roots and multiplicities.
                             </p>
@@ -485,7 +492,7 @@
                                 Based on part (1), we know that <m>f(x) = k(x + 1)^{3}\ (x - 2)^{4}(x - 5)^{2}</m>. 
                                 Since we want <m>f(x) = 32</m>, we have
                                 <md>
-                                    <mrow>  f(x) \amp= \frac{1}{4}(x + 1)^{3}\ (x - 2)^{4}(x - 5)^{2}</mrow>
+                                    <mrow>f(1)  \amp = k(1+1)^3 (1-2)^4 (1-5)^2 </mrow>
                                     <mrow> 32 \amp= k(8)(1)(16) \Rightarrow k = \frac{1}{4} </mrow>
                                 </md>
                                 Thus, <m>f(x) = \frac{1}{4}(x + 1)^{3}\ (x - 2)^{4}(x - 5)^{2}</m>.
@@ -502,11 +509,12 @@
             <m>1-2 i</m>. Infact, this property extends to all polynomial equations.
         </p>
         <theorem xml:id="thm-conjugate-roots-theorem">
+            <title>Conjugate Roots Theorem</title>
             <statement>
                 <p>
                     Let <m>p(x)</m> be a polynomial with real coefficients. If complex number <m>a + bi</m> 
                     (where <m>a</m> and <m>b</m> are real numbers) is a zero of <m>p(x)</m>, then so is its conjugate 
-                    <m>a - bi</m>
+                    <m>a - bi</m>.
                 </p>
             </statement>
         </theorem>
@@ -568,6 +576,7 @@
             But how do we find a root to start the process? The following theorem can be most helpful.
         </p>
         <theorem xml:id="thm-rational-root">
+            <title>The Rational Root Theorem</title>
             <statement>
                 <p>
                     Suppose that <m>f(x) = a_{n}x^{n} + a_{n - 1}x^{n - 1} + \cdots + a_{1}x + a_{0}</m>, where
@@ -718,7 +727,7 @@
                         This is denoted by: <m>x \rightarrow a^-</m> (read: ‘<m>x</m> approaches <m>a</m> from the left’ ).
                     </p>
                     <p>
-                        For instance, <m>x \therefore 1^-</m> means <m>x</m>  can be <m>0.99, 0.999, 0.9999, 0.9999,</m> etc.
+                        For instance, <m>x \rightarrow 1^-</m> means <m>x</m>  can be <m>0.99, 0.999, 0.9999, 0.9999,</m> etc.
                     </p>
                 </li>
                 <li>
@@ -753,8 +762,9 @@
         <p>
             We may also write <m>f(x) \rightarrow b</m> (read: ‘ <m>f(x)</m> approaches <m>b</m>’) 
             to mean the function values, <m>f(x)</m>, becomes arbitrarily closer and closer to <m>b</m> 
-            (i.e., approximately <m>b</m>) but not exactly equal to <m>b</m>. For instance, if , then <m>f(x) \rightarrow 0</m> as <m>x \rightarrow \infty</m>;
-            i.e., is approximately <m>0</m> when <m>x</m> is arbitrarily large.
+            (i.e., approximately <m>b</m>) but not exactly equal to <m>b</m>. For instance, if <m>f(x) = \frac{1}{x}</m>, 
+            then <m>f(x) \rightarrow 0</m> as <m>x \rightarrow \infty</m>;
+            i.e., <m>\frac{1}{x}</m> is approximately <m>0</m> when <m>x</m> is arbitrarily large.
         </p>
         <p>
             The following steps are usually used to sketch (or draw) the graph of a rational function <m>f(x)</m>.
@@ -807,7 +817,7 @@
                         <ol marker="i) ">
                             <li>
                                 <p>
-                                    <m>a \in </m> dom(<m>f</m>), i.e., <m>f</m> is not defined at <m>x=a</m>; and
+                                    <m>a \notin  </m> dom(<m>f</m>), i.e., <m>f</m> is not defined at <m>x=a</m>; and
                                 </p>
                             </li>
                             <li>
@@ -826,22 +836,23 @@
         <example>
             <statement>
                 <p>
-                    Consider where <m>a \geq 0</m> and <m>n</m> is a positive integer.
+                    Consider <m>f(x) = \frac{1}{(x-a)^n}</m>, where <m>a \geq 0</m> and <m>n</m> is a positive integer.
                 </p>
             </statement>
             <solution>
                 <p>
-                    Obviously <m>a \in </m>Dom(<m>f</m>). 
+                    Obviously <m>a \notin </m>Dom(<m>f</m>). 
                     Next, we investigate the trend of the values of <m>f(x)</m> near <m>a</m>. 
                     To do this, we consider two cases, when <m>n</m> is even or odd:
                 </p>
                 <p>
                     Suppose <m>n</m> is even: In this case <m>(x-a)^n &gt; 0</m> for all
-                    <m>x \in \mathbf{R}\{a\}</m>; and since  <m>(x-a)^n \rightarrow 0</m> as
+                    <m>x \in \Re \{a\}</m>; and since  <m>(x-a)^n \rightarrow 0</m> as
                     <m>x \rightarrow a^+</m> or <m>x \rightarrow a^-</m>. 
-                    Hence, as <m>x \rightarrow a^+</m> or <m>x \rightarrow a^-</m>. Therefore, 
+                    Hence, <m>f(x) = \frac{1}{(x-a)^n} \rightarrow \infty </m> as <m>x \rightarrow a^+</m> or <m>x \rightarrow a^-</m>. 
+                    Therefore, 
                     <m>x=a</m> is a VA of <m>f(x)</m>. Moreover, <m>y=\frac{1}{a^n}</m> or 
-                    (<m>0,\frac{1}{a^n}</m>) is its y-intercept since <m>f(0) = \frac{1}{a^n}</m>.
+                    (<m>0,\frac{1}{a^n}</m>) is its <m>y</m>-intercept since <m>f(0) = \frac{1}{a^n}</m>.
                     However, it has no <m>x</m>-intercept since <m>f(x) &gt; 0</m> for all <m>x</m> in its domain 
                     (See, <xref ref="fig-n-even"/>).
                 </p>
@@ -858,26 +869,22 @@
                     Note that in both cases, <m>f(x) = \frac{1}{(x-a)^n} \rightarrow 0</m> as <m>x \rightarrow \infty</m>
                     or <m>x \rightarrow -\infty</m>.
                 </p>
+                <sidebyside>
+                    <figure xml:id="fig-n-even">
+                        <caption>(A)</caption>
+                        <image source="n-even.png" width="80%">
+                            <shortdescription>(for accessibility)</shortdescription>
+                        </image>
+                    </figure>
+                    <figure xml:id="fig-n-odd">
+                        <caption>(B)</caption>
+                        <image source="n-odd.png">
+                            <shortdescription>(for accessibility)</shortdescription>
+                        </image>
+                    </figure>
+                </sidebyside>
             </solution>
         </example>
-        <!-- AN image needs to be here -->
-         <!-- <image source="./media/png72/image50.png">
-            <shortdescription>(for accessibility)</shortdescription>
-         </image> -->
-        <sidebyside>
-            <figure xml:id="fig-n-even">
-                <caption>(A)</caption>
-                <image source="n-even.png" width="80%">
-                    <shortdescription>(for accessibility)</shortdescription>
-                </image>
-            </figure>
-            <figure xml:id="fig-n-odd">
-                <caption>(B)</caption>
-                <image source="n-odd.png">
-                    <shortdescription>(for accessibility)</shortdescription>
-                </image>
-            </figure>
-        </sidebyside>
         <remark>
             <p>
                 Let <m>f(x)  = \frac{n(x)}{d(x)}</m> be a rational function. Then,
@@ -886,7 +893,7 @@
                 <ol marker="1. ">
                     <li>
                         <p>
-                            if and , then <m>x=a</m> is a VA of <m>f</m>.
+                            if <m>d(a) = 0</m> and <m>n(a) \neq 0</m>, then <m>x=a</m> is a VA of <m>f</m>.
                         </p>
                     </li>
                     <li>
@@ -902,7 +909,7 @@
             <ul>
                 <li>
                     <p>
-                        <alert>Horizontal Asymptote</alert>: A horizontal line <m>y=b</m> is called horizontal asymptote
+                        Horizontal Asymptote: A horizontal line <m>y=b</m> is called horizontal asymptote
                         (HA) of <m>f(x)</m> if the value of the function becomes closer and closer to <m>b</m>
                         (i.e., <m>f(x) \rightarrow b</m> as <m>x \rightarrow \infty</m> or as <m>x \rightarrow -\infty</m>.
                     </p>
@@ -965,7 +972,7 @@
             <ul>
                 <li>
                     <p>
-                        <alert>Oblique Asymptote:</alert> The oblique line <m>y=ax+b</m>, <m>a \neq 0</m>, 
+                        Oblique Asymptote: The oblique line <m>y=ax+b</m>, <m>a \neq 0</m>, 
                         is called an oblique asymptote (OA) of <em>f</em> if the value of the function,
                         <m>f(x)</m>, becomes closer and closer to <m>ax+b</m>
                         (i.e., <m>f(x)</m> becomes approximately <m>ax+b</m>) as either <m>x \rightarrow \infty</m> or <m>x \rightarrow -\infty</m>.
@@ -1015,7 +1022,7 @@
                                 <ul>
                                     <li>
                                         <p>
-                                            <alert>Intercepts</alert>: <m>y</m>-intercept: <m>x=0 \Rightarrow  y=f(0)=-2</m>. Hence, <m>(0,-2)</m> is <m>y</m>-intercept.
+                                            Intercepts: <m>y</m>-intercept: <m>x=0 \Rightarrow  y=f(0)=-2</m>. Hence, <m>(0,-2)</m> is <m>y</m>-intercept.
                                         </p>
                                         <p>
                                             <m>x</m>-intercept: <m>y=0 \Rightarrow x+2=0 \Rightarrow x=-2</m>. Hence, <m>(-2,0)</m> is <m>x</m>-intercept.
@@ -1023,7 +1030,7 @@
                                     </li>
                                     <li>
                                         <p>
-                                            <alert>Asymptotes:</alert>
+                                            Asymptotes:
                                         </p>
                                         <p>
                                             <ul>
@@ -1095,22 +1102,22 @@
                     except that there should be a <q>hole</q> at the point corresponding to <m>x= –1</m> 
                     on the graph of <m>g</m> as shown on <xref ref="func-02"/> below.
                 </p>
+                <sidebyside widths="50% 50%">
+                    <figure xml:id="func-01">
+                        <caption>(A) <m>f(x) = \frac{x-2}{x+1}</m></caption>
+                        <image source="graph-01.png">
+                            <shortdescription>(for accessibility)</shortdescription>
+                        </image>
+                    </figure>
+                    <figure xml:id="func-02">
+                        <caption>(B) <m>f(x) = \frac{x-2}{x+1}, x \neq -1</m></caption>
+                        <image source="graph-02.png">
+                            <shortdescription>(for accessibility)</shortdescription>
+                        </image>
+                    </figure>
+                </sidebyside>
             </solution>
         </example>
-        <sidebyside widths="50% 50%">
-            <figure xml:id="func-01">
-                <caption>(A) <m>f(x) = \frac{x-2}{x+1}</m></caption>
-                <image source="graph-01.png">
-                    <shortdescription>(for accessibility)</shortdescription>
-                </image>
-            </figure>
-            <figure xml:id="func-02">
-                <caption>(B) <m>f(x) = \frac{x-2}{x+1}, x \neq -1</m></caption>
-                <image source="graph-02.png">
-                    <shortdescription>(for accessibility)</shortdescription>
-                </image>
-            </figure>
-        </sidebyside>
     </paragraphs>
     <exercises xml:id="exercises-polynomials-zeros-of-polynomials-rationals">
         <exercise>
