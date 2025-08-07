@@ -46,7 +46,12 @@
 <p><m>(f + g)(x) = f(x) + g(x) = \frac{x - 3}{2} + \sqrt{x}</m> .</p>
 
 <definition xml:id="def-sum-difference-product-quotient-of-functions">
+    <title> Sum, Difference, Product and Quotient of two functions</title>
+    
     <statement>
+        <p>
+            
+        </p>
         <p>
             Let <m>f(x)</m> and <m>g(x)</m> be two functions. We define the following four functions:
         </p>
@@ -175,7 +180,11 @@
 </example>
 
 <definition xml:id="def-Composition-of-functions">
+    <title> (Composition of functions)</title>
     <statement>
+        <p>
+            
+        </p>
         <p>
             Given two functions <m>f(x)</m> and <m>g(x)</m>, the composition of the two functions is denoted by <m>f \circ g</m> and is defined by:
         </p>
@@ -421,7 +430,11 @@
 </example>
 
 <definition xml:id="def-Equality-of-functions">
+    <title> (Equality of functions)</title>
     <statement>
+        <p>
+            
+        </p>
         <p>
             Two functions are said to be equal if and only if the following two conditions hold:
         </p>
