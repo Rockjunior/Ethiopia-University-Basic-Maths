@@ -77,14 +77,18 @@
             </p>
             <p>
                 Let C(<em>h, k</em>) be the center of the circle.
-                (<em>h, k</em>) is on the line <m>y =(1/2)x ⇒ k =(1/2)h</m> ; and
+            </p>
+            <p>
+                (<em>h, k</em>) is on the line <m>y = \left(\frac{1}{2}\right)x ⇒ k = \left(\frac{1}{2} \right)h</m> ; and
                 the circle is tangent to x-axis at P<m>(6,0) ⇒ </m>CP should be perpendicular to the x-axis.
             </p>
             <p>
             <m> ⇒ h = 6 ⇒ k= 3</m> and the radius is <em>r</em> <m>= |CP| = k-0 =3</m>.
             </p>
             <p>
-                Hence, the circle is centered at <m>(6, 3)</m> with radius <em>r</em> <m>=3</m>.
+                Hence, the circle is centered at <m>(6, 3)</m> with radius <em>r</em> <m>=3</m>.              
+            </p>
+            <p>
                 Therefore, the equation of the circle is <m>(x - 6)^2 + (y-3)^2 = 9</m> .
             </p>
         </solution>
@@ -106,8 +110,12 @@
             </image>
             <p><alert>Figure 4.11</alert>.</p>
             <p>
-                Let the center of the circle be C(<em>h</em>,0). 
-                We need to find <em>h</em>. The slope of the line <em><alert>l</alert></em> : <em>y=x</em> is <m>1</m> and <em><alert>l</alert></em> is perpendicular to CP. 
+                Let the center of the circle be C(<em>h</em>,0). We need to find <em>h</em>. 
+            </p>
+            <p>
+                The slope of the line <em><alert>l</alert></em> : <em>y=x</em> is <m>1</m> and <em><alert>l</alert></em> is perpendicular to CP. 
+            </p>
+            <p>
                 Hence the slope of CP is <m>-1</m>.
             </p>
             <p>

@@ -167,22 +167,22 @@
                             <ol marker="(i)">
                                 <li>
                                     <p>
-                                         <m>(1, \frac{3}{2})</m>
+                                         <m>\left(1, \frac{3}{2}\right)</m>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        <m>(\frac{3}{2},-1)</m>
+                                        <m>\left(\frac{3}{2},-1\right)</m>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        <m>(-1, \frac{3}{2})</m>
+                                        <m>\left(-1, \frac{3}{2} \right)</m>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        <m>(-1, -\frac{3}{2})</m>
+                                        <m>\left(-1, -\frac{3}{2}\right)</m>
                                     </p>
                                 </li>
                                 <li>
@@ -225,7 +225,7 @@
                             <ol marker="(i)">
                                 <li>
                                     <p>
-                                        <m>(\frac{1}{2}, \sqrt{3})</m>
+                                        <m>\left(\frac{1}{2}, \sqrt{3}\right)</m>
                                     </p>
                                 </li>
                                 <li>
@@ -235,12 +235,12 @@
                                 </li>
                                 <li>
                                     <p>
-                                        <m>(-\frac{1}{2}, -\sqrt{3})</m>
+                                        <m>\left(-\frac{1}{2}, -\sqrt{3}\right)</m>
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        <m>(\frac{3}{2}, 1)</m>
+                                        <m>\left(\frac{3}{2}, 1\right)</m>
                                     </p>
                                 </li>
                             </ol>

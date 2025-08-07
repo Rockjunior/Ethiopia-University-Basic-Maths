@@ -51,8 +51,11 @@
     <tabular>
         <row>
         <cell><m>\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1</m></cell>
-        <cell>(Equation of horizontal ellipse at <alert>standard position,</alert>
-        vertices (±<em>a</em>, 0), foci (±<em>c</em>, 0), where <m>c^2 = a^2 - b^2</m>) </cell>
+        <cell>(Equation of horizontal ellipse at <alert>standard position,</alert></cell>
+        </row>
+        <row>
+            <cell></cell>
+            <cell>   vertices (±<em>a</em>, 0), foci (±<em>c</em>, 0), where <m>c^2 = a^2 - b^2</m>) </cell>
         </row>
     </tabular>
     <p>
@@ -62,7 +65,11 @@
         <row>
         <cell><m>\frac{x^2}{b^2} + \frac{y^2}{a^2} = 1</m></cell>
         <cell>(Equation of vertical ellipse at <alert>standard position,</alert>
-        vertices (0,±<em>a</em>), foci (0,±<em>c</em>), where <m>c^2 = a^2 - b^2</m>) </cell>
+        </cell>
+        </row>
+        <row>
+            <cell></cell>
+            <cell>vertices (0,±<em>a</em>), foci (0,±<em>c</em>), where <m>c^2 = a^2 - b^2</m>)</cell>
         </row>
     </tabular>
     <p>
@@ -200,10 +207,10 @@
                 This is equation of a vertical ellipse (major axis parallel to the y-axis), center C=(<em>h,k</em>) = <m>(-1,0)</m>,
             </p>
             <p>
-                <m>a=2, b=1 ⇒ c^2 = a^2 - b^2 = 4-1  ⇒ c = \sqrt(3)</m>
+                <m>a=2, b=1 ⇒ c^2 = a^2 - b^2 = 4-1  ⇒ c = \sqrt{3}</m>
             </p>
             <p>
-               Thus, foci : F′<m>(-1, -\sqrt(3) )</m> and F<m>(-1, \sqrt(3) )</m> , 
+               Thus, foci : F′<m>(-1, -\sqrt{3} )</m> and F<m>(-1, \sqrt{3} )</m> , 
             </p>
             <p>
                 Vertices: V = <m>(-1,2)</m>, V′= <m>(-1,-2)</m>;
@@ -244,12 +251,12 @@
             <ul>
                 <li>
                     <p>
-                        an ellipse with center <m>(-frac{D}{2A}, -\frac{E}{2C})</m> if <m>D^2C+E^2A - 4ACF &gt; 0</m>.
+                        an ellipse with center <m>(-\frac{D}{2A}, -\frac{E}{2C})</m> if <m>D^2C+E^2A - 4ACF &gt; 0</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        If <m>D^2C + E^2A - 4ACF = 0</m>,the equation is satisfied by the point <m>(-frac{D}{2A}, -\frac{E}{2C})</m> only. 
+                        If <m>D^2C + E^2A - 4ACF = 0</m>,the equation is satisfied by the point <m>(-\frac{D}{2A}, -\frac{E}{2C})</m> only. 
                         In this case, the locus of the equation is called a <alert>point-ellipse</alert> (degenerate ellipse).
                     </p>
                 </li>
@@ -261,7 +268,7 @@
             </ul>
         </p>
     </remark>
-    <exercises xml:id="fig-ellipse">
+    <exercises xml:id="ellipse">
         <title>Exercise </title>
         <introduction>
             <p>
@@ -433,7 +440,13 @@
 
                 </p>
                 <p>
-                    (a) is an ellipse. (b) is a point.  (c) consists of no points at all.
+                    (a) is an ellipse.   
+                </p>
+                <p>
+                    (b) is a point.
+                </p>
+                <p>
+                    (c) consists of no points at all.
                 </p>
             </statement>
         </exercise>
