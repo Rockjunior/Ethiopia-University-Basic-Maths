@@ -1,90 +1,318 @@
 <subsection xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="subsec-polar-form-of-a-complex">
 <title> Polar form of a complex number</title>
-<table>
-<tabular>
-<row header="yes">
-<cell><alert>Definition 2.16</alert></cell>
-</row>
+<definition xml:id="def-polar-form-of-a-complex">
+    <statement>
+        <p>
+            Let <m>r</m> and <m>\theta</m> be polar coordinates of the point (x, y) of the complex number <m>z = x+iy</m>. Since x = <m>r\text{cos}\theta</m>and y = <m>r\text{sin}\theta</m>, then the complex number can be written as : <m>\underline{\underline{\ z = r(\text{cos}\theta + i\text{sin}\theta)}}</m> which is called polar form, where <m>r</m> is modulus of <m>z</m> and <m>\ \theta\ </m>is principal argument of <m>z</m>.
+        </p>
+    </statement>
+</definition>
 
-<row>
-<cell>Let r and <m>\theta</m>be polar coordinates of the point (x, y) of the complex number z = x+iy. Since x = <m>r\text{cos}\theta</m>and y = <m>r\text{sin}\theta</m>, then the complex number can be written as : <m>\underline{\underline{\ z = r(\text{cos}\theta + i\text{sin}\theta)}}</m> which is called polar form, where r is modulus of z and <m>\ \theta\ </m>is principal argument of z.</cell>
-</row>
-</tabular>
-</table>
-<p><alert>Example 2.52</alert>: Express the following complex numbers in polar form:</p>
-<p><m>\begin{matrix}
-a)\ z = 1 + i\  \\
-\ \text{solution}:\ r = \sqrt{2}\ \text{and}\ \theta = \text{tan}^{- 1}(1) = \pi 4\text{.}\ \text{Thus},\ z = \sqrt{2}(\text{cos}\pi 4 + i\text{sin}\pi 4)\text{.} \\
-\end{matrix}</m></p>
-<p><m>\begin{matrix}
-b)\ z = 3 - 3i\  \\
-\text{solution}:\ r = \sqrt{\text{18}}\ \text{and}\ \theta = \text{tan}^{- 1}( - 1) = - \pi 4\text{.}\  \\
-\text{Thus},\ z = \sqrt{\text{18}}(\text{cos} - \pi 4 + i\text{sin} - \pi 4) = \sqrt{\text{18}}(\text{cos}\pi 4 - i\text{sin}\pi 4)\text{.} \\
-\end{matrix}</m></p>
-<table>
-<tabular>
-<row>
-<cell><alert>Multiplication and division in polar forms</alert></cell>
-</row>
-</tabular>
-</table>
-<p><alert>Proof:</alert></p>
-<p><alert>Example 2.53:</alert> <m>\ \text{If}\ z_{1} = 6\ (\text{cos}\pi 2\  + i\text{sin}\pi 2)\ \text{and}\ z_{2} = 2\ (\text{cos}\pi 3\  + i\text{sin}\pi 3),\ \text{then}\ \text{find}\ </m></p>
-<p><m></m> <m>\ a)\ z\ _{1}\text{.}\ z_{2}\ b)\ \frac{z_{1}}{z_{2}}</m></p>
-<ul>
-<li><p><alert>Argument of a product</alert></p></li>
-</ul>
-<table>
-<tabular>
-<row>
-<cell>The argument of the product of two complex numbers is the sum of their arguments.</cell>
-</row>
-</tabular>
-</table>
-<p><image source="/./media/image42.png" style="width:4.91319in;height:2.38542in" /></p>
-<p><alert>Proof:</alert></p>
+<example>
+    <statement>
+        <p>
+            Express the following complex numbers in polar form:
+        </p>
+        <p>
+            <m>a)\ z = 1 + i </m>
+        </p>
+        <p>
+            <m>\text{solution}:\ r = \sqrt{2}\ \text{and}\ \theta = \text{tan}^{- 1}(1) = \frac{\pi}{4} \text{.}</m>
+        </p>
+        <p>
+            <m>\ \text{Thus},\ z = \sqrt{2}(\text{cos} \frac{\pi}{4} + i\text{sin} \frac{\pi}{4})\text{.}</m>
+        </p>
+        <p>
+            <m>b)\ z = 3 - 3i\ \text{solution}:\ r = \sqrt{18}\ \text{and}\ \theta = \text{tan}^{- 1}( - 1) = - \frac{\pi}{4}\text{.}</m>
+        </p>
+        <p>
+            <m>\text{solution}: \ r = \sqrt{\text{18}}\ \text{and}\ \theta = \text{tan}^{- 1}( - 1) = - \pi 4\text{.}\  \\</m>
+        </p>
+        <p>
+            <m>\text{Thus},\ z = \sqrt{\text{18}}(\text{cos} - \frac{\pi}{4} + i\text{sin} - \frac{\pi}{4}) = \sqrt{\text{18}}(\text{cos}\frac{\pi}{4} - i\text{sin}\frac{\pi}{4})\text{.} \\</m>
+        </p>
+    </statement>
+</example>
 
-<p><m></m> <alert>Argument of a quotient</alert></p>
+<p>
+    <me>\textbf{Multiplication and division in polar forms}</me>
+</p>
+<p>
+    <m>\text{If} \ z_{1}\ = r_{1}(\text{cos}\theta_{1} + i\text{sin}\theta_{1}) \ \ \ \text{and} \ \ \ \ z_{2} = r_{2}(\text{cos}\theta_{2} + i\text{sin}\theta_{2}), \text{then}</m>
+</p>
+<p>
+    <m>a) \ \ z_{1} \cdot z_{2} = r_{1} \cdot r_{2}(\text{cos}(\theta_{1} + \theta_{2}) + i\text{sin}(\theta_{1} + \theta_{2}))</m>
+</p>
+<p>
+    <m>b) \ \ \frac{z_{1}}{z_{2}} = \frac{r_{1}} {r_{2}}(\text{cos}(\theta_{1} - \theta_{2}) + i\text{sin}(\theta_{1} - \theta_{2}))</m>.
+</p>
+<p>
+    <m>\textbf{Proof:}</m>
+</p>
+<p>
+    <m>\text{a)} \ z_{1} \cdot z_{2} = r_{1}(\text{cos}\theta_{1} + i\text{sin}\theta_{1}) \cdot r_{2}(\text{cos}\theta_{2} + i\text{sin}\theta_{2})</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ \ \ \ = r_{1} \cdot r_{2} \left [ \text{cos}\theta_{1}(\text{cos}\theta_{2} + i\text{sin}\theta_{2}) + i\text{sin}\theta_{1}(\text{cos}\theta_{2} + i\text{sin}\theta_{2}) \right ]</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ \ \ \ = r_{1} \cdot r_{2} \left [ \text{cos}\theta_{1}\text{cos}\theta_{2} + i\text{cos}\theta_{1}\text{sin}\theta_{2} + i\text{sin}\theta_{1}\text{cos}\theta_{2} - \text{sin}\theta_{1}\text{sin}\theta_{2} \right ]</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ \ \ \ = r_{1} \cdot r_{2} \left [ \text{cos}\theta_{1}\text{cos}\theta_{2} - \text{sin}\theta_{1}\text{sin}\theta_{2} + i(\text{cos}\theta_{1}\text{sin}\theta_{2} + \text{sin}\theta_{1}\text{cos}\theta_{2}) \right ]</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ \ \ \ = \underline{\underline{ r_{1} \cdot r_{2} \left [ \text{cos}(\theta_{1} + \theta_{2}) + i \ \text{sin}(\theta_{1} + \theta_{2})\right ]}}</m>
+</p>
+<p>
+    <m>\text{Thus,} \ z_{1} \cdot z_{2} = r_{1} \cdot r_{2}(\text{cos}(\theta_{1} + \theta_{2}) + i \ \text{sin}(\theta_{1} + \theta_{2}))</m>
+</p>
 
-<table>
-<tabular>
-<row>
-<cell>The argument of the quotient of two complex numbers is the difference of their arguments.</cell>
-</row>
-</tabular>
-</table>
-<p><alert>Proof:</alert></p>
-<p><alert>Example 2.54:</alert> <m>\text{arg}(\frac{- 4}{1 + \sqrt{3}\ i}) = \text{arg}( - 4) - \text{arg}(\ 1 + \sqrt{3}\ i) = \pi - \pi 3 = \ 2\pi 3</m></p>
-<table>
-<tabular>
-<row>
-<cell><alert>De Moivre’s Formula</alert></cell>
-</row>
-</tabular>
-</table>
-<p><alert>Example 2.55:</alert> Express<m>\ (2 + 2i)^{\text{100}}</m> in polar form.</p>
-<p><alert>Example 2.56:</alert> Express<m>(\sqrt{3} + i)^{\text{60}}\ </m> in polar form.</p>
-<table>
-<tabular>
-<row>
-<cell><p><alert>Euler’s formula</alert></p>
-<p>The complex number <m>z = r(\text{cos}\theta + i\text{sin}\theta)</m> can be written in exponential form as: <m>z = \text{re}^{\text{iθ}}</m> which is called Euler’s formula.</p></cell>
-</row>
-</tabular>
-</table>
-<p><alert>Example 2.57</alert>: Express the complex number z = 1+i using Euler’s formula.</p>
-<p><m>\begin{matrix}
-\text{Solution}:\ z = 1 + i \\
-\text{Now}\ r = \sqrt{2}\  \land \ \theta = \pi 4\  \Rightarrow \ z = \text{re}^{\text{iθ}} = \underline{\underline{\sqrt{2}e^{\pi\ i4}}} \\
-\end{matrix}</m></p>
-<p><alert>Example 2.58</alert>: Express the complex number <m>z = 1 + \sqrt{3}\ i\ </m> using Euler’s formula.</p>
-<p><alert>Example 2.59</alert>: Express the complex number <m>z = (\sqrt{3}\  + i\ )^{7}</m> using Euler’s formula.</p>
+<p>
+    <m>\text{b)} \ \frac{z_{1}}{z_{2}} = \frac{r_{1} (\text{cos}\theta_{1} + i\text{sin}\theta_{1})}{ r_{2} (\text{cos}\theta_{2} + i\text{sin}\theta_{2})} = \frac{r_{1}}{r_{2}} \left ( \frac{\text{cos}\theta_{1} + i\text{sin}\theta_{1}}{\text{cos}\theta_{2} + i\text{sin}\theta_{2}} \right )</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ = \frac{r_{1}}{r_{2}} \left ( \frac{\text{cos}\theta_{1} + i\text{sin}\theta_{1}}{\text{cos}\theta_{2} + i\text{sin}\theta_{2}} \right ) \cdot \frac{\text{cos}\theta_{2} - i\text{sin}\theta_{2}}{\text{cos}\theta_{2} - i\text{sin}\theta_{2}}</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ = \frac{r_{1}}{r_{2}} \left ( \frac{ \text{cos}\theta_{1}\text{cos}\theta_{2} - i\text{cos}\theta_{1}\text{sin}\theta_{2} + i\text{sin}\theta_{1}\text{cos}\theta_{2} + \text{sin}\theta_{1}\text{sin}\theta_{2} }{\text{cos}^{2}\theta_{2} + \text{sin}^{2}\theta_{2}}\right )</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ = \frac{r_{1}}{r_{2}} \left ( \frac{\text{cos}\theta_{1}\text{cos}\theta_{2} + \text{sin}\theta_{1}\text{sin}\theta_{2} + i(\text{sin}\theta_{1}\text{cos}\theta_{2} - \text{cos}\theta_{1}\text{sin}\theta_{2})}{1} \right )</m> 
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ = \underline{\underline{ \frac{r_{1}}{r_{2}} \left [ \text{cos}(\theta_{1} - \theta_{2}) + i\text{sin}(\theta_{1} - \theta_{2})\right ]}}</m>
+</p>
+<p>
+    <m>\text{Thus,} \ \frac{z_{1}}{z_{2}} = \frac{r_{1}}{r_{2}}(\text{cos}(\theta_{1} - \theta_{2}) + i\text{sin}(\theta_{1} - \theta_{2}))</m>
+</p>
 
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/Polar-form-of-a-complex-number/Converting-Complex-Numbers-Rectangular-to-Polar-Form.xml" />
+<example>
+    <statement>
+        <p>
+            If <m>z_{1} = 6(\text{cos}\frac{\pi}{2} + i\text{sin} \frac{\pi}{2})</m> and <m>z_{2} = 2(\text{cos}\frac{\pi}{3} + i\text{sin}\frac{\pi}{3})</m>, then find:
+        </p>
+        <p>
+            <m>a) \ z_{1} \cdot z_{2} \ \ \ \ \ b) \ \frac{z_{1}}{z_{2}}</m>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m>\text{a) } z_{1} \cdot z_{2} = 6 \cdot 2 \left [ \text{cos}\left(\frac{\pi}{2} + \frac{\pi}{3}\right) + i\text{sin}\left(\frac{\pi}{2} + \frac{\pi}{3}\right) \right ]</m>
+        </p>
+        <p>
+            <m> \ \ \ \ \ \ \ \ = \underline{\underline{ 12\left [ \text{cos}\left(\frac{5\pi}{6}\right) + i\text{sin}\left(\frac{5\pi}{6}\right) \right ]}}</m>
+        </p>
+        <p>
+            <m>\text{b) } \frac{z_{1}}{z_{2}} = \frac{6}{2} \left [ \text{cos}\left(\frac{\pi}{2} - \frac{\pi}{3}\right) + i\text{sin}\left(\frac{\pi}{2} - \frac{\pi}{3}\right) \right ]</m>
+        </p>
+        <p>
+            <m> \ \ \ \ \ \ \ \ = \underline{\underline{ 3\left [ \text{cos}\left(\frac{\pi}{6}\right) + i\text{sincos}\left(\frac{\pi}{6}\right) \right ]}}</m>
+        </p>
+        <p>
+            <m>\text{Thus, } z_{1} \cdot z_{2} = 12\left [ \text{cos}\left(\frac{5\pi}{6}\right) + i\text{sin}\left(\frac{5\pi}{6}\right) \right ] \text{ and } \frac{z_{1}}{z_{2}} = 3\left [ \text{cos}\left(\frac{\pi}{6}\right) + i\text{sin}\left(\frac{\pi}{6}\right) \right ]</m>
+        </p>
+    </solution>
+</example>
 
-                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FThe-Real-and-Complex-Number-Systems-%28NS%29%2FPolar-form-of-a-complex-number%2FConverting-Complex-Numbers-Rectangular-to-Polar-Form.xml&amp;entry.2077830997=source%2Fthe-real-and-complex-number-systems%2Fsections%2Fsubsections%2Fsec-the-set-of-complex-numbers%2Fsubsec-polar-form-of-a-complex.ptx">Add review</url></exercise>
-<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/Polar-form-of-a-complex-number/Conversion-to-Polar-Form-Complex-Number-z-=-x-+-yi.xml" />
+<definition xml:id="def-argument-of-a-product">
+    <statement>
+        <p>
+            <me>
+                \textbf{Argument of a product}
+            </me>
+        </p>
+        <p>
+            The argument of the product of two complex numbers is the sum of their arguments.
+        </p>
+    </statement>
+</definition>
 
-                <url href="https://docs.google.com/forms/d/e/1FAIpQLSfSNI6CXkmgeSZJh6v0WKkeD9MJ9g4pEQ9r0JaowD4ovNxj5w/viewform?usp=pp_url&amp;entry.699375810=questions%2Ftop%2FMathematics-for-NS-%26-SS-23-24-Question-Bank%2FThe-Real-and-Complex-Number-Systems-%28NS%29%2FPolar-form-of-a-complex-number%2FConversion-to-Polar-Form-Complex-Number-z-%3D-x-%2B-yi.xml&amp;entry.2077830997=source%2Fthe-real-and-complex-number-systems%2Fsections%2Fsubsections%2Fsec-the-set-of-complex-numbers%2Fsubsec-polar-form-of-a-complex.ptx">Add review</url></exercise>
+<image source="/./media/image42.png" width="60%" />
+
+<p>
+    <m>\textbf{Proof:}</m>
+</p>
+<p>
+    <m>\text{Let } z_{1} = r_{1}(\text{cos}\theta_{1} + i\text{sin}\theta_{1}) \ \ \ \text{and} \ \ \ z_{2} = r_{2}(\text{cos}\theta_{2} + i\text{sin}\theta_{2})</m>
+</p>
+<p>
+    <m>\text{Now, } z_{1} \cdot z_{2} = r_{1}(\text{cos}\theta_{1} + i\text{sin}\theta_{1}) \cdot r_{2}(\text{cos}\theta_{2} + i\text{sin}\theta_{2})</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ = r_{1} \cdot r_{2} \left [ \text{cos}\theta_{1}(\text{cos}\theta_{2} + i\text{sin}\theta_{2}) + i\text{sin}\theta_{1}(\text{cos}\theta_{2} + i\text{sin}\theta_{2}) \right ]</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ = r_{1} \cdot r_{2} \left [ \text{cos}\theta_{1}\text{cos}\theta_{2} + i\text{cos}\theta_{1}\text{sin}\theta_{2} + i\text{sin}\theta_{1}\text{cos}\theta_{2} - \text{sin}\theta_{1}\text{sin}\theta_{2} \right ]</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ = r_{1} \cdot r_{2} \left [ \text{cos}\theta_{1}\text{cos}\theta_{2} - \text{sin}\theta_{1}\text{sin}\theta_{2} + i(\text{cos}\theta_{1}\text{sin}\theta_{2} + \text{sin}\theta_{1}\text{cos}\theta_{2}) \right ]</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ = \underline{\underline{ r_{1} \cdot r_{2} \left [ \text{cos}(\theta_{1} + \theta_{2}) + i\text{sin}(\theta_{1} + \theta_{2})\right ]}}</m>
+</p>
+<p>
+    <m>\Rightarrow \text{arg} (z_{1} \cdot z_{2}) = \text{tan}^{-1} \left ( \frac{\text{sin}(\theta_{1} + \theta_{2})}{\text{cos}(\theta_{1} + \theta_{2})} \right )</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = \text{tan}^{-1} \left ( \text{tan}(\theta_{1} + \theta_{2}) \right )</m>
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = \underline{\underline{ \theta_{1} + \theta_{2}}}</m>
+</p>
+
+<definition xml:id="def-argument-of-a-quotient">
+    <statement>
+        <p>
+            <me>\textbf{Argument of the quotient}</me>
+        </p>
+        <p>
+            The argument of the quotient of two complex numbers is the difference of their arguments.
+        </p>
+    </statement>
+</definition>
+
+<p>
+    <m>\textbf{Proof:}</m>
+</p>
+<p>
+    <m>\text{arg} \left ( \frac{z_{1}}{z_{2}} \right ) = \text{arg}(z_{1} \cdot {z_{2}}^{-1}) = \text{arg}(z_{1}) + (\text{arg} z_{2}^{-1}) = \text{arg}(z_{1}) + - (\text{arg} z_{2}) = \text{arg}(z_{1}) - \text{arg}(z_{2})</m>
+</p>
+
+<example>
+    <statement>
+        <p>
+            <m> \text{arg} \left ( \frac{-4}{1 + \sqrt{3}\ i} \right ) = \text{arg}(-4) - \text{arg}(1 + \sqrt{3}\ i) = \pi - \frac{\pi}{3} = \frac{2\pi}{3}</m>
+        </p>
+    </statement>
+</example>
+
+<p>
+    <me>
+        \textbf{De Moivre's Formula}
+    </me>
+</p>
+<p>
+    Recall the product :<m>\ z_{1} \cdot z_{2} = r_{1} \cdot r_{2} \left [ \text{cos}(\theta_{1} + \theta_{2}) + i\text{sin}(\theta_{1} + \theta_{2})\right ]</m>.
+</p>
+<p>
+    Similarly, we get <m>z_{1} \cdot z_{2} \cdots. z_{n} = r_{1} \cdot r_{2} \cdots. r_{n} \left [ \text{cos}(\theta_{1} + \theta_{2} + \cdots + \theta_{n}) + i\text{sin}(\theta_{1} + \theta_{2} + \cdots + \theta_{n})\right ]</m>.
+</p>
+<p>
+    Now we can generalize that<m> z^{n} = r^{n} \left [ \text{cos}(\theta + \theta + \cdots + \theta) + i\text{sin}(\theta + \theta + \cdots + \theta)\right ]</m>.
+</p>
+<p>
+    <m> \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = \underline{\underline{ r^{n} \left [ \text{cos}(n\theta) + i\text{sin}(n\theta)\right ]}}</m> which is called De Moivre's formula.
+</p>
+
+<example>
+    <statement>
+        <p>
+            Express <m>(2 + 2i)^{100}</m> in polar form.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m>\text{Let } z = 2 + 2i. Then, r = \sqrt{8} , \ \ \theta = \frac{\pi}{4} </m> and hence
+        </p>
+        <p>
+            <m>(2 + 2i)^{100} = z^{100}</m>
+        </p>
+        <p>
+            <m> \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = \sqrt{8}^{100} \left [ \text{cos} 100 (\frac{\pi}{4}) + i\text{sin} 100 (\frac{\pi}{4})\right ]</m>
+        </p>
+        <p>
+            <m> \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = \underline{\underline{ 8^{50} \left [ \text{cos}25\pi + i\text{sin}25\pi \right ]}}</m>
+        </p>
+    </solution>
+</example>
+
+<example>
+    <statement>
+        <p>
+            Express <m>(\sqrt{3} + i)^{60}</m> in polar form.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m>\text{Let } z = \sqrt{3} + i. Then, r = 2 , \ \ \theta = \frac{\pi}{6} </m>.
+        </p>
+        <p>
+            <m>\therefore (\sqrt{3} + i)^{60} = z^{60}</m>
+        </p>
+        <p>
+            <m> \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 2^{60} \left [ \text{cos} 60 (\frac{\pi}{6}) + i\text{sin} 60 (\frac{\pi}{6})\right ]</m>
+        </p>
+        <p>
+            <m> \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = \underline{\underline{ 2^{60} \left [ \text{cos}10\pi + i\text{sin}10\pi \right ]}}</m>
+        </p>
+    </solution>
+</example>
+
+<definition xml:id="def-euler-s-formula">
+    <statement>
+        <p>
+            <me>
+                \textbf{Euler's formula}
+            </me>
+        </p>
+        <p>
+            The complex number <m>z = r(\text{cos}\theta + i\text{sin}\theta)</m> can be written in exponential form as: <m>z = re^{i\theta}</m> which is called Euler’s formula.
+        </p>
+    </statement>
+</definition>
+<p>
+    <m>\text{Note:} \ \ \ \ z^{n} = r^{n} \left ( \text{cos}n \theta + i \text{sin}n\theta \right ) = r^{n} e^{{i}(n\theta)}</m>
+</p>
+
+<example>
+    <statement>
+        <p>
+            <m>\text{Express the complex number } z = 1 + i \text{ using Euler's formula.}</m>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m> z = 1 + i</m>
+        </p>
+        <p>
+            Now <m>r = \sqrt{2}</m> &amp; <m>\theta = \frac{\pi}{4} \Rightarrow z = re^{i\theta} = \underline{\underline{ \sqrt{2}e^{\frac{\pi i}{4}}}}</m>
+        </p>
+    </solution>
+</example>
+<example>
+    <statement>
+        <p>
+            <m>\text{Express the complex number } z = 1 + \sqrt{3}i \text{ using Euler's formula.}</m>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m>z = 1 + \sqrt{3}i</m>
+        </p>
+        <p>
+            Now <m>r = 2 </m> &amp; <m> \theta = \frac{\pi}{3} \Rightarrow z = re^{i\theta} = \underline{\underline{ 2e^{\frac{\pi i}{3}}}}</m>
+        </p>
+    </solution>
+</example>
+<example>
+    <statement>
+        <p>
+            <m>\text{Express the complex number } z = (\sqrt{3} + i)^{7} \text{ using Euler's formula.}</m>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            <m>z = (\sqrt{3} + i)^{7}</m>
+        </p>
+        <p>
+            Now <m>r = 2 </m> &amp; <m> \theta = \frac{\pi}{6} \Rightarrow z = re^{i\theta} = 2^{7}e^{\frac{7\pi i}{6}} = 128e^{\frac{7\pi i}{6}}</m>
+        </p>
+    </solution>
+</example>
+
+
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/Polar-form-of-a-complex-number/Converting-Complex-Numbers-Rectangular-to-Polar-Form.xml" /></exercise>
+<exercise><stack source="/questions/top/Mathematics-for-NS-&amp;-SS-23-24-Question-Bank/The-Real-and-Complex-Number-Systems-(NS)/Polar-form-of-a-complex-number/Conversion-to-Polar-Form-Complex-Number-z-=-x-+-yi.xml" /></exercise>
 </subsection>
 
